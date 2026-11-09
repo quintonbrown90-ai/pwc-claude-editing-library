@@ -231,3 +231,60 @@ Not playbooks — the strategy layer. Full specs in
   (top-creator-index-niche.md row A3 credits Minolee with Millee's 0.1s
   rule + 5 anti-slop rules). QC status PENDING for every v10 part/profile
   until the you-and-Claude loop runs after upload.
+
+## v11 additions (Nov 8, 2026 — 300 parts, 20 categories; Batch 9 row-level adoption)
+
+- **Batch 9, row-level (1 decode + 5 carousels + 10 reconciled):** 1 NEW
+  decode (Det_axVk5c_, 22.72s, VARIANT of Dd9 — same ccc-self-onboarding
+  system, input-side demo cut) + 5 NEW carousel files (caption-level
+  only, GAP-6) + the 10 already-decoded CCC files reconciled (see
+  `research/claude-editing-creators/ADOPTION-TRACKER.md`, v11 section).
+  CCC carousel coverage: 6/50 covered, 44 uncovered (GAP-6) —
+  `research/claude-editing-creators/createcontent.club/CCC_CAROUSEL_COVERAGE.md`.
+  CCC feed diff vs v8: inventory identical, 0 new feed posts (newest
+  post Nov 8 Dfe7In2kaCW, already in the v8 catalog). Decodes +
+  transcripts ship as text in `pwc-decodes-v11.zip` (1 DECODE.md + 1
+  transcript + 5 CAROUSEL.md + BATCH-9 manifest); the 10 already-decoded
+  files already ship in the v9 `pwc-decodes-bulk-*` / canonical pieces
+  and are NOT duplicated here.
+- **New parts (3):** strategy +1 (11 → 12:
+  ccc-self-onboarding-interview), effects +2 (64 → 66:
+  spotlight-question-highlight, spinning-asterisk-hook-burst). Variant
+  entries: 8, across 5 existing parts (ccc-content-strategy-skill ×5 —
+  skill name, competitor-profile research proof, three format cards,
+  10-idea Notion table, solo demo-cut template; trial-reel-test-spec;
+  hooks-hookscore-26-formulas; pipeline-repurposing-one-to-ten). No new
+  categories; no duplicates — the asterisk burst is a NEW part because
+  no canonical hook-burst part existed (checked: logo-sting-variants is
+  a logo-animation menu system, logo-rain is falling logos,
+  zoom-through-cut is a transition, halo is orbiting screens).
+- **Design-system v11 NOT built (call recorded in UPLOAD-ORDER.md,
+  Wave 11):** no AGENTS.md / EDIT-ROUTER.md / PROMPTS.md changes in
+  this run, so the distilled docs do not warrant a new version. The two
+  v10 open corrections ARE fixed in this run: (a)
+  top-creator-index-niche.md row A3 corrected to @millee.md
+  (DfBBG0xPioN, 60.6K, MOTION), @minolee.mp4 moved to new row A35 with
+  his own fields (551–580K, WORD, DehM80nN7Gv 3-core things); the
+  minolee SOURCES.md misattribution (DfBBG0xPioN listed as a Minolee
+  reel) corrected at the source too — and the same conflation found by
+  a late grep in two more places, also corrected: creators INDEX.md
+  item 12/24 and the DehM80nN7Gv DECODE.md creator line. (b) prompts-router-intake.md
+  annotated as an 11-question paste-ready variant of the router's
+  12-question intake — router Q2 (named system/framework), Q5 (power:
+  number / story / proof / breakdown), and Q11 (viewer feeling →
+  psychology part) have no paste-ready equivalent, while part Q4
+  (audience) and Q8 (hook in first 2s + face on screen) are part-only
+  additions; full 12 in EDIT-ROUTER.md §2. That file change puts
+  `pwc-prompts.zip` in Wave 11.
+- **Self-learning check-in (Nov 8, 2026, v11):** no new lessons, no new
+  conflicts, no new FL entries. The v11 run's verified lessons are
+  procedural (fold confirmations, not rule changes): (1) when a part is
+  a paste-ready variant rather than a verbatim copy of the router,
+  annotate the exact question-level differences instead of forcing a
+  count match; (2) when an index row conflates two creators, split it —
+  correct row + new row for the displaced creator, never delete one,
+  and correct the misattribution at its source file too; (3) a carousel
+  coverage inventory is the reconciliation tool for "6 decodes" vs 10
+  files — count distinct videos, carousel decodes, and duplicate-variant
+  files separately. QC status PENDING for every v11 part/profile until
+  the you-and-Claude loop runs after upload.

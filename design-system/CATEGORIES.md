@@ -6,7 +6,7 @@ AI. "Infinite" works because the knowledge is organized in small parts
 across multiple delivery paths, not one capped skill. THIS FILE is the map
 that makes infinite usable: Claude (or Q) can always find the right part.
 
-## The 20 categories (297 parts, ~1,116 KB total — every part ≤50 KB, 1 file)
+## The 20 categories (300 parts, ~1,142 KB total — every part ≤50 KB, 1 file)
 
 | # | Category | Parts | Folder | Upload path |
 |---|---|---|---|---|
@@ -22,8 +22,8 @@ that makes infinite usable: Claude (or Q) can always find the right part.
 | 10 | PROMPTS | 13 | `parts/prompts/` | Skill zip (design-system v2 PROMPTS.md) + GitHub |
 | 11 | CREATOR-SYSTEMS | 107 | `parts/creator-systems/` | Skill zip (design-system v2 appendix + 3 standalone skills + v5 appendix: Batch-1 systems, IG Tier S, Tier-A kits/repos) + GitHub |
 | 12 | KNOWLEDGE-PLAYBOOKS | 16 | `parts/knowledge-playbooks/` | Skill zip (ALL 10 DISTILLED — Phase 4 harvest) + GitHub |
-| 13 | EFFECTS | 64 | `parts/effects/` | Skill zip (effects v6) + GitHub; INFERRED reconstructions from @david_knowsai's 7-effect demo + @stocktonwalbeck's 17-effect demo (15 new Stockton parts; Match Cut + Liquid Glass noted as variants on the David parts) + Marc Cleroux's (@tenfoldmarc) 16-effect demo (15 new Marc parts; orbit noted as a variant on the David part, not duplicated) + v10 Kayvon live-effects router (10 effects: 7 new parts + 3 variants on existing parts) + Ali card-pop + Cooper motion poster + Marvin prospect-quote card + Corbinsylk Modern Vox — the skills themselves are GATED, rebuild from visible specs only |
-| 14 | STRATEGY | 11 | `parts/strategy/` | Skill zip (design-system v4 STRATEGY.md) + GitHub — Content Strategy Specialist (#12) |
+| 13 | EFFECTS | 66 | `parts/effects/` | Skill zip (effects v7) + GitHub; INFERRED reconstructions from @david_knowsai's 7-effect demo + @stocktonwalbeck's 17-effect demo (15 new Stockton parts; Match Cut + Liquid Glass noted as variants on the David parts) + Marc Cleroux's (@tenfoldmarc) 16-effect demo (15 new Marc parts; orbit noted as a variant on the David part, not duplicated) + v10 Kayvon live-effects router (10 effects: 7 new parts + 3 variants on existing parts) + Ali card-pop + Cooper motion poster + Marvin prospect-quote card + Corbinsylk Modern Vox + v11 CCC Det_axVk5c_ (spotlight-question highlight + spinning-asterisk hook burst) — the skills themselves are GATED, rebuild from visible specs only |
+| 14 | STRATEGY | 12 | `parts/strategy/` | Skill zip (design-system v4 STRATEGY.md) + GitHub — Content Strategy Specialist (#12) |
 | 15 | AUDIENCE-PSYCHOLOGY | 9 | `parts/audience-psychology/` | Skill zip (design-system v4) + GitHub — Following-Growth Specialist (#13) |
 | 16 | SALES-CLOSING | 6 | `parts/sales-closing/` | Skill zip (design-system v4) + GitHub — Closer Specialist (#14) |
 | 17 | CREATOR-PAIN-POINTS | 3 | `parts/creator-pain-points/` | Skill zip (design-system v4) + GitHub — Coach Specialist (#15) |
@@ -78,7 +78,7 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   carousels → posts, with Q's constraints: Q app-posts trial reels,
   Muse supplies 3/day; never auto-post/DM; persistent index + timeline
   checklist devices inside) · beat-table-contact-sheet.md (v9 — beat table + contact sheet: plan first, the) · capcut-native-file-edit.md (v9 — edit the REAL CapCut project by writing pro) · ccms-four-pass.md (v9 — CCMS: Cut, Color, Motion, Sound — four pass) · claude-file-tricks-lut-srt.md (v9 — Claude file tricks: .cube LUT + SRT count-u) · hyperframes-clock-ban-check.md (v9 — HyperFrames: the clock is banned + check be) · measure-dont-opine.md (v9 — make it measure, not opine: style is a set ) · model-split-cost-rules.md (v9 — model split + cost rules: Opus plans, Sonne) · pipeline-goldfish-review.md (v9 — elephant / goldfish / drift report (@nishantchahar.ai, Tier S)) · pipeline-reasons-edl-render.md (v9 — read, don't watch: Reasons → EDL → Render () · pipeline-review-dashboard-timestamped.md (v9 — the review dashboard: comments with timestamps) · pipeline-watch-folder-auto-edit.md (v9 — the watch-folder auto-editor (@tmsproductions__, Tier S)) · review-checklist-six-mistakes.md (v9 — six jobs, one at a time + the six-mistake r) · seven-stage-pipeline.md (v9 — seven-stage pipeline: intake → rough cut → ) · two-factories-motion-plates.md (v9 — two factories + motion plates (@aliabdaal, )
-- **PROMPTS (13):** prompts-router-intake.md (10 questions) ·
+- **PROMPTS (13):** prompts-router-intake.md (11 questions — paste-ready variant of the router's 12; see the part's count note) ·
   prompts-library-index.md (PROMPTS.md §0–10) ·
   top-prompts-measured.md (Charlie Hills, Steve Arneson, AI Systems Lab,
   kingketo, minolee — verbatim where published, measured results) ·
@@ -164,8 +164,8 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   17-effect reel — NEW vs the 16-effect reel; chart-grow / glass-type /
   checklist noted as variants on the self-building-chart / glass-widgets /
   todo-checklist parts, not duplicated) · kitchen-tactile-ui (Jack Roberts
-  Kitchen — cassette / hold-to-confirm / receipt as CapCut motion devices) · charliehills-21-effect-catalog.md (v9 — the 21-effect catalog, speed-run (@charliehills)) · effects-code-component-library.md (v9 — the code component library: named components, not one-off render) · effects-comment-pile.md (v9 — comment pile: stacked real comments as social proof behind the s) · effects-finger-gun-pop.md (v9 — finger gun: point, and the pop-up fires (DRAFT — v9 bulk-b)) · effects-hologram-book.md (v9 — 3D hologram: your books lift off the phone (@unknown, effects-of) · effects-logo-sting-variants.md (v9 — logo sting variants: generate 10, pick 1 per video (DRAFT — v9 b) · effects-outfit-callout.md (v9 — outfit / gear callout + comment pile (@patlaw)) · effects-slot-machine.md (v9 — slot machine (unknown creator, effects-of-the-week set)) · effects-xray-body-track.md (v9 — X-ray: the body-tracked effect, one prompt (@corbinsylk))
-- **STRATEGY (11):** strategy-content-strategy (what/when/order, lanes,
+  Kitchen — cassette / hold-to-confirm / receipt as CapCut motion devices) · charliehills-21-effect-catalog.md (v9 — the 21-effect catalog, speed-run (@charliehills)) · effects-code-component-library.md (v9 — the code component library: named components, not one-off render) · effects-comment-pile.md (v9 — comment pile: stacked real comments as social proof behind the s) · effects-finger-gun-pop.md (v9 — finger gun: point, and the pop-up fires (DRAFT — v9 bulk-b)) · effects-hologram-book.md (v9 — 3D hologram: your books lift off the phone (@unknown, effects-of) · effects-logo-sting-variants.md (v9 — logo sting variants: generate 10, pick 1 per video (DRAFT — v9 b) · effects-outfit-callout.md (v9 — outfit / gear callout + comment pile (@patlaw)) · effects-slot-machine.md (v9 — slot machine (unknown creator, effects-of-the-week set)) · effects-xray-body-track.md (v9 — X-ray: the body-tracked effect, one prompt (@corbinsylk)) · spotlight-question-highlight.md (v11 — light the named item, dim the rest: doc-scroll device, CCC Det_axVk5c_ f_009–f_011) · spinning-asterisk-hook-burst.md (v11 — spinning brand mark over the proof wall as the title lands, CCC Det_axVk5c_ f_001–f_002; NEW, not a variant — no canonical hook-burst part existed)
+- **STRATEGY (12):** strategy-content-strategy (what/when/order, lanes,
   WHAT'S WORKING NOW ownership) · strategy-instaclubhub-ritual.md
   (Brock Johnson — weekly trending-audio ritual + public scoreboard;
   $7-trial door is a contrast case only, [NEEDS Q'S WORD]) ·
@@ -180,14 +180,16 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   algorithm-mastery-instagram.md (v9 layers — Algorithm Mastery
   Specialist #19: Reels signals, dated + sourced, myths flagged) ·
   viral-structure-library.md (v9 layers — S1–S15 engagement-evidenced
-  structures) · top-creator-index-niche.md (v9 layers — 34 niche + 20
-  craft rows; decoded beats profile-only) · mastermind-thinking.md
+  structures) · top-creator-index-niche.md (v9 layers — 35 niche + 20
+  craft rows; decoded beats profile-only; v11: A3 corrected to @millee.md
+  DfBBG0xPioN, @minolee.mp4 moved to A35) · mastermind-thinking.md
   (v9 layers — 7-step reasoning: avatar state → pain → algorithm →
   structure → desire hook → proof → CTA, RC1 worked example) ·
   strategy-posting-mix-70-20-10.md (v10 — 70/20/10 split: relatable /
   tactical / invite, party-coffee-invite analogy) ·
-  strategy-posting-mix-70-20-10.md (v10 — 70/20/10 split: relatable /
-  tactical / invite, party-coffee-invite analogy)
+  ccc-self-onboarding-interview.md (v11 — the two-round self-onboarding
+  interview, Round 1's 8 questions VERBATIM-FRAME, Q's answers
+  pre-filled; Round 2 scope + 15-vs-10 idea-count GAP)
 - **AUDIENCE-PSYCHOLOGY (9):** audience-psychology-following-growth
   (identity, inside language, rituals, retention loops, plural proof) ·
   audience-psychology-four-levers.md (Jayda Jones 4 levers verbatim +
@@ -246,9 +248,9 @@ that makes infinite usable: Claude (or Q) can always find the right part.
 
 | Path | Parts | How |
 |---|---|---|
-| (a) Claude skill zips | **297 of 297** (distilled content — all 12 playbook parts DISTILLED; the 43 effects parts ship in effects v3; the 9 strategy-mastermind parts + 11 gap-fill parts ship as STRATEGY.md + GAP-FILLS.md inside design-system v7; the 8 v5 parts ship as PROMPTS.md §11–17 + COMPONENTS.md appendix rows inside design-system v5; the 21 v6 parts ship as PROMPTS.md §18–23 + COMPONENTS.md appendix rows inside design-system v6; the 43 v7 parts ship as PROMPTS.md §24–25 + COMPONENTS.md appendix Rundown v7 rows inside design-system v7; the 20 v8 parts ship as PROMPTS.md §28–29 + COMPONENTS.md appendix Rundown v8 rows inside design-system v8; the 1 v8 effect part ships in effects v4; the 64 v9 parts ship as PROMPTS.md §30–37 + COMPONENTS.md appendix Rundown v9 rows inside design-system v9; the 9 v9 effect parts ship in effects v5; the 13 v9-layer parts ship in `pwc-psychology.zip` (8 psychology parts) + `pwc-algorithm-niche.zip` (5 algorithm/niche parts), Wave 8c; the 23 v10 parts ship in effects v6 + 12 per-category pieces (Wave 10)) | `zips/` — design-system v9, effects v5, editors v17, motion-playbooks v2, + 3 standalone Sky-like skills + 19 per-category pieces + 8 decode pieces + 2 knowledge-playbook pieces (Wave 8) + 2 layer pieces (Wave 8c). Manifest per zip lists exactly which parts it carries (see UPLOAD-ORDER.md). |
-| (b) GitHub repo (pull route) | **297 of 297** (full part files) + folder docs | `github-repo/` staging tree — push-ready; README is the category index. Push is the parent's step (see PUSH-README.md — repo name + visibility to confirm with Q). |
-| (c) Folder itself (master archive) | **297 of 297** + all raw research | `~/workspace/claude-editing/` — same category folders; Q can browse or upload anything himself. |
+| (a) Claude skill zips | **300 of 300** (distilled content — all 12 playbook parts DISTILLED; the 43 effects parts ship in effects v3; the 9 strategy-mastermind parts + 11 gap-fill parts ship as STRATEGY.md + GAP-FILLS.md inside design-system v7; the 8 v5 parts ship as PROMPTS.md §11–17 + COMPONENTS.md appendix rows inside design-system v5; the 21 v6 parts ship as PROMPTS.md §18–23 + COMPONENTS.md appendix rows inside design-system v6; the 43 v7 parts ship as PROMPTS.md §24–25 + COMPONENTS.md appendix Rundown v7 rows inside design-system v7; the 20 v8 parts ship as PROMPTS.md §28–29 + COMPONENTS.md appendix Rundown v8 rows inside design-system v8; the 1 v8 effect part ships in effects v4; the 64 v9 parts ship as PROMPTS.md §30–37 + COMPONENTS.md appendix Rundown v9 rows inside design-system v9; the 9 v9 effect parts ship in effects v5; the 13 v9-layer parts ship in `pwc-psychology.zip` (8 psychology parts) + `pwc-algorithm-niche.zip` (5 algorithm/niche parts), Wave 8c; the 23 v10 parts ship in effects v6 + 12 per-category pieces (Wave 10); the 3 v11 parts ship in effects v7 + 5 per-category pieces + 1 decode piece (Wave 11)) | `zips/` — design-system v9, effects v5, editors v17, motion-playbooks v2, + 3 standalone Sky-like skills + 19 per-category pieces + 8 decode pieces + 2 knowledge-playbook pieces (Wave 8) + 2 layer pieces (Wave 8c). Manifest per zip lists exactly which parts it carries (see UPLOAD-ORDER.md). |
+| (b) GitHub repo (pull route) | **300 of 300** (full part files) + folder docs | `github-repo/` staging tree — push-ready; README is the category index. Push is the parent's step (see PUSH-README.md — repo name + visibility to confirm with Q). |
+| (c) Folder itself (master archive) | **300 of 300** + all raw research | `~/workspace/claude-editing/` — same category folders; Q can browse or upload anything himself. |
 
 ## How a new style joins (unlimited styles, mastered one at a time)
 

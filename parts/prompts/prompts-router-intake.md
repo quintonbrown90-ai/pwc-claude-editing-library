@@ -1,8 +1,14 @@
 <!-- PART: prompts/prompts-router-intake.md | UPLOAD: SKILL + GITHUB | MAX: 50KB / 10 files -->
 # PROMPTS — the router intake (paste-ready)
 
-Source: `design-system/EDIT-ROUTER.md` — the 11-question intake. Ask before
-you build when the video type is ambiguous.
+Source: `design-system/EDIT-ROUTER.md` — an 11-question paste-ready
+variant of the router's 12-question intake (§2), not a verbatim copy.
+Count note (v11): router Q2 (named system/framework name), Q5 (power:
+number / story / proof / breakdown), and Q11 (viewer feeling →
+psychology part) have no paste-ready equivalent here, while part Q4
+(audience) and Q8 (hook in first 2s + face on screen) are part-only
+additions — for the full 12-question intake, use EDIT-ROUTER.md §2.
+Ask before you build when the video type is ambiguous.
 
 ## The prompt (paste as-is)
 ```

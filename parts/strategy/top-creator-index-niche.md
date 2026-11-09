@@ -28,7 +28,7 @@ yet — deeper pull needed (v9_adoption_widened.md §C2).
 |---|---|---|---|---|---|---|
 | A1 | @kallawaymarketing (Kallaway) | Triple Hook Method; Desire Hook; format finder; collections taxonomy | 225,474 (CLI at pull; bio claims 2M+) | KALLAWAY / LAUNCH / BLUEPRINT | Triple Hook carousel (1,712 likes / 709 comments); Desire Hook reel Dfc59rPsETD | Desire hook (outcome + character); hook power words; illusion of novelty — the hook system Q's hooks are judged against |
 | A2 | @ali_tate_cutler (Ali Tate) | Content → Clients | ~277K | — | [GAP] 3 post IDs on file, no decode yet | Content-to-clients bridge — the closest niche parallel to Q's value → WAITLIST bridge; decode next |
-| A3 | @minolee.mp4 | "I help people get 10K followers & monetize Instagram" | ~551–580K | WORD | "Claude just changed video editing forever" (Opus 5.5, 3 core things) | Dead-space >0.1s cut rule; 5 anti-slop rules; the 10K-and-monetize promise stated plainly |
+| A3 | @millee.md | 5 anti-slop rules for Claude video edits; "the idea does" doctrine | 60.6K (on-screen profile at pull) | MOTION | "Everyone is editing their videos with Claude Code when most of it looks like AI Slop" DfBBG0xPioN (71.4s) | Dead-space >0.1s cut rule; 5 anti-slop rules; "the idea does" doctrine — the anti-slop skill itself is gated, never chased |
 | A4 | @heyleahham | Inbox-receipt teaching; $5K/post Experian brief at 22K followers | ~22K | — | [GAP] profile-level only | The small-follower big-brief proof — same shape as Q's RC pack (small creator, real receipt) |
 | A5 | @marziaprince | FASTTRACK keyword; mic-switch retention device | ~26.7K | FASTTRACK | [GAP] reel URL not returned — re-verify before citing | Mic-switch as a retention device (one case, needs a second); the keyword-as-product pattern |
 | A6 | @elizabethmarberry | Hot Reels Lab; Hooks Vault concept | — | — | [GAP] IG handle not verified; $555/mo / $5,555 ladder UNVERIFIED | Hooks Vault concept (a bank, not a list) — do not cite pricing until verified |
@@ -60,6 +60,7 @@ yet — deeper pull needed (v9_adoption_widened.md §C2).
 | A32 | @willgirone (Will Girone) | — | ~95K | — | [GAP] reel Dfd2Uj_x2Bg, no decode | Queue lead; decode to test relevance |
 | A33 | @realkushdesai (Kush Desai) | — | ~42–44K | — | [GAP] profile-level only | 4-step, keyword EDITOR; adjacent finds: earshot (MIT audio model) + SupoClip (AGPL — note loud) |
 | A34 | @yikchan (Yik Chan) | Facebook monetization dashboard | — | — | [GAP] FB image post only (39M views / 28 days — his PUBLISHED claim, unverified) | FB monetization angle; claim unverified — do not cite the number as fact |
+| A35 | @minolee.mp4 | "I help people get 10K followers & monetize Instagram" | ~551–580K | WORD | "Claude just changed video editing forever" (Opus 5.5, 3 core things) DehM80nN7Gv (75.0s) | 3-core checklist (dead space, house captions, story over template); messy-file + 1-inspo-video input spec — moved here Nov 8, 2026 (v11): row A3 previously conflated Minolee with @millee.md's DfBBG0xPioN (dead-space >0.1s + 5 anti-slop rules), which now correctly sits at A3 |
 
 ## B. Claude-editing teachers most relevant to Q's videos (ranked by decoded evidence)
 
