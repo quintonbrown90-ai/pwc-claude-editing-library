@@ -232,6 +232,99 @@ Not playbooks — the strategy layer. Full specs in
   rule + 5 anti-slop rules). QC status PENDING for every v10 part/profile
   until the you-and-Claude loop runs after upload.
 
+## v12 additions (Nov 8–9, 2026 — 308 parts, 20 categories; Batch 10 row-level adoption)
+
+- **Batch 10, row-level (1 Top-30 reel + 18 decodes + 5 carousels +
+  316/321 inventory):** the Top-30 reel (DfDAxN1Rex_, 57.0s, 172 words,
+  12 segments) + 18 @maxjohnscn decodes (17 NEW systems + 1 re-hook
+  variant) + 5 NEW carousel files (caption-level only, GAP-6 class —
+  slides not retrievable) + the full @maxjohnscn profile teardown
+  (316 distinct feed shortcodes of 321 claimed, 98.4%; 292 video / 22
+  carousel / 2 image; 5-post gap recorded honestly; pagination cursor
+  dead, windowed --until pulls recovered the rest). Max Johnson,
+  60,026 followers, UK, founder @briix.ai & Level Up AI Creators.
+  Decodes + transcript + teardown + SOURCES ship as text in
+  `pwc-decodes-v12.zip` (19 DECODE.md + 1 transcript + 5 CAROUSEL.md +
+  BATCH-10 manifest + TEARDOWN.md + SOURCES.md); videos and frames stay
+  in the workspace/repo.
+- **New parts (8):** creator-systems +6 (107 → 113:
+  maxjohnscn-stacks-trilogy, maxjohnscn-weekend-menu-ten-systems,
+  maxjohnscn-agency-stack, maxjohnscn-video-skills-five,
+  maxjohnscn-vibecode-ship-checklist, maxjohnscn-mini-saas-menu),
+  sales-closing +1 (6 → 7: maxjohnscn-brand-deal-tactics),
+  knowledge-playbooks +1 (16 → 17: maxjohnscn-top30-inventory).
+  Variant entries: 6, across 6 existing parts
+  (strategy-content-strategy: the 8-system content→money loop as a
+  variant on Q's loop, never a competing loop;
+  strategy-dashboard-carousel: the 5 carousel structure steals, Sky
+  form; agents-md-onboarding: the 4-doc starter kit, PRD +
+  ARCHITECTURE as the gap pair; competitor-scrape-pipeline: Reverse
+  API Engineer as a research pattern, spec only; ibravisual-jarvis-
+  4-part-build: the Atticus "work mode" named-routine pattern, app
+  stays PARKED per the Batch 7 ruling; effects-paper-cut: Collage
+  B-Roll). No new categories; no duplicates (checked before writing:
+  the 4-doc kit overlaps agents-md-onboarding, so it is a variant,
+  not a part; the 8-system loop overlaps Q's loop, so it is a variant,
+  not a part; HyperFrames is already in the library — sighting only).
+- **FIND-SKILLS — the real skill, folded (Q's priority order, Nov 8
+  ~21:02 CT; resolves v8 ruling #11):** `find-skills` from
+  vercel-labs/skills (MIT, Copyright 2026 Vercel, Inc.), SCAN PASS —
+  SKILL.md pure instructions, no executable code, no credentials;
+  find.ts queries only the public https://skills.sh search API;
+  telemetry anonymous + disable-able via DISABLE_TELEMETRY=1. The
+  skill is ONE file: `skills/find-skills/SKILL.md` (5,472 B, verbatim
+  upstream). Install: `npx skills add vercel-labs/skills --skill
+  find-skills -a claude-code` (as shown on Max's reel:
+  `npx skills add vercel-labs/skills@find-skills`). Verified live:
+  "video editing" → hyperframes (1,436,743 installs), media-use
+  (1,346,326), ai-video-generation; "instagram" →
+  viral-instagram-reels, social, ads, social-content. Staged as its
+  own Wave 12 zip (`find-skills.zip`: SKILL.md + PWC-OVERLAY.md).
+  **PWC safety overlay (binds over the upstream Step 6):** the skill
+  NEVER auto-installs — it finds, verifies, and PRESENTS options;
+  installation only when Q approves a specific skill; any recommended
+  skill still goes through the dual-model review (ChatGPT + Claude)
+  before install; the upstream `-y` flag is NOT used. The
+  find-skills-discovery-layer part stays the doctrine and now points
+  at the real skill (its v8 GAPs for the repo + the skill file are
+  marked RESOLVED, history kept). Third sighting (Max, DfDAxN1Rex_)
+  recorded as a v12 variant on that part — his reel shows the install
+  command with NO safety note, unlike Jack.
+- **Top-30 triage (29 new repos, read-only license check, Nov 9):**
+  26 LICENSE PASS (20 MIT + 6 Apache-2.0 — inventory rows only, SCAN
+  not run) · 3 PARKED (OpenMontage AGPL-3.0; multica-ai/
+  andrej-karpathy-skills + anthropics/skills: no LICENSE file) · 0
+  GAP · HyperFrames already in library. Two as-shown repos did not
+  resolve and were corrected against GitHub: `LeonxInx/taste-skill`
+  → `Leonxlnx/taste-skill` (MIT); `tt-a1l/archify` →
+  `tt-a1i/archify` (Apache-2.0). Full table in
+  `research/claude-editing-creators/ADOPTION-TRACKER.md` (v12
+  section) and `parts/knowledge-playbooks/maxjohnscn-top30-inventory.md`.
+- **Design-system v12 NOT built (call recorded in UPLOAD-ORDER.md,
+  Wave 12):** no AGENTS.md / EDIT-ROUTER.md / PROMPTS.md changes in
+  this run, so the distilled docs do not warrant a new version. What
+  changed is limited to CATEGORIES.md (308 parts + v12 names),
+  KNOWLEDGE-INDEX.md (v12 additions), and COMPONENTS.md (the
+  find-skills cell: the discovery layer is no longer "the SPEC, not
+  the skill" — the real skill is folded) — all updated in
+  `design-system/` AND the installed mirror
+  `skills/pwc-design-system/` (diff verified empty) — and those ride
+  the GitHub pull route now, not a new design-system zip. The v10 zip
+  stays the live design-system build until a future run warrants v12.
+- **Self-learning check-in (Nov 8–9, 2026, v12):** no new lessons, no
+  new conflicts, no new FL entries. The v12 run's verified lessons
+  are procedural (fold confirmations, not rule changes): (1) when a
+  decode's system overlaps an existing canonical part, fold as a
+  variant on the canonical — check the part files before writing a
+  duplicate (the 4-doc kit → agents-md-onboarding; the 8-system loop
+  → strategy-content-strategy; Collage B-Roll → effects-paper-cut);
+  (2) a reel's on-screen repo spellings can be wrong — resolve
+  404s against GitHub before citing (LeonxInx → Leonxlnx, tt-a1l →
+  tt-a1i) and record both spellings; (3) a license-passed inventory
+  row is not a SCAN PASS — record the license result and the
+  not-yet-scanned status in the same row. QC status PENDING for every
+  v12 part/profile until the you-and-Claude loop runs after upload.
+
 ## v11 additions (Nov 8, 2026 — 300 parts, 20 categories; Batch 9 row-level adoption)
 
 - **Batch 9, row-level (1 decode + 5 carousels + 10 reconciled):** 1 NEW

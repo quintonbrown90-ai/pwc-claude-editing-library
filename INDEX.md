@@ -112,3 +112,23 @@ elsewhere (too big to duplicate).
 - `~/workspace/user/` and `~/workspace/your_files/` — Q's uploads and deliverables; never moved by policy. Copied subsets live in examples/.
 - `~/workspace/goals/` — goal workspaces; `goals/realskytan-style-steal-for-q-s-content/` is the Sky goal — registered, not moved.
 - `~/workspace/custom-skills/` — Muse's skill registry (pointer SKILL.md files for all of the above stay live there).
+
+## Nov 8 additions — strategy mastermind, gap-fills, gesture layer (v4)
+
+| Item | Path | Notes |
+|---|---|---|
+| WHAT-Q-DIDN'T-SAY.md | `WHAT-Q-DIDN'T-SAY.md` (folder root) | 11 gap-fills, each sourced + marked [GAP-FILL]; Q can strike any |
+| GESTURES-MOVEMENTS.md | `research/knowledge/GESTURES-MOVEMENTS.md` | Visual-language vocabulary (OBSERVED + INFERRED); feeds Motion + Camera specialists |
+| AUDIENCE-PSYCHOLOGY.md | `research/knowledge/AUDIENCE-PSYCHOLOGY.md` | Following-growth mechanics (#13) |
+| SALES-CLOSING.md | `research/knowledge/SALES-CLOSING.md` | Q's actual offers only; objection table (#14) |
+| CREATOR-PAIN-POINTS.md | `research/knowledge/CREATOR-PAIN-POINTS.md` | Top 10 pains, ranked, exact creator wording (#15) |
+| TRENDS.md | `research/knowledge/TRENDS.md` | Top 5 what's working now, measured only (#16) |
+| STRATEGY.md / GAP-FILLS.md | `design-system/STRATEGY.md`, `design-system/GAP-FILLS.md` | Mirrored into `skills/pwc-design-system/` — ship inside design-system v4 |
+| New parts (17) | `parts/strategy/`, `parts/audience-psychology/`, `parts/sales-closing/`, `parts/creator-pain-points/`, `parts/trends/`, `parts/gap-fills/` (11), `parts/knowledge-playbooks/gestures-movements.md` | Total now **71 parts in 19 categories** (`code/build_parts.py`) |
+| AGENTS.md | `design-system/AGENTS.md` (+ mirror) | 16 specialists + master (was 11) |
+| **IG teachers sweep LANDED (Nov 8)** | `research/claude-editing-creators/` (52 creator folders) + `research/video-harvest/INDEX.md` | 17 Format A + 7 Format B decodes, 6 carousel teardowns, 376 IG URLs enumerated → **488 files in `uploads/QUARANTINE/reels/` (2.6 GB)**; 60 YouTube enumerated, 59/84 files quarantined; 7 repos cloned + scanned; remotion-dev/skills PARKED (no license); 8 cross-video gesture patterns; Tier S: kienobifilms, thelifeoflibs, kingketo, zachdoesai_, patlaw/david_knowsai/v.i.s.h.ai/nishantchahar.ai |
+| **Free-kits sweep LANDED (Nov 8)** | `research/free-claude-editing-kits/` (32 kits, 3.7 GB) | Top 5: herk-edit-kit, ghost-editor, ffmpeg-skill, mg-styles-15, motion-prompt (all MIT); anfloy-playbook PARKED (no license); buttercut/openmontage/story-studio/video-editor-skills flagged LOUD |
+| **Repo-sites + prompts LANDED (Nov 8)** | `research/repo-sites/` (43 repos, 1.7 GB) + `research/prompts/` (~107 prompts) | Best find: ffmpeg-skill (MIT, 4,758★); Tier 1: claude-youtube-editor, clipify/zooms, talking-head-editor, lemo-opuscar (13,498★); top 5 measured prompts in PROMPTS.md §11–15; ~45 prompts flagged [UNVERIFIED] |
+| **Batch-1 decodes + EMOTION.md (Nov 8)** | `research/video-harvest/instagram/` (7 decodes) + `research/knowledge/EMOTION.md` | Jayant 5 pillars, JLee ENGINE, Kallaway Triple Hook (carousel style), Viashaan directing thesis, Nate Gold 17-agent grid, Liam Hook skill, CCC viral-idea finder; EMOTION: 16 OBSERVED + 5 GAP-FILL mappings |
+| **design-system v5 (Nov 8)** | `zips/pwc-design-system-v5.zip` (17 files, 121.2 KB, verified) | v4 + PROMPTS.md §11–17 + COMPONENTS.md appendix rows (Batch-1, IG Tier S, Tier-A kits/repos, EMOTION) + **8 new parts → 79 parts, 19 categories**. **Wave 1 ships v5, not v4** (v4 → rollback). All 6 research streams landed and folded in; GAP list now 10 items (was 8, all 5 pending streams resolved) |
+| **github-repo/ re-synced (Nov 8)** | `github-repo/` (196 files, 6.5 MB) | 79 parts + design-system (15 files) + all 7 skills-distilled (node_modules excluded) + operating docs. Push is the parent's step (repo name + visibility to confirm with Q) |

@@ -2,6 +2,61 @@
 
 Source: @jackroberts___ — canonical reel DePtyBoAOPd "Find Skills" (parent-decoded, Batch 7). The skill itself is GATED behind comment FINDER → DM. NOT chased, bought, or scraped. The SPEC below is rebuilt from visible frames only (transcript + on-screen install frame, claw-machine frame, ranked-list frame, safety frame), labeled INFERRED. His words are quoted; the rest is reconstruction.
 
+## The real skill (v12 — FOLDED, no longer spec-only)
+**Q ordered the skill FOUND and ADDED (Nov 8, ~21:02 CT) — resolves v8
+ruling #11. The real find-skills skill is now IN the library as a live
+skill (registered name `find-skills`, Wave 12 zip). This part STAYS as
+the doctrine — the layer's rules, flow, and safety gate — and the new
+part below is the real skill it points at. Do not confuse the two: the
+doctrine lives here; the executable skill is `find-skills`.**
+- **Source:** `vercel-labs/skills`, skill `find-skills` — repo clone at
+  `uploads/QUARANTINE/repos/vercel-labs-skills/` (parent-verified).
+  MIT license (Copyright 2026 Vercel, Inc.), LICENSE file at repo root.
+- **SCAN PASS (Nov 8–9, 2026):** SKILL.md is pure instructions, no
+  executable code, no credentials; `find.ts` queries only the public
+  https://skills.sh search API; telemetry anonymous + disable-able via
+  `DISABLE_TELEMETRY=1`. Re-verified in this run: the staged SKILL.md
+  (141 lines) carries no eval/exec/subprocess/base64/env/credential
+  patterns.
+- **The skill is ONE file:** `skills/find-skills/SKILL.md` (5,472 B,
+  verbatim upstream; description ~330 chars, no XML tags —
+  Claude-compatible). Install command (upstream):
+  `npx skills add vercel-labs/skills --skill find-skills -a claude-code`.
+  As shown on Max's reel (DfDAxN1Rex_): `npx skills add
+  vercel-labs/skills@find-skills`.
+- **How it works:** `npx skills find [query]` searches
+  https://skills.sh/api/search; check the skills.sh leaderboard first;
+  verify quality (install count, source reputation, stars) before
+  recommending; present options with name + installs + install command +
+  skills.sh link; offer to install.
+- **Verified live (parent, Nov 8):** "video editing" →
+  hyperframes (1,436,743 installs), media-use (1,346,326),
+  ai-video-generation; "instagram" → viral-instagram-reels, social,
+  ads, social-content. HyperFrames at #1 matches the Batch 7 top-10
+  evidence. The reels' "1M+ skills / 3.7M / 3.9M installs" totals stay
+  recorded as CREATOR CLAIMS, never verified.
+- **Third sighting (Max, DfDAxN1Rex_):** same skill, same flow — see
+  Variants (v12) below. His reel shows NO safety note at all (the
+  install command is shown with no "check it first" caveat, unlike
+  Jack) — the PWC safety overlay below is what binds in Q's setup,
+  not Max's framing.
+
+## THE PWC SAFETY OVERLAY (HARD — binds over the upstream Step 6)
+**The upstream skill's Step 6 (install) is OVERRIDDEN in Q's setup by
+this overlay. It is recorded here AND in the Wave 12 zip's overlay doc
+(`find-skills/PWC-OVERLAY.md`).**
+1. **The skill NEVER auto-installs.** It finds, verifies, and PRESENTS
+   options. Installation happens only when Q approves a specific skill.
+2. **Any skill it recommends still goes through the library's dual-model
+   review** (Jack's doctrine: never install until run through ChatGPT
+   and Claude) before install — plus quarantine + SCAN PASS + license
+   check, per SAFETY.md §1/§6.
+3. **The upstream `-y` skip-confirmation flag is NOT used in Q's setup.**
+   Every install is a confirmed, human-approved step.
+4. **The discovery layer's own gate (§ THE SAFETY GATE below) still
+   applies in full** — this overlay adds the install-time rules; it does
+   not replace the layer's quarantine, skim, or review steps.
+
 ## The rule
 Most people install skills one at a time. Then they stop looking. There are over a million out there. Nobody can search that by hand. Find Skills does the searching for you. — The discovery layer is a LIBRARIAN, not an installer: "Like a librarian who fetches the book. And puts it on your desk." The librarian fetches; the human reads before the book is used. "Skim each one before it runs."
 
@@ -63,7 +118,7 @@ The claw grabbing the best skill card (f_013) is the discovery layer's visual: t
 QUERY: "editing videos" (Jack's own example task).
 1. Q-library: the viral-rewrite skill (Batch 6), the script-to-carousel skill (Batch 6), the content-architecture spec (Batch 5) — ranked by pilot results.
 2. Harvest shelf: the claw-machine picker (Batch 7, this run) as the router visual for the edit.
-3. EXTERNAL: find-skills itself (vercel-labs/skills) — labeled EXTERNAL, license unchecked, NOT installed (see GAP).
+3. EXTERNAL: find-skills itself (vercel-labs/skills) — v12 UPDATE: no longer external. The real skill is now IN the library (see "The real skill" above — MIT, SCAN PASS, Wave 12 zip). The worked example's old line ("labeled EXTERNAL, license unchecked, NOT installed") is superseded; the skill is consulted as a library skill, under the PWC safety overlay.
 SKIM: the viral-rewrite skill's SKILL.md, quoted. SAFETY: dual-model review clean (Q's own skill, already scanned). INSTALL: already in the library — no install needed. The layer's answer is "you already own the match" — which is the most common correct answer.
 
 ## PWC skin
@@ -72,16 +127,27 @@ SKIM: the viral-rewrite skill's SKILL.md, quoted. SAFETY: dual-model review clea
 - The hidden app is never named. Claims verified against the proof library or killed.
 
 ## GAPS
-- GAP — vercel-labs/skills (find-skills source repo): named on screen only (f_007: "▲ vercel-labs/skills", INSTALLATION prompt). NOT cloned, NOT installed, NO license check run. Any future use needs its own license check + SCAN PASS first. This part is the SPEC, not the skill. Logged as a GAP entry with the reason (gated source + unrun license check), per ADOPT-EVERYTHING.
-- GAP — The Find Skills skill file itself: gated behind FINDER → DM, NOT chased. The flow above is INFERRED from the transcript + frames. If the real skill file ever becomes public, reconcile — do not assume it matches.
+- GAP — RESOLVED v12: vercel-labs/skills (find-skills source repo) is
+  now cloned to `uploads/QUARANTINE/repos/vercel-labs-skills/`, MIT
+  license verified, SCAN PASS recorded (see "The real skill" above).
+  The GAP entry from v8 is closed, not deleted — the history stays.
+- GAP — RESOLVED v12: the Find Skills skill file itself is no longer
+  spec-only. The real `skills/find-skills/SKILL.md` (verbatim upstream)
+  ships as the `find-skills` skill in Wave 12. The flow in this part
+  remains the INFERRED doctrine (rebuilt from transcript + frames);
+  reconcile against the real file if they ever diverge — do not assume
+  they match.
 - GAP — Ranking internals: the outside registry ranks by downloads (measured). What else it weighs (recency, ratings, curation) is NOT shown on screen. Q's ranking (execution bar → pilot → Q's use) is the library's own rule, not theirs.
 - GAP — The 1M+ / 3.7M numbers are the site's claims as shown on screen (f_020, f_028), unverified. Recorded as claims.
 - GAP — Dual-model review mechanics: Jack shows the review as a visual (two model icons over a SKILL.md), not the prompts used. Q's version runs the review as a defined check (exfiltration / credentials / obfuscation / remote execution — SAFETY.md §6 grep list, run by each model). The check list is Q's; the two-model rule is Jack's confirmation.
 
 ## Needs Q's ruling (flagged, not adopted)
 1. External registries: is the layer allowed to CONSULT outside registries at all (candidates only, never installs), or should it search Q's library + harvest only?
-2. The vercel-labs/skills repo: if its license checks out and it passes SCAN, may the find-skills skill itself enter Q's library — or does the discovery layer stay a spec forever?
+2. **RESOLVED v12 (Q, Nov 8 ~21:02 CT):** Q ordered the find-skills skill FOUND and ADDED. It enters the library as the real `find-skills` skill (Wave 12), under the PWC safety overlay above. The discovery layer stays a spec forever — NO. The layer stays the doctrine; the skill is real. The open question that remains is #1 (external-registry scope), not this one.
 3. The dual-model review: ChatGPT + Claude as the two models (Jack's exact pair), or Claude + a second reviewer of Q's choosing?
+
+## Variants (v12)
+- **v12 · @maxjohnscn, DfDAxN1Rex_:** **THIRD independent sighting — CONFIRMATION, not a new system.** Same skill (`find-skills` from `vercel-labs/skills`), same flow: describe the project → it searches the skills directory → surfaces the best/most-trusted one for the job. New visible details only: the install command on screen (`npx skills add vercel-labs/skills@find-skills`), the "BONUS SKILL" framing, the card copy ("Describe your project and it searches the whole skills directory to surface the best, most-trusted one for the job"), the repo label `vercel-labs/skills`. Claim variance across sightings — recorded, NOT resolved: directory size "over one million" (Jack) vs "over 700,000" (Max); Kayvon stated no directory size. Rank/adoption figure 3.7M (Jack, "ranked #1") vs 3.9M (Kayvon) vs unstated (Max). All are creators' CLAIMS, none verified. Max's "just built" framing is his sales framing for a skill that predates this reel (already Batch 7's subject) — do not cite it as a launch date. Max adds NO safety teaching — his reel shows the install command with no "check it first" caveat, unlike Jack. The PWC safety overlay (above) binds in Q's setup regardless. Funnel: comment "30" (gated, never chased). _(source: Batch 10, v12)_
 
 ## Variants (v9)
 - **v9 · @kayvon.ai, DfamjsXBUGl:** **V104 — @kayvon.ai skill-that-finds-skills (DfamjsXBUGl):** "a skill that goes and finds every other skill you possibly need for you" + "Say, content, and it pulls up the best skills for that exact moment" (→ find-skills-discovery-layer). Auto-download: GAP (never auto-install unvetted code). _(source: bulk-b VARIANTS.md)_

@@ -49,3 +49,5 @@ actually cuts the pauses.
 ## PWC skin
 Navy paper bed, gold tiles for payoff letters, white tiles for the
 rest. Torn edges kept. NO RED.
+
+- **v12 · @maxjohnscn, DfZ2LF1orYo (Collage B-Roll):** **Voiceover line → paper-cutout clip that builds itself.** One spoken line becomes a halftone paper-cutout clip (his card: "One voiceover line turns into a paper cutout clip that builds itself"). The paper-cut effect is the fold — the skill itself (Collage B-Roll) is third-party code, gated (comment VIDEO → DM) and unscanned, never installed. Trigger: a voiceover line that names a thing; the cutout clip builds itself under the line. _(source: Batch 10, v12)_

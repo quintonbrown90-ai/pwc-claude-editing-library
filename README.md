@@ -22,6 +22,42 @@
 > Judge every future addition against the vision: does it make Claude know
 > more, learn faster, and edit more human?
 
+## NO-LIMITS vs NON-NEGOTIABLES (Q, Nov 8 — "remove all restrictions to itself to reach its highest potential")
+
+**NO-LIMITS (growth — removed):**
+- No cap on what Claude learns: every style, every system, every prompt,
+  every code, every creator, every domain (editing, strategy, psychology,
+  sales, coaching). No "that's enough" ceiling.
+- No holding back on ambition: the goal is the best in the world at each
+  aspect, then better. Sky is the benchmark to BEAT, not just match.
+- No artificial scope walls between specialties: the motion specialist
+  learns from the strategist, the caption specialist learns from the
+  psychologist — cross-pollination is the default.
+- No fear of scale: the library grows without a ceiling (modular parts +
+  GitHub pull + weekly sweep + self-learning). If a part gets big, split
+  it — never shrink the ambition to fit a limit.
+- Operating stance, written into the design-system SKILL.md + AGENTS.md:
+  "Pursue the highest potential in every aspect. Learn everything. Master
+  everything. Improve on everything."
+
+**NON-NEGOTIABLES (identity + safety — these are what make it HIS and
+SAFE, not limits on potential):**
+- Brand DNA: nothing over Q's face, teal/gold on navy, NO RED, PWC skin,
+  logo, human-made check. Removing these would make the output generic,
+  not better.
+- Safety protocol (SAFETY.md): quarantine, code scan, no credentials, no
+  scams/phishing, only public freely-licensed material.
+- Licensing rules: no paywalled/piracy content; license-flagged kits need
+  Q's word.
+- Q's standing rules: blur law, hidden app never named, newest-version
+  posting, keyword flows live before posting.
+- Claude's own platform safety policies are Anthropic's, not ours — we do
+  not instruct bypassing them, and the build never asks Claude to.
+
+Judge every future addition against the split: does it raise the ceiling
+(NO-LIMITS — do it) or does it touch identity/safety (NON-NEGOTIABLES —
+stop)?
+
 ## The double-growth loop — Muse works BESIDE Claude (Q, Nov 8)
 
 **Muse + Claude work together as masterminds across the whole game, not

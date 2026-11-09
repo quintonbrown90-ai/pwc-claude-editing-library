@@ -72,3 +72,6 @@ pipeline proposes; Q disposes.
 Teal #14A886 + gold #FEE238 on navy #00214E. NO RED. Intel decks and
 thumbnails in the PWC system; competitor screenshots shown as proof, never
 re-skinned as Q's own.
+
+## Variants (v12)
+- **v12 · @maxjohnscn, DffKU-NOVXP:** **Reverse API Engineer as a research pattern (spec only, INFERRED — repo never scanned).** "It just works out how the site actually talks to its own backend and then copies that" — the reverse-engineering approach to pulling public data without a paid scraping tool or an API. For Q's library this is a RESEARCH METHOD for the niche-intelligence lane (pulling public post data for analysis), not a tool to install. The repo itself was NOT downloaded, installed, run, or scanned; its URL is gated (comment REPO → DM, never chased). Any adoption needs Q's explicit call + a safety review of the actual repo — flagged, not adopted. The "kills the need for X" hook shape (a free tool framed as killing a paid category) and the two-use-case close (legacy-client agent + free LinkedIn/IG data pull, one line each) are adoptable as format devices. His use cases name LinkedIn and Instagram data pulls — Q's lane pulls public data only, within the platform rules, never credentials. _(source: Batch 10, v12)_
