@@ -56,3 +56,6 @@ every Claude render whole). Taste is verified in motion, never on a spec.
 
 ## PWC skin
 Gold numerals on navy, teal line diagrams. NO RED. Nothing over the face.
+
+## Variants (v10)
+- **v10 · @millee.md, DfBBG0xPioN:** **"The idea does":** "You don't need a hundred different editing styles or crazy fonts because they don't affect the performance of a video. The idea does." Q's human-made standard in one line — the idea is the video, not the font. Tier S candidate (the anti-slop doctrine + the idea-does line). His 5 anti-slop rules themselves were already folded in v9 as variants (captions-word-exact, imagery-proof-objects, motion-named-8, pipeline-deadair-gate); this entry carries the doctrine line only. The anti-slop skill is gated (comment MOTION → DM), never chased. _(source: §C2, v10)_

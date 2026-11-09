@@ -40,3 +40,6 @@ pass BEHIND it.
 - **SL-06** — Designed captions rejected: chunks overlap/ghost — one chunk at a time, clean hard cuts. (2026-11-05)
 - **PB-05** — Hero-behind-head done right: 4 genuine hero moments, front-caption yield, inserts on the word, zero freezes. (2026-11-05, Viashaan demos)
 
+## Variants (v10)
+- **v10 · @kayvon.ai, DfO7FQnqO_T:** **Motivation-clip caption treatment (B-roll only, NOT main talking heads):** word-by-word italic serif captions over dark cinematic B-roll, lower-centre, tracking the voice — "the fastest way / to attract / what you want / in life..." — the line IS the caption, one phrase at a time, never over the face. White-flash transition into the bright final shot (dark grind → flash → bright payoff). "Do the work." as the three-word closer on screen at the end. BOUNDARY: Q rejected the Viashaan designed-captions STYLE for his main edits Nov 7 — this serif treatment is for motivation/B-roll clips only, never for main talking-head captions (Sky exact governs those). The clip is likely reposted footage (landscape, voiceover not Kayvon's talking-head voice, Kayvon only in the last shot) — format only, never reuse the footage. _(source: Batch 8, v10)_
+

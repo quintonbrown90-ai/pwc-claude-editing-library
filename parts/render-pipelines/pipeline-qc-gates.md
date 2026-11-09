@@ -98,3 +98,6 @@ freeze + transition gates exist because of that miss.
 - **v9 · @max4thepeople, DepgkAOhldO:** **V96 — @max4thepeople hands-free proof (DepgkAOhldO):** film the screen while Claude drives the editor — a different trust device from code-generated edits (→ pipeline-qc-gates). Computer-use itself: FLAGGED (needs Q's word). _(source: bulk-b VARIANTS.md)_
 - **v9 · @itsaustinmyers, DfDuiAgMlg2:** **V97 — @itsaustinmyers approve-as-final (DfDuiAgMlg2):** "If you're happy with it, just tell it, I approve this as the final version." (→ pipeline-qc-gates). _(source: bulk-b VARIANTS.md)_
 - **v9 · @createcontent.club, DZ2zNPWtTnA:** 67. @createcontent.club, DZ2zNPWtTnA — "How aggressive should the cut be?" (pace question) + "Removed 21 silent gaps, saving 18 seconds" (cut report) → variant on render-pipelines/pipeline-qc-gates.md. Already tracked in v8; re-confirmed here. File gated (GAP). _(source: v9_variants_bulk_a.md)_
+
+## Variants (v10)
+- **v10 · @millee.md, DfBBG0xPioN:** **/anatomy — second source:** the skill called /anatomy builds structures and objects ("which make great assets for educational videos") — second source after @aiadventureryt DeolW_aBoAC (batch 9, v9 variant above). The skill itself is named only, gated behind comment MOTION → DM — NOT downloaded, NOT scanned, NOT folded in. _(source: §C2, v10)_

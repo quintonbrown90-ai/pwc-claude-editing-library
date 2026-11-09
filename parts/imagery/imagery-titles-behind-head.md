@@ -35,3 +35,6 @@ BEHIND it. If the matte fails, the word is cut, never pasted over him.
 - **v9 · @?, V8-45:** V8-45 — Words-behind-head via auto person cutout (no rotoscoping) → imagery-titles-behind-head.md _(source: v9_verification.md)_
 - **v9 · @ibraviz.ai, DfZwGFMMdk1:** **V81 — @ibraviz.ai effect catalog (DfZwGFMMdk1):** slides orbiting around you (→ effects-orbit); spotlight over head (→ effects-spotlight); object following your finger; "Put big text behind me" as the spoken command for titles-behind-head (→ imagery-titles-behind-head). _(source: bulk-b VARIANTS.md)_
 - **v9 · @kienobifilms, DfbDac2N6q7:** **V100 — @kienobifilms titles-behind-head (DfbDac2N6q7):** spoken cue "watch the titles land behind me" (→ imagery-titles-behind-head); photo-to-reel path (still photo as edit input — Q's approved tan photo set); one keyword (REELS) → command + setup link funnel. _(source: bulk-b VARIANTS.md)_
+
+## Variants (v10)
+- **v10 · @kayvon.ai, DfPtyaCqhIa + DfOTihaqSFx:** **CONFIRMATION — /text-behind is HERO_BEHIND:** giant "CLAUDE" renders behind his head, face clear, front captions yield — the SAME behaviour in BOTH videos (two label variants of one system: "made by Claude" / "no editing app"). The part is stable, not a one-off. Command `/text-behind`; prompt gated (comment EDIT → DM, never chased). _(source: Batch 8 + §C2, v10)_

@@ -90,7 +90,7 @@ is designing for, in one line, before naming any device.
 
 ---
 
-## 2. The 11-question intake (when the type is ambiguous)
+## 2. The 12-question intake (when the type is ambiguous)
 
 Ask these (of the video itself first — transcript, script, brief — then of Q
 only if still ambiguous). The answers select the row.
@@ -109,6 +109,10 @@ only if still ambiguous). The answers select the row.
     frustrated / aspirational / ready to act / inside the room) — and
     which psychology part answers that state? The answer selects the
     §1.E row before any device is picked.
+12. Which assets does this edit need (a Q/Kiya photo, video, proof,
+    B-roll, brand asset)? Are they in Q + Kiya's pool — and if one is
+    missing, ASK MUSE for it (never substitute generic/AI/stock, never
+    invent a placeholder, never skip it silently)?
 
 If Q answers "I don't know / just make it good": default to the row matching
 the lane + proof type, run the Sky Form 2 / Adilet B1 house default, and say
@@ -147,6 +151,9 @@ and its trigger word.
 - Never red. Never neon green. Rejects/dismissals are grey + strike/dim.
 - Never AI-flat: no generic stock/AI photos for proof; real screens, real
   photos, real examples (illustrations only in the Adilet avatar grammar).
+- Never substitute for a missing asset — if Q + Kiya's pool doesn't have
+  it, ask Muse; never generic/AI/stock, never a placeholder, never skip
+  it silently.
 - Never the door device — no door card, animation, or transition, in any form.
 - Never a clipped word — cuts land on sentence boundaries or device beats only.
 - Never a bare talking head when a real example/screen/diagram exists for the claim.

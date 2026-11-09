@@ -235,3 +235,6 @@ r/UGCcreators; Velena 2026; laptopandcoffee; ugcroster.com; modliflex.com;
 Dan Martell Sell By Chat Playbook) · 630 DECODE.md files,
 `research/video-harvest/` (decodes cited above, engagement at pull) ·
 `research/knowledge/SELF-LEARNING.md` (Q's "cheap AI slop" verdict, Nov 7).
+
+## Variants (v10)
+- **v10 · @corbinsylk, De2ii0uTyqm:** **"Effect of the day" daily series + "Well, you're right" agreement open:** the A/B proof format + the long-prompt doctrine (few-line vs 27,000-char prompt) are already folded above; the two remaining steals are the SERIES (one premium effect per day, same template, follow for tomorrow's drop — a series engine Q's lane can mirror as one PWC effect per day) and the anti-hype hook ("Well, you're right" — agree with the skeptic, then show the proof; portable to Q's launch content). The Modern Vox effect itself is the new part effects-modern-vox.md. _(source: §C2, v10)_

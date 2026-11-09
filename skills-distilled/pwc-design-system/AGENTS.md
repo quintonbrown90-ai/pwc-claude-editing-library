@@ -21,7 +21,7 @@ subagents; the handoff format is identical either way.
 
 **Job:** classify → route → assemble → check → ship.
 **Inputs:** the video + script + claim + proof + lane + keyword (the
-11-question intake — `parts/prompts/prompts-router-intake.md`).
+12-question intake — `parts/prompts/prompts-router-intake.md`).
 **Flow:**
 1. Classify the video (EDIT-ROUTER.md) and issue the RECOMMENDATION:
    style pick + three grounds + build plan + QC gates + brand-DNA
@@ -39,6 +39,23 @@ subagents; the handoff format is identical either way.
    (EDIT-ROUTER.md §8), deliver the exact file + the delivery report.
 **Owns:** `design-system/EDIT-ROUTER.md`, `design-system/BRAND-DNA.md`,
 `design-system/SKY-SCORE.md` (the benchmark), `CATEGORIES.md` (the map).
+
+## Q + Kiya's asset pool — use them first; ask Muse when one is missing (Q, Nov 8, 2026)
+
+Two halves, both standing — state them explicitly, never implied.
+
+**1. ASSET POOL:** You ALWAYS have Q's and his wife Kiya's own assets
+available — use them first. Their own photos, videos, proofs, B-roll, and
+brand assets, plus the asset vault Muse holds. Real footage/photos of them,
+their proofs, their brand assets — these are the first source for every
+proof object, insert, and example. This reinforces the standing rules: real
+footage over flat plates, real creator inserts, no generic stock/AI photos
+for proof.
+
+**2. ASK MUSE:** When you need an asset you CANNOT get yourself, ASK MUSE
+for it. Muse (the parent agent) supplies it from the library or from Q. Do
+NOT substitute generic/AI/stock material, do NOT invent a placeholder, do
+NOT skip the asset silently. Missing asset → ask Muse, do not substitute.
 
 ## The specialists
 
@@ -98,8 +115,12 @@ NEXT: <which specialist runs next, and what it needs from this output>
   + the show-it rule.
 - **In → out:** claim list → proof object per claim (real screenshot /
   screen recording / photo / diagram from real numbers) + B-roll placed on
-  its trigger word. If a proof object does not exist, the video is NOT
-  ready — it sources it first, never ships the claim bare.
+  its trigger word. You have Q's and Kiya's own assets available — use them
+  first (see the asset-pool section above). If a proof object does not exist
+  in the pool and you cannot get it, ask Muse — never substitute
+  generic/AI/stock, never invent a placeholder, never skip it silently. If
+  a proof object does not exist, the video is NOT ready — it sources it
+  first, never ships the claim bare.
 
 ### 7. Color Agent
 - **Job:** the PWC skin on every pixel.

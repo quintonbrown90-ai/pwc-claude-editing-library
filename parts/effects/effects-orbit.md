@@ -52,3 +52,6 @@ this part for Marc — one canonical part per effect.
 
 ## Variants (v9)
 - **v9 · @ibraviz.ai, DfZwGFMMdk1:** **V81 — @ibraviz.ai effect catalog (DfZwGFMMdk1):** slides orbiting around you (→ effects-orbit); spotlight over head (→ effects-spotlight); object following your finger; "Put big text behind me" as the spoken command for titles-behind-head (→ imagery-titles-behind-head). _(source: bulk-b VARIANTS.md)_
+
+## Variants (v10)
+- **v10 · @kayvon.ai, DfPtyaCqhIa:** **/logo-orbit — logos, not thumbnails:** app logos orbit around the head, face clear — same ring rule as the David thumbnails variant (ring centred on the head, objects never cross the face), the orbiting objects are logos instead of video stills. PWC version orbits the PWC badge + proof stills, never another brand's logo as decoration. Command `/logo-orbit`; prompt gated (comment EDIT → DM, never chased). _(source: Batch 8, v10)_

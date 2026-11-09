@@ -76,3 +76,6 @@ Teal #14A886 + gold #FEE238 on navy #00214E. NO RED. Trial variations keep
 the PWC look; the test is the opening/structure, never the brand. (The source
 creator's test-variant names "loop on red" / "red post" / "paint floods red"
 are his labels for the source tests — in PWC use those accents render gold.)
+
+## Variants (v10)
+- **v10 · @willgirone, Dfd2Uj_x2Bg:** **Five trial reels per idea (live demo):** "Have an idea. Make five trial reels about it. I guarantee you one of them goes mega viral." He proves it with the video itself — "I'm doing in this video what I'm teaching" — five trial reels of the same idea, testing which one blows up. One idea × five angles, let the test pick. Directly relevant to Q's trial-reel lane (app-only, Q posts from the app, Muse supplies 3/day): same idea, five angles, keep the winner. The professor-story analogy (random lectures every day = incoherent content) is the analogy-first, method-second template. "That's a carbon copy of somebody else" is the anti-copy line — same law as Q's "mirror style grammar, never the other creator's exact content." His "$100k/mo clients" claim is his, unverified. _(source: §C2, v10)_

@@ -193,3 +193,41 @@ Not playbooks — the strategy layer. Full specs in
   charliehills-21-effect-catalog, finger-gun-pop, logo-sting-variants,
   code-component-library, hologram-book, outfit-callout, slot-machine,
   comment-pile) — effects v5 ships the full 53-part set.
+
+## v10 additions (Nov 8, 2026 — 297 parts, 20 categories; Batch 8 + §C2 row-level adoption)
+
+- **Batch 8 + §C2, row-level (35/35 targets resolved):** 22 NEW decodes + 6
+  already-decoded (1 duplicate folded once) + 5 NON-VIDEO carousels
+  (content/structure only) + 2 rate-limited GAPs. Manifest:
+  `research/video-harvest/instagram/BATCH-8-Q-LINKS.md`; adoption rows:
+  `research/claude-editing-creators/ADOPTION-TRACKER.md` (v10 section).
+  Decodes + transcripts ship as text in `pwc-decodes-v10.zip` (22 new
+  DECODE.md + 22 transcripts + 3 CAROUSEL.md); the 6 already-decoded
+  DECODE.md files already ship in the v9 `pwc-decodes-bulk-*` pieces and
+  are NOT duplicated here.
+- **New parts (23):** effects +11 (53 → 64: clone-me, sticker-me,
+  light-paint, stage-lights, hand-track, logo-rain, film-grade, card-pop,
+  motion-poster, prospect-quote-card, modern-vox), creator-systems +5
+  (102 → 107: kayvon-live-effects-router, ali-five-skill-system,
+  minolee-3-core-things, kreettanam-3-install-profile,
+  retainer-partnerships), scriptwriting +2 (7 → 9: asd-ste100-80-rule,
+  curiosity-math), audience-psychology +2 (7 → 9: tacit-knowledge,
+  client-language), sales-closing +2 (4 → 6: prospects-wins-rule,
+  transfer-of-certainty), strategy +1 (10 → 11: posting-mix-70-20-10).
+  Variant entries: 20, across 20 existing parts. No new categories; no
+  duplicates — /text-behind, /logo-orbit and /new-room are variants on
+  existing canonical parts, not new parts.
+- **Design-system v10 BUILT (reversal of the earlier "NOT built" call):** the distilled-doc changes grew past the v10 threshold when Q added the asset-pool rule (Nov 8, ~19:26 CT) — AGENTS.md asset-pool section + Imagery #6 ask-Muse line, EDIT-ROUTER.md Q12 + NEVER-list bullet, SKILL.md v10 line + 12-question intake, plus PROMPTS.md §38 (ASD-STE100), this index section, and CATEGORIES.md counts. `pwc-design-system-v10.zip` staged in Wave 10; v9 stays the live rollback until v10 is uploaded and verified ON. Effects v6 IS warranted: 11 new effect parts + 5 variant-updated parts (64 total in `claude-video-effects-main/pwc-design-parts/`).
+- **Asset-pool rule (Q, Nov 8, ~19:26 CT):** Claude ALWAYS has Q + Kiya's own assets (photos, videos, proofs, B-roll, brand assets + asset vault) — use them first; missing asset → ask Muse, never substitute/invent/skip. Folded into AGENTS.md (new section + Imagery #6), EDIT-ROUTER.md (Q12 + NEVER bullet), prompts-router-intake.md (Q11 + v10 variant), and the three asset-related parts touched in this run (imagery-proof-objects, effects-phone-mockup, effects-prospect-quote-card).
+- **Self-learning check-in (Nov 8, 2026, v10):** no new lessons, no new
+  conflicts, no new FL entries. The v10 run's verified lessons are
+  procedural (fold confirmations, not rule changes): (1) already-decoded
+  steals may already be folded — check the part files before writing a
+  duplicate (doctablademd was v9-folded; millee's 5 rules were v9-folded
+  as variants; corbinsylk's doctrine was v9-folded); (2) a duplicate
+  archive folder (`minolee.mp4_DfBBG0xPioN/` vs canonical
+  `millee.md_DfBBG0xPioN/`) is noted, never deleted; (3) a pre-existing
+  index conflation was flagged, not silently fixed
+  (top-creator-index-niche.md row A3 credits Minolee with Millee's 0.1s
+  rule + 5 anti-slop rules). QC status PENDING for every v10 part/profile
+  until the you-and-Claude loop runs after upload.

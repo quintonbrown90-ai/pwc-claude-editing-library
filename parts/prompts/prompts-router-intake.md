@@ -1,7 +1,7 @@
 <!-- PART: prompts/prompts-router-intake.md | UPLOAD: SKILL + GITHUB | MAX: 50KB / 10 files -->
 # PROMPTS — the router intake (paste-ready)
 
-Source: `design-system/EDIT-ROUTER.md` — the 10-question intake. Ask before
+Source: `design-system/EDIT-ROUTER.md` — the 11-question intake. Ask before
 you build when the video type is ambiguous.
 
 ## The prompt (paste as-is)
@@ -18,6 +18,9 @@ Before you edit, classify this video and recommend the edit:
 8. What is the hook in the first 2 seconds, and is Q's face on screen?
 9. What should the viewer DO at the end (keyword + bio-line CTA)?
 10. What must NOT appear (hidden app name? brand names? faces to blur)?
+11. Which assets does this edit need (Q/Kiya photo, video, proof, B-roll,
+    brand asset)? If one is missing, ask Muse for it — never substitute
+    generic/AI/stock, never invent a placeholder, never skip it silently.
 Answer with the RECOMMENDATION shape in EDIT-ROUTER.md §6: style pick +
 three grounds (capability / creator system / viral evidence) + build plan +
 QC gates + the BRAND-DNA checklist + the HUMAN-MADE CHECK. Do not render
@@ -55,3 +58,6 @@ teaching with Form 7 proof-led body, designed captions, Adilet audio chain.
 - **v9 · @mavgpt, DadubcAhZmd:** **V88 — @mavgpt AI stack 2026 (DadubcAhZmd):** WhisperFlow as voice-to-prompt briefing ("I use it to pretty much write every single one of my prompts now") (→ prompts-router-intake); rating grid Top Tier / Helpful / Decent / Waste of Time (→ kallaway-format-finder); "Waste of time" row as credibility device. Higgsfield endorsement: FLAGGED (needs Q's word — v8 #3). _(source: bulk-b VARIANTS.md)_
 - **v9 · @mavgpt, Duolingo:** **V89 — @mavgpt Duolingo tutor (DfZ3y3lqE8Q):** Projects + master prompt — one Project per lane, custom instructions carrying the setup (→ prompts-router-intake); scheduled daily task as cadence device (→ jayant-sunday-learn-loop); roleplay + upload-correction feedback model. _(source: bulk-b VARIANTS.md)_
 - **v9 · @kelvin.martin1, DeqFCTpO7bu:** **V90 — @kelvin.martin1 brand-into-SOP (DeqFCTpO7bu):** "I just need to tell them what fonts my company brand used. I installed it into the SOP" (→ prompts-router-intake); human-control framing — "You still have control, you still have the human connection" (→ skill-doctrine-save-it-as-a-skill). GitHub link: GAP (gated). _(source: bulk-b VARIANTS.md)_
+
+## Variants (v10)
+- **v10 · Q standing rule, Nov 8, 2026:** **Asset question added to the intake (Q12 in EDIT-ROUTER.md, Q11 here):** "Which assets does this edit need — and if one is missing, ask Muse for it?" Two halves: (1) Q + Kiya's own asset pool is always available — use it first; (2) missing asset → ask Muse, do not substitute generic/AI/stock, do not invent a placeholder, do not skip it silently. _(source: Q's words, Nov 8 ~19:26 CT)_

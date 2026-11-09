@@ -65,3 +65,6 @@ teal/gold on navy. Credit: nategold.ai (MIT).
 ## Variants (v9)
 - **v9 · @?, V8-56:** V8-56 — Paradox-first script formula: paradox → hooks-hookscore-26-formulas.md _(source: v9_verification.md)_
 - **v9 · @?, V8-160:** V8-160 — 21 proven hook formulas as a dedicated skill; 11 skills as a team (wXV5Ah6OVI0, Johann Sathianathen) → hooks-hookscore-26-formulas.md _(source: v9_verification.md)_
+
+## Variants (v10)
+- **v10 · @kayvon.ai, DfedDuTKfih:** **Threat-hook frame + price anchor + hands-on test proof:** open with who is SCARED of the thing, not what the thing is — "I bet Adobe's lawyers are sweating right now, because somebody just remade seven of their apps and put every single one of them out for free." The fear is the hook. Price anchor spoken twice (once at the test, once at the close): "$780 a year" / "$70 a month" vs free — the anchor is the value. Hands-on test proof: "I spent all of yesterday testing these out... my PSD files opened like nothing changed" — the failure he expected, the result. NOT the apps (not downloaded, not scanned) and NOT the link (gated, comment ART → DM). Discrepancy recorded as observed: spoken "seven apps" vs on-screen "Thirteen apps. One craft." — the suite grew, or the count is loose. Not resolved. _(source: Batch 8, v10)_

@@ -10,6 +10,8 @@ produces identical, on-brand design from a single prompt because the same
 files load every time and every object is built ONCE and reused. This skill
 is that architecture for Paid With Content.
 
+**v10 (Nov 8, 2026):** 297 parts in 20 categories; Batch 8 + §C2 row-level adoption (35/35 resolved); PROMPTS.md §38 (ASD-STE100 at 80% + output ladder); AGENTS.md + EDIT-ROUTER.md asset-pool rule (Q + Kiya's pool + ask Muse); effects v6. v9 stays the live rollback until v10 is uploaded and verified ON.
+
 **v9 (Nov 8, 2026):** 261 parts in 20 categories; bulk-harvest row-level adoption (623 rows + 7 flat canonicals = 630/630); knowledge playbooks ship as text pieces; effects v5. v8 stays the live rollback until v9 is uploaded and verified ON.
 
 ## The stack (read in this order, every job)
@@ -47,7 +49,7 @@ learns.
 Read `EDIT-ROUTER.md` (in this skill AND in the design-system repo) FIRST on
 every job, before any lane skill. It is the decision layer: the matrix maps
 video type × inputs → style family, devices, motion set, caption treatment,
-audio chain, QC gates. When the type is ambiguous, run its 10-question
+audio chain, QC gates. When the type is ambiguous, run its 12-question
 intake. The NEVER list in it outranks every lane skill.
 
 **RECOMMENDATION (mandatory output, before building):** answer in this shape:

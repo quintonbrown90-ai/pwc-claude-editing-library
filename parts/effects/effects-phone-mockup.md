@@ -55,3 +55,9 @@ highlighting gold as he says it.
 Phone bezel navy, screen real as-is, CTA button GOLD (his red maps to
 gold). PWC badge on the phone's top bar where the real page carries it.
 NO RED.
+
+## Variants (v10)
+- **v10 · @marvinndiaye_, DfeTbRRxxND:** **Client-profile phone mockup as proof:** the client's real Instagram profile pops in over the desk scene as the proof object for each result (Erwan TP / Hurakane Paysages) — the profile IS the receipt. The margin-case proof format: "margin 21% → 41%" as the headline number instead of follower counts — a proof format Q can use for brand-deal / business outcomes. FLAG: the €6,900 basket discrepancy on this reel (ASR €3,500 → €6,000 vs catalog €6,900) is unresolved — re-listen before any reuse of that case's numbers. _(source: §C2, v10)_
+
+## Asset rule — Q + Kiya's pool + ask Muse (Q, Nov 8, 2026)
+The screen inside the phone is a REAL asset — Q + Kiya's own photo, video, proof, or brand asset first (their pool + the asset vault Muse holds). When the needed screen/asset is missing and you cannot get it, ASK MUSE for it. Never substitute generic/AI/stock material, never invent a placeholder, never skip the asset silently. Missing asset → ask Muse, do not substitute.

@@ -58,3 +58,6 @@ NO RED. Nothing over Q's face.
 ## Variants (v9)
 - **v9 · @?, V8-87:** V8-87 — B-roll as green-screen background behind the speaker → effects-green-screen.md _(source: v9_verification.md)_
 - **v9 · @liamjohnston.ai, DfI_L5VDohx:** **V76 — @liamjohnston.ai 50 installs (DfI_L5VDohx):** count-up cover (laptop screen 1→50); 50→5 funnel narrowing; category-of-ten structure (five buckets of ten — also kallaway-collections-taxonomy); proof number on slide 2 ("67,932 tool calls in 39 days" — a usage number, not a follower number). _(source: bulk-b VARIANTS.md)_
+
+## Variants (v10)
+- **v10 · @kayvon.ai, DfPtyaCqhIa:** **/new-room — live room swap:** the background swaps to a purple bokeh room, the speaker never moves — same operation as green-screen (cut out, swap the world behind him), live on the camera feed instead of in the render. PWC rooms: navy studio / proof wall, never purple bokeh. Command `/new-room`; prompt gated (comment EDIT → DM, never chased). _(source: Batch 8, v10)_

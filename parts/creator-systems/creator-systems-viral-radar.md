@@ -49,3 +49,6 @@ without a link.
 ## PWC skin
 Teal/gold on navy. Crown in gold, jail bars in navy/teal (NO RED). Nothing
 over the face.
+
+## Variants (v10)
+- **v10 · @itstylergermain, DYxQDWfkSKH (CAROUSEL — content/structure only):** **The morning-summary device (daily brief):** "i wake up to a summary on my phone telling me what's trending, what my competitors posted, and what i should make today" — a daily-brief format Q's lane can build as a real deliverable (trend + competitor + today's make). The radar already scans trends/competitors; the brief is the morning output of that scan. The self-maintaining-system claim ("it just maintains itself" vs systems that break) is the positioning line. Build form always Sky's. _(source: §C2, v10)_

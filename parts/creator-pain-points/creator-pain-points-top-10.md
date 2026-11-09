@@ -42,3 +42,6 @@ feeds a topic (Content Strategy) and an objection line (Sales).
 Pain #1 → video: "Your rate is a system, not a guess" (hook: "You're
 charging $150 because you guessed. Here's the math.") → keyword MATH →
 flow delivers the rate sheet → waitlist.
+
+## Variants (v10)
+- **v10 · @kayvon.ai, DfK27IRyi0_:** **"The gap" as a pain frame + the sponsored-read skeleton:** the problem is not the missed invoice, it is the gap it opens — "there's this weird gap that opens up where they know they owe you money, you know they owe you money, and now you're the one who has to keep bringing it up." The gap is the pain. The skeleton (transfers to PWC offer reads, NOT to sponsor reads for Xero — Xero itself is irrelevant): one pain → platform definition in one line → three features, each shown on screen → count the old workflow at the end ("without turning into five little jobs along the way"). The count is the contrast. Sponsored read ("special offer", "Terms and conditions apply") — the offer is gated (comment PAID → DM), never chased, never signed up for. _(source: Batch 8, v10)_

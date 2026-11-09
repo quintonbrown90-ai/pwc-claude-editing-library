@@ -85,3 +85,6 @@ SKIM: the viral-rewrite skill's SKILL.md, quoted. SAFETY: dual-model review clea
 
 ## Variants (v9)
 - **v9 · @kayvon.ai, DfamjsXBUGl:** **V104 — @kayvon.ai skill-that-finds-skills (DfamjsXBUGl):** "a skill that goes and finds every other skill you possibly need for you" + "Say, content, and it pulls up the best skills for that exact moment" (→ find-skills-discovery-layer). Auto-download: GAP (never auto-install unvetted code). _(source: bulk-b VARIANTS.md)_
+
+## Variants (v10)
+- **v10 · @kayvon.ai, DfamjsXBUGl:** **CONFIRMATION (not a new system):** the V10 note appended to the decode confirms this is the SAME system as Batch 7 (Jack Roberts / vercel-labs/skills) — the find-skills discovery layer already in this part. Kayvon claims 3.9M installs; Jack's Batch 7 figure was 3.7M — same system, numbers drift; record BOTH as claimed, NEITHER as verified. Spoken "over a million of them" vs on-screen "1,403,223 SKILLS" — recorded as observed. The link is DM-GATED (comment SKILLS → DM), never chased. Auto-download ("drops them straight into your setup") is NOT adopted — scan before folding in, never auto-install unvetted code. _(source: Batch 8, v10)_

@@ -616,3 +616,11 @@ Step 1: write the script — that's it. The script is the whole input; the graph
 Executable steps: (1) write the script; (2) record it, then cut every pause — no captions or graphics yet, just you talking to the camera; (3) upload the clean cut to Claude — graphics timed to the words.
 
 Full text: `parts/prompts/prompts-word-timed-graphics-prompt.md` (also in `pwc-prompts.zip`).
+
+## 38. @kayvon.ai — ASD-STE100 at 80% + the output ladder (v10; `parts/scriptwriting/scriptwriting-asd-ste100-80-rule.md`)
+
+Source: @kayvon.ai reel DfYouhaqXCt (Nov 2026) — INFERRED reconstruction; the 4 prompts themselves are GATED behind follow + comment AI → DM — never chased. ASD-STE100 (Simplified Technical English, the aerospace maintenance-manual standard) applied at 80%, never 100%: max 20 words a sentence, approved words only, active voice, one instruction per sentence. At 100% it sounds like a robot — 80% keeps most of the clarity without losing the natural tone. Q's Scriptwriting lane applies the same way: the 80% is the rule.
+
+The output ladder (Karpathy, per Kayvon): write → diagram → HTML page → explainer video. When text has to be read, ask for a diagram; when it has to be used, ask for HTML (a calculator with sliders, not a paragraph); when it has to be felt, ask for a 3Blue1Brown-style explainer video with ElevenLabs narration. "Who does the work? The model 90% / You 10%" — the model's job is the leg work, the human job is making sure it's right. "Intelligence and code are cheap now so you can ask for big custom throwaway software that would never have made sense to build before."
+
+Full text: `parts/scriptwriting/scriptwriting-asd-ste100-80-rule.md` (also in `pwc-scriptwriting.zip`, Wave 10).
