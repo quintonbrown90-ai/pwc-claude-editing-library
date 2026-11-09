@@ -1,0 +1,14 @@
+# Never in the repo: raw videos, dumps, zips, archives, venvs, node_modules
+*.mp4
+*.mov
+*.zip
+*.tar.gz
+__pycache__/
+node_modules/
+.venv*/
+hidden.venv_fw/
+archives/
+research/*/videos/
+research/*/.venv*
+*.mp3
+*.wav

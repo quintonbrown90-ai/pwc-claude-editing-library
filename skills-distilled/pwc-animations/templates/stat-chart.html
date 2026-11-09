@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Anton;src:url(../fonts/Anton-Regular.ttf)}
+@font-face{font-family:PoppinsX;src:url(../fonts/Poppins-ExtraBold.ttf)}
+:root{--navy:#00214E;--teal:#14A886;--gold:#FEE238;--white:#fff}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+#card{position:absolute;left:90px;top:560px;width:900px;height:800px;background:linear-gradient(150deg,#0A2A52,var(--navy));border-radius:36px;border:3px solid rgba(20,168,134,.55);padding:56px 60px;opacity:0}
+#title{font-family:PoppinsX;color:var(--white);font-size:44px;letter-spacing:1px}
+#big{font-family:Anton;color:var(--gold);font-size:170px;line-height:1.05;margin-top:6px}
+#sub{font-family:PoppinsX;color:#9fd8cb;font-size:34px;margin-top:2px}
+svg{margin-top:26px}
+</style></head><body>
+<div id="card">
+  <div id="title"></div><div id="big"></div><div id="sub"></div>
+  <svg width="780" height="360" viewBox="0 0 780 360">
+    <g stroke="rgba(255,255,255,.14)" stroke-width="2">
+      <line x1="60" y1="40" x2="60" y2="310"/><line x1="60" y1="310" x2="750" y2="310"/>
+      <line x1="60" y1="130" x2="750" y2="130" stroke-dasharray="5 9"/>
+      <line x1="60" y1="220" x2="750" y2="220" stroke-dasharray="5 9"/>
+    </g>
+    <path id="area" fill="rgba(20,168,134,.28)" d=""/>
+    <path id="line" fill="none" stroke="#14A886" stroke-width="9" stroke-linecap="round" d=""/>
+    <circle id="dot" r="15" fill="#FEE238" stroke="#00214E" stroke-width="6" opacity="0"/>
+  </svg>
+</div>
+<script>
+// DATA contract: {title, value, prefix, suffix, sub, points:[0..1 x8], dur}
+const D = Object.assign({title:'ANNUALIZED VOLUME', value:4200000, prefix:'$', suffix:'',
+  sub:'and still climbing', points:[.06,.14,.11,.26,.38,.52,.74,1], dur:2.4}, window.DATA||{});
+const E = {
+  linear:t=>t, ease_in:t=>t*t*t, ease_out:t=>1-Math.pow(1-t,3),
+  ease_in_out:t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2,
+  overshoot:t=>{const s=2.1;return 1+(s+1)*Math.pow(t-1,3)+s*Math.pow(t-1,2)},
+  steps:(t,n=24)=>t>=1?1:Math.floor(t*n)/n };
+const clamp=t=>Math.max(0,Math.min(1,t));
+const card=document.getElementById('card'), line=document.getElementById('line'),
+      area=document.getElementById('area'), dot=document.getElementById('dot');
+document.getElementById('title').textContent=D.title;
+document.getElementById('sub').textContent=D.sub;
+const pts=D.points.map((p,i)=>[60+i*(690/(D.points.length-1)), 310-p*260]);
+const path=pts.map((p,i)=>(i?'L':'M')+p[0].toFixed(1)+' '+p[1].toFixed(1)).join(' ');
+line.setAttribute('d',path);
+const LEN=1400; line.style.strokeDasharray=LEN; 
+const fmt=v=>D.prefix+Math.round(v).toLocaleString('en-US')+D.suffix;
+function render(t){
+  const cin=E.ease_out(clamp(t/0.3)); card.style.opacity=cin;
+  card.style.transform=`translateY(${(1-cin)*40}px)`;
+  const p=E.ease_in_out(clamp(t/D.dur));
+  line.style.strokeDashoffset=LEN*(1-p);
+  const shown=pts.filter((_,i)=>i/(pts.length-1)<=p);
+  if(shown.length>1){const last=shown[shown.length-1];
+    area.setAttribute('d',shown.map((q,i)=>(i?'L':'M')+q[0]+' '+q[1]).join(' ')+` L${last[0]} 310 L60 310 Z`);
+    area.style.opacity=p*0.9; dot.setAttribute('cx',last[0]); dot.setAttribute('cy',last[1]);}
+  const cp=E.overshoot(clamp((t-D.dur)/0.35)); dot.style.opacity=t>D.dur?1:0;
+  dot.setAttribute('r', 15*Math.max(.2,cp));
+  document.getElementById('big').textContent=fmt(E.steps(E.ease_out(clamp(t/D.dur)))*D.value);
+}
+window.setT=ms=>render(ms/1000);
+if(!window.__MANUAL){const t0=performance.now();(function loop(){render((performance.now()-t0)/1000);requestAnimationFrame(loop)})();}
+</script></body></html>

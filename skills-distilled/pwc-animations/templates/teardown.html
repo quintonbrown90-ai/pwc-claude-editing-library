@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Anton;src:url(../fonts/Anton-Regular.ttf)}
+@font-face{font-family:PoppinsX;src:url(../fonts/Poppins-ExtraBold.ttf)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+#title{position:absolute;top:330px;left:0;right:0;text-align:center;font-family:Anton;font-size:74px;color:#fff;letter-spacing:2px;opacity:0}
+#title b{color:#FEE238}
+.stage{position:absolute;left:50%;top:1010px;width:640px;margin-left:-320px}
+.layer{position:absolute;left:0;width:640px;height:120px;border-radius:22px;background:linear-gradient(160deg,#11406E,#0A2A52);border:3px solid rgba(20,168,134,.6);display:flex;align-items:center;justify-content:space-between;padding:0 26px;font-family:PoppinsX;color:#fff;font-size:36px;overflow:hidden}
+.layer.top{background:linear-gradient(160deg,#17B894,#0E7A63);border-color:#FEE238;color:#FFFBEB}
+.layer .nm{font-size:34px;white-space:nowrap;flex-shrink:0}
+.layer .nt{font-size:23px;color:#FEE238;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:right;margin-left:18px}
+.layer.top .nt{color:#FFFBEB}
+/* FIX (SL-28, Nov 8): the old side callout .tag/.leader elements sat at
+   left:-330px / left:690px of the 640px stage (absolute x -110 / 910..1230
+   on the 1080 canvas) — notes clipped off-canvas. Notes now live INSIDE
+   each layer row (name left, note right), per the Demo B fixed copy. */
+</style></head><body>
+<div id="title"></div><div class="stage" id="stage"></div>
+<script>
+// DATA: {titleA, titleB, layers:[{name, note} x4]} — layers spread EASE OUT, tags stagger 5f.
+const D=Object.assign({titleA:'ANATOMY OF', titleB:'A PAID POST', layers:[
+  {name:'THE HOOK', note:'stops the scroll in 2 seconds'},
+  {name:'THE PROOF', note:'screenshots, numbers, receipts'},
+  {name:'THE VALUE', note:'one clear lesson per video'},
+  {name:'THE CTA', note:'one keyword, one next step'}]}, window.DATA||{});
+const E={ease_out:t=>1-Math.pow(1-t,3), spring:t=>{const c=6.2;return 1-Math.exp(-c*t)*Math.cos(c*t*1.4)}};
+const clamp=t=>Math.max(0,Math.min(1,t));
+const stage=document.getElementById('stage'), title=document.getElementById('title');
+title.innerHTML=D.titleA+' <b>'+D.titleB+'</b>';
+const els=D.layers.map((L,i)=>{
+  const l=document.createElement('div'); l.className='layer'+(i===0?' top':'');
+  l.innerHTML='<span class="nm">'+L.name+'</span><span class="nt">'+L.note+'</span>';
+  stage.appendChild(l);
+  return {l};});
+function render(t){
+  const spread=E.ease_out(clamp(t/1.5));
+  title.style.opacity=E.ease_out(clamp(t/0.3));
+  els.forEach((o,i)=>{
+    const y=-70 + i*(46 + spread*168);
+    o.l.style.transform=`translateY(${y}px)`;
+  });
+}
+window.setT=ms=>render(ms/1000);
+if(!window.__MANUAL){const t0=performance.now();(function loop(){render((performance.now()-t0)/1000);requestAnimationFrame(loop)})();}
+</script></body></html>

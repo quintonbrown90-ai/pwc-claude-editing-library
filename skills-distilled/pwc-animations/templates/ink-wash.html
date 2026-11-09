@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Playfair;src:url(../fonts/PlayfairDisplay-BoldItalic.ttf)}
+@font-face{font-family:PoppinsX;src:url(../fonts/Poppins-ExtraBold.ttf)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+#scene{position:absolute;left:70px;top:430px;width:940px;height:1060px;border-radius:30px;overflow:hidden;background:linear-gradient(180deg,#F3EDDC 0%,#E7DFC8 55%,#D9CFAF 100%);opacity:0}
+#title{position:absolute;left:0;right:0;top:120px;text-align:center;font-family:Playfair;font-style:italic;font-size:88px;color:#12233C}
+#sub{position:absolute;left:0;right:0;top:250px;text-align:center;font-family:PoppinsX;font-size:29px;letter-spacing:6px;color:#7A6C46}
+</style></head><body>
+<div id="scene">
+<svg width="940" height="1060" viewBox="0 0 940 1060">
+  <circle id="sun" cx="470" cy="430" r="105" fill="#E4572E"/>
+  <path id="mFar" fill="#8FA98F" opacity=".65" d="M0 620 L180 470 L340 590 L520 440 L700 580 L940 470 L940 1060 L0 1060 Z"/>
+  <path id="mMid" fill="#4E7263" opacity=".85" d="M0 720 L200 580 L420 700 L640 560 L940 700 L940 1060 L0 1060 Z"/>
+  <path id="mNear" fill="#1E3A34" d="M0 850 L240 720 L480 830 L720 730 L940 840 L940 1060 L0 1060 Z"/>
+  <g id="birds" stroke="#12233C" stroke-width="6" fill="none" stroke-linecap="round">
+    <path d="M300 300 q18 -16 36 0 q18 -16 36 0"/><path d="M560 240 q14 -13 28 0 q14 -13 28 0"/>
+  </g>
+  <g id="boat"><path d="M380 905 h180 l-26 34 h-128z" fill="#12233C"/><rect x="462" y="845" width="10" height="62" fill="#12233C"/><path d="M472 845 l52 40 h-52z" fill="#F5EFE2"/></g>
+</svg>
+<div id="title"></div><div id="sub"></div>
+</div>
+<script>
+// DATA: {title, sub} — the reflective/faith beat. Slow EASE IN-OUT only; nothing pops here.
+const D=Object.assign({title:'Built on faith', sub:'BALTIMORE → HOUSTON'}, window.DATA||{});
+const E={ease_out:t=>1-Math.pow(1-t,3), ease_in_out:t=>t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2, linear:t=>t};
+const clamp=t=>Math.max(0,Math.min(1,t));
+document.getElementById('title').textContent=D.title;
+document.getElementById('sub').textContent=D.sub;
+const scene=document.getElementById('scene'), sun=document.getElementById('sun'),
+      mFar=document.getElementById('mFar'), mMid=document.getElementById('mMid'),
+      mNear=document.getElementById('mNear'), birds=document.getElementById('birds'),
+      boat=document.getElementById('boat'), title=document.getElementById('title'),
+      sub=document.getElementById('sub');
+function render(t){
+  scene.style.opacity=E.ease_out(clamp(t/0.4));
+  const rise=E.ease_in_out(clamp(t/2.2));
+  sun.style.transform=`translateY(${(1-rise)*190}px)`; sun.style.opacity=.35+.65*rise;
+  mFar.style.transform=`translateY(${(1-E.ease_out(clamp(t/1.4)))*40}px)`;
+  mMid.style.transform=`translateY(${(1-E.ease_out(clamp((t-.15)/1.4)))*60}px)`;
+  mNear.style.transform=`translateY(${(1-E.ease_out(clamp((t-.3)/1.4)))*80}px)`;
+  birds.style.transform=`translateX(${E.linear(clamp(t/6))*90}px)`;
+  boat.style.transform=`translateX(${Math.sin(t*0.9)*10}px)`;
+  const tp=E.ease_in_out(clamp((t-0.9)/1.1));
+  title.style.opacity=tp; title.style.letterSpacing=(2+(1-tp)*10)+'px';
+  sub.style.opacity=E.ease_in_out(clamp((t-1.4)/0.9));
+}
+window.setT=ms=>render(ms/1000);
+if(!window.__MANUAL){const t0=performance.now();(function loop(){render((performance.now()-t0)/1000);requestAnimationFrame(loop)})();}
+</script></body></html>

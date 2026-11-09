@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Anton;src:url(../fonts/Anton-Regular.ttf)}
+@font-face{font-family:Playfair;src:url(../fonts/PlayfairDisplay-BoldItalic.ttf)}
+@font-face{font-family:PoppinsX;src:url(../fonts/Poppins-ExtraBold.ttf)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+#paper{position:absolute;left:90px;top:400px;width:900px;height:1120px;background:#F5EFE2;border-radius:10px;padding:58px 64px;color:#12233C;box-shadow:0 30px 80px rgba(0,0,0,.45);opacity:0}
+#mast{font-family:Anton;font-size:88px;text-align:center;letter-spacing:3px}
+.rule{height:6px;background:#12233C;margin:16px 0 8px}
+.rule.thin{height:2px;margin:0 0 26px}
+#date{font-family:PoppinsX;font-size:26px;text-align:center;letter-spacing:4px;color:#5A6B84}
+#head{font-family:Playfair;font-weight:700;font-size:86px;line-height:1.08;margin:26px 0 18px}
+#head span{display:block;overflow:hidden}
+#head i{display:block;font-style:italic}
+#by{font-family:PoppinsX;font-size:27px;letter-spacing:2px;color:#5A6B84;border-top:2px solid #12233C;border-bottom:2px solid #12233C;padding:10px 0;margin-bottom:26px}
+.col{display:flex;gap:26px}.col div{flex:1}
+.bar{height:17px;background:#C9CFd8;margin-bottom:15px;border-radius:3px}
+.bar.gold{background:#E9C93E}
+</style></head><body>
+<div id="paper">
+  <div id="mast"></div><div class="rule"></div><div class="rule thin"></div>
+  <div id="date"></div><div id="head"></div><div id="by"></div>
+  <div class="col"><div id="c1"></div><div id="c2"></div></div>
+</div>
+<script>
+// DATA: {masthead, date, headlineLines:[..], byline, goldRow} — reveal is STEPS + EASE OUT.
+const D=Object.assign({masthead:'THE DAILY POST', date:'HOUSTON, TEXAS — MONDAY',
+  headlineLines:['Local creator stops','posting for free,','starts getting paid'],
+  byline:'BY THE PAID WITH CONTENT DESK', goldRow:2}, window.DATA||{});
+const E={ease_out:t=>1-Math.pow(1-t,3), steps:(t,n)=>t>=1?1:Math.floor(t*n)/n};
+const clamp=t=>Math.max(0,Math.min(1,t));
+document.getElementById('mast').textContent=D.masthead;
+document.getElementById('date').textContent=D.date;
+document.getElementById('by').textContent=D.byline;
+const head=document.getElementById('head');
+head.innerHTML=D.headlineLines.map(l=>`<span><i>${l}</i></span>`).join('');
+const mk=(id,n)=>{const el=document.getElementById(id);
+  el.innerHTML=Array.from({length:n},(_,i)=>`<div class="bar${i===D.goldRow?' gold':''}" style="width:${88+((i*37)%13)}%"></div>`).join('');};
+mk('c1',9); mk('c2',9);
+const lines=[...head.querySelectorAll('i')], bars=[...document.querySelectorAll('.bar')],
+      paper=document.getElementById('paper');
+function render(t){
+  const cin=E.ease_out(clamp(t/0.35)); paper.style.opacity=cin;
+  paper.style.transform=`translateY(${(1-cin)*60}px) rotate(${(1-cin)*-2.2}deg)`;
+  lines.forEach((el,i)=>{const p=E.ease_out(clamp((t-0.35-i*0.16)/0.4));
+    el.style.transform=`translateY(${(1-p)*105}%)`;});
+  bars.forEach((el,i)=>{el.style.opacity=E.steps(clamp((t-0.9-i*0.045)/0.2),3);});
+}
+window.setT=ms=>render(ms/1000);
+if(!window.__MANUAL){const t0=performance.now();(function loop(){render((performance.now()-t0)/1000);requestAnimationFrame(loop)})();}
+</script></body></html>
