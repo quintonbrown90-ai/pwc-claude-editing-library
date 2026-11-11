@@ -2,6 +2,14 @@
 
 Source: @createcontent.club (Alessio & Bryan, Create Content Club) — reel DfkUXRNAbb2 "Claude steals viral videos for you" (29.61s, decoded Batch 25, parent decode + frames). CCC's skill `/ccc-script-cross-niche` shown typed into Claude (Opus 5.5 Medium); its OUTPUT is on screen (frames f7/f13/f22/f25) and is quoted VERBATIM below. CCC's skills are gated behind comment SKILL → DM. NOT chased, bought, or scraped. The output (skeleton, moved/stayed, example, script) is VERIFIED from the frames; the internal prompt is not visible — the run steps are reconstructed from the output + the spoken walkthrough. Full evidence: `research/video-harvest/instagram/batch-25-script-style/DECODE.md`.
 
+## AUTO-ACTIVATION — always on for cross-niche script work (Q's standing requirement, Nov 11, 2026)
+
+**Q will NOT remember trigger words, prompt codes, or slash commands — and he should never have to.** This skill is therefore **always on**:
+
+- Whenever Q hands over a viral video, reel, post or script from a completely different niche — or asks for his own version of something that worked elsewhere — **this skill is active by default**, without Q naming it, the source skill, or any keyword.
+- Claude does not wait to be invoked. If the job is "make Q's version of that," this flow runs as part of the job itself. (Same-niche sources still route to the sibling viral-rewrite skill — see the sibling note below.)
+- The trigger phrases listed later in this part exist **only as a fallback** for explicit invocation — they are never a requirement, and their absence never means the skill is off.
+
 ## What this skill does
 
 Takes a viral video or script from a **completely different niche**, extracts its **hook skeleton** (the hook rewritten as a slotted template), remaps **only the topic** onto Q's brand, and writes the **whole script in Q's voice** following the original's structure beat for beat.
@@ -10,9 +18,9 @@ Takes a viral video or script from a **completely different niche**, extracts it
 
 **Sibling, not duplicate:** `viral-rewrite-skill.md` is the same-NICHE flow (`/ccc-viral-scripter` — same hook, same structure, same length, new value, with the outperformance gate). This skill is the CROSS-NICHE flow: the source comes from outside Q's niche on purpose, so the shape is proven but the surface is uncontaminated — the result reads as an original idea, not a cover version. When Q has a source in his own niche, run the viral-rewrite skill; when the source is from another niche, run this one.
 
-## When to run it (trigger phrases)
+## Triggers (fallback only — the skill is already on, see AUTO-ACTIVATION)
 
-Run this skill when Q says any of:
+These phrases exist for explicit invocation if Q or a session ever wants them. They are NEVER required — the skill activates on its own whenever the job matches (see AUTO-ACTIVATION above). The phrases:
 - "make me a script like this for my brand"
 - "make this script for me"
 - "make me a script like this"
