@@ -18,7 +18,7 @@ and the license is what decides Q's status for each (see cards).
 | Job | Use | Q status |
 |---|---|---|
 | Talking-head end-to-end system (cuts, captions, visuals) | **Herk Edit Kit** | OWNED — Tier A |
-| AI assembles the edit, YOU hand-fix it on a visual timeline | **OpenFilm Studio** | NEW — MIT, vetted, not installed |
+| AI assembles the edit, YOU hand-fix it on a visual timeline | **OpenFilm Studio** | MIT, vetted, INSTALLED Nov 11 |
 | Long recordings → short clips, broad production pipelines | OpenMontage | **PARKED — AGPL, Q's rule** |
 | Custom animations, titles, motion graphics | **HyperFrames** | OWNED |
 | Word-level FFmpeg operations underneath everything | ffmpeg-skill | OWNED — Tier A workhorse |
@@ -114,3 +114,7 @@ This part (#326) + skill `pwc-ai-edit-repo-stack` (web, LIVE) + GitHub
 library. Deep source: `research/openfilm/` (the OpenFilm clone) +
 `research/free-claude-editing-kits/` (Herk sweep) + parts `herk.md`,
 `kit-repo-tier-a.md`, `hyperframes-motion-graphics.md` (#323).
+
+## STATUS UPDATE — Nov 11, 2026 (OpenFilm walked in)
+
+Q said "Walk it in" — OpenFilm is INSTALLED: skill at ~/.agents/skills/openfilm (symlinked to Claude Code); CLI doctor green — OpenFilm 0.3.2, Node v24.22.1, ffmpeg/ffprobe 8.1.2, npm reachable; headless browser + Playwright ffmpeg downloaded (required TMPDIR and PLAYWRIGHT_BROWSERS_PATH pointed at the home disk — the VM's /tmp tmpfs is 512MB and was full). Render proof ON THIS VM is blocked by the VM's headless-browser egress tunnel: films that fetch JS from CDNs fail with ERR_TUNNEL_CONNECTION_FAILED (verified on OpenFilm's own examples). That is an environment wall, not an OpenFilm defect — OpenFilm's working home is Q's own machine (desktop app / his Claude Code install), where the network is normal. A local-assets-only film could still render here; CDN-dependent films cannot.
