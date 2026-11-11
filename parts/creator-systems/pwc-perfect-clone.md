@@ -86,25 +86,36 @@ DECODE.md §4. Prices re-confirm at checkout — they move.)
 
 ## CLONE CREATION
 
-### The capture session — ONE short session on Q's normal set (~20 min)
+### The capture session — ONE short session on Q's normal set (~25–30 min)
 Recorded once, sized to cover every tier above so Q never re-shoots
 for a platform switch. Full click-level list in Q_STEPS.md; the spec:
 
-1. **Set lock:** his usual set, usual lighting, usual camera distance,
-   the wardrobe he wears on camera most (the "default Q" look).
-   Wardrobe + background must match the real footage the clone will
-   be intercut with — the clone inherits the set, forever.
-2. **Photo set (for Soul ID / photo twins):** 25–40 sharp stills,
-   head-and-shoulders + chest-up, front + slight left/right angles,
-   expressions: neutral **mouth gently closed** (the money shot —
-   lip-sync models animate cleanest from a neutral mouth), natural
-   smile, mid-sentence open mouth, serious, laughing. No filters.
-3. **Talking take (for video twins + voice):** 3–5 minutes talking
-   straight to camera in his normal delivery — the provided script
-   (varied sentences, numbers, questions, emphasis) or his own words
-   about PWC. Natural hand gestures in some of it, hands still in
-   some. This one take feeds HeyGen-style video twins AND gives clean
-   voice audio.
+1. **Set lock, wardrobe rotation:** his usual set, usual lighting,
+   usual camera distance — the SET never changes. The wardrobe does:
+   the session shoots **2–3 of Q's signature looks** (named
+   generically here — his tan set look, a dark/navy look, one casual
+   look; Q picks the finals). Look 1 is the "default Q" look he
+   wears on camera most. Each look gets its own stills + talking
+   pass (items 2–3 repeat per look), because a twin only wears what
+   it was captured in — see WARDROBE & BACKGROUNDS. The set is the
+   default background, not the only one: backgrounds are unlimited
+   downstream; outfits are not, so they are banked here.
+2. **Photo set (for Soul ID / photo twins) — shot PER LOOK:** 25–40
+   sharp stills in Look 1, then the same key set (10–15 stills —
+   neutral closed-mouth first, then smile / mid-sentence / serious)
+   in each additional look. Head-and-shoulders + chest-up, front +
+   slight left/right angles, expressions: neutral **mouth gently
+   closed** (the money shot — lip-sync models animate cleanest from
+   a neutral mouth), natural smile, mid-sentence open mouth,
+   serious, laughing. No filters.
+3. **Talking take (for video twins + voice) — shot PER LOOK:** 3–5
+   minutes in Look 1 talking straight to camera in his normal
+   delivery — the provided script (varied sentences, numbers,
+   questions, emphasis) or his own words about PWC. Then a 1–2
+   minute talking pass in each additional look (same script is fine
+   — the outfit changed, the words can repeat). Natural hand
+   gestures in some of it, hands still in some. These takes feed
+   HeyGen-style video twins AND give clean voice audio.
 4. **Voice-only take:** 2–3 minutes of the same read recorded close
    and clean (his usual mic), for ElevenLabs IVC. (PVC later wants
    30+ min — Q already has hours of clean talking-head audio on disk
@@ -124,6 +135,55 @@ for a platform switch. Full click-level list in Q_STEPS.md; the spec:
    never re-train per video.
 4. Pilot: ONE intercut video (real hook → clone burst → graphics →
    real CTA) through the full QC below → Q judges → batch.
+
+## WARDROBE & BACKGROUNDS (Q asked Nov 11, 2026 — the rules)
+
+**Short answer: backgrounds are unlimited; outfits are not — plan
+the capture accordingly.**
+
+### Backgrounds — unlimited
+The clone renders as a clean presenter plate (Q + his mic, nothing
+baked in behind him), never as a finished room. That means:
+- **Composite route:** drop the plate onto ANY background — his
+  real set, another room he's filmed in, a screenshot, a graphic
+  world. Anywhere a camera or a capture has been, clone-Q can
+  present from there.
+- **Generation route:** Soul ID scenes generate Q INTO a new place
+  (a different room, outdoors, a location he's never shot) when no
+  real background exists.
+- **Matching rules (what keeps it invisible):** the background's
+  light direction and color temperature must agree with the light
+  on Q's face; match grain + sharpness to the background's source
+  (a phone-shot background gets phone grain on the plate too);
+  keep the mic and the bottom-strip framing constant — the strip
+  is the anchor the eye trusts while everything behind it changes.
+
+### Outfits — capture-bound (the one real limit)
+A twin wears what it was captured in. CLONE-Q in the default look
+can only ever wear the default look — there is no wardrobe slider
+after the fact. Range is decided ONCE, at capture:
+- **The capture session banks 2–3 signature looks** (stills + a
+  talking pass per look — see the capture spec above). Each look
+  becomes a locked variant of CLONE-Q; the editor picks the variant
+  whose outfit matches the real footage it intercuts with.
+- **Generative re-dressing is the supplement, not the base:** Soul
+  ID / image-edit routes can re-dress a burst into an outfit Q was
+  never captured in, for a one-off. Burst-only (2–4s), strip
+  framing preferred, and held to the SAME QC as every clone burst —
+  it must pass the blind still test at burst length, or the line
+  goes real or goes to a captured look. Re-dressed arms/hands in
+  motion are the first place it fails; when in doubt, crop to the
+  strip where they barely show.
+- **Adding a look later** = a ~5-minute mini-capture in that
+  outfit (key stills + one short talking pass), never a re-shoot
+  of the whole session.
+
+### Why this is not a problem (the Saraev note)
+Nick's format sidesteps wardrobe entirely: ONE locked look across
+every video, and nobody misses the range — the locked look IS the
+brand. Q gets that same safety by default (Look 1 is the default
+variant) PLUS range Nick doesn't use, because the capture banks
+2–3 looks up front instead of one.
 
 ## THE SARAEV INTERCUT GRAMMAR (how clone footage is used)
 
@@ -154,8 +214,10 @@ clone fails or survives HERE, not in the generator.
      re-voicing an old video for a new CTA, volume lanes (daily
      tips, trial-reel variants) where the template carries the video.
    - When in doubt, real. The clone is leverage, not replacement.
-5. **Matching rules (the invisibility checklist):** same wardrobe,
-   set, lighting and mic position as the capture; same crop/scale as
+5. **Matching rules (the invisibility checklist):** same wardrobe
+   (the captured look that matches the real footage — see WARDROBE
+   & BACKGROUNDS), set, lighting and mic position as the capture;
+   same crop/scale as
    the adjacent real shots; match grain + sharpness + color to the
    camera footage (a touch of grain on clone bursts hides a lot);
    captions run UNINTERRUPTED across every real↔clone cut — caption
