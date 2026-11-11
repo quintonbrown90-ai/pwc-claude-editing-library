@@ -2,6 +2,15 @@
 
 Source: Tom — @tomxsystems, reel DffhT_iRb6z (74.42s, decoded Batch 26). Tom's format: a scripted voiceover for tradespeople over an animated hub-and-spoke agent diagram — one MANAGER agent in the middle ("hands out the work, checks it's done and reports to you"), specialist agents on spokes, work flowing receptionist → quotes → follow-up, growth agents in parallel, and one Monday message to the owner's phone ("What came in? What got booked? What's next?"). Tom's actual prompt/resources are DM-gated ("DM 'Ai'") — NOT obtained, NOT chased. This part keeps Tom's ARCHITECTURE (credited) and rebuilds the team for Q's operation from the decoded structure. Full evidence: `research/video-harvest/instagram/batch-26/DECODE.md`.
 
+## AUTO-ACTIVATION — always on for operations work (Q's standing requirement, Nov 11, 2026)
+
+**Q will NOT remember trigger words, prompt codes, or slash commands — and he should never have to.** This team is therefore **always on**:
+
+- Whenever Q asks for ANY piece of running Paid With Content — engagement handled, a pitch written, a no-reply chased, numbers read, content planned, proof collected, a post queued, the Monday report — **the team is active by default**, without Q naming this skill, the team, or any keyword.
+- Claude does not wait to be invoked. The MANAGER routes the ask to the right specialist as part of the job itself.
+- The trigger phrases listed later in this part exist **only as a fallback** for explicit invocation — they are never a requirement, and their absence never means the team is off.
+- Auto-activation never widens the approval boundary: drafts and analysis run free; every send and every post still needs Q first.
+
 ## What this skill does
 
 Stands up and runs Q's **9-agent team** inside a Claude chat: a MANAGER that assigns, checks, and reports, and eight specialists that run the online side of Paid With Content — engagement, pitching, follow-up, reach, analytics, content, proof, and posting — while Q films, coaches, and lives his life.
@@ -20,9 +29,9 @@ The mapping (Tom's trades team → Q's team):
 | Reviews | **PROOF** | Collects member wins/testimonials instead of Google reviews; still replies to everyone |
 | — (Tom's 9th agent is never named — GAP G-B26-1) | **POSTING / QUEUE** | Q-side addition, labeled as such: runs the posting lanes + queue. This is how Q's team honestly reaches nine |
 
-## When to run it (trigger phrases)
+## Triggers (fallback only — the team is already on, see AUTO-ACTIVATION)
 
-Run this skill when Q says any of:
+These phrases exist for explicit invocation if Q or a session ever wants them. They are NEVER required — the team activates on its own whenever the ask matches (see AUTO-ACTIVATION above). The phrases:
 - "set up my agent team"
 - "run my agent team"
 - "my AI team"
