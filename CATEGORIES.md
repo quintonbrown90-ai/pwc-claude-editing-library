@@ -6,23 +6,23 @@ AI. "Infinite" works because the knowledge is organized in small parts
 across multiple delivery paths, not one capped skill. THIS FILE is the map
 that makes infinite usable: Claude (or Q) can always find the right part.
 
-## The 20 categories (326 parts, ~1,562 KB total — every part ≤50 KB, 1 file)
+## The 20 categories (331 parts, ~1,562 KB total — every part ≤50 KB, 1 file)
 
 | # | Category | Parts | Folder | Upload path |
 |---|---|---|---|---|
 | 1 | HOOKS | 5 | `parts/hooks/` | Skill zip (design-system v2 / motion-playbooks) + GitHub |
-| 2 | CAPTIONS | 3 | `parts/captions/` | Skill zip (pwc-designed-captions v1 + v2) + GitHub |
+| 2 | CAPTIONS | 4 | `parts/captions/` | Skill zip (pwc-designed-captions v1 + v2) + GitHub |
 | 3 | MOTION | 6 | `parts/motion/` | Skill zip (pwc-motion-playbooks v1) + GitHub |
 | 4 | EASING / PHYSICS | 2 | `parts/easing-physics/` | Skill zip (pwc-motion-playbooks v1) + GitHub |
 | 5 | CAMERA-MOVES | 2 | `parts/camera-moves/` | Skill zip (design-system v2) + GitHub |
 | 6 | IMAGERY | 3 | `parts/imagery/` | Skill zip (design-system v2) + GitHub |
 | 7 | COLOR-GRADE | 2 | `parts/color-grade/` | Skill zip (design-system v2) + GitHub |
-| 8 | AUDIO / SOUND | 4 | `parts/audio-sound/` | Skill zip (design-system v2) + GitHub |
-| 9 | RENDER-PIPELINES | 23 | `parts/render-pipelines/` | Skill zip (design-system v2) + GitHub |
+| 8 | AUDIO / SOUND | 5 | `parts/audio-sound/` | Skill zip (design-system v2) + GitHub |
+| 9 | RENDER-PIPELINES | 24 | `parts/render-pipelines/` | Skill zip (design-system v2) + GitHub |
 | 10 | PROMPTS | 13 | `parts/prompts/` | Skill zip (design-system v2 PROMPTS.md) + GitHub |
 | 11 | CREATOR-SYSTEMS | 126 | `parts/creator-systems/` | Skill zip (design-system v2 appendix + 3 standalone skills + v5 appendix: Batch-1 systems, IG Tier S, Tier-A kits/repos) + GitHub |
-| 12 | KNOWLEDGE-PLAYBOOKS | 19 | `parts/knowledge-playbooks/` | Skill zip (ALL 10 DISTILLED — Phase 4 harvest) + GitHub |
-| 13 | EFFECTS | 66 | `parts/effects/` | Skill zip (effects v7) + GitHub; VERIFIED-spec reconstructions of @david_knowsai's 7 effects (public skill, confirmed against fx.py — Batch 24 correction) + @stocktonwalbeck's 17-effect demo (15 new Stockton parts; Match Cut + Liquid Glass noted as variants on the David parts) + Marc Cleroux's (@tenfoldmarc) 16-effect demo (15 new Marc parts; orbit noted as a variant on the David part, not duplicated) + v10 Kayvon live-effects router (10 effects: 7 new parts + 3 variants on existing parts) + Ali card-pop + Cooper motion poster + Marvin prospect-quote card + Corbinsylk Modern Vox + v11 CCC Det_axVk5c_ (spotlight-question highlight + spinning-asterisk hook burst) + v12 Collage B-Roll variant on effects-paper-cut (DfZ2LF1orYo) — the Stockton/Marc/Kayvon demo builds remain inferred reconstructions from gated demos, NOT chased; David's 7 are verified against the public skill |
+| 12 | KNOWLEDGE-PLAYBOOKS | 20 | `parts/knowledge-playbooks/` | Skill zip (ALL 10 DISTILLED — Phase 4 harvest) + GitHub |
+| 13 | EFFECTS | 67 | `parts/effects/` | Skill zip (effects v7) + GitHub; VERIFIED-spec reconstructions of @david_knowsai's 7 effects (public skill, confirmed against fx.py — Batch 24 correction) + @stocktonwalbeck's 17-effect demo (15 new Stockton parts; Match Cut + Liquid Glass noted as variants on the David parts) + Marc Cleroux's (@tenfoldmarc) 16-effect demo (15 new Marc parts; orbit noted as a variant on the David part, not duplicated) + v10 Kayvon live-effects router (10 effects: 7 new parts + 3 variants on existing parts) + Ali card-pop + Cooper motion poster + Marvin prospect-quote card + Corbinsylk Modern Vox + v11 CCC Det_axVk5c_ (spotlight-question highlight + spinning-asterisk hook burst) + v12 Collage B-Roll variant on effects-paper-cut (DfZ2LF1orYo) — the Stockton/Marc/Kayvon demo builds remain inferred reconstructions from gated demos, NOT chased; David's 7 are verified against the public skill |
 | 14 | STRATEGY | 12 | `parts/strategy/` | Skill zip (design-system v4 STRATEGY.md) + GitHub — Content Strategy Specialist (#12) |
 | 15 | AUDIENCE-PSYCHOLOGY | 9 | `parts/audience-psychology/` | Skill zip (design-system v4) + GitHub — Following-Growth Specialist (#13) |
 | 16 | SALES-CLOSING | 7 | `parts/sales-closing/` | Skill zip (design-system v4) + GitHub — Closer Specialist (#14) |
@@ -41,7 +41,7 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   + hookscore.py, AUC 0.83 bad-vs-real / 0.56 hit-vs-miss, stated honestly) ·
   hooks-jev-hook-bank.md (liamjohnston.ai — six dimensions, rank by real
   views, retire tired shapes on evidence)
-- **CAPTIONS (3):** captions-word-exact.md (+0.013s measured) ·
+- **CAPTIONS (4):** opensource-caption-timing-stack.md (Batch 37, part #329 — dynamic-captions/stable-ts/Beat This!/scene+VAD stack, AGPL traps parked) · captions-word-exact.md (+0.013s measured) ·
   captions-designed-styles.md (6 styles, hero-behind-head) ·
   captions-ig-humanizer.md (nategold.ai, MIT, SCAN PASS — humanize.py +
   detect.py, 5-check panel, PASS 70+ / no check under 55 — the executable
@@ -80,12 +80,12 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   imagery-titles-behind-head.md (kienobifilms — title passes BEHIND the head)
 - **COLOR-GRADE (2):** color-pwc-palette.md (teal/gold/navy, NO RED) ·
   color-grade-contrast.md (contrast-check, safe zones)
-- **AUDIO / SOUND (4):** audio-chain-adilet.md (ElevenLabs → cuts → speed
+- **AUDIO / SOUND (5):** opensource-sound-stack.md (Batch 37, part #331 — CC0 SFX kits, Openverse/Freesound sourcing, pyloudnorm gate, DeepFilterNet, Demucs pin) · audio-chain-adilet.md (ElevenLabs → cuts → speed
   → loudness, −14.2 LUFS) · sound-design-sfx.md (SFX on every in/out) ·
   audio-clap-understanding.md (LAION CLAP, MIT — text↔audio retrieval,
   timeline sound QC) · audio-demucs-stems.md (LICENSE FLAG — code MIT /
   weights research-use only)
-- **RENDER-PIPELINES (23):** pipeline-caption.md · pipeline-animation.md ·
+- **RENDER-PIPELINES (24):** opensource-editor-ecosystems.md (Batch 37, part #332 — CapCut draft layer, Revideo, Remotion caveat, parked editors) · pipeline-caption.md · pipeline-animation.md ·
   pipeline-qc-gates.md (freeze/transition/ending/lip-sync/retention/
   brand-DNA/human-made) · pipeline-drop-one-file-install.md (kappa —
   one-file self-install + READY check) · pipeline-deadair-gate.md
@@ -218,7 +218,7 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   AUTO-ACTIVATES on any video job — no trigger words; the cartoon
   pwc-avatar-video lane stays separate; Saraev's own avatar/voice
   platforms NOT publicly confirmed — GAP, never asserted)
-- **KNOWLEDGE-PLAYBOOKS (19):** motion-physics · easing · camera-moves ·
+- **KNOWLEDGE-PLAYBOOKS (20):** opensource-harvest-batch37-index.md (Batch 37, part #333 — master index of the 59-item open-source harvest + pool) · motion-physics · easing · camera-moves ·
   imagery · caption-systems · color-grade · sound-design ·
   render-pipelines · claude-code-workflows · prompt-patterns ·
   gestures-movements (visual-language vocabulary — OBSERVED + INFERRED) ·
@@ -229,7 +229,7 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   auto-installer) · claude-mods-watcher-handoff (watcher + 4-field handoff
   brief) · review-mining-rebuild (review-mining adopted; wholesale Replica
   clone PARKED) · dev-team-skills-subagents (skills + sub-agents as a team) · maxjohnscn-top30-inventory.md (v12 — Top-30 skills inventory: 29 new names + triage 26 license-pass / 3 parked + 63-skills top-10 named rows + ranked-grid format) · reel-inspo-research-tool.md (v13 — Reel Inspo research tool: share a reel → transcript + hook + format + real numbers + scroll-stop words; daily 24h outlier sweep; winner → rewrite in my voice; INFERRED rebuild, gated tool never chased) · watch-video-skill.md (Batch 27 — the /watch EYES skill: bradautomates/claude-video v0.3.2, MIT, SCAN PASS — Claude gets timestamped frames + real transcript for any video link; REAL skill staged verbatim at skills/watch/ + standalone watch.zip; Claude Code is the working install, Claude Chat upload is upstream-unsupported — G-B27-1)
-- **EFFECTS (66):** effects-glass-widgets · effects-orbit ·
+- **EFFECTS (67):** opensource-motion-color-stack.md (Batch 37, part #330 — gl-transitions 214 catalog, Revideo/Anime.js, rembg birefnet pin, rescue chain, house LUT) · effects-glass-widgets · effects-orbit ·
   effects-spotlight · effects-todo-checklist · effects-timeline-playhead ·
   effects-match-cut · effects-apple-toggles (VERIFIED-spec reconstructions —
   the /effects skill is PUBLIC and FREE (Vibha Ramprakash claude-video-effects,
