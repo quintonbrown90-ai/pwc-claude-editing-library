@@ -159,6 +159,19 @@ Dez4 "Content Strategy" serif-italic orange title — none of these is carried i
 (D21 renders bold grotesque gold). Serif DOES stay, measured, in carousels only: Archetype B
 (black serif display) and Archetype E (ember-orange glowing italic serif) — see §9.
 
+**Q RULING — SERIF+BOLD HEADLINE LOCKUPS ADOPTED (Nov 12, 2026, Batch 39):** Sky's newest
+reels (DfnQiBcEl04, DfmxuoenIMV, Dffuws3EiGZ, DfZ_q_pFbX1 — decoded in
+research/video-harvest/instagram/batch-39-sky-newest/) run mixed headline lockups as standard
+grammar: an italic serif word paired with a bold grotesque word ("Reaction *consultation*",
+"Why *Process Crushes*"), the keyword sitting in neon green inline. Q ruled Nov 12: ADOPT the
+lockup in PWC colours. Q-lane execution: serif word in WHITE italic serif; bold keyword in
+PWC GOLD #FEE238 (the slot Sky fills with neon green); PWC teal #14A886 for structural
+accents. This ruling OVERRIDES the v6 serif ban for HEADLINE LOCKUPS ONLY, built to the
+batch-39 measured geometry — a validator must treat a conforming lockup as approved, not a
+P9 violation. The ban STANDS everywhere else: no serif in captions, counters, outcome text
+or any other reel role, and no generic serif display outside the lockup form. D21/D42
+Q-lane renderings are unchanged (bold grotesque) unless the beat is itself a headline lockup.
+
 ## 4. Devices D1–D14 (measured parameters)
 
 - **D2 headline lockup:** small white lowercase kicker (regular, ≈30–34 px) above 2 lines of huge

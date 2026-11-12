@@ -80,6 +80,12 @@ Any of these in a Sky build = the cut FAILS, however clean the technical checks 
   counter treatment in REELS (the single most recognisable AI-edit fingerprint). Reels are
   bold grotesque, hard cut-in. (Sky's own measured serif instances stay in the EXAMPLES as
   record; carousel serif in Archetypes B/E is carousel-only, measured, and stays there.)
+  **EXCEPTION — Q RULING Nov 12, 2026:** Sky's newest reels run serif+bold HEADLINE
+  LOCKUPS as standard grammar (italic serif word + bold grotesque keyword, batch-39
+  measured). Q adopted the lockup in PWC colours: serif word white, bold keyword PWC gold
+  #FEE238, teal structural accents. A lockup built to the batch-39 geometry is APPROVED —
+  not a telltale and not a validator violation. The ban still covers every other serif use
+  in reels (captions, counters, outcome text, generic serif display).
 - **Transitions with no measured Sky instance** — invented wipes, zooms, slides, spins,
   generic fades. Only measured transitions ship (hard cuts; the measured motion-blur
   slides; D54's horizontal step slide; D55's blurred-slide handoff; the two measured fades:
@@ -245,7 +251,9 @@ boundary.
 
 ## 2. Captions (D1 — the constant)
 
-- White sans-serif, **1–3 words per group**, never a full sentence. Bare text, no box, no pill.
+- White sans-serif, never a full sentence. Bare text, no box, no pill. **Group size:
+  talking-head reels = 1 word per group** (batch-39 measured, Nov 12 2026 — Sky's current
+  cadence); other forms 1–3 words per group per the registry.
 - One weight per video: **bold** (doctrine/teaching) or **light/regular** (process/casual).
 - Size: cap height ≈ 50–62 px at 1920 (CapCut font ≈ 54–64 on a 1080-wide canvas).
 - Position: centre-lower, chest band, chin + ≥40 px clearance, inside the IG safe zone
