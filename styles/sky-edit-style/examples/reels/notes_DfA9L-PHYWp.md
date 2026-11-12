@@ -1,0 +1,41 @@
+# NOTES — DfA9L-PHYWp (77.2s, "Content-Offer Fit" — no content strategy)
+## Structure
+- Dark studio, warm monitors behind, Sky in a dark jacket over black tee. ORANGE is the accent here (like DfDuMnCjNdE). The reel walks a 6-box framework (GOAL → AVATAR → MARKET → OFFER → FUNNEL → BRAND), each box getting its own animated panel.
+- Captions: white sans center ~y560-620, 1-3 words, on the word beat.
+
+## Devices
+1. GLOWING HEAD IN HANDS (~0.0-2.8s): small head cutout (Sky's face) with a yellow glow floats between Sky's cupped hands at chest (~x450-550, y480-620) — held like a glowing orb; two small yellow dots orbit it. Head bobs gently.
+2. CREATOR PROFILE CARDS (~0.8-4.5s): three small profile cards fly in top-right (~x700-980, y40-200): "Jordan the Stallion" ~0.8s, "Keith Lee" ~1.0s, "Khaby Lame" ~1.2s — thumbnail + name + view counts below (2.1M / 2.3M / 8.8M). ~2.0s the thumbnails go BLACK AND WHITE one at a time (left to right) — creators' videos desaturate as he says they have "no content strategy". Counts keep climbing under gray thumbnails.
+3. B&W + ITALIC TEXT (~4.5-5.8s): whole frame BLACK AND WHITE; orange italic text center: "let's just get more views" types in ~4.8-5.5s. Color returns ~5.8s.
+4. FORMAT CARDS TRIO (~6.0-9.0s): three dashed-border video cards drop in top (~x400-980, y40-250) with orange labels: "Demonstration Content" ~6.0s, "Yapping Content" ~6.5s, "Client transformation Content" ~7.0s.
+5. "CONTENT-OFFER FIT" 6-BOX GRID (~9.2-10.5s): glass panel top-center (~x400-980, y40-280) titled "Content-Offer Fit" with 6 numbered boxes in 2 columns: "1. Goal", "2. Creator", "3. Avatar", "4. Market", "5. Offer", "6. Funnel" — boxes appear one at a time ~9.2-10.2s.
+6. TWO-CURVE CHART (~10.8-14.5s): glass panel top-center (~x400-900, y40-260): title "Going viral is fast. Positioning takes time."; BLUE bell curve draws ~11.0-11.8s; ORANGE S-curve draws slowly ~12.2-14.0s, crossing the blue curve. Small label at orange curve's end ~14.2s.
+7. AVATAR/CLIENT/OFFER LABELS (~14.8-18.0s): top-right, three labeled rows with heads: "Avatar — Who are we talking to?" (Sky's head) ~14.8s, "Client — Who are we working with?" ~15.5s, "Offer — What are we selling?" ~16.0s. Each row: small head + orange triangle marker.
+8. LABEL SWAP (~18.0-19.5s): the "Avatar" row's label swaps to "Outlier research — What's already working?" (green) ~18.2s; then "Formats — What styles to copy?" (purple) ~18.8s; rows cycle labels.
+9. "BRAND DIRECTION" TREE (~20.5-22.5s): glass panel top-center (~x550-950, y40-280): head (Sky) at left with branching lines to 4 options: "Educator", "Problem Solver", "Community Builder", "Lifestyle Creator", "Authority Figure" — rows appear one at a time ~21.0-22.0s; "Problem Solver" highlights orange ~22.0s; orange card pops right of it ~22.2s.
+10. "ANSWER THESE BEFORE YOU POST" PANEL (~22.5-25.5s): panel top-center (~x100-700, y40-280) titled "Answer these before you post." with rows: "Avatar" ~23.0s, "Offer" ~23.5s, "Uniqueness" ~24.0s; head labeled "Caleb" at panel's left edge ~23.0s with orange arrow pointing at rows.
+11. GOAL/AVATAR/MARKET/OFFER/FUNNEL LIST + BRAND BAR (~25.8-28.0s): numbered list top-center: "01 GOAL / 02 AVATAR / 03 MARKET / 04 OFFER / 05 FUNNEL" (~26.0-27.0s); below, orange bar "BRAND" with three pills: "Positioning / Messaging / Associations" ~27.0s; row "01" highlights orange ~28.0s.
+12. GOAL CHECKLIST (~28.0-30s): panel zooms to "01 GOAL — What are we trying to do?" with checkboxes: "Get more leads" (checked ~28.5s), "Hire people" (checked ~29.0s), "Inspire people" (checked ~29.5s). Head with orange triangle at panel's left edge.
+13. "02 PERSON" PANEL (~32.5-38.0s): glass panel top-center (~x100-900, y40-300) titled "02 PERSON" with person icon center; four sub-cards appear one at a time: "Your story" ~33.5s, "Your knowledge" ~34.0s, "Your philosophies" ~34.5s, "What makes you different" ~35.5s. Head with orange triangle at panel's left edge throughout.
+14. "03 AVATAR" PANEL + "EXACTLY" B&W (~37.5-44.5s): panel morphs to "03 AVATAR" ~38.0s with person icon; ~38.8s frame goes B&W and big orange italic "Exactly" appears top-right (~x700-950, y60-140) — holds through ~42.0s (word pulses slightly larger ~40.5s). Color returns ~42.2s. AVATAR panel fills with rows: "Daily life" ~42.8s, "Fears" ~43.0s, "Desire" ~43.2s, "Beliefs" ~43.5s, "Behavior" ~43.8s, "Struggles" ~44.0s; person icon fills orange ~43.5s; "Clear to the molecular level." at bottom ~44.2s.
+15. "04 MARKET" PANEL (~44.5-46.5s): panel morphs to "04 MARKET — What is everyone else saying in your niche?"; three creator cards appear: "Creator A" ~45.0s, "Creator B" ~45.5s, "Creator C" ~46.0s, each with a video thumbnail below.
+16. "05 OFFER" PANEL (~46.5-52.5s): panel morphs to "05 OFFER — THE OFFER / What are we actually selling?"; three offer cards appear: "Software" ~47.2s, "Coaching" ~47.8s, "Services" ~48.2s, each with a thumbnail; "Software" thumbnail swaps to a "$10,000" screenshot ~49.0s; "Services" swaps to a car photo ~50.5s.
+17. "06 FUNNEL" PANEL (~52.5-58.0s): panel morphs to "06 FUNNEL"; "CONTENT" row ~52.8s with small person icons filling in ~53.2s; "CHECKOUT PAGE" row ~53.8s; "VSL" row ~54.2s; "FEEDS INTO BRAND" orange bar at bottom ~56.5s.
+18. 6-BOX RECAP (~58.0-60s): numbered list returns top-right: "01 GOAL / 02 AVATAR / 03 MARKET / 04 OFFER / 05 FUNNEL" with green checks appearing beside each row one at a time ~58.5-59.5s; orange BRAND bar below. Yellow "realskytan" profile card slides in bottom-center ~59.5s.
+19. PROFILE CARD + ASSOCIATION CHIPS (~60.0-65.0s): "realskytan" profile card stays bottom-center; branch diagram draws below it: four pills appear one at a time: "Hook-obsessed" ~62.5s, "Test-driven" ~63.0s, "Battle-tested" ~63.5s, "Relatable" ~64.0s — the brand associations.
+20. VIDEO WALL (~64.5-68.5s): wall of ~12 video thumbnails fades in across the top (~x40-980, y40-300) in two rows; labels under groups: "CONTENT STRATEGIST" (left, ~66.5s), "RANDOM TOPIC" (right, ~67.0s), "TRENDS" (left, ~67.5s). Left group = Sky's own videos; right group = random topics (Khaby Lame etc.). "CONTENT STRATEGIST" highlights ~68.0s.
+21. SCRIPT PAGE + MAGNIFIER (~69.0-73.5s): "Script" document page slides in top-center (~x100-500, y40-350) with sections "Hook / Body / CTA" and lines of text; orange magnifier icon at the page's right edge ~70.0s SCANS down the page slowly (~70.0-73.0s), highlighting lines as it passes.
+22. SPONSOR/CLIENT CARDS (~74.5-77.2s): two video cards drop in top: left "SPONSORS PAYS YOU" (man outdoors) ~74.8s, right "CLIENT PAYS YOU" (Sky talking) ~75.5s. Ends on both cards + Sky "...positioning pays you".
+
+## Sound (measured, Batch 36)
+
+Bed: ABSENT (measured). SFX: 0 confirmed — the 3 HF-heavy in-gap suspects (18.96/51.74/71.92s) are refuted as SFX (breath/mouth noise; voice-range spectra, continuous envelopes). Transitions: no camera cuts (one grade-transition spike). Silence: none (0 hits @−35/−50 dB). One unconfirmed 5.93 kHz sharpness hit (6.25s) logged in the soundmap.
+
+Full measured soundmap: `claude-editing/research/video-harvest/instagram/batch-36-sky-completion/soundmaps/SOUNDMAP_DfA9L-PHYWp.md` (mean -16.7 dB, max -0.9 dB, voice median RMS -18.1 dBFS; method: volumedetect/astats, silencedetect −35/−50 dB, full spectrogram read, STFT tone scan + tonal-sharpness/zoom adjudication, word-gap RMS, transient census, scene-cut cross-check).
+
+## Transitions (Batch 36)
+
+Method: ffmpeg scene-cut detection `select='gt(scene,0.35)'` plus a 0.2-threshold pass for soft cuts (0 cut(s) at 0.35, 1 at 0.2), each classified against the existing 4 fps frames in `claude-editing/examples/sky/motion-teardown/frames/DfA9L-PHYWp/` (sharpness/saturation/brightness/diff profile) and the device prose above. All cuts are silent (see Sound section).
+
+Apart from the grade transition below, no scene cuts at either threshold — a single continuous A-roll take; all device builds are overlay animations. (The B&W + italic text beat at ~4.5s is also gradual: no detector spike at entry or exit.)
+- **41.27s [0.2 pass]** — Grade transition — B&W 'Exactly' beat exit: saturation 0.031→0.326 (color returns). The beat's entry (~37.5s per the devices above) produced no ≥0.2 spike — a gradual desaturation. Not a camera cut.

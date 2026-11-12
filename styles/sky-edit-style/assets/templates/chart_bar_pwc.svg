@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 800" width="1080" height="800">
+<defs><filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+<rect x="40" y="40" width="1000" height="720" rx="28" fill="#00214E" fill-opacity="0.85" stroke="#14A886" stroke-width="3"/>
+<text x="80" y="110" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">Script anatomy</text>
+<text x="80" y="198" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">Hook</text>
+<rect x="330" y="170" width="180" height="40" rx="20" fill="#14A886"/>
+<text x="80" y="260" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">Lead</text>
+<rect x="330" y="232" width="260" height="40" rx="20" fill="#FEE238"/>
+<text x="80" y="322" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">Body 1</text>
+<rect x="330" y="294" width="420" height="40" rx="20" fill="#2E7FC2"/>
+<text x="80" y="384" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">Open loop 1</text>
+<rect x="330" y="356" width="300" height="40" rx="20" fill="#14A886"/>
+<circle cx="330" cy="376" r="16" fill="none" stroke="#FEE238" stroke-width="4"/><text x="322" y="386" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FEE238">&#8635;</text>
+<text x="80" y="446" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">Body 2</text>
+<rect x="330" y="418" width="460" height="40" rx="20" fill="#2E7FC2"/>
+<text x="80" y="508" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">Open loop 2</text>
+<rect x="330" y="480" width="300" height="40" rx="20" fill="#14A886"/>
+<circle cx="330" cy="500" r="16" fill="none" stroke="#FEE238" stroke-width="4"/><text x="322" y="510" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="700" fill="#FEE238">&#8635;</text>
+<text x="80" y="570" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">Body 3</text>
+<rect x="330" y="542" width="380" height="40" rx="20" fill="#2E7FC2"/>
+<text x="80" y="632" font-family="Inter, Arial, sans-serif" font-size="32" fill="#FFFFFF">CTA</text>
+<rect x="330" y="604" width="220" height="40" rx="20" fill="#FEE238"/>
+<text x="80" y="740" font-family="Inter, Arial, sans-serif" font-size="22" fill="#8FA8C0">PWC recolor of Sky D15: bars draw one at a time; loop rows carry the circular-arrow icon.</text>
+</svg>

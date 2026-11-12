@@ -1,0 +1,78 @@
+{
+  "style": "sky-edit-style",
+  "trigger": "edit in Sky style",
+  "profile": "https://www.instagram.com/realskytan",
+  "framework": "The Filter [EXAMPLE \u2014 Q coins the real name]",
+  "family": "green",
+  "accent": "#14A886 teal (structure)",
+  "palette": {
+    "teal": "#14A886",
+    "gold": "#FEE238",
+    "navy": "#00214E",
+    "red": "NEVER",
+    "neon_green": "NEVER"
+  },
+  "keyword": "WAITLIST",
+  "keyword_flow_live": "UNVERIFIED \u2014 confirm the ManyChat flow is live before posting",
+  "model_reel": "DfX2qwQGagM",
+  "duration_s": 54.0,
+  "devices": [
+    {
+      "part": "The Filter",
+      "index": 1,
+      "of": 4,
+      "t0": 0.0,
+      "device": "D3 title stack + D4 board",
+      "state": "pending 40% -> active 100% on first spoken word of the part",
+      "source_reel": "DfX2qwQGagM"
+    },
+    {
+      "part": "Filter 1 [Q TO FILL]",
+      "index": 2,
+      "of": 4,
+      "t0": 13.5,
+      "device": "D4 board row",
+      "state": "pending 40% -> active 100% on first spoken word of the part",
+      "source_reel": "DfX2qwQGagM"
+    },
+    {
+      "part": "Filter 2 [Q TO FILL]",
+      "index": 3,
+      "of": 4,
+      "t0": 27.0,
+      "device": "D4 board row",
+      "state": "pending 40% -> active 100% on first spoken word of the part",
+      "source_reel": "DfX2qwQGagM"
+    },
+    {
+      "part": "Payoff [Q TO FILL]",
+      "index": 4,
+      "of": 4,
+      "t0": 40.5,
+      "device": "D4 board row",
+      "state": "pending 40% -> active 100% on first spoken word of the part",
+      "source_reel": "DfX2qwQGagM"
+    }
+  ],
+  "caption_groups": [
+    {
+      "text": "[EXAMPLE]",
+      "t0": 0.0,
+      "t1": 0.5
+    }
+  ],
+  "caption_rule": "1-3 words per group, all-white, bare text, chest band, chin +40px, inside x70-930 y280-1480, never over the face",
+  "hook": "framework name or result figure on screen within the first 10% of runtime; first graphic by f3-f12; >=3 builds in the first 3s; frame one = Q talking",
+  "close": "complete the hero device on the closing line; hold 0.8-1.5s; spoken door over the completed graphic; logo/keyword end moment <=1s after the last word",
+  "qc": [
+    "frame-sequence motion grade vs model reel",
+    "freezedetect zero >=0.35s",
+    "\u00b10.15s entrance/exit audits",
+    "last-word to end-card <=1s",
+    "lip-sync offsets",
+    "per-word fit (one clipped word = FAIL)",
+    "no-overlap every frame",
+    "full self-watch"
+  ],
+  "build": "CapCut-native only, per code/capcut_build_spec.md. ffmpeg/PIL plates do NOT count."
+}

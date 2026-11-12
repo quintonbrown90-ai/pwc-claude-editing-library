@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 800" width="1080" height="800">
+<defs><filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+
+<rect x="40" y="40" width="1000" height="720" rx="28" fill="#00214E" fill-opacity="0.85" stroke="#14A886" stroke-width="3"/>
+<text x="80" y="110" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF">STRATEGY — the filter</text>
+<polygon points="290,180 790,180 720,330 360,330" fill="#14A886"/>
+<polygon points="360,360 720,360 660,500 420,500" fill="#FEE238"/>
+<polygon points="420,530 660,530 610,660 470,660" fill="#FFFFFF"/>
+<text x="540" y="270" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#00214E">99% OF IDEAS</text>
+<text x="540" y="440" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#00214E">THE FEW THAT FIT</text>
+<text x="540" y="610" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="34" font-weight="700" fill="#00214E">THE ONE THAT SHIPS</text>
+<circle cx="540" cy="700" r="14" fill="#FEE238" filter="url(#glow)"/>
+<text x="80" y="770" font-family="Inter, Arial, sans-serif" font-size="22" fill="#8FA8C0">PWC recolor of Sky D4/D24 funnel: pills rain in, one drops out the bottom.</text>
+
+</svg>

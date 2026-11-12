@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 800" width="1080" height="800">
+<defs><filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
+
+<rect x="40" y="40" width="1000" height="720" rx="28" fill="#00214E" fill-opacity="0.85" stroke="#14A886" stroke-width="3"/>
+<circle cx="400" cy="400" r="220" fill="#14A886" fill-opacity="0.45" stroke="#14A886" stroke-width="4"/>
+<circle cx="680" cy="400" r="220" fill="#FEE238" fill-opacity="0.45" stroke="#FEE238" stroke-width="4"/>
+<path d="M540,240 C620,300 620,500 540,560 C460,500 460,300 540,240 Z" fill="#14A886" fill-opacity="0.9"/>
+<circle cx="400" cy="230" r="62" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="8 6"/>
+<circle cx="680" cy="230" r="62" fill="none" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="8 6"/>
+<text x="400" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Your audience</text>
+<text x="680" y="330" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">Their audience</text>
+<text x="540" y="410" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="30" font-weight="700" fill="#FFFFFF">CROSSOVER</text>
+<text x="80" y="770" font-family="Inter, Arial, sans-serif" font-size="22" fill="#8FA8C0">PWC recolor of Sky D7: overlap fills solid; faces sit in the dashed circles at the top.</text>
+
+</svg>
