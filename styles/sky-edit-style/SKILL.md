@@ -50,6 +50,13 @@ plan or it FAILS validation (`validate_beat_lock` / gate P10). Full spec:
   captions bottom-left on Q's half). His face stays present during hooks by design in
   both. Reach for a split when a beat is him walking through / reacting to a screen,
   a page or a video — do not force one where the script has no exhibit to carry.
+- **PREMIUM GRAPHICS — GLASS + 3D DEPTH (Q, Nov 12, 2026: "make sure everything is
+  premium graphics… glass… 3D etc like he does").** Sky's glass panels, glass-pill
+  states (the D5 recap state, the D58 pill chain), floating head clusters and layered
+  exhibits with real depth/shadow are core grammar, not garnish — build them at his
+  measured fidelity, re-skinned to PWC colours. Flat plates and thin cards are the
+  cheap telltale this replaces. "Go deep and really do it right" is the brief: his
+  edits are Q's favourite; mock the videos, not the idea of them.
 
 **COVERAGE (Batch 36, measured).** Reels **49/49** decoded (15 priority + origin + 33
 Batch-19); soundmaps **48 + 1** (48 per-reel maps + the DOTnacsDXvB duplicate covered by
