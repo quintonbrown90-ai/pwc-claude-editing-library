@@ -284,7 +284,12 @@ boundary.
   cite it. Q DIVERGENCE (SKY-PLUS target): cleared bed ducked ≈ −28 dB; sound on **100% of
   device entrances AND exits** from the licensed library (Sky lands some devices silent —
   e.g. DevpJZLk6Km — PWC's target is his best density, everywhere); stamp sound on verdicts.
-  No device appears or leaves silently. DJccT_xSWuT's isolated UI blip (31.26–31.68 s) is
+  No device appears or leaves silently. **EVERYTHING HAS SOUND (Q, Nov 12, 2026 —
+  "make sure everything has sound as well, that's very important for the viewer"):
+  every visual event — pop-up, exhibit, panel, split change, count, lockup, card —
+  carries its sound in AND out; a silent visual event is a failed event, and the
+  Earshot listen-back names any visual landing/exit with no sound under it. The
+  build does not ship until that count is zero.** DJccT_xSWuT's isolated UI blip (31.26–31.68 s) is
   an instance note on D51, not a device.
 
 ## 2. Captions (D1 — the constant)
