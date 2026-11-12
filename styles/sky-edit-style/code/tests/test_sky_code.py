@@ -1574,5 +1574,30 @@ class TestQC(unittest.TestCase):
         self.assertIn("P1", failed)
 
 
+class TestQLaneNoBW(unittest.TestCase):
+    """Q ruling Nov 12, 2026: no black-and-white in Q's videos."""
+
+    def test_d21_bw_beat_rejected_in_premium_plan(self):
+        evs = sky_devices.d21_bw_beat(5.0, hero_word="DON'T")
+        probs = sky_devices.validate_premium_plan(evs)
+        self.assertTrue(any("B&W" in p and "BANNED" in p for p in probs),
+                        probs)
+
+    def test_desaturate_motion_rejected(self):
+        ev = sky_devices.d2_headline_lockup(5.0, kicker="k",
+                                            display_lines=["X"])
+        ev[0]["motion"] = {"in": {"type": "desaturate", "dur_s": 0.1},
+                           "out": {"type": "hard_cut"}}
+        probs = sky_devices.validate_premium_plan(ev)
+        self.assertTrue(any("desaturate" in p for p in probs), probs)
+
+    def test_frame_desaturation_in_colours_rejected(self):
+        ev = sky_devices.d2_headline_lockup(5.0, kicker="k",
+                                            display_lines=["X"])
+        ev[0]["colors"] = {"frame": "desaturated (saturation 0)"}
+        probs = sky_devices.validate_premium_plan(ev)
+        self.assertTrue(any("desaturation" in p for p in probs), probs)
+
+
 if __name__ == "__main__":
     unittest.main()

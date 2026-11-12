@@ -1191,6 +1191,11 @@ def d21_bw_beat(t0, *, hero_word, duration_s=1.4, family="orange",
                 source_reel="DeSTWxcDTA7"):
     """D21 B&W beat. VERIFIED (DeSTW) — a Sky device, not just a PWC invention.
 
+    Q-LANE BANNED (Q ruling Nov 12, 2026): this builder is the measured
+    record for the teardown/examples ONLY. validate_premium_plan rejects
+    any D21 event in a Q-lane plan — Q's chosen examples do not use the
+    B&W beat and he does not want his videos going black and white.
+
     The frame desaturates to B&W with ONE big accent word ('DON'T' in Sky's
     orange -> gold in Q's lane). Held 1-1.6 s. No impact sound (PWC engine).
     """
@@ -3659,7 +3664,17 @@ BANNED_FONT_MARKERS = ("serif", "times new roman", "georgia", "playfair",
 BANNED_MOTION_TYPES = {"slide_up", "slide_left", "slide_down", "scale_fade",
                        "fade_together", "slide_blur_out", "serif_blur_in",
                        "vertical_smear_drop", "pop_in", "template_title_card",
-                       "static_stamp", "sticker", "tilted_sticker", "idle_float"}
+                       "static_stamp", "sticker", "tilted_sticker", "idle_float",
+                       # Q RULING Nov 12, 2026: frame desaturation (the B&W
+                       # beat's entrance) is banned in the Q lane — see
+                       # Q_LANE_BANNED_DEVICES.
+                       "desaturate"}
+# Q RULING (Nov 12, 2026, after watching the 1-11 v7): NO BLACK AND WHITE
+# in Q's videos. D21 is a real, measured Sky device (DeSTW "DON'T" beat) and
+# stays in the teardown/examples — but it is NOT in the examples Q chose for
+# his lane and he does not want the video going B&W, so a premium Q-lane
+# plan may never contain it.
+Q_LANE_BANNED_DEVICES = {"D21"}
 BANNED_TREATMENT_MARKERS = ("template title card", "static stamp",
                             "tilted sticker", "cheap ai", "cheap template")
 CHEAP_ASSET_MARKERS = ("placeholder", "dummy", "lorem", "stock", "cheap",
@@ -3844,6 +3859,18 @@ def validate_premium_plan(events: list[dict]) -> list[str]:
     problems = list(validate_events(events))
     for ev in events:
         dev = ev.get("device", "?")
+        if dev in Q_LANE_BANNED_DEVICES:
+            problems.append(f"{dev}: B&W beat is BANNED in the Q lane "
+                            "(Q ruling Nov 12, 2026) — a measured Sky device "
+                            "that stays in the examples only; Q's chosen "
+                            "examples do not use it and the video never goes "
+                            "black and white in his edits")
+        for _k, _v in _walk(ev.get("colors") or {}):
+            _low = _v.lower()
+            if "desaturat" in _low or "saturation 0" in _low:
+                problems.append(f"{dev}: frame desaturation declared in "
+                                f"colours ({_v!r}) — B&W frame treatments are "
+                                "banned in the Q lane (Q ruling Nov 12, 2026)")
         if ev.get("option") == 2:
             problems.append(f"{dev}: removed generic-fallback event (option=2) "
                             "in a premium plan — premium Sky is the only mode (v6)")

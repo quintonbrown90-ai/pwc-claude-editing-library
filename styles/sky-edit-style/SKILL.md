@@ -20,6 +20,23 @@ visual motions, sounds, transitions. Every planned event sits on the take's own 
 plan or it FAILS validation (`validate_beat_lock` / gate P10). Full spec:
 `STYLE-GRAMMAR.md` §5 + Batch 36 `synthesis/BEAT-LOCK-SPEC.md`.
 
+**FRAMING + GRADE + NO-B&W (Q, Nov 12, 2026 — binding; Q's verdict after watching the
+1-11 v7 build):**
+- **NO BLACK AND WHITE.** The video never desaturates. D21 (B&W beat) is a real measured
+  Sky device and stays in the teardown/examples, but it is BANNED in the Q lane —
+  validator-enforced (`Q_LANE_BANNED_DEVICES` + the `desaturate` motion ban). It is not
+  in the examples Q chose for his lane, and he does not want it.
+- **NO TIGHTENING.** The A-roll stays at the take's own framing (1.0×). Never scale the
+  subject up to reframe; a plate may SHIFT (e.g. drop) only without scaling him larger.
+  Punch-ins are never sustained and never make him closer than his own closest source
+  framing. If the take is tight, the edit lives with it — it does not push in further.
+- **GRADE WITH A LIGHT HAND.** No background blur, no crushed "cinematic" darkening, no
+  vignette crush. Sky's room in his posts is dim but READABLE — furniture, wall and set
+  stay visible. Match that level; never blur or darken the background past it.
+- These three (B&W, scale-up reframes, over-grade/fake blur) are named residues of the
+  generic "Claude AI look" Q is rejecting: the standing push is full Sky adoption —
+  if a treatment has no measured instance in Sky's posts, it does not go in Q's video.
+
 **COVERAGE (Batch 36, measured).** Reels **49/49** decoded (15 priority + origin + 33
 Batch-19); soundmaps **48 + 1** (48 per-reel maps + the DOTnacsDXvB duplicate covered by
 DOWgvE0Ezgs' map, spectrograms SHA-identical). Carousels: **51/86 slides** frame-decoded —

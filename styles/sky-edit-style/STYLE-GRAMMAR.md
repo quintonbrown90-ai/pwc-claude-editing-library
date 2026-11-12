@@ -115,6 +115,20 @@ timing, sound, framing, pacing — is Sky's, to the T.
 | Grade (PWC engine) | Gain .80, gamma 1.25, contrast +10%, saturation .82, warm mids, cool shadows, elliptical vignette (edges ×~.45), navy shade over top HUD zone; finishing lift `eq=gamma=1.10:brightness=0.015` once at packaging | PWC ENGINE |
 | Behind-the-head depth (PWC) | Robust Video Matting cut-out; back graphics behind him, his cut-out on top, front graphics + captions in front; hero words y≈450 so his cap overlaps letter bottoms; NOTHING ever covers his face | PWC (Q approved Nov 6, 2026 04:21) |
 
+**Q-LANE OVERRIDES (Q, Nov 12, 2026 — binding; Q's verdict on the 1-11 v7 build).** The
+PWC-engine rows above are legacy engine behaviour; in Q's Sky lane these supersede them:
+- **Framing:** A-roll at the take's own framing (1.0×). NO hook zoom-out (1.45× row —
+  dead), NO punch-in tightening (1.12–1.18× row — dead), NO B&W-beat 1.22× (dead with
+  D21). A plate may SHIFT (drop row) only without scaling the subject larger. Sky's own
+  measured zoom is ≈5–10% MAX and most of his reels are one continuous take — that is
+  the ceiling, not the engine's.
+- **No background blur:** the Focus pull row (blur sigma ~18 + brightness ×0.70) is
+  BANNED in the Q lane. The room is never blurred out behind him.
+- **Grade capped:** the Grade row's vignette crush (edges ×~.45) and heavy darkening are
+  BANNED in the Q lane. Sky's set is dim but READABLE — match that level and stop.
+- **No B&W:** the B&W beat row is dead in the Q lane (see the D21 entries — measured
+  Sky device, examples only, validator-enforced ban).
+
 ## 2. Captions (D1)
 
 | Spec | Value | Status |
