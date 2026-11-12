@@ -128,6 +128,11 @@ PWC-engine rows above are legacy engine behaviour; in Q's Sky lane these superse
   BANNED in the Q lane. Sky's set is dim but READABLE — match that level and stop.
 - **No B&W:** the B&W beat row is dead in the Q lane (see the D21 entries — measured
   Sky device, examples only, validator-enforced ban).
+- **Pop-up precision + visual motion (Q, Nov 12, 2026):** every pop-up lands on the
+  exact spoken word/gesture it illustrates (frame-precise against the word timing —
+  graded per pop-up in QC), and exhibits MOVE the way Sky's do (builds, count-ups,
+  staggered rows, travelling panels). Static-stamp arrivals fail. Density holds the
+  §1/§6 measured cadence without inventing unmeasured devices.
 
 ## 2. Captions (D1)
 

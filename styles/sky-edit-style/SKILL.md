@@ -36,6 +36,13 @@ plan or it FAILS validation (`validate_beat_lock` / gate P10). Full spec:
 - These three (B&W, scale-up reframes, over-grade/fake blur) are named residues of the
   generic "Claude AI look" Q is rejecting: the standing push is full Sky adoption —
   if a treatment has no measured instance in Sky's posts, it does not go in Q's video.
+- **POP-UP PRECISION + VISUAL DENSITY/MOTION (Q, Nov 12, 2026 — binding).** Pop-ups land
+  PRECISELY on the spoken word (and the gesture — pointing, looking, movement) they
+  illustrate: frame-precise, beat-locked, graded per pop-up in QC (landing vs its
+  trigger word, in frames). And MORE visuals, MOVING like Sky's: exhibits build, count,
+  stagger, travel and land — nothing arrives as a static stamp. Visual cadence holds
+  Sky's measured density (a visual event every ≤2 s; graphic swaps ≈ every 10 s per
+  section) without inventing devices that have no Sky instance.
 
 **COVERAGE (Batch 36, measured).** Reels **49/49** decoded (15 priority + origin + 33
 Batch-19); soundmaps **48 + 1** (48 per-reel maps + the DOTnacsDXvB duplicate covered by
