@@ -75,7 +75,7 @@ def qc_plan(plan: dict, *, face_box=None) -> dict:
     # P2 captions
     groups = [e for e in events if e["device"] == "D1"]
     bad_groups = [e for e in groups if len(e["text"].split()) > 3 or not e["text"].strip()]
-    gate("P2", "captions 1-3 words/group, all-white",
+    gate("P2", "captions <=3 words/group (1-word talking-head groups OK; one caption mode per plan — P9 enforces mode/colours)",
          not bad_groups,
          f"{len(groups)} groups" + (f"; BAD: {[g['text'] for g in bad_groups[:3]]}" if bad_groups else ""))
     # P3 variety + geometry (shared validator)

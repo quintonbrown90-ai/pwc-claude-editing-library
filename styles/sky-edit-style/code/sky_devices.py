@@ -1,5 +1,7 @@
 #!/usr/bin/env python3
-"""sky_devices.py — every Sky device D1-D56 as executable code (SKY v6).
+"""sky_devices.py — every Sky device D1-D59 as executable code (SKY v6,
+plus the Batch-39 update: D57-D59, the D2-lockup mixed-face headline and
+the measured variants folded in Nov 12, 2026).
 
 Each device is a function that takes a start time + its parameters and
 returns a list of timeline EVENT dicts. An event is the single unit every
@@ -39,6 +41,15 @@ validate_premium_plan() rejects unknown devices, banned fonts/treatments,
 cheap-grade assets, AI provenance on proof devices, [EST]-quarantined
 devices and events with no Sky source citation. validate_beat_lock() /
 beat_lock_report() enforce the beat-lock law (BEAT-LOCK-SPEC.md).
+
+Batch 39 (Nov 12, 2026 — Sky's four newest reels, decoded in
+research/video-harvest/instagram/batch-39-sky-newest/): Q's rulings of
+Nov 12 are wired in, not just documented — the D2-lockup serif+bold
+headline is APPROVED in PWC colours (serif stays banned in every other
+role), D1 captions carry the batch-39 1-word talking-head cadence
+(era="b39") and the two approved Q-lane caption modes (all-white /
+keyword highlight, one per plan), and D57-D59 + the D5/D43/D48/D55
+variants are registered devices.
 """
 from __future__ import annotations
 
@@ -72,9 +83,12 @@ SAFE = {"x0": 70, "x1": 930, "y0": 280, "y1": 1480}
 # at the top of the frame (#46). The exemption is per DEVICE id, not per
 # event — the Q-lane plan must still record the safe-zone decision per take
 # (shift down where the framing allows). It is NOT a general top-zone permission.
-TOP_ZONE_MEASURED = {"D2", "D12", "D27", "D30", "D33", "D34", "D36",
-                     "D38", "D40", "D41", "D42", "D44", "D46", "D47", "D48",
-                     "D49", "D50", "D51"}
+# Batch 39 adds "D2-lockup": the mixed-face title stack also sits top-centre
+# in Dffuws3EiGZ's open (the lockup's home is the chest; the top-stack form
+# is measured, so the device is exempt, per take as always).
+TOP_ZONE_MEASURED = {"D2", "D2-lockup", "D12", "D27", "D30", "D33",
+                     "D34", "D36", "D38", "D40", "D41", "D42", "D44", "D46",
+                     "D47", "D48", "D49", "D50", "D51"}
 # Face box MEASURED Nov 9 (code-build pass) from 01_DfX2qwQGagM.mp4 @2.0 s
 # (720x1280 frame -> 1080x1920): hair top ~y720, chin ~y1170, face x345-735.
 # DfQ4's framing is lower (hair top ~y840). ALWAYS override per take with
@@ -254,12 +268,20 @@ def caption_groups(words, max_words=CAPTION_MAX_WORDS, max_chars=CAPTION_MAX_CHA
     merge is possible (neighbours full at 5 words, e.g. "CTA," 35.54 s) or
     it follows a sentence end (e.g. "First," in the fixture) — that is the
     documented punctuation case, never a silent orphan.
+
+    era "b39" (Batch 39, Nov 12 2026 — Sky's newest reels): talking-head
+    captions are 1 WORD per group, frame-verified at 4 fps on DfmxuoenIMV
+    and at 1 fps across the other three reels; ~0.21-0.5 s holds fall out
+    of the word timings. (The 1-word cadence was previously registered
+    only as the D38 POV-desk variant.)
     """
     if era == "dcc":
         max_words = 5
         max_chars = DCC_CAPTION_MAX_CHARS
+    elif era == "b39":
+        max_words = 1
     elif era != "df":
-        raise ValueError(f"era must be 'df' or 'dcc', got {era!r}")
+        raise ValueError(f"era must be 'df', 'dcc' or 'b39', got {era!r}")
     groups, cur = [], []
     for w in words:
         cur.append(w)
@@ -292,7 +314,8 @@ def caption_groups(words, max_words=CAPTION_MAX_WORDS, max_chars=CAPTION_MAX_CHA
 
 
 def d1_captions(words, *, y=CAPTION_Y, font_px=CAPTION_FONT_PX,
-                source_reel="DfX2qwQGagM", era="df", gold_words=None):
+                source_reel="DfX2qwQGagM", era="df", gold_words=None,
+                mode=None, highlight_color=GOLD):
     # y is the caption CENTRE. sky_build_plan computes it per take as
     # chin + 69 px (chin + 40 px clearance + half the 58 px text); the
     # default is the DfX2/DfQ4 frame measurement (~y1240/1920).
@@ -307,14 +330,45 @@ def d1_captions(words, *, y=CAPTION_Y, font_px=CAPTION_FONT_PX,
     accent, (b) the current template-beat name, (c) key figures; everything
     else white. Pass those words as gold_words (lowercased match). Default
     era="df" keeps the v3 all-white captions + separate headline (G-01).
+
+    era="b39" (Batch 39, Nov 12 2026 — DfnQiBcEl04 / DfmxuoenIMV /
+    Dffuws3EiGZ / DfZ_q_pFbX1): talking-head captions are 1 WORD per
+    group, frame-verified; all-white in Sky's own reels (accents live in
+    the headline devices).
+
+    mode (Q RULING Nov 12, 2026 — SKILL.md §2): the Q lane has TWO
+    approved caption modes. Every event is stamped "caption_mode" and
+    validate_premium_plan enforces the pair plan-wide:
+      "white"     — all-white groups (the measured default).
+      "highlight" — white lettering with the gold_words keywords coloured
+                    in highlight_color: PWC gold #FEE238, or teal #14A886
+                    at times — never Sky's green/orange.
+    ONE mode per video, never mixed; a highlighted word must not ALSO be
+    headlined at the same beat (no double treatment — the validator
+    checks D1 keywords against D2 / D2-lockup headline text on
+    overlapping spans). era="dcc" IS the in-caption-accent variant, so
+    it always runs "highlight" (gold). Defaults: white for df/b39,
+    highlight for dcc.
     """
+    if era not in ("df", "dcc", "b39"):
+        raise ValueError(f"era must be 'df', 'dcc' or 'b39', got {era!r}")
+    if mode is None:
+        mode = "highlight" if era == "dcc" else "white"
+    if mode not in ("white", "highlight"):
+        raise ValueError(f"caption mode must be 'white' or 'highlight', got {mode!r}")
+    if era == "dcc" and mode != "highlight":
+        raise ValueError("the Dcc-era variant IS the in-caption accent "
+                         "variant — it cannot run in 'white' mode")
+    if mode == "highlight" and highlight_color not in (GOLD, TEAL):
+        raise ValueError("caption highlight colour is PWC gold or teal only "
+                         "(Q ruling Nov 12, 2026) — never Sky green/orange")
     events = []
     gold_set = {w.lower().strip(".,!?;:") for w in (gold_words or [])}
     for g in caption_groups(words, era=era):
         # Width estimate: ~0.55 * font_px per char is generous for bold grotesque.
         w = min(860, max(120, int(len(g["text"]) * font_px * 0.52)))
         keyword = None
-        if era == "dcc":
+        if mode == "highlight":
             for word in g["text"].split():
                 if word.lower().strip(".,!?;:") in gold_set:
                     keyword = word.strip(".,!?;:")
@@ -322,11 +376,33 @@ def d1_captions(words, *, y=CAPTION_Y, font_px=CAPTION_FONT_PX,
         colors = {"text": WHITE}
         items = []
         if keyword:
-            colors["keyword"] = GOLD
+            colors["keyword"] = GOLD if era == "dcc" else highlight_color
             items = [{"keyword": keyword,
-                      "notes": "Dcc-era in-caption gold keyword (beat name / "
-                               "figure / hook accent only — never filler words)"}]
-        events.append(_base(
+                      "notes": ("Dcc-era in-caption gold keyword (beat name / "
+                                "figure / hook accent only — never filler words)"
+                                if era == "dcc" else
+                                "Q-lane highlight mode (Q ruling Nov 12, 2026): "
+                                "keyword coloured gold/teal inside white "
+                                "lettering; one mode per video, and the word "
+                                "is never ALSO headlined at the same beat")}]
+        if era == "dcc":
+            notes = ("2-5 words/group, Dcc-era in-caption gold keyword "
+                     "(EDIT-TEARDOWN.md T-02); never mix with the Df-era "
+                     "all-white variant in one video.")
+        elif era == "b39":
+            notes = ("1 word/group, batch-39 talking-head cadence "
+                     "(frame-verified Nov 12, 2026); "
+                     + ("all-white — accents live in the headline devices."
+                        if mode == "white" else
+                        "Q-lane highlight mode: keyword gold/teal, rest white."))
+        elif mode == "highlight":
+            notes = ("1-3 words/group, Q-lane highlight mode (Q ruling "
+                     "Nov 12, 2026): white lettering, keyword gold/teal; "
+                     "one mode per video, no double treatment.")
+        else:
+            notes = ("1-3 words/group, all-white, no highlight; accent word is a "
+                     "separate headline device, never a caption highlight (G-01 resolved).")
+        ev = _base(
             "D1", "speech caption", g["t0"], g["t1"], TRACKS["captions"],
             _geom(540 - w // 2, y - font_px // 2, w, font_px + 16),
             status="VERIFIED", source_reel=source_reel,
@@ -335,11 +411,9 @@ def d1_captions(words, *, y=CAPTION_Y, font_px=CAPTION_FONT_PX,
             motion={"in": {"type": "hard_cut", "dur_s": 0.033,
                            "easing": "step", "notes": "full size in <=1 frame, no ramp"},
                     "out": {"type": "pop_fade", "dur_s": CAPTION_OUT_S, "easing": "power4.out"}},
-            notes=("2-5 words/group, Dcc-era in-caption gold keyword "
-                   "(EDIT-TEARDOWN.md T-02); never mix with the Df-era "
-                   "all-white variant in one video." if era == "dcc" else
-                   "1-3 words/group, all-white, no highlight; accent word is a "
-                   "separate headline device, never a caption highlight (G-01 resolved).")))
+            notes=notes)
+        ev["caption_mode"] = mode
+        events.append(ev)
     return events
 
 
@@ -374,6 +448,76 @@ def d2_headline_lockup(t0, *, kicker, display_lines, family="green",
               "Measured DfX2: block y~1245-1575/1920, over the torso below the "
               "chin — ends past the y1480 safe-zone bottom; frame audit decides "
               "per take.")]
+
+
+def d2_serif_lockup(t0, *, serif_word, keyword, serif_first=True,
+                    hold_s=2.0, y=1100, serif_px=150, keyword_px=85,
+                    line_text=None, source_reel="DfmxuoenIMV"):
+    """D2-lockup — serif+bold headline lockup. VERIFIED (Batch 39).
+
+    Sky's newest standard headline grammar (DfmxuoenIMV / DfZ_q_pFbX1 /
+    Dffuws3EiGZ, decoded Nov 12, 2026): a two-line mixed-face lockup —
+    one line in ITALIC SERIF (the setup/qualifier word), the other in
+    BOLD GROTESQUE (the concept/keyword line), hard exit after a short
+    hold. Measured instances: "Reaction" (white italic serif ~150 px)
+    over "consultation" (neon-green grotesque ~85 px) @~12-13.5 s
+    DfmxuoenIMV; the same grammar inverted ("Super" grotesque ~110 px
+    over "time efficient" serif ~70 px) @~42-47 s; "Why" (serif ~55 px)
+    over "Process Crushes" (grotesque ~85 px) @~2.5-4 s DfZ_q_pFbX1;
+    Dffuws3EiGZ's hook title stack ("How to write 10/10 hooks" /
+    "as an expert") sits top-centre — hence TOP_ZONE_MEASURED membership.
+
+    Q RULING (Nov 12, 2026): ADOPTED in PWC colours — serif word WHITE,
+    bold keyword PWC GOLD #FEE238 (the slot Sky fills with neon green),
+    teal #14A886 for structural accents. A lockup built to this spec is
+    APPROVED by validate_premium_plan: the items' role="serif_word" font
+    string is exempt from the banned-font scan and conformance is checked
+    by _lockup_problems. Serif remains BANNED in every other role
+    (captions, counters, outcomes, generic display). Headline lockups
+    ONLY — and never the same word as a caption highlight at the same
+    beat (no double treatment).
+
+    line_text: the grotesque line's full text when the keyword sits
+    INLINE inside it (Dffuws3EiGZ "How to write **10/10 hooks**");
+    default: the keyword is the whole line.
+    """
+    if not serif_word or not serif_word.strip():
+        raise ValueError("D2-lockup needs the serif (setup) word")
+    if not keyword or not keyword.strip():
+        raise ValueError("D2-lockup needs the bold keyword")
+    line = line_text if line_text is not None else keyword
+    w = min(1000, max(320, int(max(len(serif_word) * serif_px,
+                                   len(line) * keyword_px) * 0.52)))
+    h = serif_px + keyword_px + 30
+    slots = ([("serif_word", serif_word), ("keyword", keyword)]
+             if serif_first else
+             [("keyword", keyword), ("serif_word", serif_word)])
+    items = []
+    for role, word in slots:
+        if role == "serif_word":
+            items.append({"role": "serif_word", "text": word,
+                          "font": "Instrument Serif Italic", "color": WHITE,
+                          "font_px": serif_px,
+                          "notes": "setup/qualifier line — the lockup's ONLY "
+                                   "approved serif slot (Q ruling Nov 12, 2026)"})
+        else:
+            items.append({"role": "keyword", "text": word, "line_text": line,
+                          "font": "Inter ExtraBold (bold grotesque)",
+                          "color": GOLD, "font_px": keyword_px,
+                          "notes": "concept line in PWC gold — the slot Sky "
+                                   "fills with neon green"})
+    return [_base(
+        "D2-lockup", "serif+bold headline lockup", t0, t0 + hold_s,
+        TRACKS["chip"], _geom(540 - w // 2, y, w, h),
+        status="VERIFIED", source_reel=source_reel,
+        colors={"serif_word": WHITE, "keyword": GOLD, "accent": TEAL},
+        text={"serif_word": serif_word, "keyword": keyword, "line": line},
+        items=items,
+        motion={"in": _pop_in(), "out": _hard_cut_out()},
+        sfx="pop-medium-in.wav",
+        notes="Batch-39 mixed-face lockup: serif setup word (white) + bold "
+              "grotesque keyword (PWC gold); holds ~1.5-2 s, hard exit. "
+              "Q ruling Nov 12, 2026 — adopted in PWC colours.")]
 
 
 # ---------------------------------------------------------------- D3 title stack
@@ -547,7 +691,8 @@ def d5_chapter_card(t0, *, numeral, name, definition, family="green",
 
 
 def d5_checklist(t0, *, title, items, family="green", hairline_y=700,
-                 top_y=300, source_reel="DfQ4E1Hjn0n"):
+                 top_y=300, source_reel="DfQ4E1Hjn0n",
+                 recap_t=None, recap_hold_s=4.0):
     """D5 measured variant — numbered white-pill checklist. VERIFIED (DfQ4).
 
     Measured Nov 9 from 05_DfQ4E1Hjn0n.mp4 frames at 0.6 s and 1.5 s:
@@ -558,6 +703,12 @@ def d5_checklist(t0, *, title, items, family="green", hairline_y=700,
     This is what DfQ4 actually shows — the big-numeral chapter card
     (d5_chapter_card) is a different, still-[EST] device. Closes G-07 D5
     as "checklist VERIFIED, chapter card still [EST]".
+
+    Batch-39 VARIANT (DfZ_q_pFbX1): the checklist lives in TWO states —
+    it builds in solid accent pills (pending rows dimmed), then the SAME
+    list returns at the close as TRANSLUCENT GLASS pills (white text, no
+    accent fill) beside the final-result exhibit, a neutral recap state.
+    Pass recap_t to emit that glass recap event (same instance).
     """
     accent = _accent(family)
     row_h = min(100, max(50, (hairline_y - top_y - 80) // max(1, len(items))))
@@ -575,6 +726,23 @@ def d5_checklist(t0, *, title, items, family="green", hairline_y=700,
               f"recurs per section (~6/17/31.5/44.5/60.5 s) + full recap ~70.5 s. "
               f"Rows {row_h}px (compressed to fit above hairline y{hairline_y}; "
               f"DfQ4 measured ~82px with that reel's lower hairline ~840).")]
+    if recap_t is not None:
+        events.append(_base(
+            "D5", "numbered checklist (glass recap)", recap_t,
+            recap_t + recap_hold_s, TRACKS["hero"],
+            _geom(180, top_y, 720, hairline_y - top_y),
+            status="VERIFIED", source_reel="DfZ_q_pFbX1",
+            instance=events[0]["instance"],
+            colors={"title": accent, "pill_fill": "translucent glass",
+                    "pill_text": WHITE, "active_highlight": accent},
+            text=title,
+            items=[{"index": i + 1, "label": it} for i, it in enumerate(items)],
+            motion={"in": _panel_in(), "out": _hard_cut_out()},
+            notes="Batch-39 two-state life (DfZ_q_pFbX1 @~33-37 s): the SAME "
+                  "checklist returns at the close as TRANSLUCENT GLASS pills "
+                  "(white text, no accent fill) beside the final-result "
+                  "exhibit — the neutral recap state of the list that built "
+                  "in solid accent pills."))
     return events
 
 
@@ -2223,6 +2391,7 @@ def d42_question_fork(t0, *, header, question, outcomes,
 
 
 def d43_view_count_badge(t0, *, count, t1=None, exhibit_top_y=480,
+                         variant="above", exhibit_bottom_y=None,
                          source_reel="DevpJZLk6Km"):
     """D43 view-count badge. VERIFIED (#17/#18).
 
@@ -2236,10 +2405,41 @@ def d43_view_count_badge(t0, *, count, t1=None, exhibit_top_y=480,
     pill bottom-centre of the exhibit side and part of that exhibit's own
     presentation. Q lane: white bold count, eye icon, gold NOT used — the
     count is proof, not a payoff figure.
+
+    Batch-39 VARIANT variant="below_pill" (DfmxuoenIMV / DfZ_q_pFbX1):
+    the badge simplifies to a PLAIN WHITE TEXT PILL with black bold text
+    and NO eye icon, placed directly BELOW the exhibit card (DfmxuoenIMV
+    "1.5M views" pill under the hook clip; DfZ_q_pFbX1 plain "1.9M" text
+    under the exhibit). Requires exhibit_bottom_y; pass the batch-39
+    reel as source_reel.
     """
     if not count or not str(count).strip():
         raise ValueError("D43 needs a view count (e.g. '1.5M')")
     end = t1 if t1 is not None else t0 + 7.0
+    if variant == "below_pill":
+        if exhibit_bottom_y is None:
+            raise ValueError("D43 below_pill variant needs exhibit_bottom_y "
+                             "(the pill sits directly under the exhibit card)")
+        return [_base(
+            "D43", f"view-count badge (below-exhibit pill): {count}", t0, end,
+            TRACKS["chip"], _geom(440, exhibit_bottom_y + 10, 200, 60),
+            status="VERIFIED", source_reel=source_reel,
+            colors={"pill_fill": WHITE, "text": NAVY_DEEP},
+            text=str(count),
+            items=[{"count": str(count), "icon": None, "font_px": 45,
+                    "form": "plain white pill, black bold text, NO eye icon",
+                    "notes": "Batch-39 variant (DfmxuoenIMV '1.5M views' pill "
+                             "below the exhibit card; DfZ_q_pFbX1 plain '1.9M' "
+                             "text under the exhibit) — simplified badge, "
+                             "placed BELOW the exhibit, not above it"}],
+            motion={"in": {"type": "hard_cut",
+                           "notes": "enters + exits WITH its exhibit"},
+                    "out": _hard_cut_out()},
+            notes="D43 batch-39 variant: plain white text pill below the "
+                  "exhibit (no eye icon). Per-exhibit, never assumed.")]
+    if variant != "above":
+        raise ValueError(f"D43 variant must be 'above' or 'below_pill', "
+                         f"got {variant!r}")
     return [_base(
         "D43", f"view-count badge: {count}", t0, end, TRACKS["chip"],
         _geom(440, exhibit_top_y - 75, 200, 75),
@@ -2496,6 +2696,7 @@ def d47_binary_label_pair(t0, *, labels, winner, winner_t=None,
 
 
 def d48_stacked_split(t0, *, exhibit, t1, divider_frac=0.48, caption_y=None,
+                      inverted=False, exhibit_mode=False,
                       source_reel="DRoLuFRAnwh"):
     """D48 stacked split-screen, exhibit top / reactor bottom (persistent).
     VERIFIED (#36/#37/#38 + #39/#40/#49 — MERGED device, see
@@ -2521,6 +2722,17 @@ def d48_stacked_split(t0, *, exhibit, t1, divider_frac=0.48, caption_y=None,
     — segments are the exhibit-content beats (optional; without them the
     exhibit is one continuous recording). kind: "desktop_profile_scroll" |
     "mobile_reel" | "profile_grid" | "screen_recording".
+
+    Batch-39 VARIANTS (Nov 12, 2026):
+    - exhibit_mode=True (DfnQiBcEl04): the split is an INTERMITTENT
+      EXHIBIT MODE inside a talking-head reel, not the reel's form — it
+      cuts in/out 3x (~7.5-12 s, ~48-55 s, ~62-66 s), top ~52% the
+      client's profile grid, captions at the top of the reactor half
+      under the divider. Emit one D48 span per in/out stretch.
+    - inverted=True (Dffuws3EiGZ): the WHOLE-REEL split is INVERTED —
+      reactor on TOP, the exhibit (a POV desk build) on the BOTTOM,
+      divider at ~50% (y~960), and captions sit centred ON the divider
+      line (cap_y defaults to divider_y - 40).
     """
     if not exhibit.get("clip_path"):
         raise ValueError("D48 needs a REAL exhibit recording — never a still")
@@ -2534,10 +2746,21 @@ def d48_stacked_split(t0, *, exhibit, t1, divider_frac=0.48, caption_y=None,
             raise ValueError("D48 exhibit segments must be in ascending time order")
     inst = f"D48@{t0:.2f}"
     divider_y = round(1920 * divider_frac)
-    cap_y = caption_y if caption_y is not None else divider_y + 20
+    if caption_y is not None:
+        cap_y = caption_y
+    elif inverted:
+        cap_y = divider_y - 40  # batch-39 inverted: captions sit ON the divider
+    else:
+        cap_y = divider_y + 20
+    exhibit_geom = (_geom(0, divider_y, 1080, 1920 - divider_y) if inverted
+                    else _geom(0, 0, 1080, divider_y))
+    reactor_geom = (_geom(0, 0, 1080, divider_y) if inverted
+                    else _geom(0, divider_y, 1080, 1920 - divider_y))
+    exhibit_half = "bottom" if inverted else "top"
+    reactor_half = "top" if inverted else "bottom"
     events = [_base(
-        "D48", "stacked split: exhibit (top)", t0, t1, TRACKS["asset"],
-        _geom(0, 0, 1080, divider_y),
+        "D48", f"stacked split: exhibit ({exhibit_half})", t0, t1, TRACKS["asset"],
+        exhibit_geom,
         status="VERIFIED", source_reel=source_reel, instance=inst,
         colors={"text": WHITE},
         text="exhibit",
@@ -2548,8 +2771,15 @@ def d48_stacked_split(t0, *, exhibit, t1, divider_frac=0.48, caption_y=None,
                          "geometry never moves"}],
         motion={"in": {"type": "hard_cut", "notes": "split present from frame 0"},
                 "out": _hard_cut_out()},
-        notes="D48 exhibit half: top ~half, whole reel. Top zone "
-              "(TOP_ZONE_MEASURED — exhibit starts at y0)."),
+        notes=("D48 exhibit half: " + exhibit_half + " ~half, whole reel. Top zone "
+               "(TOP_ZONE_MEASURED — exhibit starts at y0)."
+               + (" Batch-39 INVERTED (Dffuws3EiGZ): the exhibit (his own "
+                  "desk build) takes the BOTTOM half; captions sit ON the "
+                  "divider." if inverted else "")
+               + (" Batch-39 EXHIBIT MODE (DfnQiBcEl04): intermittent "
+                  "exhibit state inside a talking-head reel — the split "
+                  "cuts in and out, it is not the reel's form."
+                  if exhibit_mode else ""))),
         _base(
         "D48", "stacked split: divider", t0, t1, TRACKS["hero"],
         _geom(0, divider_y - 1, 1080, 2),
@@ -2560,8 +2790,8 @@ def d48_stacked_split(t0, *, exhibit, t1, divider_frac=0.48, caption_y=None,
         motion={"in": {"type": "hard_cut"}, "out": _hard_cut_out()},
         notes="D48 divider: thin white line (~2 px), whole reel."),
         _base(
-        "D48", "stacked split: reactor (bottom)", t0, t1, TRACKS["aroll"],
-        _geom(0, divider_y, 1080, 1920 - divider_y),
+        "D48", f"stacked split: reactor ({reactor_half})", t0, t1, TRACKS["aroll"],
+        reactor_geom,
         status="VERIFIED", source_reel=source_reel, instance=inst,
         colors={"text": WHITE},
         text="reactor",
@@ -2571,12 +2801,15 @@ def d48_stacked_split(t0, *, exhibit, t1, divider_frac=0.48, caption_y=None,
                          "serif there is banned in v6 — Q-lane D48 uses sans "
                          "in the same placement"}],
         motion={"in": {"type": "hard_cut"}, "out": _hard_cut_out()},
-        notes="D48 reactor half: bottom ~half, one continuous take.")]
+        notes=("D48 reactor half: " + reactor_half + " ~half, one continuous take."
+               + (" Batch-39 INVERTED (Dffuws3EiGZ): reactor on top; his "
+                  "captions ride the divider line itself (caption_y)."
+                  if inverted else "")))]
     for i, (label, st0) in enumerate(segments):
         st1 = segments[i + 1][1] if i + 1 < len(segments) else t1
         events.append(_base(
             "D48", f"exhibit segment: {label}", st0, st1, TRACKS["asset"],
-            _geom(0, 0, 1080, divider_y),
+            exhibit_geom,
             status="VERIFIED", source_reel=source_reel, instance=inst,
             colors={"text": WHITE},
             text=label,
@@ -2947,7 +3180,8 @@ def d54_grid_workflow_strip(t0, *, steps, t1=None, source_reel="DP4r6BbEvHg"):
 # (notes_DeYKkAIgVfL.md / notes_DeSTWxcDTA7.md, worker B1) swept against
 # D1-D54. Everything else in those reels deduped into existing devices
 # (see WORKER-D-REPORT.md); these two mechanics had no coded home.
-def d55_numbered_pill_system(t0, *, pills, source_reel="DeYKkAIgVfL"):
+def d55_numbered_pill_system(t0, *, pills, layout="row",
+                             source_reel="DeYKkAIgVfL"):
     """D55 numbered association pill system. VERIFIED (DeYKkAIgVfL, P14).
 
     The case-study walkthrough device (Batch 36 B1, strip-resolved): the
@@ -2975,6 +3209,16 @@ def d55_numbered_pill_system(t0, *, pills, source_reel="DeYKkAIgVfL"):
     pills: [{"number": int, "text": str, "chip_alone_t": float,
              "text_t0": float, "text_t1": float}] in spoken order. The row
     event spans from t0 (pre-shown) to the last pill's hold end.
+
+    layout="vertical_stack" — Batch-39 VARIANT (DfmxuoenIMV): instead of
+    the pre-shown horizontal row, the badges are ROUNDED SQUARES (~95 px,
+    green in Sky) in a VERTICAL stack at left chest (x~320-640). The
+    entrance grammar is IDENTICAL (badge pops in ALONE on its number
+    word — #1 @18.2 s on "Number one", text types/fades in beside it,
+    two lines white regular ~38 px; #2 lands @31.0 s UNDER #1) — but the
+    pills PERSIST: no blurred-slide handoff, each pill stays up to the
+    end of the section. The chip colour keeps this device's Q-lane
+    mapping (gold); shape, layout and persistence are what change.
     """
     if len(pills) < 2:
         raise ValueError("D55 needs at least 2 numbered pills (the row is the system)")
@@ -2985,51 +3229,77 @@ def d55_numbered_pill_system(t0, *, pills, source_reel="DeYKkAIgVfL"):
             raise ValueError(f"D55 pill #{pl.get('number')}: text starts before the chip stands alone")
         if i and pills[i - 1]["text_t0"] >= pl["text_t0"]:
             raise ValueError("D55 pills activate in spoken (ascending) order")
+    if layout not in ("row", "vertical_stack"):
+        raise ValueError(f"D55 layout must be 'row' or 'vertical_stack', "
+                         f"got {layout!r}")
+    stack = layout == "vertical_stack"
     inst = f"D55@{t0:.2f}"
     end = pills[-1]["text_t1"] + 4.0
     events = [_base(
-        "D55", "numbered pill row (pre-shown)", t0, end, TRACKS["chip"],
-        _geom(240, 980, 600, 80),
+        "D55", "numbered badge stack (vertical, batch-39)" if stack
+               else "numbered pill row (pre-shown)", t0, end, TRACKS["chip"],
+        _geom(300, 1060, 620, len(pills) * 130) if stack
+        else _geom(240, 980, 600, 80),
         status="VERIFIED", source_reel=source_reel, instance=inst,
         colors={"chip": GOLD, "chip_text": NAVY_DEEP},
-        text="numbered pill row",
+        text="numbered badge stack" if stack else "numbered pill row",
         items=[{"chips": [pl["number"] for pl in pills],
-                "notes": "ALL numbered chips pre-shown as a row at the chest "
-                         "before any pill text exists (DeYKk: visible 44.4 s)"}],
-        motion={"in": {"type": "hard_cut", "notes": "row pre-shown with the headline beat"},
+                "notes": ("Batch-39 variant (DfmxuoenIMV): ROUNDED-SQUARE "
+                          "badges (~95 px) in a VERTICAL stack at left chest; "
+                          "each badge pops in ALONE on its number word, text "
+                          "lands beside it, and the pill PERSISTS — no "
+                          "blurred-slide exit, no pre-shown row" if stack else
+                          "ALL numbered chips pre-shown as a row at the chest "
+                          "before any pill text exists (DeYKk: visible 44.4 s)")}],
+        motion={"in": {"type": "hard_cut",
+                       "notes": "badges activate in place down the stack"
+                                if stack else "row pre-shown with the headline beat"},
                 "out": _hard_cut_out()},
-        notes="D55 row: the pre-shown chip row is the open loop — the viewer "
-              "sees how many associations are coming.")]
+        notes=("D55 vertical stack (batch-39): the stack is the framework "
+               "made visible — the reasons accumulate and stay." if stack else
+               "D55 row: the pre-shown chip row is the open loop — the viewer "
+               "sees how many associations are coming."))]
     for i, pl in enumerate(pills):
         prev_exit = pl["chip_alone_t"] - 0.7 if i else None
+        item = {"number": pl["number"], "text": pl["text"],
+                "chip_alone_t": pl["chip_alone_t"],
+                "prev_text_exit": ({"type": "blurred_slide", "at_s": prev_exit,
+                                    "notes": "previous pill's text exits in a "
+                                             "blurred slide ~0.7 s before the "
+                                             "number word"}
+                                   if i and not stack else None),
+                "notes": "chip stands alone ON its number word, then the "
+                         "text types in by word groups tracking speech"}
+        if stack:
+            item.update({"badge_shape": "rounded_square", "badge_px": 95,
+                         "layout": "vertical_stack", "persist": True})
         events.append(_base(
             "D55", f"pill #{pl['number']}: {pl['text']}", pl["chip_alone_t"],
+            end if stack else
             (pills[i + 1]["chip_alone_t"] - 0.7 if i + 1 < len(pills) else end),
             TRACKS["chip"],
-            _geom(140, 1080, 800, 110),
+            _geom(300, 1060 + i * 130, 620, 110) if stack
+            else _geom(140, 1080, 800, 110),
             status="VERIFIED", source_reel=source_reel, instance=inst,
             colors={"chip": GOLD, "text": WHITE, "pill_fill": NAVY},
             text=pl["text"],
-            items=[{"number": pl["number"], "text": pl["text"],
-                    "chip_alone_t": pl["chip_alone_t"],
-                    "prev_text_exit": ({"type": "blurred_slide", "at_s": prev_exit,
-                                        "notes": "previous pill's text exits in a "
-                                                 "blurred slide ~0.7 s before the "
-                                                 "number word"} if i else None),
-                    "notes": "chip stands alone ON its number word, then the "
-                             "text types in by word groups tracking speech"}],
+            items=[item],
             motion={"in": {"type": "type_in_word_groups",
                            "t0_word_groups": pl["text_t0"], "t1_word_groups": pl["text_t1"],
                            "notes": "text types in by word groups over ~1.0-1.3 s "
                                     "tracking the spoken words — the pill does "
                                     "NOT pop in whole"},
-                    "out": {"type": "blurred_slide",
-                            "notes": "this pill's text exits in a blurred slide "
-                                     "~0.7 s before the next number word "
-                                     "(last pill: hard cut with the beat)"}},
+                    "out": (_hard_cut_out() if stack else
+                            {"type": "blurred_slide",
+                             "notes": "this pill's text exits in a blurred slide "
+                                      "~0.7 s before the next number word "
+                                      "(last pill: hard cut with the beat)"})},
             sfx="pop-small-in.wav",
-            notes=f"D55 pill {i + 1}/{len(pills)}: blurred-slide handoff -> "
-                  "chip alone on the number word -> word-group type-in."))
+            notes=(f"D55 pill {i + 1}/{len(pills)} (batch-39 stack): badge "
+                   "alone on the number word -> text beside it -> PERSISTS."
+                   if stack else
+                   f"D55 pill {i + 1}/{len(pills)}: blurred-slide handoff -> "
+                   "chip alone on the number word -> word-group type-in.")))
     return events
 
 
@@ -3076,14 +3346,224 @@ def d56_new_post_ui_shrink(t0, *, ui_clip, duration_s=1.6,
               "flagged until a second example appears.")]
 
 
+# ---------------------------------------------------------------- D57 score meter
+def d57_score_meter(t0, *, steps, t1=None, y=760, max_score=10,
+                    source_reel="Dffuws3EiGZ"):
+    """D57 persistent score meter. VERIFIED, SINGLE INSTANCE (Dffuws3EiGZ,
+    Batch 39 — decoded Nov 12, 2026).
+
+    A score meter that rides the form for the WHOLE reel: a speech-bubble
+    pill showing the current fraction ("1/10" -> "10/10", white bold
+    ~45 px, small tail pointer) follows a white playhead tab along a
+    horizontal track of max_score segments (bright fill = completed,
+    dark = remaining); the bubble FOLLOWS the playhead — kf_8 s bubble
+    left "1/10", kf_45 s bubble ~75% width "8/10". In the source it sits
+    at the bottom of the D48-inverted top half, just above the divider
+    (y~700-830); pass y for the host form. Steps land ON each spoken
+    upgrade (1/10 @~6.5-20 s, 2/10 @~21 s, 3/10 @~25 s, 4/10 @~38 s,
+    8/10 @~46 s, 9/10 @~51 s, 10/10 @~53 s, holding full to the end) —
+    the meter is simultaneously a progress bar, a score and the reel's
+    open loop. Q lane: bubble/track structure in teal (Sky's green
+    structure accent remapped), fraction text white.
+
+    steps: [{"t": float, "score": int}, ...] in ascending time AND
+    non-decreasing score, scores within 1..max_score.
+    """
+    if not steps:
+        raise ValueError("D57 needs at least one step")
+    for i, st in enumerate(steps):
+        if not 1 <= st["score"] <= max_score:
+            raise ValueError(f"D57 step score {st['score']} outside 1..{max_score}")
+        if st["t"] < t0 - 1e-9:
+            raise ValueError("D57 steps start at/after the meter's t0")
+        if i and (steps[i - 1]["t"] >= st["t"]
+                  or steps[i - 1]["score"] > st["score"]):
+            raise ValueError("D57 steps ascend in time and never decrease in score")
+    end = t1 if t1 is not None else steps[-1]["t"] + 10.0
+    inst = f"D57@{t0:.2f}"
+    accent = _accent("green")
+    track_x, track_w = 140, 800
+    events = [_base(
+        "D57", "score meter track", t0, end, TRACKS["chip"],
+        _geom(track_x, y + 58, track_w, 26),
+        status="VERIFIED (single instance)", source_reel=source_reel,
+        instance=inst,
+        colors={"track_fill": accent, "track_rest": NAVY, "playhead": WHITE},
+        text="score meter track",
+        items=[{"segments": max_score,
+                "notes": f"{max_score}-segment horizontal track; bright fill = "
+                         "completed portion, dark = remaining; a white "
+                         "playhead tab marks the current step"}],
+        motion={"in": {"type": "hard_cut",
+                       "notes": "meter present from the split's first frame"},
+                "out": _hard_cut_out()},
+        notes="D57 (Dffuws3EiGZ): persistent meter riding the divider, "
+              "~6.5 s to the end of the reel; the steps are silent at "
+              "sampling — they land under speech, on the spoken upgrades.")]
+    for i, st in enumerate(steps):
+        nxt = steps[i + 1]["t"] if i + 1 < len(steps) else end
+        bx = track_x + int(track_w * st["score"] / max_score) - 60
+        events.append(_base(
+            "D57", f"score meter: {st['score']}/{max_score}", st["t"], nxt,
+            TRACKS["chip"], _geom(bx, y, 120, 64),
+            status="VERIFIED (single instance)", source_reel=source_reel,
+            instance=inst,
+            colors={"bubble": accent, "text": WHITE},
+            text=f"{st['score']}/{max_score}",
+            items=[{"score": st["score"], "of": max_score,
+                    "notes": "speech-bubble pill with a tail pointer; FOLLOWS "
+                             "the playhead — the bubble sits over the current "
+                             "step, white bold ~45 px"}],
+            motion={"in": {"type": "hard_cut",
+                           "notes": "step lands ON the spoken upgrade"},
+                    "out": _hard_cut_out()},
+            notes=f"D57 step {st['score']}/{max_score}: the score IS the "
+                  "progress proof and the open loop."))
+    return events
+
+
+# ---------------------------------------------------------------- D58 callout chain
+def d58_callout_chain(t0, *, feeling, words, verdict="= expert",
+                      verdict_t=None, hold_s=3.0, y=860,
+                      source_reel="DfZ_q_pFbX1"):
+    """D58 callout transformation chain. VERIFIED, SINGLE INSTANCE
+    (DfZ_q_pFbX1 @~15.5-18.5 s, Batch 39 — decoded Nov 12, 2026).
+
+    A feeling -> words -> verdict rewrite rendered as a vertical callout
+    chain above the head: stacked rounded pills joined by a small accent
+    DOWN-TRIANGLE connector — top pill translucent dark glass with white
+    italic text (feeling: "..."), second pill SOLID WHITE with black bold
+    text (words: "..."), then a third small dark pill with the verdict
+    ("= expert") joins ~1.5-2 s later (~17-18 s). Functionally kin to D8
+    (rewrite pair) and D25 (autopsy labels); the stacked-pill +
+    connector-glyph form is its own device. Q lane: connector teal,
+    verdict pill navy (Sky's green/navy structure remapped).
+    """
+    if not feeling or not feeling.strip() or not words or not words.strip():
+        raise ValueError("D58 needs the feeling and the words it becomes")
+    end = t0 + hold_s
+    vt = verdict_t if verdict_t is not None else t0 + 1.75
+    if not t0 <= vt < end:
+        raise ValueError("D58 verdict_t must land inside the chain's hold")
+    inst = f"D58@{t0:.2f}"
+    events = [_base(
+        "D58", "callout transformation chain", t0, end, TRACKS["hero"],
+        _geom(220, y, 640, 190),
+        status="VERIFIED (single instance)", source_reel=source_reel,
+        instance=inst,
+        colors={"feeling_pill": NAVY_DEEP, "words_pill": WHITE,
+                "words_text": NAVY_DEEP, "connector": TEAL, "text": WHITE},
+        text={"feeling": feeling, "words": words},
+        items=[{"stage": "feeling", "text": f'feeling: "{feeling}"',
+                "fill": "translucent dark glass", "font": "white italic",
+                "notes": "the unarticulated feeling, quoted"},
+               {"connector": "down-triangle", "color": TEAL,
+                "notes": "small accent triangle joins the pills (Sky: neon green)"},
+               {"stage": "words", "text": f'words: "{words}"',
+                "fill": "solid white", "font": "black bold",
+                "notes": "the articulated words — giving words to the "
+                         "feeling is the expertise proof"}],
+        motion={"in": _pop_in(), "out": _hard_cut_out()},
+        sfx="pop-medium-in.wav",
+        notes="D58 (DfZ_q_pFbX1 @~15.5-18.5 s): feeling -> words as stacked "
+              "callout pills with a connector glyph; the source exhibit "
+              "runs just before the chain names its words.")]
+    if verdict:
+        events.append(_base(
+            "D58", f"callout chain verdict: {verdict}", vt, end,
+            TRACKS["hero"], _geom(370, y + 205, 340, 64),
+            status="VERIFIED (single instance)", source_reel=source_reel,
+            instance=inst,
+            colors={"pill_fill": NAVY_DEEP, "text": WHITE},
+            text=verdict,
+            items=[{"stage": "verdict",
+                    "notes": "small dark pill joins under the chain "
+                             "~1.5-2 s after it — the transformation's payoff"}],
+            motion={"in": _pop_in(), "out": _hard_cut_out()},
+            sfx="pop-small-in.wav",
+            notes="D58 verdict pill: the chain's third stage."))
+    return events
+
+
+# ---------------------------------------------------------------- D59 column board
+def d59_column_board(t0, *, title, columns, t1=None, y=320,
+                     source_reel="DfnQiBcEl04"):
+    """D59 column board with dashed dividers. VERIFIED, SINGLE INSTANCE
+    (DfnQiBcEl04 @~68-90 s, Batch 39 — decoded Nov 12, 2026).
+
+    A rule stated as a table: an accent grotesque headline ("General
+    Rule", ~90 px) top-centre, below it N columns separated by thin
+    white DASHED vertical lines spanning the full width above the head.
+    Each column carries a white bold range header (~40 px); the verdict
+    text TYPES IN under its header as it is spoken ("kill it, don't
+    make" ~70-73 s / "It's your call" ~77 s / "50% more" ~79-82 s /
+    "double" ~82 s). The completed board HOLDS through the recap to the
+    end — the finished diagram is the close. No glass, no photo, no
+    verdict icons: distinct from D4 (glass filter board) and D15 (bar
+    chart). Q lane: headline teal (structure accent), headers + verdicts
+    white.
+
+    columns: [{"header": str, "verdict": str, "verdict_t": float}, ...]
+    with verdict_t absolute, ascending, inside the board's span.
+    """
+    if len(columns) < 2:
+        raise ValueError("D59 needs at least 2 columns (the dividers are the device)")
+    end = t1 if t1 is not None else columns[-1]["verdict_t"] + 10.0
+    for i, c in enumerate(columns):
+        if not c.get("header") or not c.get("verdict"):
+            raise ValueError("D59 columns need a header and a verdict")
+        if not t0 <= c["verdict_t"] < end:
+            raise ValueError(f"D59 verdict for {c['header']!r} lands outside the board's span")
+        if i and columns[i - 1]["verdict_t"] >= c["verdict_t"]:
+            raise ValueError("D59 verdicts type in in spoken (ascending) order")
+    inst = f"D59@{t0:.2f}"
+    board_x, board_w = 40, 1000
+    col_w = board_w // len(columns)
+    accent = _accent("green")
+    events = [_base(
+        "D59", f"column board: {title}", t0, end, TRACKS["hero"],
+        _geom(board_x, y, board_w, 300),
+        status="VERIFIED (single instance)", source_reel=source_reel,
+        instance=inst,
+        colors={"title": accent, "header": WHITE, "divider": WHITE},
+        text=title,
+        items=[{"columns": [c["header"] for c in columns],
+                "dividers": "thin white DASHED vertical lines between columns",
+                "notes": "headers are white bold range labels (~40 px); the "
+                         "board spans the full width above the head"}],
+        motion={"in": _panel_in(), "out": _hard_cut_out()},
+        sfx="pop-medium-in.wav",
+        notes="D59 (DfnQiBcEl04): headline + dashed-divider columns; the "
+              "completed board holds through the recap to the end.")]
+    for i, c in enumerate(columns):
+        events.append(_base(
+            "D59", f"column verdict: {c['header']}", c["verdict_t"], end,
+            TRACKS["hero"],
+            _geom(board_x + i * col_w + 10, y + 170, col_w - 20, 90),
+            status="VERIFIED (single instance)", source_reel=source_reel,
+            instance=inst,
+            colors={"text": WHITE},
+            text=c["verdict"],
+            items=[{"column": c["header"], "verdict": c["verdict"],
+                    "notes": "verdict TYPES IN under its header as it is spoken"}],
+            motion={"in": {"type": "type_in",
+                           "notes": "verdict types in on its spoken beat"},
+                    "out": _hard_cut_out()},
+            notes=f"D59 verdict {i + 1}/{len(columns)}: typed in on the beat; "
+                  "the finished column stays — the board accumulates."))
+    return events
+
+
 # ---------------------------------------------------------------- registry
 DEVICE_REGISTRY = {
     "D1": {"name": "speech caption stream", "fn": d1_captions, "status": "VERIFIED"},
     "D2": {"name": "headline lockup", "fn": d2_headline_lockup, "status": "VERIFIED"},
+    "D2-lockup": {"name": "serif+bold headline lockup (batch-39)", "fn": d2_serif_lockup, "status": "VERIFIED"},
     "D3": {"name": "title stack + pill", "fn": d3_title_stack, "status": "VERIFIED"},
     "D4": {"name": "filter board", "fn": d4_filter_board, "status": "VERIFIED"},
     "D5": {"name": "chapter card", "fn": d5_chapter_card, "status": "[EST]"},
-    "D5-list": {"name": "numbered checklist (DfQ4)", "fn": d5_checklist, "status": "VERIFIED"},
+    "D5-list": {"name": "numbered checklist (DfQ4)", "fn": d5_checklist, "status": "VERIFIED",
+                "variants": "batch-39 (DfZ_q_pFbX1): translucent glass-pill recap state — d5_checklist(recap_t=...)"},
     "D6": {"name": "chart (static + annotations)", "fn": d6_chart, "status": "VERIFIED"},
     "D7": {"name": "venn / overlap", "fn": d7_venn, "status": "VERIFIED"},
     "D8": {"name": "rewrite pair", "fn": d8_rewrite_pair, "status": "VERIFIED*"},
@@ -3121,20 +3601,26 @@ DEVICE_REGISTRY = {
     "D40": {"name": "POV scene label (pill/bar)", "fn": d40_pov_scene_label, "status": "VERIFIED"},
     "D41": {"name": "spine framework diagram", "fn": d41_spine_diagram, "status": "VERIFIED"},
     "D42": {"name": "question card + outcome fork", "fn": d42_question_fork, "status": "VERIFIED"},
-    "D43": {"name": "view-count badge", "fn": d43_view_count_badge, "status": "VERIFIED"},
+    "D43": {"name": "view-count badge", "fn": d43_view_count_badge, "status": "VERIFIED",
+            "variants": "batch-39: plain white text pill BELOW the exhibit, no eye icon — d43_view_count_badge(variant='below_pill')"},
     "D44": {"name": "POV mini-window presentation", "fn": d44_pov_mini_window, "status": "VERIFIED"},
     "D45": {"name": "kinetic-type black card", "fn": d45_kinetic_black_card, "status": "VERIFIED"},
     "D46": {"name": "vertical split-screen (reactor left / exhibit right)", "fn": d46_vertical_split, "status": "VERIFIED"},
     "D47": {"name": "binary label pair (anchored)", "fn": d47_binary_label_pair, "status": "VERIFIED"},
-    "D48": {"name": "stacked split-screen (exhibit top / reactor bottom)", "fn": d48_stacked_split, "status": "VERIFIED"},
+    "D48": {"name": "stacked split-screen (exhibit top / reactor bottom)", "fn": d48_stacked_split, "status": "VERIFIED",
+            "variants": "batch-39: intermittent exhibit mode in a talking-head reel (DfnQiBcEl04); inverted reactor-top / exhibit-bottom with captions on the divider (Dffuws3EiGZ) — d48_stacked_split(exhibit_mode=/inverted=)"},
     "D49": {"name": "red annotation outline (gold in Q's lane)", "fn": d49_annotation_outline, "status": "VERIFIED"},
     "D50": {"name": "gradient script headline", "fn": d50_gradient_script_headline, "status": "VERIFIED"},
     "D51": {"name": "player-stats T-pose card", "fn": d51_player_stats_card, "status": "VERIFIED"},
     "D52": {"name": "human/AI split card 70/30", "fn": d52_human_ai_split, "status": "VERIFIED"},
     "D53": {"name": "SMPTE colour-bars gag (single-use)", "fn": d53_smpte_gag, "status": "VERIFIED"},
     "D54": {"name": "grid-background workflow strip", "fn": d54_grid_workflow_strip, "status": "VERIFIED"},
-    "D55": {"name": "numbered pill system (pre-shown row, type-in)", "fn": d55_numbered_pill_system, "status": "VERIFIED"},
+    "D55": {"name": "numbered pill system (pre-shown row, type-in)", "fn": d55_numbered_pill_system, "status": "VERIFIED",
+            "variants": "batch-39 (DfmxuoenIMV): rounded-square badges in a vertical PERSISTENT stack — d55_numbered_pill_system(layout='vertical_stack')"},
     "D56": {"name": "new-reel UI exhibit (shrink-in)", "fn": d56_new_post_ui_shrink, "status": "VERIFIED (single instance)"},
+    "D57": {"name": "persistent score meter (batch-39)", "fn": d57_score_meter, "status": "VERIFIED (single instance)"},
+    "D58": {"name": "callout transformation chain (batch-39)", "fn": d58_callout_chain, "status": "VERIFIED (single instance)"},
+    "D59": {"name": "column board, dashed dividers (batch-39)", "fn": d59_column_board, "status": "VERIFIED (single instance)"},
 }
 
 
@@ -3184,6 +3670,11 @@ ALLOWED_PROVENANCE_PREFIXES = ("real", "ai_premium", "higgsfield", "fable_motion
 EVIDENCE_DEVICES = {"D9", "D10", "D20", "D30", "D33", "D39", "D43", "D56"}
 ASSET_KEYS = {"src", "clip", "clip_path", "photo", "photo_path", "screen",
               "screen_path", "asset", "thumbnail", "image", "video"}
+# The ONE device whose designated serif slot is APPROVED (Q ruling
+# Nov 12, 2026): the batch-39 serif+bold headline lockup. Its conformance
+# is enforced by _lockup_problems; serif in every other device/role still
+# rejects via BANNED_FONT_MARKERS.
+LOCKUP_DEVICE = "D2-lockup"
 
 
 def _walk(obj, key=None):
@@ -3196,6 +3687,136 @@ def _walk(obj, key=None):
             yield from _walk(v, key)
     elif isinstance(obj, str):
         yield key, obj
+
+
+def _lockup_problems(ev: dict) -> list[str]:
+    """D2-lockup conformance (Q ruling Nov 12, 2026 — the approved serif).
+
+    A conforming lockup has exactly ONE items entry with role
+    "serif_word" — its font names a serif face (that slot IS the serif)
+    and its colour is WHITE — and exactly ONE with role "keyword" whose
+    font is a bold grotesque (NO banned/serif marker) and whose colour is
+    PWC GOLD. Anything else is a lockup in name only and rejects.
+    """
+    dev = ev.get("device", "D2-lockup")
+    problems = []
+    items = [it for it in (ev.get("items") or []) if isinstance(it, dict)]
+    serif = [it for it in items if it.get("role") == "serif_word"]
+    keyword = [it for it in items if it.get("role") == "keyword"]
+    if len(serif) != 1:
+        problems.append(f"{dev}: lockup needs exactly one serif_word slot "
+                        f"(found {len(serif)}) — the serif line is the "
+                        "setup word, white italic (Q ruling Nov 12, 2026)")
+    else:
+        font = str(serif[0].get("font") or "").lower()
+        if not any(m in font for m in BANNED_FONT_MARKERS):
+            problems.append(f"{dev}: serif_word slot font {serif[0].get('font')!r} "
+                            "is not a serif face — the lockup's setup line is "
+                            "italic serif by spec (batch-39)")
+        if str(serif[0].get("color") or "").upper() != WHITE:
+            problems.append(f"{dev}: serif_word must be WHITE in the Q lane "
+                            f"(got {serif[0].get('color')!r}) — gold/teal "
+                            "belong to the keyword and the accents")
+    if len(keyword) != 1:
+        problems.append(f"{dev}: lockup needs exactly one keyword slot "
+                        f"(found {len(keyword)}) — the concept line, bold "
+                        "grotesque in PWC gold")
+    else:
+        font = str(keyword[0].get("font") or "").lower()
+        if any(m in font for m in BANNED_FONT_MARKERS):
+            problems.append(f"{dev}: keyword slot must be a bold grotesque — "
+                            f"serif/banned face {keyword[0].get('font')!r} in "
+                            "the keyword slot is NOT the approved lockup")
+        if str(keyword[0].get("color") or "").upper() != GOLD:
+            problems.append(f"{dev}: keyword must be PWC gold {GOLD} in the "
+                            f"Q lane (got {keyword[0].get('color')!r}) — that "
+                            "is the slot Sky fills with neon green")
+    return problems
+
+
+def _headline_tokens(ev: dict) -> set[str]:
+    """Word tokens carried by a headline event's text payload."""
+    tokens = set()
+
+    def _add(value):
+        if isinstance(value, str):
+            for tok in value.lower().replace("/", " ").split():
+                tok = tok.strip(".,!?;:'\"()")
+                if tok:
+                    tokens.add(tok)
+        elif isinstance(value, dict):
+            for v in value.values():
+                _add(v)
+        elif isinstance(value, (list, tuple)):
+            for v in value:
+                _add(v)
+
+    _add(ev.get("text"))
+    return tokens
+
+
+def _caption_plan_problems(events: list[dict]) -> list[str]:
+    """Caption-mode law (Q ruling Nov 12, 2026), enforced plan-wide.
+
+    TWO approved Q-lane modes for D1 streams — "white" (all-white groups)
+    and "highlight" (white lettering, keyword coloured gold #FEE238 or
+    teal #14A886). d1_captions stamps every event with "caption_mode";
+    hand-built events are read by their actual colours. One mode per
+    plan: mixing rejects. A "white"-stamped event that actually carries
+    a highlight rejects. And NO DOUBLE TREATMENT: a word highlighted
+    in a caption must not also be headlined (D2 / D2-lockup) on an
+    overlapping span.
+    """
+    problems = []
+    modes = set()
+    highlighted = []  # (word, t0, t1)
+    for ev in events:
+        if ev.get("device") != "D1":
+            continue
+        colors = ev.get("colors") or {}
+        kw_color = colors.get("keyword")
+        kw_words = [str(it["keyword"]).lower().strip(".,!?;:")
+                    for it in (ev.get("items") or [])
+                    if isinstance(it, dict) and it.get("keyword")]
+        has_highlight = kw_color is not None or bool(kw_words)
+        if kw_color is not None and \
+                str(kw_color).upper() not in (GOLD, TEAL):
+            problems.append(f"D1: caption highlight colour {kw_color!r} — "
+                            f"keywords are PWC gold {GOLD} or teal {TEAL} "
+                            "only (Q ruling Nov 12, 2026); Sky green/orange "
+                            "never enter Q's lane")
+        declared = ev.get("caption_mode")
+        if declared is not None and declared not in ("white", "highlight"):
+            problems.append(f"D1: unknown caption_mode {declared!r} — the "
+                            "approved modes are 'white' and 'highlight'")
+        elif declared == "white" and has_highlight:
+            problems.append("D1: event declares caption_mode 'white' but "
+                            "carries a keyword highlight — one treatment "
+                            "per plan, declared honestly")
+        # NB: a "highlight"-stamped event with no keyword is NORMAL — the
+        # stamp is the plan's mode; only keyword groups get coloured.
+        modes.add(declared if declared is not None
+                  else ("highlight" if has_highlight else "white"))
+        for w in kw_words:
+            highlighted.append((w, float(ev.get("t0", 0.0)),
+                                float(ev.get("t1", 0.0))))
+    if len(modes) > 1:
+        problems.append("D1: caption modes mixed in one plan "
+                        f"({', '.join(sorted(modes))}) — ONE mode per video "
+                        "(Q ruling Nov 12, 2026): all-white OR keyword "
+                        "highlight, held throughout")
+    headlines = [( _headline_tokens(ev), float(ev.get("t0", 0.0)),
+                  float(ev.get("t1", 0.0)))
+                 for ev in events if ev.get("device") in ("D2", LOCKUP_DEVICE)]
+    for word, t0, t1 in highlighted:
+        for tokens, h0, h1 in headlines:
+            if word in tokens and t0 < h1 and h0 < t1:
+                problems.append(f"D1/D2: double treatment — {word!r} is "
+                                "highlighted in a caption AND headlined on "
+                                "the same beat; a word gets ONE treatment "
+                                "per beat (Q ruling Nov 12, 2026)")
+                break
+    return problems
 
 
 def validate_premium_plan(events: list[dict]) -> list[str]:
@@ -3211,6 +3832,14 @@ def validate_premium_plan(events: list[dict]) -> list[str]:
     citation rule: it is a Q override, and its override text IS its source.
     Free-text notes are not scanned (measured records legitimately NAME
     the banned things they refuse).
+
+    Batch-39 / Q-ruling updates (Nov 12, 2026): a D2-lockup event built
+    to the lockup spec is APPROVED — its designated serif slot is exempt
+    from the banned-font scan and conformance is checked by
+    _lockup_problems (serif anywhere else still rejects). D1 caption
+    plans are checked by _caption_plan_problems: one approved mode per
+    plan (all-white, or keyword highlight in gold/teal), no mixed modes,
+    no double treatment of a highlighted word by a headline.
     """
     problems = list(validate_events(events))
     for ev in events:
@@ -3228,9 +3857,20 @@ def validate_premium_plan(events: list[dict]) -> list[str]:
             if not src.strip() or src.startswith(("UNSET", "Option 2")):
                 problems.append(f"{dev}: no Sky source citation — every "
                                 "premium event must cite its measured Sky reel")
+        # Q RULING (Nov 12, 2026): a D2-lockup's designated serif slot is
+        # APPROVED — its exact font string is exempt from this scan
+        # (conformance enforced by _lockup_problems below). Serif in any
+        # other device, slot or role still rejects.
+        serif_exempt = set()
+        if dev == LOCKUP_DEVICE:
+            serif_exempt = {str(it["font"]) for it in (ev.get("items") or [])
+                            if isinstance(it, dict)
+                            and it.get("role") == "serif_word"
+                            and it.get("font")}
         for key, val in _walk({k: v for k, v in ev.items() if k != "notes"}):
             low = val.lower()
             if key in ("font", "font_family", "typeface") and \
+                    val not in serif_exempt and \
                     any(m in low for m in BANNED_FONT_MARKERS):
                 problems.append(f"{dev}: banned font/treatment {val!r} "
                                 "(cheap/serif telltale)")
@@ -3254,6 +3894,9 @@ def validate_premium_plan(events: list[dict]) -> list[str]:
             if mtype in BANNED_MOTION_TYPES:
                 problems.append(f"{dev}: banned motion treatment "
                                 f"{side}={mtype} (telltale — no measured Sky instance)")
+        if dev == LOCKUP_DEVICE:
+            problems.extend(_lockup_problems(ev))
+    problems.extend(_caption_plan_problems(events))
     return problems
 
 
@@ -3309,7 +3952,7 @@ def validate_beat_lock(events: list[dict], words, tol: float = 1 / 30) -> list[s
 
 
 if __name__ == "__main__":
-    print(f"{len(DEVICE_REGISTRY)} devices registered (D1-D56 + D5-list variant)")
+    print(f"{len(DEVICE_REGISTRY)} devices registered (D1-D59 + D5-list / D2-lockup variants)")
     for d in list_devices():
         print(f"  {d['id']:8s} {d['name']:32s} {d['status']}")
     # Smoke: one event per device with dummy timings, all must validate.
@@ -3459,6 +4102,34 @@ if __name__ == "__main__":
         {"number": 4, "text": "She accidentally created an affiliate army",
          "chip_alone_t": 66.2, "text_t0": 67.3, "text_t1": 68.1}])
     smoke += d56_new_post_ui_shrink(14.4, ui_clip="new_reel_ui.mp4", duration_s=1.6)
+    # Batch 39 (Nov 12, 2026): the lockup, D57-D59 and the measured variants.
+    smoke += d2_serif_lockup(12.0, serif_word="Reaction", keyword="consultation")
+    smoke += d1_captions([{"word": "One", "start": 60.0, "end": 60.3},
+                          {"word": "word", "start": 60.3, "end": 60.6}], era="b39")
+    smoke += d43_view_count_badge(0.0, count="1.5M views", t1=2.0,
+                                  variant="below_pill", exhibit_bottom_y=480,
+                                  source_reel="DfmxuoenIMV")
+    smoke += d48_stacked_split(6.5, t1=71.9, divider_frac=0.50, inverted=True,
+                               exhibit_mode=True,
+                               exhibit={"clip_path": "desk_build.mp4",
+                                        "kind": "screen_recording"})
+    smoke += d55_numbered_pill_system(
+        18.2, layout="vertical_stack", source_reel="DfmxuoenIMV",
+        pills=[{"number": 1, "text": "Name it", "chip_alone_t": 18.2,
+                "text_t0": 18.7, "text_t1": 20.0},
+               {"number": 2, "text": "Show it", "chip_alone_t": 31.0,
+                "text_t0": 31.5, "text_t1": 32.8}])
+    smoke += d5_checklist(10.0, title="The 2 Things",
+                          items=["Name the problem", "Show the process"],
+                          recap_t=33.0, source_reel="DfZ_q_pFbX1")
+    smoke += d57_score_meter(6.5, t1=71.9, steps=[{"t": 6.5, "score": 1},
+                                                  {"t": 21.0, "score": 2},
+                                                  {"t": 53.0, "score": 10}])
+    smoke += d58_callout_chain(15.5, feeling="something's off",
+                               words="points are different sizes")
+    smoke += d59_column_board(68.0, t1=90.0, title="General Rule", columns=[
+        {"header": "Under 0.5x", "verdict": "kill it, don't make", "verdict_t": 70.0},
+        {"header": "2x and up", "verdict": "double", "verdict_t": 82.0}])
     problems = validate_events(smoke)
     print(f"smoke events: {len(smoke)}")
     if problems:

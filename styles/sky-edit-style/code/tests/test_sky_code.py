@@ -4,6 +4,7 @@
 Run: python3 -m unittest discover -s code/tests -v
      (from ~/workspace/claude-editing/styles/sky-edit-style/)
 """
+import copy
 import json
 import sys
 import tempfile
@@ -99,11 +100,16 @@ class TestEasing(unittest.TestCase):
 
 
 class TestDevices(unittest.TestCase):
-    def test_registry_complete_d1_d56(self):
+    def test_registry_complete_d1_d59(self):
+        # Renamed + extended Nov 12, 2026 (Batch 39): the registry gained
+        # D57-D59 and the D2-lockup variant device — the old D1-D56/57
+        # count contradicted Q's Nov 12 rulings, so it was updated, not
+        # the rulings.
         ids = set(sky_devices.DEVICE_REGISTRY)
-        for n in range(1, 57):
+        for n in range(1, 60):
             self.assertIn(f"D{n}", ids, f"D{n} missing from registry")
-        self.assertEqual(len(ids), 57)  # D1-D56 + D5-list variant
+        self.assertIn("D2-lockup", ids)
+        self.assertEqual(len(ids), 61)  # D1-D59 + D5-list + D2-lockup variants
 
     def test_caption_groups_measured_cadence(self):
         groups = sky_devices.caption_groups(load_words())
@@ -158,7 +164,7 @@ class TestDevices(unittest.TestCase):
         # One call per device; the __main__ smoke in sky_devices covers the
         # same ground — here we assert the registry functions are all callable
         # with their documented minimal args.
-        self.assertEqual(len(sky_devices.list_devices()), 57)  # D1-D56 + D5-list
+        self.assertEqual(len(sky_devices.list_devices()), 61)  # D1-D59 + variants (batch-39)
 
 
 class TestPlan(unittest.TestCase):
@@ -598,6 +604,217 @@ class TestPremiumV6(unittest.TestCase):
         off[0]["off_beat_reason"] = "deliberate: headline lands on the breath"
         self.assertEqual(sky_devices.validate_beat_lock(off, words), [])
         self.assertEqual(sky_devices.beat_lock_report(off, words)["pct"], 100.0)
+
+
+class TestBatch39V7(unittest.TestCase):
+    """Batch 39 + Q's Nov 12, 2026 rulings, wired into the code:
+    the serif+bold headline lockup is APPROVED in PWC colours (serif
+    stays banned in every other role), captions run the 1-word
+    talking-head cadence and the two approved modes (all-white /
+    keyword highlight — one per plan, no double treatment), and
+    D57-D59 + the D5/D43/D48/D55 variants are real devices."""
+
+    # ---- A(a): the lockup is approved; serif elsewhere still rejects
+    def test_lockup_accepted_by_premium_validator(self):
+        evs = sky_devices.d2_serif_lockup(12.0, serif_word="Reaction",
+                                          keyword="consultation")
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        evs = sky_devices.d2_serif_lockup(
+            2.5, serif_word="time efficient", keyword="Super",
+            serif_first=False, source_reel="DfmxuoenIMV")
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+
+    def test_lockup_conformance_enforced(self):
+        # keyword slot wearing the serif face is NOT the approved lockup
+        ev = copy.deepcopy(sky_devices.d2_serif_lockup(
+            12.0, serif_word="Reaction", keyword="consultation")[0])
+        for it in ev["items"]:
+            if it.get("role") == "keyword":
+                it["font"] = "Instrument Serif Italic"
+        probs = sky_devices.validate_premium_plan([ev])
+        self.assertTrue(any("bold grotesque" in p for p in probs), probs)
+        # serif word must be white; keyword must be gold
+        ev = copy.deepcopy(sky_devices.d2_serif_lockup(
+            12.0, serif_word="Reaction", keyword="consultation")[0])
+        for it in ev["items"]:
+            if it.get("role") == "serif_word":
+                it["color"] = "#FEE238"
+        probs = sky_devices.validate_premium_plan([ev])
+        self.assertTrue(any("serif_word must be WHITE" in p for p in probs), probs)
+        # a lockup with its serif slot removed rejects
+        ev = copy.deepcopy(sky_devices.d2_serif_lockup(
+            12.0, serif_word="Reaction", keyword="consultation")[0])
+        ev["items"] = [it for it in ev["items"] if it.get("role") != "serif_word"]
+        probs = sky_devices.validate_premium_plan([ev])
+        self.assertTrue(any("serif_word" in p for p in probs), probs)
+
+    def test_serif_caption_rejected(self):
+        ev = copy.deepcopy(sky_devices.d1_captions(load_words())[0])
+        ev["items"] = [{"font": "Instrument Serif Italic"}]
+        probs = sky_devices.validate_premium_plan([ev])
+        self.assertTrue(any("banned font" in p for p in probs), probs)
+
+    def test_serif_counter_rejected(self):
+        ev = copy.deepcopy(sky_devices.d31_linear_countup(
+            0.0, label="views")[0])
+        ev["items"] = [{"font": "Playfair Display"}]
+        probs = sky_devices.validate_premium_plan([ev])
+        self.assertTrue(any("banned font" in p for p in probs), probs)
+
+    # ---- A(b): caption modes
+    def test_highlight_mode_accepted(self):
+        words = load_words()
+        evs = sky_devices.d1_captions(words, mode="highlight",
+                                      gold_words=["filter", "proof"])
+        keyed = [e for e in evs if "keyword" in e["colors"]]
+        self.assertTrue(keyed, "highlight mode must colour a keyword")
+        self.assertTrue(all(e["caption_mode"] == "highlight" for e in evs))
+        self.assertTrue(all(e["colors"]["keyword"] == "#FEE238" for e in keyed))
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        # teal is the second approved highlight colour
+        evs = sky_devices.d1_captions(words, mode="highlight",
+                                      gold_words=["filter"],
+                                      highlight_color="#14A886")
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        # a non-PWC highlight colour is refused at build time
+        with self.assertRaises(ValueError):
+            sky_devices.d1_captions(words, mode="highlight",
+                                    gold_words=["filter"],
+                                    highlight_color="#40BB2F")
+
+    def test_white_mode_still_accepted(self):
+        evs = sky_devices.d1_captions(load_words())
+        self.assertTrue(all(e["caption_mode"] == "white" for e in evs))
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+
+    def test_mixed_caption_modes_rejected(self):
+        words = load_words()
+        plan = (sky_devices.d1_captions(words)
+                + sky_devices.d1_captions(words, mode="highlight",
+                                          gold_words=["filter"]))
+        probs = sky_devices.validate_premium_plan(plan)
+        self.assertTrue(any("modes mixed" in p for p in probs), probs)
+
+    def test_double_treatment_rejected(self):
+        words = load_words()
+        caps = sky_devices.d1_captions(words, mode="highlight",
+                                       gold_words=["filter"])
+        keyed = [e for e in caps if "keyword" in e["colors"]][0]
+        lockup = sky_devices.d2_serif_lockup(keyed["t0"], serif_word="The",
+                                             keyword="Filter")
+        probs = sky_devices.validate_premium_plan(caps + lockup)
+        self.assertTrue(any("double treatment" in p for p in probs), probs)
+        # the same lockup on a different beat is fine
+        lockup = sky_devices.d2_serif_lockup(30.0, serif_word="The",
+                                             keyword="Filter")
+        self.assertEqual(sky_devices.validate_premium_plan(caps + lockup), [])
+
+    # ---- A(c): 1-word talking-head caption groups
+    def test_one_word_caption_groups_b39(self):
+        words = load_words()
+        groups = sky_devices.caption_groups(words, era="b39")
+        self.assertEqual(len(groups), len(words))
+        self.assertTrue(all(len(g["text"].split()) == 1 for g in groups))
+        evs = sky_devices.d1_captions(words, era="b39")
+        self.assertTrue(all(e["caption_mode"] == "white" for e in evs))
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        with self.assertRaises(ValueError):
+            sky_devices.caption_groups(words, era="dx")
+
+    # ---- B: new devices validate, premium included
+    def test_d57_score_meter(self):
+        evs = sky_devices.d57_score_meter(6.5, t1=71.9, steps=[
+            {"t": 6.5, "score": 1}, {"t": 21.0, "score": 2},
+            {"t": 53.0, "score": 10}])
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        bubbles = [e for e in evs if e["text"] == "10/10"]
+        self.assertEqual(len(bubbles), 1)
+        # the bubble follows the playhead: the 10/10 bubble sits right of 1/10
+        first = [e for e in evs if e["text"] == "1/10"][0]
+        self.assertGreater(bubbles[0]["geometry"]["x"], first["geometry"]["x"])
+        with self.assertRaises(ValueError):
+            sky_devices.d57_score_meter(0.0, steps=[{"t": 0.0, "score": 11}])
+
+    def test_d58_callout_chain(self):
+        evs = sky_devices.d58_callout_chain(
+            15.5, feeling="something's off",
+            words="points are different sizes")
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        self.assertEqual(len(evs), 2)  # chain + verdict pill
+        self.assertEqual(evs[1]["text"], "= expert")
+
+    def test_d59_column_board(self):
+        evs = sky_devices.d59_column_board(68.0, t1=90.0, title="General Rule",
+                                           columns=[
+            {"header": "Under 0.5x", "verdict": "kill it, don't make",
+             "verdict_t": 70.0},
+            {"header": "0.5x to 1.5x", "verdict": "It's your call",
+             "verdict_t": 77.0},
+            {"header": "2x and up", "verdict": "double", "verdict_t": 82.0}])
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        board = evs[0]
+        self.assertEqual(board["items"][0]["columns"],
+                         ["Under 0.5x", "0.5x to 1.5x", "2x and up"])
+
+    # ---- B: changed-device variants behave as measured
+    def test_d55_vertical_stack_variant_persists(self):
+        end_pills = [
+            {"number": 1, "text": "Name it", "chip_alone_t": 18.2,
+             "text_t0": 18.7, "text_t1": 20.0},
+            {"number": 2, "text": "Show it", "chip_alone_t": 31.0,
+             "text_t0": 31.5, "text_t1": 32.8}]
+        evs = sky_devices.d55_numbered_pill_system(
+            18.2, layout="vertical_stack", pills=end_pills,
+            source_reel="DfmxuoenIMV")
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        pill_evs = [e for e in evs if e["name"].startswith("pill #")]
+        end = end_pills[-1]["text_t1"] + 4.0
+        self.assertTrue(all(e["t1"] == end for e in pill_evs))  # persist
+        self.assertEqual(pill_evs[0]["items"][0]["badge_shape"],
+                         "rounded_square")
+        self.assertGreater(pill_evs[1]["geometry"]["y"],
+                           pill_evs[0]["geometry"]["y"])  # stacks downward
+        with self.assertRaises(ValueError):
+            sky_devices.d55_numbered_pill_system(0.0, layout="grid",
+                                                 pills=end_pills)
+
+    def test_d48_inverted_and_exhibit_mode_variants(self):
+        evs = sky_devices.d48_stacked_split(
+            6.5, t1=71.9, divider_frac=0.50, inverted=True, exhibit_mode=True,
+            exhibit={"clip_path": "desk.mp4", "kind": "screen_recording"})
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        reactor = [e for e in evs if "reactor" in e["name"]][0]
+        exhibit = [e for e in evs if "exhibit (bottom)" in e["name"]][0]
+        self.assertEqual(reactor["geometry"]["y"], 0)          # reactor TOP
+        self.assertEqual(exhibit["geometry"]["y"], 960)        # exhibit BOTTOM
+        self.assertEqual(reactor["items"][0]["caption_y"], 920)  # ON divider
+
+    def test_d43_below_pill_variant(self):
+        evs = sky_devices.d43_view_count_badge(
+            0.0, count="1.5M views", t1=2.0, variant="below_pill",
+            exhibit_bottom_y=480, source_reel="DfmxuoenIMV")
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        self.assertEqual(sky_devices.validate_premium_plan(evs), [])
+        self.assertEqual(evs[0]["geometry"]["y"], 490)  # directly under exhibit
+        self.assertIsNone(evs[0]["items"][0]["icon"])   # no eye icon
+        with self.assertRaises(ValueError):
+            sky_devices.d43_view_count_badge(0.0, count="1.5M",
+                                             variant="below_pill")
+
+    def test_d5_glass_recap_variant(self):
+        evs = sky_devices.d5_checklist(
+            10.0, title="The 2 Things",
+            items=["Name the problem", "Show the process"],
+            recap_t=33.0, source_reel="DfZ_q_pFbX1")
+        self.assertEqual(len(evs), 2)
+        self.assertEqual(sky_devices.validate_events(evs), [])
+        self.assertEqual(evs[1]["colors"]["pill_fill"], "translucent glass")
+        self.assertEqual(evs[1]["instance"], evs[0]["instance"])  # same list
 
 
 class TestBatch18(unittest.TestCase):
