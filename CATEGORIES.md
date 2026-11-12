@@ -6,7 +6,7 @@ AI. "Infinite" works because the knowledge is organized in small parts
 across multiple delivery paths, not one capped skill. THIS FILE is the map
 that makes infinite usable: Claude (or Q) can always find the right part.
 
-## The 20 categories (331 parts, ~1,562 KB total — every part ≤50 KB, 1 file)
+## The 20 categories (332 parts, ~1,562 KB total — every part ≤50 KB, 1 file)
 
 | # | Category | Parts | Folder | Upload path |
 |---|---|---|---|---|
@@ -20,7 +20,7 @@ that makes infinite usable: Claude (or Q) can always find the right part.
 | 8 | AUDIO / SOUND | 5 | `parts/audio-sound/` | Skill zip (design-system v2) + GitHub |
 | 9 | RENDER-PIPELINES | 24 | `parts/render-pipelines/` | Skill zip (design-system v2) + GitHub |
 | 10 | PROMPTS | 13 | `parts/prompts/` | Skill zip (design-system v2 PROMPTS.md) + GitHub |
-| 11 | CREATOR-SYSTEMS | 126 | `parts/creator-systems/` | Skill zip (design-system v2 appendix + 3 standalone skills + v5 appendix: Batch-1 systems, IG Tier S, Tier-A kits/repos) + GitHub |
+| 11 | CREATOR-SYSTEMS | 127 | `parts/creator-systems/` | Skill zip (design-system v2 appendix + 3 standalone skills + v5 appendix: Batch-1 systems, IG Tier S, Tier-A kits/repos) + GitHub |
 | 12 | KNOWLEDGE-PLAYBOOKS | 20 | `parts/knowledge-playbooks/` | Skill zip (ALL 10 DISTILLED — Phase 4 harvest) + GitHub |
 | 13 | EFFECTS | 67 | `parts/effects/` | Skill zip (effects v7) + GitHub; VERIFIED-spec reconstructions of @david_knowsai's 7 effects (public skill, confirmed against fx.py — Batch 24 correction) + @stocktonwalbeck's 17-effect demo (15 new Stockton parts; Match Cut + Liquid Glass noted as variants on the David parts) + Marc Cleroux's (@tenfoldmarc) 16-effect demo (15 new Marc parts; orbit noted as a variant on the David part, not duplicated) + v10 Kayvon live-effects router (10 effects: 7 new parts + 3 variants on existing parts) + Ali card-pop + Cooper motion poster + Marvin prospect-quote card + Corbinsylk Modern Vox + v11 CCC Det_axVk5c_ (spotlight-question highlight + spinning-asterisk hook burst) + v12 Collage B-Roll variant on effects-paper-cut (DfZ2LF1orYo) — the Stockton/Marc/Kayvon demo builds remain inferred reconstructions from gated demos, NOT chased; David's 7 are verified against the public skill |
 | 14 | STRATEGY | 12 | `parts/strategy/` | Skill zip (design-system v4 STRATEGY.md) + GitHub — Content Strategy Specialist (#12) |
@@ -110,7 +110,7 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   his prompt text gated, pattern only) ·
   prompts-first-prompt-architecture.md (Grow with Alex — 13 items,
   preview-only-changed, Verdict/Fixes/Keep/Show-me) · prompts-clock-starter.md (v9 — the 6 AM clock starter: start the limit window while you sleep () · prompts-kimanidigital-edit-brief.md (v9 — the verbatim edit brief: style + safe zone + volume, in one card) · prompts-one-sentence-brief.md (v9 — the one-sentence brief: four verbs, one line (@shedoesai + @sora) · prompts-research-codes.md (v9 — research codes: /fact-check /last-30-days /deep-research (@zachd) · prompts-rules-not-vibes.md (v9 — rules, not vibes: measure a style into a rulebook (@ohyesinvest,) · prompts-study-progress-card.md (v9 — the study progress card: Claude shows its work as a checklist wi) · prompts-taste-files-slot-style.md (v9 — taste files: slot.md + style.md (@pankajshivnani, Tier S)) · prompts-word-timed-graphics-prompt.md (v9 — the word-timed graphics prompt: script → record → export → uploa)
-- **CREATOR-SYSTEMS (123):** sky · adilet · viashaan-captions ·
+- **CREATOR-SYSTEMS (124):** sky-v6-full-profile-completion.md (Batch 36, part #335 — SKY v6 full-profile completion: 49/49 reels decoded, devices D1–D56 / 57 registry entries, tick-tone correction, beat-lock + premium validator P9/P10, premium purge, asset law + Batch 37 fold, coverage gaps with reasons; canonical skill `styles/sky-edit-style/`) · sky · adilet · viashaan-captions ·
   viashaan-animations · vibha-effects · herk · johannships · ava-outliers ·
   zeeuiux · ishaninit · takeoff · video-to-shorts · manotsiris ·
   martinwang · editwith-paras · content-game · batch1-jayant-pillars ·
