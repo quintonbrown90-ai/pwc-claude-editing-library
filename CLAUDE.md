@@ -17,3 +17,7 @@ Sound choices:
 - Everything lands on the beat: check placements against the timeline's beat grid and sync offsets.
 
 Never use the optional Gemini critique (`earshot llm` / `llm_critique`) unless Q has set his own GEMINI_API_KEY and explicitly approved an upload for that run. Never write any API key into a file.
+
+## Max mobilization: pull everything before building a style edit (standing rule)
+
+When Q asks for a video in a creator's style (or any style-named edit), run the full mobilization sweep in the `pwc-max-mobilization` skill BEFORE building: every matching skill, every folder holding the style or its directions, every reference form (videos, frame shots, screen recordings, screenshots, written teardowns), Q+Kiya assets first (ask Muse for what's missing), the full tool bench (Earshot, /watch, Higgsfield, CapCut, open-source pool, licensed sounds), the agent team, and live pulls for anything missing. Partial builds from partial knowledge fail Q's order. Deliveries open with a one-block mobilization report.

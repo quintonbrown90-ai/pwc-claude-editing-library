@@ -218,7 +218,7 @@ that makes infinite usable: Claude (or Q) can always find the right part.
   AUTO-ACTIVATES on any video job — no trigger words; the cartoon
   pwc-avatar-video lane stays separate; Saraev's own avatar/voice
   platforms NOT publicly confirmed — GAP, never asserted)
-- **KNOWLEDGE-PLAYBOOKS (20):** opensource-harvest-batch37-index.md (Batch 37, part #333 — master index of the 59-item open-source harvest + pool) · motion-physics · easing · camera-moves ·
+- **KNOWLEDGE-PLAYBOOKS (20):** opensource-harvest-batch37-index.md (Batch 37, part #333 — master index of the 59-item open-source harvest + pool) · motion-physics · easing · camera-moves · · #334 knowledge-playbooks/max-mobilization (max-mobilization sweep doctrine + skill)
   imagery · caption-systems · color-grade · sound-design ·
   render-pipelines · claude-code-workflows · prompt-patterns ·
   gestures-movements (visual-language vocabulary — OBSERVED + INFERRED) ·
