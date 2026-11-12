@@ -8,7 +8,7 @@ A style-named edit request triggers a full mobilization sweep BEFORE any buildin
 2. **Folders** — library styles/editors/parts/research/open-source-library/design-system, PWC-Videos (style master, edits/, assets/, session branches), Muse's claude-editing tree + harvest batches + for-claude-assets, plus every directions file (BRIEF/PLAN/GOAL/CLAUDE/EDIT-ROUTER).
 3. **Reference media** — the style's full example set, frame shots, screen recordings (record the post playing when motion is unclear — never guess motion), screenshots, profile captures, carousel sets.
 4. **Written material** — DECODE.md, SOUNDMAP.md, style grammars, device registries, parts about the creator/technique, Q's briefs + corrections for the lane.
-5. **Assets** — Q+Kiya pool first, proof packs (P/RC, real only), premium AI for visual/motion gaps, Muse asked for anything missing — never generic substitution.
+5. **Assets** — Q+Kiya pool first, proof packs (P/RC), substitution allowed per Q Nov 12 rule (generic or real creators — popular in his space preferred — when his assets don't fit or a substitute converts/looks better; attribution honesty always), premium AI for visual/motion gaps, Muse asked when unsure.
 6. **Tools** — Earshot (ears/beat grid/listen-back), /watch (eyes), Higgsfield MCP (premium motion), CapCut (native finishing), open-source pool, licensed sound library (~1,250; never synthesized sound).
 7. **Agents** — pwc-agent-team roles + parallel sub-agents for decodes and independent QC grades on big jobs.
 8. **Live pull** — anything missing gets pulled live (yt-dlp + /watch decode to the standing bar; GitHub under the permissive license gate) BEFORE building.
