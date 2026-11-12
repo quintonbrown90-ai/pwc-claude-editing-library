@@ -133,10 +133,14 @@ PWC-engine rows above are legacy engine behaviour; in Q's Sky lane these superse
   graded per pop-up in QC), and exhibits MOVE the way Sky's do (builds, count-ups,
   staggered rows, travelling panels). Static-stamp arrivals fail. Density holds the
   §1/§6 measured cadence without inventing unmeasured devices.
-- **Half-and-half splits (Q, Nov 12, 2026):** D48 stacked split and D46 vertical split
-  are APPROVED and wanted in Q's lane where the content carries an exhibit (page,
-  screen, video walk-through/reaction) — persistent geometry, exhibit changing on his
-  beats, Q's face present throughout. Not forced onto beats with no exhibit.
+- **Splits — CORRECTED (Q, Nov 12, post-trio):** his half-and-half is a whole-video
+  FORMAT for reaction/walkthrough reels, NOT a device for talking-head takes. No
+  D48/D46 in Q's talking-head videos; full-frame speaker, exhibits on the footage.
+- **No navy void + animations/little heads (Q, Nov 12):** dark-blue background plates
+  behind exhibits are banned (the generic-template look). Exhibits ride on the
+  footage or on his white/glass panels at his scale. The grammar that was getting
+  close to Sky: animated devices + floating cutout-head clusters + chart draws +
+  count-ups layered ON the footage — that outranks boards and panels.
 
 ## 2. Captions (D1)
 

@@ -43,19 +43,21 @@ plan or it FAILS validation (`validate_beat_lock` / gate P10). Full spec:
   stagger, travel and land — nothing arrives as a static stamp. Visual cadence holds
   Sky's measured density (a visual event every ≤2 s; graphic swaps ≈ every 10 s per
   section) without inventing devices that have no Sky instance.
-- **HALF-AND-HALF SPLITS — USE THEM (Q, Nov 12, 2026).** Q likes Sky's split screens and
-  wants them in his videos where the content fits: D48 stacked split (exhibit top /
-  Q bottom, persistent, divider ~47–50%, exhibit content changes on his beats, captions
-  at the top of his half in sans) and D46 vertical split (Q left / exhibit right 55/45,
-  captions bottom-left on Q's half). His face stays present during hooks by design in
-  both. Reach for a split when a beat is him walking through / reacting to a screen,
-  a page or a video — do not force one where the script has no exhibit to carry.
-- **PREMIUM GRAPHICS — GLASS + 3D DEPTH (Q, Nov 12, 2026: "make sure everything is
-  premium graphics… glass… 3D etc like he does").** Sky's glass panels, glass-pill
-  states (the D5 recap state, the D58 pill chain), floating head clusters and layered
-  exhibits with real depth/shadow are core grammar, not garnish — build them at his
-  measured fidelity, re-skinned to PWC colours. Flat plates and thin cards are the
-  cheap telltale this replaces. "Go deep and really do it right" is the brief: his
+- **SPLITS — CORRECTED (Q, Nov 12, after the trio — supersedes the "use them" note).**
+  Liking Sky's half-and-half was NOT an order to use it. His split is a WHOLE-VIDEO
+  FORMAT (his reaction/walkthrough reels), never a rotating device inside talking-head
+  videos — and the trio's splits (small panels over navy) didn't match his geometry
+  anyway. Talking-head takes: NO D48/D46. Full-frame speaker, exhibits on the footage.
+- **NO NAVY VOID (Q, Nov 12).** Dark-blue background plates behind exhibits/boards are
+  the generic-AI template look Q keeps rejecting ("that lame look with the blue
+  background stuff"). Sky's exhibits live ON his footage or on his measured white/glass
+  panels at his scale — the footage stays the background. A full navy panel swallowing
+  the frame is a failed exhibit.
+- **ANIMATIONS + LITTLE HEADS — THE DIRECTION THAT WAS WORKING (Q, Nov 12).** What was
+  getting CLOSE to Sky before the drift: the animated devices and the floating
+  cutout-head clusters layered on the footage, plus his chart draws, count-ups and
+  building rows. That layered-on-footage grammar is the target and outranks
+  boards/panels. "Go deep and really do it right" is the brief: his
   edits are Q's favourite; mock the videos, not the idea of them.
 
 **COVERAGE (Batch 36, measured).** Reels **49/49** decoded (15 priority + origin + 33
