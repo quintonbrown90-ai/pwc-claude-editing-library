@@ -3,6 +3,15 @@
     "higgsfield": {
       "type": "http",
       "url": "https://mcp.higgsfield.ai/mcp"
+    },
+    "earshot": {
+      "command": "earshot",
+      "args": [
+        "mcp"
+      ],
+      "env": {
+        "EARSHOT_THREADS": "3"
+      }
     }
   }
 }
