@@ -172,6 +172,16 @@ P9 violation. The ban STANDS everywhere else: no serif in captions, counters, ou
 or any other reel role, and no generic serif display outside the lockup form. D21/D42
 Q-lane renderings are unchanged (bold grotesque) unless the beat is itself a headline lockup.
 
+**Q RULINGS — CAPTION HIGHLIGHTS + FONTS (Nov 12, 2026):** (1) Q approved a second caption
+mode beside the all-white default: white lettering with colour-highlighted keywords, as in
+the Sky videos that use it — highlight in PWC gold #FEE238 (yellowish, like the logo) or
+teal #14A886 at times. One mode per video, held throughout; never double-treat a word
+(highlight + giant headline on the same word at the same beat). The corpus measurement
+stands (his own captions in the decoded reels carry no highlight; highlights appear in
+embedded content) — this mode is Q's adopted option, exercised in his colours. (2) Fonts:
+adopt multiple viral fonts the way Sky does, each with its measured effects and movements;
+variety across videos, one coherent font system inside a video.
+
 ## 4. Devices D1–D14 (measured parameters)
 
 - **D2 headline lockup:** small white lowercase kicker (regular, ≈30–34 px) above 2 lines of huge

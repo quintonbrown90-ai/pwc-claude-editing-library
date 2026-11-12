@@ -262,10 +262,22 @@ boundary.
   hard cut per word; previous group fully gone before the next lands.
   The old caption "pop in" scale ramp is a BANNED telltale in v6 (removed fallback) —
   never use it.
-- **Q lane: caption groups stay all-white.** No current-word highlight on Sky's own captions
-  in any reel watched (VERIFIED) — highlight fires only inside *embedded* content (client
-  captions; rewrite lists: new word gold / old word grey in Q's lane). See `GAPS.md` G-01 for
-  the one source conflict on accent keywords in captions.
+- **Q lane captions — TWO approved modes (Q RULING Nov 12, 2026, refining the line above):**
+  (1) all-white groups (the measured default in Sky's own captions across the decoded
+  corpus — no current-word highlight on his own captions in any reel watched, VERIFIED;
+  highlight fires inside *embedded* content: client captions; rewrite lists: new word
+  gold / old word grey in Q's lane; see `GAPS.md` G-01); (2) **white lettering with
+  colour-highlighted keywords**, as in the Sky videos that use it — Q approved this mode
+  explicitly ("it's ok also to do it like sky videos... where it's white lettering but
+  then color highlight words"). Q-lane highlight colours: **yellowish gold like the PWC
+  logo (#FEE238), teal #14A886 at times** — never Sky's green/orange in the highlight
+  slot. Pick ONE mode per video and hold it; never double-treat a word (a highlighted
+  caption word does not also get a giant headline of the same word at the same beat).
+- **Fonts (Q RULING Nov 12, 2026):** adopt MULTIPLE viral fonts the way Sky does — he
+  varies typefaces across videos; each adopted font carries ITS effects and movements
+  from the measured instance (entrances, pulses, type-ins), not a generic animation.
+  One video = the font system of the Sky system it models; variety lives across videos,
+  not as random font mixing inside one cut.
 - **Dcc-era variant (Batch 18, Dcc84V5jc6D, Aug 25 2026 — predates the priority reels):**
   caption groups are **2–5 words** (median ~0.6 s, range 0.33–1.28 s) and the accent word
   lives **INSIDE the caption in gold** — on (a) the hook accent, (b) the current template-beat
