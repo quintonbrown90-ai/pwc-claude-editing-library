@@ -43,6 +43,13 @@ plan or it FAILS validation (`validate_beat_lock` / gate P10). Full spec:
   stagger, travel and land — nothing arrives as a static stamp. Visual cadence holds
   Sky's measured density (a visual event every ≤2 s; graphic swaps ≈ every 10 s per
   section) without inventing devices that have no Sky instance.
+- **HALF-AND-HALF SPLITS — USE THEM (Q, Nov 12, 2026).** Q likes Sky's split screens and
+  wants them in his videos where the content fits: D48 stacked split (exhibit top /
+  Q bottom, persistent, divider ~47–50%, exhibit content changes on his beats, captions
+  at the top of his half in sans) and D46 vertical split (Q left / exhibit right 55/45,
+  captions bottom-left on Q's half). His face stays present during hooks by design in
+  both. Reach for a split when a beat is him walking through / reacting to a screen,
+  a page or a video — do not force one where the script has no exhibit to carry.
 
 **COVERAGE (Batch 36, measured).** Reels **49/49** decoded (15 priority + origin + 33
 Batch-19); soundmaps **48 + 1** (48 per-reel maps + the DOTnacsDXvB duplicate covered by
