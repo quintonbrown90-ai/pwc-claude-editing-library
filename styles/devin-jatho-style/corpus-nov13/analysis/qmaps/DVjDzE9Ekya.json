@@ -1,0 +1,94 @@
+{
+ "code": "DVjDzE9Ekya",
+ "title": "Person A vs Person B \u2014 Set Minimum Age 25 By Country (Comment Gorilla)",
+ "fmt": "S-tool \u2014 single-setting audience-filter walkthrough",
+ "dur": 44.3,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-03-06",
+ "likes": 8068,
+ "comments": 930,
+ "url": "https://www.instagram.com/reel/DVjDzE9Ekya/",
+ "segs": [
+  [
+   0.0,
+   6.0,
+   "A-roll living-room / night-city set, sleeveless black top; above his head a PERSON A | PERSON B comparison board: two creator thumbnail cards (36K, then 100K views each) giving way to audience demographic bar charts (pink/purple bars, percentage rows) for each person; he points up at each side as he names it",
+   "PERSON A / PERSON B labels and view counts on the board; no separate headline",
+   "hard cut at 0.0",
+   "voice only",
+   null,
+   "BACKGROUND BOARD BEHIND/ABOVE HIM: the Person A/B comparison board and then the audience bar charts sit in the frame above and behind his head over the city backdrop \u2014 the comparison is staged behind the presenter"
+  ],
+  [
+   6.0,
+   11.5,
+   "A-roll verdict: the Person A/B chart shrinks to a small board behind him; 'NOW IF YOU'RE A / I DON'T HAVE TO / TO LOOK LIKE / PERSON B' beats as he gestures at himself and points up",
+   "phrase chunks, white condensed caps at chest",
+   "hard cut",
+   "voice only",
+   null,
+   "BACKGROUND BOARD BEHIND HIM (shrunk): the A/B demographic board stays visible behind his head while the verdict is delivered to camera"
+  ],
+  [
+   11.5,
+   14.2,
+   "A-roll promise: 'ALL WITH JUST / ONE / ONE SIMPLE SETTING / HERE'S HOW'; a dark Minimum age settings card rises at his chest in the last beats",
+   "phrase chunks; the settings card at his chest is device text",
+   "hard cut",
+   "voice only",
+   null,
+   "FLOATING DEVICE OVER FOOTAGE: the Minimum age settings card floats at chest level over the A-roll, previewing the walkthrough"
+  ],
+  [
+   14.2,
+   23.2,
+   "FULL-SCREEN SCREEN RECORDING: his profile -> Settings and activity (cursor ring) -> Creator tools and controls -> Creator list -> Minimum age -> Minimum age page (Default / By country) -> Add by country",
+   "UI text; glowing cursor rings are the pointers",
+   "hard cut to screen",
+   "voice over the walkthrough; taps unconfirmed as SFX",
+   null,
+   "FRAME REPLACED BY SCREEN: the settings UI fills the whole frame, Devin is gone for the walkthrough"
+  ],
+  [
+   23.2,
+   30.6,
+   "Minimum age performed: 'SELECT YOUR COUNTRY' sheet with rows of person icons for India (icons colour-classed red/green), then a numeric keypad entering the age; the page settles on India \u2014 Minimum age 25; Devin returns at frame-right laughing/pointing beside the settled panel in the final beats",
+   "country sheet and 'India / Minimum age 25' panel are the device text",
+   "sheet slides (native UI motion), then split return",
+   "voice over",
+   null,
+   "SPLIT / PANEL LAYOUT in the final beats: the settled India / age-25 panel occupies one side of the frame with Devin reacting beside it \u2014 a panel composite, not a full-screen screen recording"
+  ],
+  [
+   30.6,
+   35.1,
+   "TOP 10 COUNTRIES reveal: first Devin at frame-left with the India panel still beside him ('THESE ARE GOING TO BE'), then a white lined notepad card fills the centre: 'TOP 10 COUNTRIES' 1 India, 2 Nigeria, 3 Philippines, 4 Pakistan, 5 Bangladesh, 6 Sri Lanka, 7 Ghana, 8 Kenya, 9 South Africa, 10 Egypt, each with a flag",
+   "notepad list is the text \u2014 there is no separate caption over the card",
+   "hard cut; scene cut MEASURED at 35.6 is the exit, not this entry",
+   "voice over the list",
+   null,
+   "GRAPHIC OVER A BLURRED A-ROLL BACKGROUND: the white Top 10 notepad card sits centre-frame over a blurred/darkened version of his own talking footage"
+  ],
+  [
+   35.1,
+   39.1,
+   "A-roll CTA: the Top 10 list shrinks to a small tablet/phone card at frame-left; he holds up two fingers, a comment pill with the keyword and a send arrow floats at his chest, then an IG notification-style banner 'Devin Jatho \u2014 Here's Your List...' appears",
+   "comment pill / notification banner are the device text; phrase chunks resume",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "FLOATING DEVICES OVER FOOTAGE: the shrunken list card, the comment pill and the delivery notification banner all float over the A-roll at chest/frame-left"
+  ],
+  [
+   39.1,
+   44.3,
+   "A-roll CLOSE: 'NOW / EVERY / EVERY SINGLE ONE OF THEM [to 25] / AND I'LL SHOW YOU WHY' \u2014 the last phrase holds repeated to the end; file ends on 'So.' with no payoff shown",
+   "phrase chunks, white condensed caps at chest; final chunk holds",
+   "hard cut",
+   "voice tail; ends on a cliffhanger setup line, no end card",
+   null,
+   null
+  ]
+ ]
+}

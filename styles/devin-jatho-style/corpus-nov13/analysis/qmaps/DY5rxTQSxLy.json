@@ -1,0 +1,64 @@
+{
+ "code": "DY5rxTQSxLy",
+ "title": "You Will Never Go Viral If You Don't Learn To Speak On Camera \u2014 the same line performed 5x as delivery meters climb 100 views to 1M",
+ "fmt": "D \u2014 performed (subtype: same-line x5 delivery-escalation demo; the performance itself is the teaching)",
+ "dur": 22.9,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-05-28",
+ "likes": 107254,
+ "comments": 2049,
+ "url": "https://www.instagram.com/reel/DY5rxTQSxLy/",
+ "segs": [
+  [
+   0.0,
+   3.2,
+   "TAKE 1 \u2014 Devin seated at a desk, hands clasped, near-deadpan; above him a white DELIVERY-METER PANEL: rows FLAT / PACING / TONALITY / HANDS / EMOTION, FLAT row highlighted blue, a blue needle pinned at the far left of the tracks, view counter top-right reads 100",
+   "no speech captions \u2014 the meter panel and the counter are the text",
+   "hard cut at 0.0",
+   "voice only; onset candidates in grid",
+   null,
+   "GRAPHICS OVER / KEYED SET: meter panel occupies the top ~35% of frame; Devin sits below it against a blurred night-office / city-lights backdrop (composite backdrop, not his studio wall)"
+  ],
+  [
+   3.2,
+   8.0,
+   "TAKE 2 \u2014 same framing, same line, slightly more life; needle advances right along the tracks, PACING row now highlighted blue; view counter reads 5K; hands still clasped",
+   "meter panel + 5K counter are the text",
+   "hard cut (jump cut to the next take)",
+   "voice only; onset candidates in grid",
+   null,
+   "Same panel-over-backdrop composite; only the needle position, the highlighted row and the counter change"
+  ],
+  [
+   8.0,
+   12.8,
+   "TAKE 3 \u2014 same line again, more tonal movement; needle further right; TONALITY waveform row active; view counter reads 10K",
+   "meter panel + 10K counter are the text",
+   "hard cut (jump cut)",
+   "voice only; onset candidates in grid",
+   null,
+   "Same panel-over-backdrop composite"
+  ],
+  [
+   12.8,
+   17.8,
+   "TAKE 4 \u2014 same line, hands UNCLASP and start gesturing (open palms, illustrative hand moves on 'speak on camera'); HANDS row joins the active rows; view counter reads 100K",
+   "meter panel + 100K counter are the text",
+   "hard cut (jump cut)",
+   "voice only; onset candidates in grid",
+   null,
+   "Same panel-over-backdrop composite; the gesture change happens inside the same locked framing"
+  ],
+  [
+   17.8,
+   22.9,
+   "TAKE 5 \u2014 full-energy delivery of the identical line: both hands up, claw/open gestures, wide smile and laugh at the tail; EMOTION row fully lit, needle at the far right; view counter reads 1M; file ends on the performance, no end card",
+   "meter panel + 1M counter are the text",
+   "hard cut (jump cut); hard end on the last frame",
+   "voice only to the end; onset candidates in grid",
+   null,
+   "Same panel-over-backdrop composite to the last frame"
+  ]
+ ]
+}

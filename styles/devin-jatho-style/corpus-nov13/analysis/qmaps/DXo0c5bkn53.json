@@ -1,0 +1,94 @@
+{
+ "code": "DXo0c5bkn53",
+ "title": "Instagram Cheat Code \u2014 duplicate the draft, post one as Trial + one as Normal",
+ "fmt": "S-tool \u2014 feature walkthrough + full-screen screen-demo (Trial Reels duplicate-draft hack)",
+ "dur": 36.0,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-04-27",
+ "likes": 33558,
+ "comments": 414,
+ "url": "https://www.instagram.com/reel/DXo0c5bkn53/",
+ "segs": [
+  [
+   0.0,
+   5.5,
+   "SPLIT HOOK: Devin at a desk, night skyline behind; headline 'INSTAGRAM CHEATCODE' (yellow/pink/white) + a 'Secret Settings' toggle pill across his chest; bottom panel = the 'New reel' posting UI with 'Save draft / Post' buttons and a glowing cursor ring on 'Wait!'",
+   "headline + toggle pill are the text; no phrase captions yet",
+   "hard cut at 0.0",
+   "voice only; onset candidates in grid",
+   null,
+   "SPLIT HOOK LAYOUT: Devin at a desk against a night-city skyline (top ~55%) over a dark IG 'New reel' posting UI panel (bottom ~45%) \u2014 the UI he is describing sits under him from frame one"
+  ],
+  [
+   5.5,
+   9.5,
+   "FULL-SCREEN SCREEN RECORDING (dark IG UI): 'New reel' page \u2014 glowing cursor ring taps 'Save draft', then the Drafts tab opens",
+   "UI text only; cursor ring is the pointer",
+   "hard cut to screen (scene cut measured 5.13)",
+   "voice over the walkthrough; taps unconfirmed as SFX",
+   null,
+   "FRAME REPLACED by the screen recording \u2014 Devin absent 5.5\u201321.3s, the UI performs the steps"
+  ],
+  [
+   9.5,
+   13.3,
+   "Screen recording continued: 'Reels drafts' list \u2014 cursor taps the three dots on the draft, a menu (Duplicate / Pin / Rename) opens, 'Duplicate' is tapped and a 'Draft_duplicate' row appears",
+   "UI text; the duplicate row is the proof",
+   "native UI motion; menu slides up",
+   "voice over",
+   null,
+   "FRAME REPLACED by the screen recording (see 5.5s entry)"
+  ],
+  [
+   13.3,
+   18.7,
+   "Screen recording continued: the first draft opens in the posting UI; the 'Trial' toggle flips ON (glowing), 'Post' is tapped and a 'Trial Reel Posted' state shows",
+   "UI text; toggle + Post button carry the step",
+   "native UI transitions",
+   "voice over",
+   null,
+   "FRAME REPLACED by the screen recording (see 5.5s entry)"
+  ],
+  [
+   18.7,
+   21.3,
+   "Screen recording continued: back in 'Reels drafts', the second (original) draft opens; Trial toggle stays OFF and 'Post' is tapped \u2014 the Normal post",
+   "UI text",
+   "native UI transitions",
+   "voice over",
+   null,
+   "FRAME REPLACED by the screen recording (see 5.5s entry)"
+  ],
+  [
+   21.3,
+   29.7,
+   "WHITE-VOID PHONE COMPARISON: a phone mockup slides in right showing his reel playing; a magenta donut '83% Followers' + eye count climbs 67K \u2192 119K \u2192 133K beside it (the Normal post); a second phone slides in with a blue donut '100% Non-followers', count climbing 104K \u2192 126K \u2192 134K (the Trial post) \u2014 the donuts are the argument",
+   "count numerals + '% Followers / Non-followers' labels beside the phones; no speech captions",
+   "hard cut to white background",
+   "voice over; count changes silent in the pulled audio class",
+   "CONTENT B-ROLL: Devin's own past reel ('TURN 1 IDEA INTO 7 HOOKS') plays inside both phone mockups \u2014 his content as artefact; phones side by side on white; ~8s; lands on 'the number one will get views from your followers\u2026 but the trial reel will only be shown to new people'; in = phone slide-in, out = hard cut to A-roll",
+   "BACKGROUND REPLACED: plain white void replaces the set entirely for the comparison \u2014 phones float on white, no presenter on screen"
+  ],
+  [
+   29.7,
+   33.7,
+   "A-ROLL RETURN (skyline desk set): two small phone cards float at his chest labelled 'Normal 134K' and 'Trial 134K'; a yellow tag lands on the Trial card \u2014 same video, double views, performed as props",
+   "card labels are the text; phrase captions begin ('So do this' class) at the close",
+   "hard cut (scene cut measured 29.7)",
+   "voice only",
+   null,
+   null
+  ],
+  [
+   33.7,
+   36.0,
+   "A-ROLL CLOSE: plain desk framing, white phrase captions right of frame ('So do this', 'because'); file CUTS OFF mid-sentence on 'because' \u2014 cliffhanger ending, no CTA card",
+   "phrase chunks, white, right-side",
+   "hard cut (scene cut measured 33.67); hard end mid-word",
+   "voice cut mid-sentence \u2014 loop/cliffhanger device",
+   null,
+   null
+  ]
+ ]
+}

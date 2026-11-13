@@ -1,0 +1,244 @@
+{
+ "code": "DOGwCLZjTqS",
+ "title": "Taking Followers' Hooks from Sh*t to Gold, Part 1 — James hook makeover",
+ "fmt": "C-makeover — live critique / hook makeover",
+ "dur": 103.2,
+ "fps": 24,
+ "dims": "720x1280",
+ "posted": "2025-09-02",
+ "likes": 11962,
+ "comments": 665,
+ "url": "https://www.instagram.com/reel/DOGwCLZjTqS/",
+ "segs": [
+  [
+   0.0,
+   4.0,
+   "TITLE CARD A-roll: Devin at desk holding two mini video cards — red-X card (left) and gold '1.2M' card (right) — the before/after held in his hands",
+   "Huge title 'FOLLOWERS HOOK / SH*T → GOLD' — SH*T in RED, GOLD in gold/yellow",
+   "hard cut at 0.0",
+   "voice only; hook onset RMS 0.363 speech-level per decode (title spoken, not slammed)",
+   null,
+   "Penthouse set behind him; mini before/after cards held in real space over the footage"
+  ],
+  [
+   4.0,
+   8.0,
+   "SUBJECT INTRO full-screen: James (weight-loss coach) in a Walmart aisle holding a product; dark profile card over his chest 'Seth X James | Weight Loss Coach' + avatar; video-player bar '00:59' with progress fill across his chest",
+   "profile-card text + player-bar numerals; James framed as a video being watched",
+   "hard cut to subject",
+   "Devin's voice over; subject clip silent",
+   "SUBJECT B-ROLL FULL-SCREEN: James in the Walmart aisle introduced as a card + player bar; ~4–8s; lands on 'This is James. He's a weight loss coach'; in/out hard cuts; sound = Devin's voice over",
+   "Subject footage replaces the frame; profile card + player bar laid over the subject footage"
+  ],
+  [
+   8.0,
+   12.1,
+   "VIEW COUNT-UP over James: big counter climbs ~801K settling at 1.2M with a white hand-cursor at the number — the hook's reach as first proof",
+   "count numerals are the text",
+   "counter animates in place",
+   "voice over; count is visual — no tick claimed",
+   "SUBJECT B-ROLL CONTINUES full-screen: James holds in the aisle while the view counter counts up over him; ~8–12s; lands on 'in 60 seconds we're going to make him go viral'; in/out hard cuts",
+   "Count-up graphic over the subject footage"
+  ],
+  [
+   12.1,
+   17.4,
+   "JAMES'S HOOK PLAYS WHOLE full-screen before any critique: Walmart aisle, his native captions build line by line; Devin's small circular head pops in at the shoulder in the last beat",
+   "James's own white caps building: 'IF YOU'RE A SNACKER / AND YOU SHOP AT WALMART / I'M ABOUT TO / BLESS YOU WITH SOME / HEALTHY SWAPS' + YELLOW underline under 'HEALTHY SWAPS'",
+   "hard cut",
+   "James's own hook audio plays (subject audio), then Devin's verdict voice",
+   "SUBJECT B-ROLL FULL-SCREEN: James performs his original hook to camera in the aisle; ~12–17s; lands on his own line 'bless you with some healthy swaps'; in = hard cut, out = cut to diagnosis card; sound = subject audio",
+   "Subject footage fills the frame; Devin appears as a small circular PiP head over the subject's shoulder at the end of the beat"
+  ],
+  [
+   17.4,
+   22.3,
+   "VERDICT + SCORE: dimmed hook text with 'VIRAL RATE: 80%' yellow pixel-font tag + underline bar and Devin's circular avatar above it; DIAGNOSIS CARD forms — whole hook dimmed on a dark card under the avatar",
+   "pixel-font score tag (yellow); hook text dimmed on the card",
+   "hard cut to card",
+   "voice only",
+   null,
+   "Diagnosis card sits OVER the dimmed subject footage; Devin present only as a circular avatar — presenter replaced by the card system"
+  ],
+  [
+   22.3,
+   25.5,
+   "MISTAKE 1 DIAGNOSIS on the same card: 'BLESS YOU WITH SOME HEALTHY SWAPS' lights up RED one line at a time, then red tag 'WRONG DESIRE' lands",
+   "RED = the wrong line; 'WRONG DESIRE' red outlined tag",
+   "lines light in place (no card move)",
+   "voice only",
+   null,
+   "Same diagnosis card over dimmed footage — the card never moves, only colour/words change (decode layout rule)"
+  ],
+  [
+   25.5,
+   28.5,
+   "DESK BRIDGE: Devin back at the desk with laptop in front of him, James's profile card small on screen — bridge between diagnosis and fix",
+   "phrase chunks resume",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "Penthouse set; laptop as desk prop; small subject card over the footage"
+  ],
+  [
+   28.5,
+   32.3,
+   "PHONE SKIT — the desire performed: Devin on a couch looking at his phone; speech bubble 'HEALTHY SWAPS?' (red) flips to 'I WANT SKINNY' (green) — the client's true desire as a text conversation",
+   "rounded speech bubbles = the client's voice, not captions",
+   "hard cut to couch set",
+   "voice only",
+   "PERFORMED B-ROLL: Devin plays the scrolling client on a couch, phone in both hands, reacting to the hook; full-screen cutaway in a second set; ~28–32s; lands on 'They don't want to be healthy. They want to be skinny.'; in/out hard cuts; sound = his narration over",
+   "Practical set + lighting change: teal-lit couch set replaces the desk set; speech-bubble graphics over the footage"
+  ],
+  [
+   32.3,
+   36.8,
+   "FIX SETUP back on the diagnosis card: 'BLESS YOU WITH SOME' builds in white, red 'HEALTHY SWAPS' with X beneath — the line about to be swapped",
+   "card text builds word by word",
+   "hard cut to card",
+   "voice only; swap itself measured next segment",
+   null,
+   "Diagnosis card over dimmed footage, circular avatar above"
+  ],
+  [
+   36.8,
+   40.2,
+   "WORD-SWAP FIX (MEASURED in decode §5a, 24fps strip): red 'HEALTHY SWAPS' glows out and green 'LOW CALORIE SWAPS ✓' glows in, in place — glow-FADE over ~3 frames (~36.80–36.92s), starts ~0.08s after the word 'low' (36.72s), hands rise ~0.1s before; green glow 'breathes' ~0.5s after landing",
+   "GREEN = the fixed line; swap lands WITH the spoken word, not before it",
+   "in-place glow-fade replacement (no slide/pop/overshoot)",
+   "voice only — no SFX signature at the swap (decode)",
+   null,
+   "Same unmoving diagnosis card; only the line's colour/words change"
+  ],
+  [
+   40.2,
+   47.0,
+   "RISK REVERSAL BUILD on the card: green bracketed tag '[RISK REVERSAL]' appears under the fixed line, then 'THAT ACTUALLY TASTE GOOD' extends the line in green word by word",
+   "GREEN tags/build = the fancy addition, labelled as it is written",
+   "tags/build in place",
+   "voice only",
+   null,
+   "Diagnosis card over dimmed footage throughout"
+  ],
+  [
+   47.0,
+   49.8,
+   "APPROVAL + FLAG: A-roll return — James's thumbnail card beside a glowing green ✓ box (fixed line stamped approved); red warning-triangle icon enters as mistake 2 is flagged",
+   "green ✓ box is the verdict glyph",
+   "hard cut (card out, face back)",
+   "voice only",
+   null,
+   "Thumbnail card + ✓/triangle icons over the footage beside Devin at the desk"
+  ],
+  [
+   49.8,
+   53.5,
+   "MISTAKE 2 FLAGGED at the desk: James's hook card 'IF YOU'RE A SNACKER AND YOU SHOP AT WALMART' + glowing red warning-triangle + hook icon",
+   "hook-card text in red/white; triangle = hazard glyph",
+   "hard cut",
+   "Library decode: loudest window RMS 0.456 at 52.7s sits in the pause after 'mistake.' with no word onset within 0.15s — consistent with a soft impact under the mistake-2 reveal, reported by the decode as PROBABLE, not spectrally confirmed",
+   null,
+   "Hook card + warning icon over the footage at his chest; penthouse set behind him"
+  ],
+  [
+   53.5,
+   60.0,
+   "AUDIENCE GRID 1–2: full-screen person-dot grid — green small subset highlighted (who James DOES reach), then the grid turns RED and SHRINKS to a small cluster bottom-left with James's card reappearing over it — narrowing made visible as a shrinking crowd",
+   "grid labels not legible at 1fps (decode); numerals are people-dots",
+   "hard cut to full-screen graphic",
+   "voice over the graphic",
+   null,
+   "Frame replaced by the audience-grid graphic; James's card laid over the shrunken red grid"
+  ],
+  [
+   60.0,
+   71.0,
+   "AUDIENCE GRID 3: red grid expands back to full frame with labels building — small cluster 'A SNACKER AT WALMART', then 'SNACKERS' / 'SNACKERS WALMART' — who the hook actually speaks to, counted as people",
+   "white labels over the red person-grid",
+   "grid expands in place",
+   "voice over the graphic",
+   null,
+   "Frame replaced by the full-screen red audience grid"
+  ],
+  [
+   71.0,
+   75.2,
+   "AUDIENCE GRID 4: white-outlined grid 'ALL WANT TO LOSE WEIGHT' (small white subset at bottom), then the whole grid floods GREEN with a download arrow — the true audience is everyone who wants to lose weight",
+   "'ALL WANT TO LOSE WEIGHT' label; green flood = 100%",
+   "in-place colour flood",
+   "voice over the graphic",
+   null,
+   "Frame replaced by the audience grid; white outline flips to full green"
+  ],
+  [
+   75.2,
+   83.0,
+   "FIXED HOOK BUILDS GREEN line by line under Devin's circular avatar over the dimmed Walmart footage: 'IF YOU WANT TO LOSE WEIGHT / BUT STILL EAT THE FOODS YOU LOVE / I'M ABOUT TO BLESS YOU WITH SOME / LOW CALORIE SNACKS / THAT ACTUALLY TASTE GOOD'",
+   "GREEN build = the finished rebuild shown as a completed text; lines land on his narration of each line",
+   "lines build in place",
+   "Devin's voice narrates each line as it builds; subject audio not heard",
+   null,
+   "Fixed-hook text card over the dimmed subject footage; Devin present as circular avatar only"
+  ],
+  [
+   83.0,
+   90.0,
+   "DESK CLOSE — mini-grids worn on his chest: Devin at desk/laptop, a mini RED person-grid on his chest GROWS (~85–88s) then flips to a full GREEN grid (~88–89s) — small audience to full audience on his body; '100%' lands here",
+   "desk phrase chunks: 'NOW' / 'INSTEAD OF SPEAKING TO' (SPEAKING TO red) / 'SPEAKING DIRECTLY' (DIRECTLY green)",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "Mini audience-grid graphic over the footage on his chest, flipping red to green in place"
+  ],
+  [
+   90.0,
+   95.0,
+   "PAYOFF A-roll at the desk: speaking directly to their true desire; promise of money",
+   "phrase chunks: 'TO THEIR TRUE DESIRE' (green) / 'THEM ACHIVE' [sic, on-screen typo per decode] / 'MAKE' / 'I PROMISE'",
+   "hard cut",
+   "voice only",
+   null,
+   "Penthouse set behind him; no graphic this beat"
+  ],
+  [
+   95.0,
+   97.5,
+   "STRIPE PROOF: Stripe notification card over his chest — 'You've received 5,000 USD' with the S logo (decode: from 'Marc C…', name truncated on frame) — money proof for the fix",
+   "notification-card text is the proof",
+   "card pops/fades in over footage",
+   "voice over; no sting claimed",
+   null,
+   "Stripe notification card over the footage at chest height"
+  ],
+  [
+   97.5,
+   100.2,
+   "CTA A-roll: 'if you want me to break down your video next'",
+   "phrase chunks: 'YOU' (yellow) / 'WANT ME TO BREAK DOWN' (BREAK DOWN yellow) / 'YOUR VIDEO NEXT' (NEXT yellow)",
+   "hard cut",
+   "voice only",
+   null,
+   "Penthouse set; captions only"
+  ],
+  [
+   100.2,
+   101.5,
+   "COMMENT BAR TYPED LIVE (MEASURED in decode §7): comment-bar mock across his chest types the keyword letter by letter — empty → 'To' (100.80s) → 'Toe' (100.92s) → 'Toes' (101.05s) + send arrow",
+   "the typed keyword 'Toes' IS the CTA text",
+   "typing is the entrance (letter by letter)",
+   "voice over; typing sound not isolated in decode — not claimed",
+   null,
+   "Comment-bar UI mock over the footage across his chest"
+  ],
+  [
+   101.5,
+   103.2,
+   "DELIVERY PROOF + END: IG notification banner 'Instagram — Devin Jatho mention you in a post' over the desk shot; file ends on the banner, no end card",
+   "banner text is the delivery proof",
+   "banner drops/slides in",
+   "voice tail; no end sting detected in decode",
+   null,
+   "Notification banner over the footage; penthouse set behind him"
+  ]
+ ]
+}

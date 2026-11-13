@@ -1,0 +1,134 @@
+{
+ "code": "DM5X-WgxK27",
+ "title": "Instagram SEO Update — optimize your captions for Google",
+ "fmt": "S — screen-demo teaching",
+ "dur": 74.2,
+ "fps": 24,
+ "dims": "720x1280",
+ "posted": "2025-08-03",
+ "likes": 21536,
+ "comments": 255,
+ "url": "https://www.instagram.com/reel/DM5X-WgxK27/",
+ "segs": [
+  [
+   0.0,
+   5.0,
+   "HOOK SLAM A-roll: Devin at desk in dark city-penthouse set; glowing Google toggle graphic floats over his chest on 'SECRET SETTING'",
+   "Huge condensed caps centre-lower, white: 'AS OF LAST WEEK' / 'INSTAGRAM DROPPED' (+ small IG badge) / 'SECRET' / 'SECRET SETTING' / 'FROM NOW ON' — phrase chunks, never over face",
+   "hard cut at 0.0",
+   "Library decode MEASURED: voice-led, no music bed; hook onset RMS 0.049 to 0.342 is speech-level — NO impact slam in this reel (decode §6)",
+   null,
+   "AI penthouse/city-lights set behind Devin for the whole reel; glowing toggle UI graphic placed OVER the footage at chest height"
+  ],
+  [
+   5.0,
+   10.0,
+   "FULL-SCREEN screen recording: dark-mode Google search 'how to go viral' — results page, the claim shown not described",
+   "Google UI text carries the beat; no speech captions over the screen",
+   "hard cut to screen",
+   "voice over screen",
+   null,
+   "Frame replaced outright by the Google screen recording"
+  ],
+  [
+   10.0,
+   16.2,
+   "BURY-WALL (decode-named device): mosaic wall of many small B&W video thumbnails with Devin's colour tiles lost inside it, then Google 'Short videos' results — '95M posts a day / buried' made literal",
+   "phrase chunks resume on return beats; UI text on the Google page",
+   "hard cut",
+   "voice only; onset candidates in grid",
+   "CONTENT-AS-ARTEFACT B-ROLL: Devin's own video thumbnails repeated inside the bury-wall / Google results; full-screen graphic framing; ~10–16s; lands on 'your video will start to get buried'; in/out hard cuts; sound = his voice over, thumbnail audio not heard",
+   "Frame replaced by the thumbnail wall, then by the Google page"
+  ],
+  [
+   16.2,
+   20.2,
+   "GREEN-BORDER RANK HIGHLIGHT (MEASURED in decode, 24fps strip 16.2–18.6s): on Google 'Short videos' his thumbnail's border flips WHITE to bright GREEN with glow in 1 frame at ~17.37s, holds ~1.0s, fades back as view pulls out; then A-roll return",
+   "'TO DO IT FAST' — FAST in RED (urgency colour); border flip lands ~0.15s before 'for Google search' (17.52s)",
+   "in-place state change (border flip), then hard cut to face",
+   "Library decode: flip is SILENT — no whoosh measured; voice only",
+   null,
+   "Green glowing border graphic over the screen thumbnail; A-roll return restores the penthouse set"
+  ],
+  [
+   20.2,
+   24.8,
+   "A-roll promise: 'here are three steps'; small circular G / hand / sparkle icons appear at his chest as the steps are promised",
+   "'SO HERE ARE' white phrase chunks, centre-lower",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "Small UI icons placed over the footage at chest height; penthouse set behind him"
+  ],
+  [
+   24.8,
+   28.7,
+   "FLOATING TOGGLE FLIP (MEASURED in decode, 24fps strip 26.4–29.0s): the Google toggle returns floating over his chest, grey knob-left; flips grey to GREEN knob-right in ~1 frame at ~27.86–27.90s; both hands open palms-up framing it; vanishes ~28.7s",
+   "phrase chunks; flip leads the word 'turned' (28.28s) by ~0.4s (decode)",
+   "in-place 1-frame state flip (no slide animation at 24fps)",
+   "Library decode: flip is silent — no RMS spike above voice; voice only",
+   null,
+   "Toggle UI graphic floats OVER the footage in real space over his chest — not a screen recording"
+  ],
+  [
+   28.7,
+   37.8,
+   "FULL-SCREEN IG settings walkthrough: his profile (361K followers) → Settings and activity list → Account privacy → the real toggle 'Allow public photos and videos to show up in search engine results'",
+   "IG UI text carries the step; cursor/scroll is the pointer",
+   "hard cut to screen",
+   "voice over the walkthrough; taps unconfirmed as SFX",
+   null,
+   "Frame replaced outright by the Instagram app screen recording"
+  ],
+  [
+   37.8,
+   46.0,
+   "Step 2 — AnswerThePublic: A-roll with a search pill typing 'answerthepublic.com' at his chest, then FULL-SCREEN AnswerThePublic site: search 'how to go viral' → the wheel; orange segments FILL the wheel progressively ~41–46s in sync with 'a wheel of the most popular searches' (decode: wheel-fill device)",
+   "site UI text + phrase chunks on the A-roll beats",
+   "hard cut A-roll to screen",
+   "voice over screen",
+   null,
+   "Search-pill graphic over the footage, then frame replaced by the AnswerThePublic screen; wheel data-viz builds inside the screen"
+  ],
+  [
+   46.0,
+   54.3,
+   "Wheel segment close-up (big orange wedge selected) alternating with CAPTION-MOCK CARD: dark card mock of the finished caption 'How to go viral on Instagram?' with heart/comment/share icons, floating beside Devin as he explains making it the first line",
+   "the mock card IS the text — caption shown as a finished product",
+   "hard cuts between wheel and A-roll+card",
+   "voice only / voice over wheel",
+   null,
+   "Caption-mock card floats OVER the footage beside Devin; wheel beats replace the frame with the screen"
+  ],
+  [
+   54.3,
+   62.0,
+   "Step 3 source shown FULL-SCREEN: Google 'People also search for' list — 'How to go viral on instagram reels / without followers / overnight', 'Hashtags to go viral on instagram'",
+   "Google UI list text carries the step",
+   "hard cut to screen",
+   "voice over screen",
+   null,
+   "Frame replaced outright by the Google results screen"
+  ],
+  [
+   62.0,
+   71.2,
+   "CAPTION-MOCK COMPLETES beside Devin: the People-Also-Search terms land inside the mock and highlight YELLOW one by one; the full caption text builds ('Do you want to have viral reels? … Using the correct Hashtags, SEO and trends…') and teal hashtags append at the end",
+   "mock-card text with YELLOW term highlights; teal hashtag line last",
+   "hard cut (return to face + card)",
+   "voice only",
+   null,
+   "Caption-mock card over the footage at his side over the penthouse set"
+  ],
+  [
+   71.2,
+   74.2,
+   "OPEN-LOOP CLOSE: Devin full frame; file cuts 0.27s after 'because…' (73.92s, decode) — sentence never resolves, no end card",
+   "'BECAUSE' / 'BECAUSE…' chunk held to the last frame",
+   "hard end (deliberate cut-off)",
+   "voice cut mid-sentence — the loop/cliffhanger device (decode)",
+   null,
+   "Penthouse set behind him to the final frame"
+  ]
+ ]
+}

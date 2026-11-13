@@ -1,0 +1,144 @@
+{
+ "code": "DX0MuRvSFV2",
+ "title": "Fix These 5 Settings \u2014 Never Post Without Checking These 5 Settings",
+ "fmt": "S-set \u2014 five-settings screen-demo list",
+ "dur": 56.6,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-05-02",
+ "likes": 27836,
+ "comments": 611,
+ "url": "https://www.instagram.com/reel/DX0MuRvSFV2/",
+ "segs": [
+  [
+   0.0,
+   3.9,
+   "A-roll night-city apartment set; Devin at a table pointing down with both hands; a five-row toggle checklist floats above/behind his head (Account Status / Flag for Review / Reels on Facebook / Search Engine / Show Account Suggestions)",
+   "headline 'NEVER POST INSTAGRAM' in white-to-gradient caps with IG glyph at chest; checklist rows are device text",
+   "hard cut at 0.0",
+   "voice only",
+   null,
+   "BACKGROUND GRAPHIC BEHIND HIM: the five-toggle settings checklist sits in the frame above/behind his head over the city-window backdrop, not beside him \u2014 the whole list is previewed in the hook"
+  ],
+  [
+   3.9,
+   6.5,
+   "A-roll hook continues, then his profile grid with a large red prohibition stamp 'SHADOW BAN' over a grey silhouette avatar",
+   "phrase chunks; 'SHADOW BAN' stamp is the device text",
+   "hard cut",
+   "voice only",
+   null,
+   "GRAPHIC OVER FOOTAGE: the red SHADOW BAN prohibition stamp covers the profile/avatar area of his own profile grid"
+  ],
+  [
+   6.5,
+   10.8,
+   "FULL-SCREEN SCREEN RECORDING: Settings and activity menu (cursor ring on Account Status) -> Account Status page; three rows turn to green checks (Removed content and messaging / Availability to people under 18 / Features you can't use)",
+   "UI text; green check states are the payoff",
+   "hard cut to screen",
+   "voice over the walkthrough; taps unconfirmed as SFX",
+   null,
+   "FRAME REPLACED BY SCREEN: the settings UI fills the whole frame, Devin is gone for the walkthrough"
+  ],
+  [
+   10.8,
+   17.9,
+   "FULL-SCREEN SCREEN RECORDING: Flagged for review follower list (15,789 followers); rows are stamped one class at a time \u2014 red 'FAKE' stamps on some avatars, glowing green 'REAL' badges on others",
+   "FAKE / REAL stamps on the follower rows; UI text",
+   "hard cut to screen",
+   "voice over; stamps are silent in this pass (onset candidates in grid only)",
+   null,
+   "FRAME REPLACED BY SCREEN: the flagged-followers list fills the frame; the FAKE/REAL classification stamps sit over the list rows"
+  ],
+  [
+   17.9,
+   23.4,
+   "FULL-SCREEN SCREEN RECORDING: Settings menu -> Follow and invite friends (cursor ring) -> 'Flag for review' toggle switched OFF (blue toggle close-up)",
+   "UI text; toggle state is the device text",
+   "hard cut",
+   "voice over the walkthrough",
+   null,
+   "FRAME REPLACED BY SCREEN: settings UI full-frame to the toggle close-up"
+  ],
+  [
+   23.4,
+   26.9,
+   "A-roll return on a white/pink flash frame ('NOW'): 'THESE NEXT 3 SETTINGS / HAVE GOT ME MILLIONS / OF VIEWS FOR FREE' in three beats; a Professional dashboard pill floats at his chest",
+   "three-beat phrase headline, white condensed caps; dashboard pill is device text",
+   "WHITE/PINK FLASH transition at ~23.5s (MEASURED scene cuts 23.46-23.52)",
+   "voice only",
+   null,
+   "FLOATING DEVICE OVER FOOTAGE: the Professional dashboard pill floats at chest level over the A-roll"
+  ],
+  [
+   26.9,
+   33.9,
+   "FULL-SCREEN SCREEN RECORDING: Settings -> Crossposting (cursor ring) -> Sharing across profiles (devinjatho Instagram -> Devin J... Facebook) -> Automatically share -> 'Your Instagram reels' toggle switched ON",
+   "UI text; toggle state is the payoff",
+   "hard cut to screen",
+   "voice over the walkthrough",
+   null,
+   "FRAME REPLACED BY SCREEN: crossposting UI fills the frame"
+  ],
+  [
+   33.9,
+   36.4,
+   "Facebook views dashboard, dark analytics card showing Facebook view counts around 115-116K \u2014 the crossposting payoff as a number",
+   "count numerals on the dashboard card",
+   "hard cut",
+   "voice over",
+   null,
+   "FRAME REPLACED BY SCREEN: the Facebook analytics dashboard fills the frame"
+  ],
+  [
+   36.4,
+   41.5,
+   "FULL-SCREEN SCREEN RECORDING: Settings -> Account privacy (Public) -> 'Allow public photos and videos to appear in search engine results' toggle switched ON",
+   "UI text; toggle state is the payoff",
+   "hard cut to screen",
+   "voice over the walkthrough",
+   null,
+   "FRAME REPLACED BY SCREEN: account-privacy UI fills the frame"
+  ],
+  [
+   41.5,
+   44.0,
+   "A-roll 'NOW / CAN BE SHOWN' -> Google search results page for short videos showing Devin's own reels as the video results",
+   "phrase chunks 'NOW' / 'CAN BE SHOWN'; Google UI text",
+   "hard cut; scene cut MEASURED at 41.44",
+   "voice over",
+   "CONTENT B-ROLL: Devin's own reels appear as the Google Short videos results \u2014 his own content as artefact, full-screen search page; ~2.5s; lands on 'your videos can be shown on Google search'; in/out = hard cuts; sound = his voice over",
+   "FRAME REPLACED BY SCREEN: the Google results page fills the frame, his reels inside it as thumbnails"
+  ],
+  [
+   44.0,
+   51.8,
+   "DESKTOP SCREEN RECORDING: Edit profile page; a hand cursor drags 'Show account suggestions on profiles' ON; intercut with the five-toggle checklist again, this time with 'Show Account Suggestions' highlighted",
+   "desktop UI text; cursor is the pointer",
+   "hard cut; scene cut MEASURED at 44.14",
+   "voice over the desktop walkthrough",
+   null,
+   "FRAME REPLACED BY SCREEN: the desktop edit-profile UI fills the frame (different device class from the phone steps)"
+  ],
+  [
+   51.8,
+   54.8,
+   "A competitor profile (hormozi) with a 'Suggested for you' card showing devinjatho's avatar, name and blue Follow button \u2014 his profile being suggested on a competitor's account, performed",
+   "suggested-profile card is the device text; no speech caption over it",
+   "hard cut",
+   "voice over",
+   "SUBJECT / ARTEFACT B-ROLL: a competitor's profile page with Devin's suggested-profile card inside it, full-screen; ~3s; lands on 'get your profile suggested on your competitors accounts'; in/out = hard cuts; sound = his voice over",
+   "FRAME REPLACED BY SCREEN: the competitor profile page fills the frame, Devin's suggested card inside it"
+  ],
+  [
+   54.8,
+   56.6,
+   "A-roll CLOSE: 'SAVE THIS FOR LATER' with a large white bookmark/save icon glowing at his chest; he points down at it; file cuts mid-line on 'and...'",
+   "phrase headline + bookmark icon is the device",
+   "hard cut; scene cut MEASURED at 54.79",
+   "voice cut mid-word \u2014 cliffhanger/loop ending, no end card",
+   null,
+   "FLOATING DEVICE OVER FOOTAGE: the bookmark icon floats at chest level over the A-roll for the save CTA"
+  ]
+ ]
+}

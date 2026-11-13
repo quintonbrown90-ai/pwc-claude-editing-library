@@ -1,0 +1,148 @@
+{
+ "code": "Db4PHXUyRD2",
+ "title": "Fixing a Hook \u2014 Alex Hormozi's worst video in 2026: visual-hook and verbal-hook makeover (2026 remake of the DfV6 critique)",
+ "fmt": "C \u2014 live critique / makeover",
+ "dur": 76.3,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-08-10",
+ "likes": 10166,
+ "comments": 1210,
+ "url": "https://www.instagram.com/reel/Db4PHXUyRD2/",
+ "segs": [
+  [
+   0.0,
+   3.0,
+   "PHONE OPEN: two hands hold a phone playing Alex Hormozi's reel (white tank, 'I scaled a business\u2026', '5 problems' caption visible on the phone); headline under the phone 'ALEX HORMOZI'S WORST VIDEO' (WORST VIDEO in red) \u2192 'IN 2026'",
+   "headline + the phone's own captions",
+   "hard cut at 0.0",
+   "Devin's voice; subject audio faint from the phone (diegetic)",
+   "SUBJECT B-ROLL IN HAND: Hormozi's own reel plays inside the held phone \u2014 PiP-by-prop framing; ~3s; lands on the 'we're gonna make it go f*cking viral' setup; in = hard cut at 0, out = cut to A-roll"
+  ],
+  [
+   3.0,
+   6.0,
+   "A-roll at the desk, phone in hand: 'WE'RE GONNA MAKE IT' \u2192 'GO F*CKING (viral)' \u2192 'LET'S WATCH'; one frame blows GREEN/YELLOW (flash) on the 'let's watch' beat",
+   "phrase chunks, white bold caps",
+   "hard cut; flash frame inside",
+   "voice only",
+   null,
+   null
+  ],
+  [
+   6.0,
+   12.3,
+   "COMPOSITE WATCH: Hormozi's frame ('HOW I GOT A BUSINESS' + purple stat tables) is composited as a PANEL BEHIND Devin; Devin in the foreground looks down at his phone watching it; a PAUSE glyph stamps the panel ~10s, then a POOP EMOJI stamps Hormozi's face; Devin looks up: 'THAT WAS DOG SH*T' (DOG SH*T in red)",
+   "phrase chunks; the panel carries the subject's own headline/stats",
+   "hard cut",
+   "Devin's voice; the subject's line runs under the watch ('I scaled a business from here to here fast')",
+   "SUBJECT FOOTAGE AS BACKGROUND PANEL: Hormozi's video plays behind Devin while Devin performs the watching; panel framing; ~6s; in/out = hard cuts",
+   "GRAPHIC BEHIND HIM: the subject's whole frame sits BEHIND the presenter as a backdrop panel \u2014 Devin is foreground, the evidence is his background"
+  ],
+  [
+   12.3,
+   18.0,
+   "FULL-SCREEN subject frame with white CORNER BRACKETS (a 'frame under analysis' device): a BLUE BOX draws around the stats block and labels it 'VISUAL HOOK'; a YELLOW BOX draws around Hormozi and labels it 'VERBAL HOOK' (label types in VERB\u2026 \u2192 VERBAL HOOK)",
+   "box labels are the device text; subject's own headline/stats remain",
+   "hard cut",
+   "voice over the annotation",
+   "SUBJECT FOOTAGE AS EVIDENCE, full-screen, ~5.7s; lands on 'your hook is split into two pieces \u2014 your visual hook and your verbal hook'; in/out hard cuts",
+   "FRAME REPLACED by the subject's frame; the annotation boxes are graphics OVER that footage"
+  ],
+  [
+   18.0,
+   24.0,
+   "ELEMENT COUNT: the subject frame DIMS and RED NUMBERED CALLOUTS (1\u201326) swarm over every on-screen element \u2014 headline, each stat cell, the caption line \u2014 the '25 different elements' made countable; the beat ends back on the PHONE-IN-HAND shot",
+   "numbered callouts are the text; 'I scaled a business' caption gets its own numbers at the bottom",
+   "hard cut",
+   "voice over",
+   "SUBJECT FOOTAGE AS EVIDENCE continued, full-screen; lands on 'the human brain can only process six elements at a time \u2014 the viewer has no idea what to look at'",
+   "Graphics OVER a dimmed full-screen subject frame"
+  ],
+  [
+   24.0,
+   28.0,
+   "PHONE ZOOM: the held phone fills the frame; a SPOTLIGHT/VIGNETTE darkens everything except the subject's caption line 'I scaled a business' \u2014 the verbal hook isolated inside the visual mess",
+   "the isolated caption line is the text",
+   "hard cut",
+   "voice over; subject audio not isolated",
+   null,
+   "Spotlight treatment OVER the phone footage \u2014 the frame darkens around the one line that matters"
+  ],
+  [
+   28.0,
+   36.0,
+   "THE FIX, full-screen subject frame: the two purple stat TABLES COLLAPSE to revenue only \u2014 two chips remain, '$194,613' \u2192 '$567,123'; near the tail the 'IN 60 DAYS' line is REMOVED from under the chips",
+   "chips are the text; 'IN 60 DAYS' visibly disappears",
+   "visual swaps on the spoken verbs (hard swaps inside the held frame)",
+   "voice over; swaps are silent",
+   "SUBJECT B-ROLL FULL-SCREEN: the subject's frame held while it is rebuilt; ~8s; lands on 'swap all of the stats just to revenue\u2026 we'll remove in 60 days because it's not needed'"
+  ],
+  [
+   36.0,
+   43.0,
+   "FIX CONTINUED in the same held frame: an ARROW appears between the two revenue chips ('from this \u2192 to this'); then the headline WIPES \u2014 'HOW I GOT A BUSINESS' blanks and re-types as 'HOW TO GROW YOUR BUSINESS'",
+   "headline + arrow + chips are the text",
+   "arrow pops in; headline wipe/re-type ~41\u201342.5s",
+   "voice over",
+   "SUBJECT B-ROLL FULL-SCREEN continued; lands on 'swap from this to this for just an arrow in the middle\u2026 change the text at the top to how to grow your business'"
+  ],
+  [
+   43.0,
+   50.0,
+   "FIX FINISHED: the purple spreadsheet-style chips RESTYLE into dark PAYMENT-PROCESSOR badges \u2014 '$194.6K \u2192 $567.1K' with small red/green deltas \u2014 the 'spreadsheet a 4-year-old could edit' swapped for processor proof; the fixed frame holds",
+   "badges are the text",
+   "badge restyle swap inside the held frame",
+   "voice over",
+   "SUBJECT B-ROLL FULL-SCREEN: the finished fixed frame; lands on 'show the actual payment processor to add proof'"
+  ],
+  [
+   50.0,
+   56.0,
+   "SPLIT VERDICT: the fixed frame shrinks to a PANEL BEHIND-LEFT; Devin returns foreground-right with his phone; a GREEN BOX + tick labels the panel 'VISUAL HOOK' ('that's a golden visual hook'), then the box flips RED and re-labels 'VERBAL HOOK' ('but we still have to fix this verbal hook \u2014 right now it's sh*t too')",
+   "box labels + phrase chunks",
+   "hard cut",
+   "voice only",
+   "SUBJECT FRAME AS PANEL beside/behind Devin; ~6s; the verdict is delivered to camera with the evidence still on screen",
+   "GRAPHIC BEHIND HIM: the fixed subject frame is his backdrop panel for the verdict"
+  ],
+  [
+   56.0,
+   59.0,
+   "REPLAY BEAT: the panel's subject line REPLAYS ('I scaled a business from here to here fast' \u2014 'to here' / 'fast' chunks pop on the panel) while Devin watches his phone in the foreground",
+   "the subject's caption chunks on the panel",
+   "hard cut",
+   "SUBJECT AUDIO insert \u2014 Hormozi's hook line replayed as evidence under Devin's diagnosis",
+   "AUDIO + VISUAL B-ROLL: the subject's hook replayed in the background panel, ~3s; Devin's visual stays foreground"
+  ],
+  [
+   59.0,
+   66.2,
+   "A-roll verbal-hook diagnosis; the subject panel lingers SMALL AND GREYED behind his left shoulder ('I scaled\u2026' red-tagged) for the first beats, then the frame is clean A-roll: 'AS THE VIEWER' \u2192 'AND HE ALSO DOESN'T SET' \u2192 'ANY EXPECTATION THAT YOU WILL' \u2192 'RECEIVE ANY VALUE'",
+   "phrase chunks, white bold caps",
+   "hard cut",
+   "voice only",
+   null,
+   "GRAPHIC BEHIND HIM (first beats): the greyed subject panel sits behind his shoulder, then clears \u2014 the diagnosis finishes on clean A-roll"
+  ],
+  [
+   66.2,
+   73.3,
+   "FIXED VERBAL FRAME full-screen: Hormozi at a desk points UP with one finger at the dark badges '$194.6K \u2192 $567.1K', then raises BOTH hands/fingers; caption line builds 'I took a business from this to this\u2026 and if you want to (do the same) here's 5 things you need to fix' over PURPLE TOPIC PILLS at his chest",
+   "badges + the new hook line + purple pills are the text",
+   "hard cut (scene cut measured at 67.27 at the entry)",
+   "voice over",
+   "SUBJECT B-ROLL FULL-SCREEN #2: ~7s; the subject performs the pointing gesture at his own fixed numbers; lands on the rewritten verbal hook line"
+  ],
+  [
+   73.3,
+   76.3,
+   "CLOSE: warm room; Devin holds the phone with Hormozi's image as a small card beside him; 'THAT'S A VIRAL (video)' \u2192 'BUT THIS\u2026' \u2014 file CUTS OFF mid-sentence (cliffhanger to part 2), no end card",
+   "phrase chunks to the last frame",
+   "hard cut; file ends mid-line",
+   "voice cut off by the edit (deliberate)",
+   null,
+   null
+  ]
+ ]
+}

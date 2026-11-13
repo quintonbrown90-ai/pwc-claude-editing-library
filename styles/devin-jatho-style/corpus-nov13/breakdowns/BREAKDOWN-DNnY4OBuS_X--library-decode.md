@@ -1,0 +1,73 @@
+# DECODE — @devinjatho "1 Idea into 18 VIRAL Videos" (content wheel — 1 × 3 × 6 = 18)
+Source: https://www.instagram.com/reel/DNnY4OBuS_X/
+Creator: @devinjatho (Devin Jatho, 488K) | Posted: 2025-08-21 | 44.2s, 720x1280, ~30fps (r_frame_rate 3749/125 = 29.99)
+Engagement at pull: 1187L / 26C (see BATCH-11-Q-LINKS.md).
+Caption (truncated in pull): "1 Idea into 18 VIRAL Videos 🤯🚀" (see BATCH-11-Q-LINKS.md).
+Format: **Format M-wheel — matrix, RADIAL-MATRIX subtype (NEW)** — talking head + a purple content wheel that builds ring by ring (core topic → 3 subtopics → 6 categories = 18 videos). The wheel is a Topic × Format matrix drawn as a circle.
+Video file: devinjatho_DNnY4OBuS_X.mp4 | Transcript: DNnY4OBuS_X_transcript.txt (word-timed, faster-whisper tiny.en) | Frames: frames_DNnY4OBuS_X/ (1fps)
+ASR caveat: tiny.en is mostly clean here; two corrections are certain from context — "from zero to 200k followers and six months" is "in six months" (the on-screen text reads "6 months"), and "shitty" is Devin's word (profanity, kept in the transcript quote but NOT carried to Q). "my personal favorite, number six" is clear. Do NOT quote garbled ASR as Devin's words.
+
+## 1. Header
+- Title (spoken hook): "Here's something to turn one shitty content idea into 18 viral videos. If you're questioning my competence, I grew my Instagram from zero to 200k followers in six months by using this strategy."
+- Creator: @devinjatho — Tier A.
+- Duration 44.2s, 720x1280, ~30fps. Purple-lit room (NOT the dark studio — a podcast-style setup, mic on a boom arm in frame, navy tee). This is a different set + different caption stack from the studio reels (§4).
+- **HIGH fit — the wheel is the closest Devin device to Q's MATH multiplication: 1 idea × 3 subtopics × 6 categories = 18 videos is the same shape as 3 posts/week × $200/video = $31,000. The wheel builds the arithmetic on screen instead of saying it.**
+
+## 2. Format — Format M-wheel (NEW subtype of M)
+Talking head + a persistent purple wheel: lightbulb badge on his chest → wheel scales up (numbers 1–18 around the rim) → face returns with a profile-card proof (0 → 200k, "6 months") → core-topic circle ("FITNESS") → 3-segment subtopic ring (DIET / WEIGHTLIFTING / CARDIO) → 6-category outer ring (1 A QUICK TIP / 2 INDUSTRY MYTHS / 3 COMMON MISTAKES / 4 PERSONAL STORIES / 5 COMMON QUESTIONS / 6 ACTIONABLE STEP-BY-STEP SYSTEMS) → face close on "infinite content ideas" + follow. Structure: hook wheel → credibility proof → core topic → split into 3 → split into 6 → payoff (infinite ideas).
+- **Format note (NEW):** the M family now has M-matrix (DfcPvRnyZRs grid), M-list (DN26hZh2nqd chips), M-fw (DKw2bqVx5m4 framework), M-hook (DLpgNYQMZlm showcase) and **M-wheel** (this reel — radial matrix). The wheel is X-adjacent (one persistent device = the argument, cf. DJ6vYncN_k7 scrub bar) but it BUILDS like a matrix (rings fill per step, numbers multiply) rather than flipping a verdict — so M-wheel, not X. Flag for DEVIN_STYLE_SYSTEM.md: M-wheel as a new M subtype; note the M/X boundary test (builds = M, verdict-flips = X).
+
+## 3. The system (what he teaches, word-timed)
+- Hook (0.0–5.2s): "Here's something to turn one shitty content idea into 18 viral videos."
+- Credibility (5.2–11.9s): "If you're questioning my competence, I grew my Instagram from zero to 200k followers in six months by using this strategy."
+- Step 1 — core topic (11.9–17.9s): "The first thing we want to do is come up with a core topic. For example, let's say our core topic is fitness."
+- Step 2 — three subtopics (17.9–25.5s): "Now we want to break our core topic into three different subtopics. So in this case, they might be diet, weightlifting, and cardio. Now these three subtopics can be broken down into six different content categories."
+- Step 3 — six categories (25.5–40.5s): "Number one, a quick tip. Number two, industry myths. Number three, common mistakes. Number four, personal stories. Number five, common questions. And lastly, my personal favorite, number six, actionable step-by-step systems."
+- Payoff + follow (40.5–44.2s): "And now we have infinite content ideas. And as always, follow for more value."
+
+## 4. Caption system (measured from frames)
+- **Different caption stack — flag:** this reel does NOT use the studio Montserrat ExtraBold condensed caps. Captions are LOWERCASE white bold sans (black outline), 1–3-word chunks, center-lower: "how to turn" / "content" / "if you're" / "competence" / "I grew" / "6 months" / "we want" / "is come up" / "topic" / "let's say" / "FITNESS topic is" / "Now we want" / "our core" / "into three" / "sub topics" / "they" / "can be" / "into six" / "content" / "we have" / "always" / "more value". No colour emphasis in the captions themselves — the COLOUR lives in the wheel (purple) and the proof text. Big-number text ("6 months", "18") is white bold, larger. This lowercase stack + purple room + boom mic = a distinct setup from the dark-studio caps reels (DL5i97AxibR, DLpgNYQMZlm). Whether it is an era split or a second setup is UNRESOLVED — note it, do not assume.
+- Wheel text: purple-on-dark labels in the wheel itself — "FITNESS" (centre), "DIET / WEIGHTLIFTING / CARDIO" (middle ring), "A QUICK TIP / INDUSTRY MYTHS / COMMON MISTAKES / PERSONAL STORIES / COMMON QUESTIONS / ACTIONABLE STEP-BY-STEP SYSTEMS" (outer ring), numerals 1–18 (hook wheel rim) and 1–6 (category numerals, big white, outside the wheel rim). Purple = the system colour here (Devin's purple = the old way in DN5drgejY_F — here purple is the WHOLE system, not the old way; context decides). **Q mapping: wheel purple → PWC navy/teal/gold; category numerals white → gold.**
+- Proof text: profile card "Devin Jatho | Content Marketing Entrepreneur — 112 Posts / 200k Followers / 185 Following" + "6 months" big white — his own numbers as the credibility proof.
+- No red, no blue, no green, no yellow in this reel — the palette is purple/white/black only. Nothing to override except the wheel purple → PWC colours.
+
+## 5. Layout / framing / devices (verbatim from frames + transcript)
+| # | Device | What it does (on screen) | Time |
+|---|---|---|---|
+| 1 | Lightbulb badge | Small purple circle with a yellow lightbulb icon, pinned to his chest from frame 1 — the "idea" as a badge, present before the wheel exists | 0.0–~2s, recurs ~12–17s (small, on chest) |
+| 2 | Hook wheel scale-up (MEASURED) | The lightbulb badge scales up into a full-screen purple wheel (dark outer ring, numbers 1–18 around the rim, lightbulb centre) over his face. 30fps strip 1.0–5.0s + purple-fraction tracking (centre region): purple 0.21 (badge) flat to 1.90s, then 0.31 → 0.40 → 0.49 → 0.50 → 0.57 over 1.93–2.07s = ~5 frames (~0.17s) scale-up, peak 0.57 at 2.07s, settling to full-wheel 0.43 by ~2.2s. Word "into" starts 2.02s, "18" starts 2.40s — the scale-up starts ~0.1s BEFORE "into" and the wheel is complete ~0.3s BEFORE "18". Rim numbers fill progressively ~2.1–3.9s; flash exit (purple/white flash, purple fraction 0.44 → 0.84 at 3.87–3.90s) ~3.87–4.35s; face returns ~4.4s on "If you're". | ~1.93–4.35s |
+| 3 | Profile-card proof | His IG profile card slides in over his chest ("Devin Jatho | Content Marketing Entrepreneur", 200k Followers) + big white "6 months" text — the credibility proof, shown not claimed | ~6–11s |
+| 4 | Core-topic circle | Dark full-screen with a purple circle centre ("let's say" / "FITNESS topic is"); circle shrinks onto his chest as he returns, labelled "FITNESS" — the core topic as a single circle | ~13–17s |
+| 5 | Subtopic ring build | The chest circle grows a 3-segment ring: "DIET" fills first (~21s, on "diet," 20.98s), then "WEIGHTLIFTING" and "CARDIO" (~22s, on "cardio." 22.34s); ring holds labelled DIET / WEIGHTLIFTING / CARDIO around FITNESS centre. His hand is up with three fingers on "into three" (~18s) — the hand counts the segments before they fill. | ~18–26s |
+| 6 | Category ring zoom + numeral fill (MEASURED) | 30fps strip 26.5–29.5s: small wheel over his chest to 27.30s; zoom-blur scale-up transition ~27.30–27.47s (~5 frames, ~0.17s, motion-blurred) to the full-screen wheel; big white numeral "1" appears at the rim ~27.43s, essentially ON "one," (27.42–27.84s); label "A QUICK TIP" fills ~28.3–28.7s, on "tip." (28.30–28.66s); numeral "2" appears ~28.85s, ON "two," (28.90s); "INDUSTRY MYTHS" fills ~29.2–29.4s. Numerals 3–6 + labels then fill in spoken order through ~39.6s ("systems." 39.18–39.64s): "3" ~31s, "4" ~32.5s, "5" ~34.5s, "6" ~38s (1fps precision). Note: numerals sit around the rim in wheel order, not left-to-right — "5" reads above "4" in the layout. | ~27.3–39.6s |
+| 7 | Face close + follow | Wheel dissolves back to face (~40s); profile card returns bottom-left as he says "follow for more value" (43.10s); ends on his smile, no end card | ~40–44.2s |
+
+- Face clearance: the wheel covers his face TWICE (hook wheel ~2–4s, category wheel ~27–40s) — full-screen device over the face is the format here, not an exception. **Q OVERRIDE (BINDING): Q's cut NEVER puts the wheel over Q's face — the wheel builds BESIDE him / over the desk + shoes, with Q's face clear throughout. The wheel is the device; the face rule still binds.** PASS with that override noted — this is the strongest face-override case in the batch (the device is designed to sit on the face).
+- Layout rule: the wheel alternates full-screen (device) and chest-badge (presenter) — one thing at a time, same as every Devin reel; the alternation IS the pacing.
+
+## 6. Sound design + pacing
+- Voice-led, no music bed (MEASURED: 0.1s RMS profile of DNnY4OBuS_X_audio.wav — gaps fall to RMS 0.015–0.05, near-silence; e.g. 7.6–7.7s 0.025–0.028, 12.5s 0.017, 15.9s 0.019, 33.6s 0.015 — no continuous bed).
+- Hook onset: first 0.1s RMS 0.136, max RMS 0.301 at 1.8s (the word "shitty" 0.92–1.32s / "content" — speech, not an SFX). No RMS spike unaligned to a word onset at the wheel scale-up (1.93–2.07s, RMS ~0.25 = speech) or the zoom-blur (27.3s) — both transitions are SILENT. No confirmed SFX anywhere in the file.
+- Pacing: 44s, ~10 visual states (counted from 1fps frames) → a state change every ~4.4s. The category ring (~27–40s, 13s) is the longest single hold; the numerals + labels keep arriving inside it (one per ~1.5s), so the hold never sits still.
+
+## 7. Funnel
+"Follow for more value" (spoken, 43.10s; profile card on screen) — a follow funnel, no comment keyword, no CTA card, no end card. The funnel is the profile card + the spoken line.
+
+## 8. What to steal for Q's shoe video (INFERRED reconstruction, not his system)
+- **The wheel IS the MATH device: Q's cut builds a wheel over the DESK (never Q's face) — centre "150 FREE VIDEOS", inner ring "3 A WEEK / 50 WEEKS / 150 A YEAR" (or the 3 MATH rows), outer ring "$200 A VIDEO" × 150 = "$31,000" — the multiplication made visible as a wheel that fills ring by ring as Q names each part, exactly as Devin's fills FITNESS → 3 subtopics → 6 categories.** Q's lane multiplies on the wheel the same way.
+- **The lightbulb badge maps to a shoe/dollar badge: a small badge pinned to Q's chest (a shoe icon, or "$0") from frame 1 that scales up into the MATH wheel on "Do the math" — the badge-to-wheel scale-up measured here (~0.17s, landing just before the number word) is the exact entrance to copy.** Q's lane grows the badge the same way.
+- **The numeral-fill timing maps to the MATH rows: each MATH number lands ON its word ("150" on "150", "$200" on "$200", "$31,000" on "$31,000") with its label filling ~0.3s after, exactly as "1" lands on "one" and "A QUICK TIP" fills on "tip".** Q's lane lands the numbers the same way.
+- **The profile-card proof maps to Q's proof card: when Q says "a brand would have paid roughly $31,000", his proof (the year of free posts / the $31,000 figure) slides in as a card over the desk — shown, not claimed, same beat as Devin's 200k card.** Q's lane shows the proof the same way.
+- **The zoom-blur scale-up transition maps to the MATH section break: the wheel zooms from chest-badge to full-desk with motion blur (~0.17s) on "Do the math" — Devin's hardest transition in this reel, and the one that reads most "same editor".** Q's lane zooms the wheel the same way.
+- NOT the face-covering wheel (Q's face stays clear — wheel beside him / over the desk). NOT the profanity ("shitty" — Q stays clean). NOT his numbers (200k, 6 months, 18 — Q's numbers are Q's: 150 / $200 / $31,000). NOT the follow funnel — Q closes on COMMENT MATH. NOT the lowercase caption stack (Q's cut keeps the studio caps system; the lowercase stack is this reel's own setup, not the MATH cut's).
+
+## 9. Safety check (per SAFETY.md)
+- Source is a real public creator account (IG @devinjatho). No code downloaded, no links clicked, no credentials entered, no DM flow pursued, no sign-up. Video only. PASS.
+- Content flags: profanity on the audio ("one shitty content idea", 0.92s) — NOT carried to Q's cut. No third-party creators, tools, brands, or copyrighted footage/music named or shown (voice-only, no bed; the wheel, the profile card, and the mic are all his own). Cleanest reel of the three on safety.
+
+## 10. Gestures — visual language (sampled from 1fps frames + transcript)
+- **Template:** matrix teaching; hook is a lightbulb badge that becomes a wheel.
+- **Looks:** to camera through the talk; both hands open on the hook; looks DOWN at the wheel when a ring fills.
+- **Gestures:** index finger up, held, through the hook ("Here's something…" — EMPHASIS → the finger counts "one" idea before the wheel shows it); both hands open, palms to chest, on "I grew" (EMPHASIS → the proof is his); one finger up on "The first thing" (~12s, EMPHASIS → step 1); three fingers up on "into three different subtopics" (~18s, EMPHASIS → the hand counts the segments before the ring fills); open hands framing the wheel as the categories fill (~27–40s, EMPHASIS → the wheel is the payoff); broad smile + open hands on "infinite content ideas" (~41s, EMPHASIS → the payoff is abundance).
+- **Cut motivations:** BADGE-TO-WHEEL (scale-up on "into 18"); PROOF (profile card on "I grew"); CORE (circle on "core topic is fitness"); SPLIT (ring on "three different subtopics"); MULTIPLY (numerals on each "Number…"); PAYOFF (face close on "infinite content ideas"). No unmotivated cuts logged.
+- **Gesture → meaning → edit response:** the three fingers held up on "into three" BEFORE the subtopic ring fills IS the video's hinge — the hand counts what the wheel is about to show; for Q, the equivalent is Q holding up three fingers over the shoes on "Do the math" — the hand counts the three MATH rows a beat before the wheel fills them, and each finger's row lights as he names it.

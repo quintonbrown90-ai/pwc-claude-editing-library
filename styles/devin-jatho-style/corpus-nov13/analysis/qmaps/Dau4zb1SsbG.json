@@ -1,0 +1,93 @@
+{
+ "code": "Dau4zb1SsbG",
+ "title": "Reorder Your Profile Grid \u2014 the new Instagram update that turns profile landings into followers (Edits analytics play)",
+ "fmt": "S-tool \u2014 feature walkthrough + Edits-app analytics screen-demo",
+ "dur": 49.1,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-07-13",
+ "likes": 14683,
+ "comments": 568,
+ "url": "https://www.instagram.com/reel/Dau4zb1SsbG/",
+ "segs": [
+  [
+   0.0,
+   5.0,
+   "SPLIT HOOK: TOP panel = keynote-stage footage of a presenter announcing the feature (wide stage, screen behind him shows a profile grid); BOTTOM panel = Devin reacting \u2014 face-palm/laugh, then grinning at camera",
+   "phrase chunks across the seam: 'NO NO NO' (red) \u2192 'I'M SEXUALLY ATTRACTED' (magenta) \u2192 'TO THIS' \u2192 'NEW INSTAGRAM UPDATE' (INSTAGRAM magenta)",
+   "hard cut at 0.0; scene cuts measured at 2.27 and 4.9 inside the split",
+   "voice only; onset candidates in grid",
+   "SUBJECT FOOTAGE AS EVIDENCE in the top split panel: the keynote presenter on stage, ~0\u20135s, split framing; lands on the announcement Devin is reacting to; in = hard cut at 0, out = cut to the article",
+   "SPLIT/PANEL LAYOUT: two stacked panels (stage over reaction) \u2014 a layout composite, not a keyed overlay"
+  ],
+  [
+   5.0,
+   11.0,
+   "FULL-SCREEN Instagram announcement article ('Instagram Finally Lets You Reorder Your Grid The Way You Want') \u2014 page starts full, then the camera pushes/pans across the 'NEW UPDATE!' header art (Devin in the art) and the body text; a BLUE HIGHLIGHT marks 'reorder your profile grid however you see fit'",
+   "article text + blue highlight chip; no speech captions over the page",
+   "hard cut (scene cut measured at 10.77 at the tail)",
+   "voice over the article",
+   null,
+   "FRAME REPLACED BY A SCREEN: the article fills the frame and is panned/scanned, not held static"
+  ],
+  [
+   11.0,
+   13.0,
+   "A-roll return, night-office set: 'WHY IS THIS SO GOOD?'",
+   "phrase chunk, white bold caps at chest",
+   "hard cut",
+   "voice only",
+   null,
+   null
+  ],
+  [
+   13.0,
+   24.0,
+   "POV PHONE B-ROLL: over-the-shoulder hands hold a phone in a dark void; the phone plays DEVIN'S OWN reel, a thumb taps through to his profile, scrolls the grid, then taps away into ANOTHER creator's reel (a man at a doorway) \u2014 the follow-or-scroll-away decision performed",
+   "phone UI text; the reel inside the phone carries its own captions ('WATCHING ONE OF YOUR VIDEOS', 'WELL')",
+   "hard cut into the phone; scene cut measured at 23.6 at the exit",
+   "voice over; phone audio not heard",
+   "HAND/PROP + CONTENT B-ROLL: Devin's hands + phone only (his face is the silhouette at frame edge); his own reel performs inside the phone, then a stranger's reel performs the scroll-away; full-screen POV framing; ~11s; lands on 'the next videos they see decides if they're going to follow you or just go back to their brain-dead scrolling'; in/out = hard cuts"
+  ],
+  [
+   24.0,
+   25.5,
+   "A-roll beat: 'here's the play' \u2014 he points up with one finger",
+   "small lowercase-style chunk 'here's the play'",
+   "hard cut",
+   "voice only",
+   null,
+   null
+  ],
+  [
+   25.5,
+   36.0,
+   "FULL-SCREEN SCREEN RECORDING \u2014 Instagram Edits app: 'Projects' home ('Let's take a tour' card) \u2192 the ANALYTICS icon at bottom-right GLOWS teal as the cursor taps it \u2192 Insights page (account graph) \u2192 sort/filter row \u2192 a ranked list sorted by FOLLOWS, each row a video with its follow count (35.4K / 33.6K / 31.4K / 25.9K / 23.1K / 19.5K / 15.6K class values)",
+   "UI text; the glowing analytics icon and the Follows list are the device text",
+   "hard cut to screen",
+   "voice over the walkthrough; taps unconfirmed as SFX",
+   null,
+   "FRAME REPLACED BY A SCREEN for the whole step sequence"
+  ],
+  [
+   36.0,
+   44.0,
+   "FULL-SCREEN SCREEN RECORDING \u2014 his Instagram profile (@devinjatho header, highlights row) \u2192 the profile GRID; follower-count labels sit over the tiles (40.1K / 35.4K / 33.6K / 31.4K / 25.9K / 23.1K / 19.5K / 15.6K / 15.3K) as the grid is shown reordered \u2014 the top 9 are the top-9 most-followed videos",
+   "count numerals over the tiles are the text",
+   "hard cut (UI motion inside)",
+   "voice over",
+   "CONTENT B-ROLL: his own profile grid as artefact \u2014 the grid itself performs the payoff; full-screen screen framing; ~8s; lands on 'rearrange the first nine videos to be your top nine most-followed videos'",
+   "FRAME REPLACED BY A SCREEN; the counts are composited over his real grid tiles"
+  ],
+  [
+   44.0,
+   49.1,
+   "A-roll CLOSE at the desk: 'every time someone lands on your page your grid turns them into a new follower'; in the last ~1.5s an INSTAGRAM FOLLOW-NOTIFICATION MOCK drops in at his chest ('Alex Hormozi started following you') \u2014 the payoff shown as a notification",
+   "phrase chunks ('everytime' / 'lands on' / 'your page'), then the notification mock is the text",
+   "hard cut; notification drops/slides in",
+   "voice only to the end; no end sting confirmed",
+   null,
+   "Notification mock sits OVER the footage at chest level; the set behind him is unchanged"
+  ]
+ ]
+}

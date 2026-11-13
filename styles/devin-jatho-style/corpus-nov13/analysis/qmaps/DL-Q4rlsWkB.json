@@ -1,0 +1,264 @@
+{
+ "code": "DL-Q4rlsWkB",
+ "title": "Increase Story Views — 5-story Notify framework",
+ "fmt": "S — screen-demo teaching, story-framework subtype",
+ "dur": 124.7,
+ "fps": 24,
+ "dims": "720x1280",
+ "posted": "2025-07-11",
+ "likes": 5411,
+ "comments": 1083,
+ "url": "https://www.instagram.com/reel/DL-Q4rlsWkB/",
+ "segs": [
+  [
+   0.0,
+   6.0,
+   "HOOK — FLYING STORY CARDS: story cards fly in around Devin, blurred in motion, resolving as he says 'five stories' — the claim performed as flying cards; he pinches a tiny Notify pill between his fingers",
+   "Bold caps chest-level: 'WITH THESE / 5 STORIES' ('5' in YELLOW/gold) → 'I PERMANENTLY' (yellow italic)",
+   "hard cut at 0.0; cards fly in",
+   "Library decode: hook onset RMS ramps 0.04 to 0.43 across the first 0.6s, loudest moment in the file — decode reports the probable impact-slam pattern, not spectrally confirmed; voice-led, no music bed",
+   null,
+   "Flying story-card graphics over/around the footage; penthouse set behind him"
+  ],
+  [
+   6.0,
+   8.8,
+   "BEFORE-CARD: dark card floating top-right '50,218' (before story-views) while he says 'from this'; he turns/points to it",
+   "'TOOK MY / IG STORY VIEWS' chunks; '50,218' numeral on the card",
+   "card floats in",
+   "voice only",
+   null,
+   "Before-card graphic over the footage top-right over the penthouse set"
+  ],
+  [
+   8.8,
+   14.1,
+   "MONEY CARD (MEASURED in decode, 24fps strip 7.5–9.5s): 'MADE THIS' caption lands ~8.29s, ~0.29s BEFORE 'made' (8.58s); white glowing card's outline appears ~8.83s, flashes bright on 'this' (8.88s), '$23,951 / Net volume from sales' + rising chart resolve by ~9.4s — glow-fade/flash-in ~0.6s total, materialising into his already-raised palms-up hands; stack of cash on the desk under it",
+   "'MADE THIS' chunk; card carries '$23,951' + chart",
+   "glow-fade / flash-in (MEASURED — NOT a hard pop or slide)",
+   "Library decode: NO RMS spike at the entrance (8.8–9.4s RMS 0.30–0.33, voice-level) — the card lands on speech, no SFX signature",
+   null,
+   "Money card graphic over the footage, held in the space his hands frame over his torso (face clear)"
+  ],
+  [
+   14.1,
+   18.0,
+   "FULL-SCREEN sticker picker: IG story sticker menu (Location / mention / Music / Photo / GIF / Add Yours / Frames / Reveal / Cutouts / Questions / Notify / Poll / hashtag / Link / Countdown…) with 'Notify' highlighted",
+   "sticker-menu UI text; Notify = the operative sticker",
+   "hard cut to screen",
+   "voice over screen",
+   null,
+   "Frame replaced outright by the IG sticker-menu screen"
+  ],
+  [
+   18.0,
+   23.0,
+   "GLOWING NOTIFY PILL: white '🔔 Notify' pill glowing over his chest, held between his hands — the sticker made physical; story UI chrome ('Your stories / Close Friends') at the frame edges",
+   "pill text is the device text",
+   "hard cut (return to face + pill)",
+   "voice only",
+   null,
+   "Notify pill graphic over the footage at chest height; story-UI framing around the A-roll"
+  ],
+  [
+   23.0,
+   26.0,
+   "NOTIFICATION MOCKS: 'devinjatho — Devin just posted a new reel / a new story' notification cards over his chest — what the follower receives",
+   "notification-card text",
+   "cards fade/pop in over footage",
+   "voice only",
+   null,
+   "Notification mock cards over the footage over the penthouse set"
+  ],
+  [
+   26.0,
+   36.0,
+   "PHONE-IN-HAND DEMO: a hand holds a phone playing Devin's own reel; finger taps the screen; story view count '12,532' visible; the story inside carries 'Click Here Please 🔔 NOTIFY'; handwritten 'why should I?' objection appears at the phone's edge (~35s)",
+   "phone UI text + '12,532' count; handwritten script = the follower's objection voice (decode)",
+   "hard cut to phone framing",
+   "voice over; finger taps unconfirmed as SFX",
+   "HAND/PROP B-ROLL: Devin's hand holding a phone playing his OWN reel/story — PiP-by-prop framing (his content inside the phone); ~26–36s; lands on 'every single time you post, your followers get a notification'; in/out hard cuts; sound = his narration over",
+   "Phone screen replaces the centre of the frame; his own video plays inside the prop"
+  ],
+  [
+   36.0,
+   41.0,
+   "$100M RESOURCE STORY MOCK (still in the phone story framing): 'Click Here To Receive $100M Resource 🔔 NOTIFY' — the freebie framed as a $100M resource; framework intro begins",
+   "story-mock text in IG-story style (white box, black text)",
+   "hard cut within the phone framing",
+   "voice over",
+   "STORY-MOCK B-ROLL: Devin's gym story as a performed example inside the phone; full-screen story framing; ~36–41s; lands on 'But just asking for people to turn on notifications isn't gonna work'; in/out hard cuts",
+   "Story mock replaces the frame inside the story UI"
+  ],
+  [
+   41.0,
+   49.0,
+   "TRACKER INTRO A-roll (dimmed): the 5-BUBBLE STORY PROGRESS TRACKER appears across the top — five circular story bubbles joined by a progress line with gold fill advancing left to right; active bubble glows; step label builds underneath ('FREE GIFT')",
+   "per-step label in small white caps under the tracker (decode device)",
+   "hard cut (return to face, dimmed)",
+   "voice only",
+   null,
+   "BACKGROUND SYSTEM for the rest of the reel: tracker graphic sits OVER the footage across the top and PERSISTS ~41–100s; A-roll dims behind story mocks, tracker stays legible"
+  ],
+  [
+   49.0,
+   54.0,
+   "STORY 1 EXAMPLE full-screen story mock: gym mirror selfie — Devin flexing, phone in hand — 'These 3 Story Frameworks Made My Clients $3.1M' + 'And You Can Have Them For Free'; tracker bubble 1 active on top",
+   "story-mock text (white boxes, black text) + IG story chrome ('Send message…')",
+   "hard cut to story mock",
+   "voice over the mock",
+   "PERFORMED STORY B-ROLL: Devin performs Story 1 as a gym mirror selfie; full-screen story framing (not a cutaway from the desk — the story IS the frame); ~49–54s; lands on 'introduce your free resource… making them foam at the mouth'; in/out hard cuts; sound = narration over",
+   "Story mock replaces the frame; tracker persists over the top of the mock"
+  ],
+  [
+   54.0,
+   59.0,
+   "A-ROLL BRIDGE (dimmed, tracker bubble 2): Story 2 introduced — scarcity + urgency; label 'URGENCY & SCARCITY' under the tracker",
+   "step label + phrase chunks",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "Tracker over dimmed A-roll; penthouse set behind him"
+  ],
+  [
+   59.0,
+   66.0,
+   "STORY 2 EXAMPLE full-screen story mock: laptop on a desk by a window — 'But, Not Everyone Gets Them' ('Not Everyone' in red) / 'I'll Be Dropping Them On My Stories For 2 Hours' ('2 Hours' in red)",
+   "story-mock text; RED inside story mocks = the miss/scarcity (decode)",
+   "hard cut to story mock",
+   "voice over the mock",
+   "PERFORMED STORY B-ROLL: laptop story still as the Story 2 example; full-screen story framing; ~59–66s; lands on 'not everyone gets it… only posting it for two hours'; in/out hard cuts",
+   "Story mock replaces the frame; tracker persists over the top"
+  ],
+  [
+   66.0,
+   69.0,
+   "A-ROLL BRIDGE (tracker bubble 3): Story 3 introduced — the notification sticker; label 'NOTIFICATION STICKER'",
+   "step label + phrase chunks",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "Tracker over dimmed A-roll"
+  ],
+  [
+   69.0,
+   77.0,
+   "STORY 3 EXAMPLE full-screen story mock: balcony-legs view over a city/river — 'Click Here So That You Don't Miss Out On This Opportunity' ('Click Here' + 'Miss Out' in red) + NOTIFY sticker + drawn arrow curving to the sticker",
+   "story-mock text + NOTIFY sticker + hand-drawn arrow",
+   "hard cut to story mock",
+   "voice over the mock",
+   "PERFORMED STORY B-ROLL: first-person balcony-legs story as the Story 3 example; full-screen story framing; ~69–77s; lands on 'turn on your story notifications to guarantee they don't miss your freebie'; in/out hard cuts",
+   "Story mock replaces the frame; tracker + sticker + arrow over the story photo"
+  ],
+  [
+   77.0,
+   79.0,
+   "A-ROLL BRIDGE (tracker bubble 4): Story 4 introduced — reinforce scarcity; label 'REINFORCE SCARCITY'",
+   "step label + phrase chunks",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "Tracker over dimmed A-roll"
+  ],
+  [
+   79.0,
+   83.0,
+   "STORY 4 EXAMPLE full-screen story mock: laptop on a marble table in a warm room — 'Dropping randomly in the next 24 hours, don't miss it.' ('randomly' in red)",
+   "story-mock text; red = the operative word",
+   "hard cut to story mock",
+   "voice over the mock",
+   "PERFORMED STORY B-ROLL: marble-table laptop story as the Story 4 example; full-screen story framing; ~79–83s; lands on 'reinforce this scarcity and urgency around your freebie'; in/out hard cuts",
+   "Story mock replaces the frame; tracker persists over the top"
+  ],
+  [
+   83.0,
+   89.0,
+   "24H COUNTDOWN (decode-named device): timer above the tracker counts '[24:00]' → '[00:00]' while he says 'wait 24 hours' — the wait made visible; hands pressed together (praying) on 'practically on their knees'",
+   "timer numerals '[24:00]' → '[00:00]'",
+   "timer morphs/counts in place",
+   "voice only",
+   null,
+   "Countdown timer graphic over the footage above the persistent tracker"
+  ],
+  [
+   89.0,
+   94.5,
+   "STORY 5 — THE DROP (tracker bubble 5 gold, label 'THE DROP' with clock icon): office/laptop story mock — 'Reply With 'KEYWORD' — The Resource Will Be Yours'",
+   "step label in GOLD (decode) + story-mock text",
+   "hard cut to story mock",
+   "voice over the mock",
+   "PERFORMED STORY B-ROLL: office story as the Story 5 drop example; full-screen story framing; ~89–94.5s; lands on 'post the last story, the drop'; in/out hard cuts",
+   "Story mock replaces the frame; gold tracker state over the top"
+  ],
+  [
+   94.5,
+   100.0,
+   "DM DELIVERY shown: DM thread — 'KEYWORD' typed on the keyboard, sent; '3 SALES STORY FRAMEWORKS' card delivered with 'Here's Your Template' — the ManyChat payoff performed in the UI",
+   "DM UI text; typed keyword + delivered card title",
+   "hard cut to DM screen",
+   "voice over the UI; typing sound not isolated — not claimed",
+   null,
+   "Frame replaced by the DM/keyboard screen"
+  ],
+  [
+   100.0,
+   102.5,
+   "'COFFIN' COMMENT PILL: dark pill with his profile pic + 'COFFIN' + blue up-arrow types in across his chest — the keyword as a comment/DM input (decode flags the keyword itself as his funnel's, not copied)",
+   "pill text 'COFFIN' typed in",
+   "pill types/fades in over footage",
+   "voice only",
+   null,
+   "Comment-pill UI mock over the footage at chest height"
+  ],
+  [
+   102.5,
+   105.0,
+   "PAYOFF A-roll: 'almost all of your followers have your notifications on'; he holds two small white cards (post/story proof) in both hands",
+   "'NOW' chunk + phrase chunks",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "Penthouse set; small proof cards held in real space"
+  ],
+  [
+   105.0,
+   110.0,
+   "NOTIFICATION TOGGLES CARD: 'Notification — Post / Story / Reel' settings card over his chest; the three toggles flip GREEN one by one as he names them",
+   "settings-card labels; green flips = opt-ins landing",
+   "toggles flip in place one by one",
+   "voice only; flips silent — no click claimed",
+   null,
+   "Settings card graphic over the footage at chest height"
+  ],
+  [
+   110.0,
+   113.5,
+   "ENGAGEMENT COUNT-UP (decode-named device): full-screen Insights card 'Engagement — Accounts engaged' counting 4,815 → 13,908 → 23,001 with an 86% followers / 1% non-followers donut; his video thumbnail sits above the card",
+   "count numerals are the argument; donut percentages",
+   "hard cut to Insights screen",
+   "voice over; count-up is visual — no tick track claimed",
+   null,
+   "Frame replaced by the Insights screen; his thumbnail above the metric card"
+  ],
+  [
+   113.5,
+   117.5,
+   "DM INBOX + STRIPE PAYOFF: DM list with 'alexhermozi — COFFIN' as a sender and 'Money on the table, just give me the offer'; then A-roll with Stripe banner 'Alex Hormozi just paid $10K' over his chest",
+   "DM UI text + Stripe banner text",
+   "hard cut DM screen → face + banner",
+   "voice over",
+   null,
+   "DM screen replaces the frame, then Stripe banner over the A-roll footage"
+  ],
+  [
+   117.5,
+   124.7,
+   "COURSE LAPTOP + DUAL CTA CLOSE: laptop on the desk showing his 'Advanced Scripting' course; 'VIRAL FLOW' comment pill types in at his chest; IG notification 'Devin Jatho — Here's you go handsome!' lands on top; file ends on the laptop + notification (124.71s)",
+   "phrase chunks: 'HOW TO DO / EXACTLY THAT / AUTOMATICALLY' (red italic) / 'WITH MANYCHAT' / 'SO IF YOU WANT'; pill 'VIRAL FLOW'",
+   "hard cut; no end card — ends on the devices",
+   "voice to the last word ('details' ~124.26–124.54s, decode); no end sting",
+   null,
+   "Course laptop as a real desk prop in front of him; comment pill + notification graphics over the footage"
+  ]
+ ]
+}

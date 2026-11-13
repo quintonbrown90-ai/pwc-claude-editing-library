@@ -1,0 +1,84 @@
+{
+ "code": "DdWZp6OyyqV",
+ "title": "YouTube Shorts Related Video \u2014 link every Short to your VSL",
+ "fmt": "S-tool \u2014 YouTube Studio walkthrough in a persistent split (UI top / A-roll bottom)",
+ "dur": 31.7,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-09-16",
+ "likes": 3367,
+ "comments": 329,
+ "url": "https://www.instagram.com/reel/DdWZp6OyyqV/",
+ "segs": [
+  [
+   0.0,
+   3.5,
+   "SPLIT HOOK: top panel = dimmed YouTube Studio content grid; bottom = Devin with headline 'IT'S UNFAIR / YOUTUBE ALLOWS THIS' (IT'S UNFAIR in red) across his chest",
+   "headline is the text; seam pills begin after the hook",
+   "hard cut at 0.0",
+   "voice only; onset candidates in grid",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = YouTube Studio / YouTube UI, bottom panel = Devin A-roll (wine-cellar room); white pill captions sit at the seam \u2014 the UI panel is the background treatment for the whole walkthrough"
+  ],
+  [
+   3.5,
+   6.8,
+   "Top panel: YouTube Studio channel content list; a 'VSL' thumbnail card with Devin's face + a white HAND CURSOR stamps onto the list; seam pills read 'POST YOUR VSL' \u2192 'AS A NORMAL YOUTUBE VIDEO'",
+   "white pill captions at the seam (one pill per phrase)",
+   "hard cut (panel content swap)",
+   "voice over the UI; cursor clicks unconfirmed as SFX",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = YouTube Studio / YouTube UI, bottom panel = Devin A-roll (wine-cellar room); white pill captions sit at the seam \u2014 the UI panel is the background treatment for the whole walkthrough"
+  ],
+  [
+   6.8,
+   11.4,
+   "Top panel: Studio SHORTS list rows scroll under the hand cursor; seam pills step through 'FOR EVERY YOUTUBE SHORT' / 'YOU HAVE POSTED' / 'AND FOR EVERY NEW SHORT' / 'YOU'RE GOING TO POST' / 'YOU CAN SET'",
+   "seam pill captions, one per phrase",
+   "panel scrolls (native UI motion)",
+   "voice over",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = YouTube Studio / YouTube UI, bottom panel = Devin A-roll (wine-cellar room); white pill captions sit at the seam \u2014 the UI panel is the background treatment for the whole walkthrough"
+  ],
+  [
+   11.4,
+   14.6,
+   "Top panel: 'Choose specific video' PICKER modal (thumbnail grid); the hand cursor selects the VSL thumbnail; seam pills 'THE RELATED VIDEO' \u2192 'TO BE YOUR VSL'",
+   "picker UI text + seam pills",
+   "modal opens (native UI motion)",
+   "voice over",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = YouTube Studio / YouTube UI, bottom panel = Devin A-roll (wine-cellar room); white pill captions sit at the seam \u2014 the UI panel is the background treatment for the whole walkthrough"
+  ],
+  [
+   14.6,
+   19.9,
+   "PAYOFF DEMO: the split gives way to Devin performing INSIDE a YouTube Shorts player (player chrome + right-rail icons around him); a 'Your VSL' RELATED-VIDEO BUTTON pill sits at the right with a GLOWING BLUE RING on it; captions 'SO NOW' \u2192 'EVERY ONE OF YOUR SHORTS'",
+   "captions on his chest; the glowing button is the device",
+   "hard cut into the player mock",
+   "voice only",
+   null,
+   "KEYED INTO THE UI: Devin composited inside a Shorts-player frame \u2014 the player chrome surrounds him and the related-video button floats over the footage at his right hand"
+  ],
+  [
+   19.9,
+   24.0,
+   "VSL WATCH PAGE (split returns, page on top): his Short plays in the page's player; below, the VSL video page shows '104K Views', a description with a 'Book A Call' link, and a '1 MILLION IN 6 MONTHS' thumbnail as page furniture; bottom panel = Devin narrating",
+   "page UI text (title 'Your VSL', view chip, description links)",
+   "hard cut",
+   "voice over",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = YouTube Studio / YouTube UI, bottom panel = Devin A-roll (wine-cellar room); white pill captions sit at the seam \u2014 the UI panel is the background treatment for the whole walkthrough"
+  ],
+  [
+   24.0,
+   31.7,
+   "COUNTS CLIMB + CLIFFHANGER: the VSL page's view chips tick UP 104K \u2192 112K \u2192 149K \u2192 979K; a RED RETENTION-GRAPH card pops into the top-left panel (~24s, on the retention line \u2014 ASR hears 'attention'); bottom panel: a white HAND-POINTER icon appears above Devin's head pointing down at him + caption 'WHICH IS WHY' \u2014 file ENDS mid-question at 31.7s, no CTA or end card",
+   "count chips + 'WHICH IS WHY' chunk",
+   "graph card pops in; hard end mid-question",
+   "voice cut off by the edit (deliberate cliffhanger)",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = YouTube Studio / YouTube UI, bottom panel = Devin A-roll (wine-cellar room); white pill captions sit at the seam \u2014 the UI panel is the background treatment for the whole walkthrough"
+  ]
+ ]
+}

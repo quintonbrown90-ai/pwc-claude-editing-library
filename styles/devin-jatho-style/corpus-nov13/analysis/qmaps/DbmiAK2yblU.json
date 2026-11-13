@@ -1,0 +1,74 @@
+{
+ "code": "DbmiAK2yblU",
+ "title": "Top 1% Profile \u2014 profile checklist ladder (80% to 1% pyramid)",
+ "fmt": "M-list \u2014 ranked ladder teaching (persistent split: profile mockup top / A-roll bottom)",
+ "dur": 45.5,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-08-04",
+ "likes": 48164,
+ "comments": 1275,
+ "url": "https://www.instagram.com/reel/DbmiAK2yblU/",
+ "segs": [
+  [
+   0.0,
+   6.5,
+   "SPLIT OPEN: top panel = grey-bar IG profile skeleton (star avatar placeholder, grey bio bars, 3 grey highlight circles); the avatar resolves into a bearded man's headshot on a GREEN background; a grey PYRAMID fades in over the panel and its base tier lights RED '80%' (~5s). Bottom panel: Devin on black, both index fingers pointing UP at the panel",
+   "no speech captions anywhere in the reel \u2014 all text is device text inside the top panel (profile placeholders, then '80%')",
+   "hard cut at 0.0",
+   "voice only; onset candidates in grid",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = animated profile/pyramid graphics, bottom panel = Devin A-roll on black \u2014 graphics sit in their own panel, never over his face"
+  ],
+  [
+   6.5,
+   14.2,
+   "Top panel: the name bar TYPES IN 'Alex Hormozi | Business Strategy' letter by letter beside the headshot; pyramid returns with a second tier lit ORANGE '50%' above the red 80% base (~13s). Bottom: Devin gestures up at the name bar",
+   "device text = the typed name bar; '50%' / '80%' tier labels on the pyramid",
+   "hard cut (panel state swaps on the spoken condition)",
+   "voice only",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = animated profile/pyramid graphics, bottom panel = Devin A-roll on black \u2014 graphics sit in their own panel, never over his face"
+  ],
+  [
+   14.2,
+   21.9,
+   "Top panel: the grey bio bars resolve into real bio lines ('I Scale Businesses At Workshops / Portfolio Does $250M+ Per Year / Get Your Free Scaling Roadmap' + link); pyramid adds a YELLOW '30%' tier (~20\u201321s). Bottom: Devin counts the three bio parts on his fingers",
+   "device text = the bio lines themselves; '30%' tier label",
+   "hard cut",
+   "voice only",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = animated profile/pyramid graphics, bottom panel = Devin A-roll on black \u2014 graphics sit in their own panel, never over his face"
+  ],
+  [
+   21.9,
+   28.6,
+   "Top panel: the three highlight circles fill one by one with GREEN icons + labels 'CLIENT WINS / TESTIMONIALS / APPLY NOW'; pyramid adds a GREEN '20%' tier (~27s). Bottom: Devin points up at each circle as it lands",
+   "device text = highlight labels; '20%' tier label",
+   "circles pop in sequence on the spoken list",
+   "voice only",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = animated profile/pyramid graphics, bottom panel = Devin A-roll on black \u2014 graphics sit in their own panel, never over his face"
+  ],
+  [
+   28.6,
+   39.6,
+   "Top panel: the pinned grid first shows VIEW-LED tiles (28.5M / 8.6M / 7.8M thumbnails of the bearded subject) then swaps to dark placeholder tiles that refill with OFFER / CASE-STUDY tiles ('HOW OUR WORKSHOP WORKS', 'CLIENT WENT FROM $38K TO $100K'); pyramid adds a BLUE '10%' tier (~38s). Bottom: Devin shakes his head at the views-first grid, then points up",
+   "device text = tile titles + view badges; '10%' tier label",
+   "grid tiles swap on the spoken 'don't pin based off views' pivot",
+   "voice only",
+   "SUBJECT THUMBNAILS AS ARTEFACT: the bearded subject's own video thumbnails fill the mock pinned grid (tiny tiles inside the top panel, not full-screen); ~28.6\u201339.6s stretch; lands on 'pin videos that explain your offer, your best client case study, and the post that's gotten you the most followers'; in/out = tile swaps inside the panel",
+   "PERSISTENT SPLIT LAYOUT: top panel = animated profile/pyramid graphics, bottom panel = Devin A-roll on black \u2014 graphics sit in their own panel, never over his face"
+  ],
+  [
+   39.6,
+   45.5,
+   "Top panel: pyramid completes \u2014 PURPLE STAR apex tier + neon 'TOP 1%' headline; the panel then swaps to DEVIN'S REAL profile header card ('Devin Jatho \u2014 185 posts / 462K followers / 41 following') and a cursor dot taps 'Following' (~43\u201344s). Bottom: Devin delivers the follow CTA to camera",
+   "device text = 'TOP 1%', the profile card stats, 'Following / Message' buttons",
+   "hard cut; card swap is the close \u2014 no end card, file ends on the card + face",
+   "voice only to the last frame",
+   null,
+   "PERSISTENT SPLIT LAYOUT: top panel = animated profile/pyramid graphics, bottom panel = Devin A-roll on black \u2014 graphics sit in their own panel, never over his face"
+  ]
+ ]
+}

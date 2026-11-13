@@ -1,0 +1,144 @@
+{
+ "code": "DetyqaMyvhe",
+ "title": "Netflix Story \u2014 the 3-step story that outsells Netflix (most-viewed story recipe)",
+ "fmt": "S-set / D performed \u2014 3-step story recipe built live inside a mock IG Story UI",
+ "dur": 56.9,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-10-20",
+ "likes": 3146,
+ "comments": 260,
+ "url": "https://www.instagram.com/reel/DetyqaMyvhe/",
+ "segs": [
+  [
+   0.0,
+   2.3,
+   "A-ROLL HOOK: wine-cellar room, Devin to camera raising BOTH middle fingers; headline 'I DONT GIVE 2 SH*TS' (2 SH*TS in red) at chest level",
+   "headline + start of phrase chunks",
+   "hard cut at 0.0",
+   "voice only; onset candidates in grid (63 in this file \u2014 dense device/word onsets, upper bound only)",
+   null,
+   null
+  ],
+  [
+   2.3,
+   8.0,
+   "PHONE PROOF: he lifts his phone to camera showing his own story on screen; the camera PUSHES IN until the phone fills the frame \u2014 story UI reads 'Seen by 19,861'; captions run 'WHAT NICHE YOU'RE IN' \u2192 'GUARAN-' \u2192 'F*CKING' (green) for the guarantee line",
+   "phrase chunks beside/over the phone; 'Seen by 19,861' is the proof text on the phone",
+   "push-in (continuous zoom on the prop, no cut)",
+   "voice only",
+   "HAND/PROP B-ROLL: Devin's hand + phone only in the close frames (~4\u20136s) \u2014 his own finished story as artefact inside the phone; lands on 'you will have the most viewed Instagram story I've ever had'; in = he raises the phone, out = hard cut to the story build",
+   null
+  ],
+  [
+   8.0,
+   14.0,
+   "STEP 1 \u2014 STORY BUILD: the frame becomes an IG Story (devinjatho header, story chrome) showing a bright office desk; the monitor displays a Netflix-style homepage ('MONEY HEIST' hero + rows); a white text box appears and 'This is Netflix' types in with a RED ARROW drawing down to the monitor",
+   "story text box + arrow are the device; 'THE HOOK' ghost text on the window",
+   "hard cut into story UI (scene cuts measured 8.13, 9.93)",
+   "voice over the build",
+   null,
+   "FRAME REPLACED by the mock Story UI \u2014 the recipe is built inside the story itself; presenter absent"
+  ],
+  [
+   14.0,
+   16.7,
+   "DEVIN POPS INTO THE STORY: his cutout appears in the lower half of the story frame, in front of the desk/monitor, reacting \u2014 captions 'I KNOW' \u2192 'DUMB' (red) \u2192 'JUST WAIT' across his chest",
+   "phrase chunks on his chest inside the story frame",
+   "cutout pops in (hard appearance inside the held story frame)",
+   "voice only",
+   null,
+   "KEYED CUTOUT OVER THE STORY BACKGROUND: Devin composited IN FRONT of the story's desk scene \u2014 presenter inside the UI, not beside it"
+  ],
+  [
+   16.7,
+   18.5,
+   "STEP 2 TITLE CARD: dark frame, yellow 'STEP 2' headline; the desk monitor now reads 'LEAD MAGNET'",
+   "'STEP 2' + monitor text",
+   "hard cut (scene cut measured 18.1)",
+   "voice only",
+   null,
+   "FRAME REPLACED by the step card / story scene (darkened)"
+  ],
+  [
+   18.5,
+   25.1,
+   "STEP 2 \u2014 STORY BUILD: back in the bright story UI, the monitor CYCLES the lead-magnet forms as he names them: 'LEAD MAGNET' title \u2192 'Valuable PDF' document \u2192 YouTube play-button video \u2192 back; a white text box TYPES IN 'This is My [Lead Magnet] That Gets Results' (Lead Magnet in orange)",
+   "typing story text box is the caption device",
+   "hard cut back to story UI; monitor content swaps on each named form",
+   "voice over",
+   null,
+   "FRAME REPLACED by the mock Story UI (see 8.0s entry)"
+  ],
+  [
+   25.1,
+   29.0,
+   "STEP 2 EXAMPLE: the monitor now shows his real lead magnet \u2014 a '100 VIRAL HOOKS' document with his face on it; the text box types 'This is My List of 100 Hooks That Go Viral in Every [Niche]'",
+   "typing text box; document title on the monitor",
+   "monitor swap (hard visual swap inside the held frame)",
+   "voice over",
+   "CONTENT ARTEFACT: his own '100 Viral Hooks' lead magnet displayed on the story monitor \u2014 his product as the worked example inside the UI; ~4s; lands on 'for example, this is my list of 100 hooks that go viral in every niche'",
+   "FRAME REPLACED by the mock Story UI (see 8.0s entry)"
+  ],
+  [
+   29.0,
+   33.2,
+   "STEP 3: brief A-roll return 'AND LASTLY' (wine room, ~29\u201330s), then a dark 'STEP 3' card, then the story UI returns with TWO MONITORS SIDE BY SIDE \u2014 Netflix homepage (left) vs '100 VIRAL HOOKS' (right) on one long desk",
+   "'STEP 3' card; no speech captions over the build",
+   "hard cuts (scene cut measured 29.1 into the step)",
+   "voice over",
+   null,
+   "FRAME REPLACED by the mock Story UI with a two-monitor comparison set \u2014 the side-by-side is a layout inside the story"
+  ],
+  [
+   33.2,
+   38.2,
+   "COMPARISON CARD \u2014 LEFT builds line by line above the Netflix monitor: a black card with RED X marks types in 'Costs: $20' / 'Offers: Fun' / 'Value: Wasted Time'",
+   "card lines are the text (red X = negative column)",
+   "card lines type/stack in on the spoken list",
+   "voice over; typing sounds unconfirmed (RMS-only)",
+   null,
+   "Graphics OVER the story scene: the black comparison card floats above the monitors inside the story frame"
+  ],
+  [
+   38.2,
+   45.6,
+   "COMPARISON CARD \u2014 RIGHT builds the same way above the lead-magnet monitor: GREEN CHECK marks \u2014 'Costs: Free' / 'Offers: Views' / 'Value: 100 Viral Videos' (on-screen wording is shorter than the spoken 'offers the outcome\u2026 value is a measurable result')",
+   "card lines are the text (green check = positive column)",
+   "card lines type/stack in on the spoken list",
+   "voice over",
+   null,
+   "Graphics OVER the story scene (see 33.2s entry) \u2014 the two cards sit as a pair above the two monitors"
+  ],
+  [
+   45.6,
+   49.3,
+   "CTA LINE: a white text box at the bottom of the story TYPES IN 'Reply [Word] to get [Lead Magnet]' (bracketed placeholders in orange) \u2014 the story is now complete",
+   "the typing CTA box is the caption device",
+   "text box rises/types in at the bottom of the held frame",
+   "voice over",
+   null,
+   "Graphics OVER the story scene (see 33.2s entry)"
+  ],
+  [
+   49.3,
+   54.1,
+   "PAYOFF PHONES: the finished story shrinks into PHONE MOCKUPS on black; a purple view ring reads '65,409' under the phone; IG notification banners drop in at the top of the phones \u2014 'Gary Vee: amazing!! just sent the payment', 'Iman Gadzhi: sending the payment'",
+   "view count + notification banner text",
+   "hard cut to black/phone layout",
+   "voice over; notification sounds unconfirmed (RMS-only)",
+   null,
+   "BACKGROUND REPLACED: black void with phone mockups \u2014 presenter absent; notifications composited over the phone tops"
+  ],
+  [
+   54.1,
+   56.9,
+   "A-ROLL RETURN (wine room): captions 'SO' \u2192 'AND MAKE THIS STORY' (he holds the phone up again) \u2192 'BECAUSE\u2026' held \u2014 file CUTS OFF mid-sentence on 'because', no end card",
+   "phrase chunks to the last frame",
+   "hard cut back to face; hard end mid-word",
+   "voice cut mid-sentence \u2014 cliffhanger/loop device",
+   null,
+   null
+  ]
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "code": "DbS2vcfyQxx",
+ "title": "First Viral Video \u2014 the 72-hour story sequence that cashes it in",
+ "fmt": "D performed / S-set \u2014 story playbook performed inside IG Story UI (gym story as the example)",
+ "dur": 47.6,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-07-27",
+ "likes": 5786,
+ "comments": 1140,
+ "url": "https://www.instagram.com/reel/DbS2vcfyQxx/",
+ "segs": [
+  [
+   0.0,
+   3.3,
+   "A-ROLL HOOK: night penthouse/living-room set (couch, skyline windows), Devin at a desk; headline 'YOU FINALLY DID IT!' (DID IT! in green) over a row of his reel cards, the centre card highlighted with '1.2M' views",
+   "headline + view badges on the cards",
+   "hard cut at 0.0",
+   "voice only; onset candidates in grid",
+   null,
+   null
+  ],
+  [
+   3.3,
+   6.1,
+   "A-roll: gold script 'Congratulations' glows across his chest with FIREWORK bursts in the window behind him; lighting shifts warm/red as 'But don't F*CK' lands (F*CK in red)",
+   "script 'Congratulations' = quoted-celebration treatment; then phrase chunk with red emphasis",
+   "lighting/grade shift is the section marker",
+   "voice only; no firework SFX claimed from RMS alone",
+   null,
+   "PRACTICAL SET CHANGE: fireworks composited in the window behind him + warm/red relight for the warning beat \u2014 background punctuation, graphics behind the presenter"
+  ],
+  [
+   6.1,
+   10.2,
+   "A-roll: 'HERE IS THE PART THAT' + a glowing '?' bubble floats at his raised hand; '99% BUSINESS OWNERS' (99% outlined); 'THAT COST THEM' \u2014 the missed-part setup",
+   "phrase chunks, white condensed with outline emphasis on '99%'",
+   "hard cut",
+   "voice only",
+   null,
+   null
+  ],
+  [
+   10.2,
+   12.5,
+   "FULL-SCREEN TIMER INSERT: a digital countdown '72:00' \u2192 '71:59:59' (HOURS/MINUTES/SECONDS labels) on black, a blurred money bill wiping across the frame edge \u2014 the 72-hour window as a device",
+   "timer numerals are the text",
+   "wipe in (bill edge) / hard cut out",
+   "voice over; tick unconfirmed as SFX",
+   null,
+   "FRAME REPLACED by the timer graphic \u2014 presenter absent for the insert"
+  ],
+  [
+   12.5,
+   17.4,
+   "STORY-UI FRAME: the frame becomes an Instagram Story player (story rings row on top, his reel playing centre); PINK engagement pills at top-left COUNT UP (3.4K/4.2K/2.1K \u2192 6.7K/7.0K/3.5K); captions inside the story: 'YOU NEED TO CASH IT IN' \u2192 'IT'S TOO LATE'",
+   "phrase chunks inside the story frame; the counting pills are device text",
+   "hard cut into story chrome",
+   "voice over",
+   null,
+   "FRAME REPLACED by Story UI chrome with Devin performing inside it \u2014 he is content inside the UI, not presenter over it"
+  ],
+  [
+   17.4,
+   23.4,
+   "PERFORMED EXAMPLE STORY (full-screen): Devin sits in a GYM holding his phone (dumbbell rack in the foreground), filming the exact story he is prescribing; a white text box TYPES IN word by word: 'Hey [Name], What's It Like Working With You?'",
+   "the typing text box IS the caption device (story-native text)",
+   "hard cut",
+   "voice over the performance; the story's own audio is not heard",
+   "PERFORMED B-ROLL: Devin performs the prescribed story himself in a gym set, phone-selfie framing, full-screen cutaway; ~6s; lands on 'go put up a story that looks a little something like this'; in/out = hard cuts; sound = his narration over, story audio muted",
+   null
+  ],
+  [
+   23.4,
+   28.3,
+   "GYM STORY CONTINUES: white RESULT / notification cards stack in one by one around him in the story frame (four total); a '1 2 3 4' counter lights up across the top as the fourth lands \u2014 'add one client result story, for a total of four times' counted visually",
+   "card text + the 1-2-3-4 counter",
+   "cards float/stack in sequence on the count",
+   "voice over",
+   "PERFORMED B-ROLL continues: same gym story, now layered with result cards; full-screen; ~5s; lands on 'then add one client result, our story, for a total of four times'; in/out = card entrances inside the held story frame",
+   null
+  ],
+  [
+   28.3,
+   32.1,
+   "The gym story SHRINKS into a centred PHONE MOCKUP on black; at the story's bottom a reply line TYPES IN: 'Reply [Keyword] For More Info' (Keyword in green)",
+   "reply line is the device text",
+   "story scales down into the phone (continuous shrink, no cut)",
+   "voice over",
+   null,
+   "LAYOUT CHANGE: full-screen story becomes a phone mockup on a black void \u2014 the finished story shown as an artefact"
+  ],
+  [
+   32.1,
+   36.0,
+   "PHONES ON BLACK: DM notification banners drop in over the story phone \u2014 'Alex Hormozi \u2014 KEYWORD Where can I book a call?', 'Justin Welsh \u2014 KEYWORD I want to book a call', 'Patrick Bet-David \u2014 KEYWORD would love to work together' (named-creator notification cards as social proof)",
+   "notification banner text carries the beat; no speech captions",
+   "banners drop in from the top of the phones",
+   "voice over; notification sounds unconfirmed (RMS-only)",
+   null,
+   "Phone mockups on black void continue \u2014 notifications composited OVER the phone screens"
+  ],
+  [
+   36.0,
+   40.5,
+   "FULL-SCREEN PHONE: the story VIEWERS LIST scrolls (profile rows with send icons \u2014 'every person who saw that social proof'); a glowing cursor ring taps down the list; lines connect viewers to the send action",
+   "viewer-list UI text",
+   "hard cut to phone",
+   "voice over",
+   null,
+   "FRAME REPLACED by the phone screen \u2014 presenter absent"
+  ],
+  [
+   40.5,
+   44.8,
+   "PHONE DM THREAD: purple DM bubbles with the framework message; a STRIPE receipt card '$48,000.00' lands inside the thread \u2014 the story-to-client payoff shown as a receipt",
+   "DM bubble text + the Stripe card amount",
+   "hard cut; card lands inside the thread",
+   "voice over",
+   null,
+   "FRAME REPLACED by the phone screen (see 36.0s entry)"
+  ],
+  [
+   44.8,
+   47.6,
+   "A-ROLL RETURN (penthouse set): a COMMENT PILL mock floats at his chest \u2014 a bearded-man avatar + the typed word 'Hot' + blue send arrow \u2014 while he delivers 'just comment it and I'll send it to you'; file CUTS OFF mid-sentence ('for whenever\u2026')",
+   "the comment pill is the caption/CTA device \u2014 no separate caption",
+   "hard cut back to face (scene cut measured 44.77)",
+   "voice cut mid-sentence \u2014 cliffhanger ending, no end card",
+   null,
+   null
+  ]
+ ]
+}

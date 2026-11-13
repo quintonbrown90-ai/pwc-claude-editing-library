@@ -1,0 +1,204 @@
+{
+ "code": "DNDfsANOqJc",
+ "title": "Transform Your Background With AI — $30 green screen + Midjourney",
+ "fmt": "S — screen-demo teaching (AI background workflow)",
+ "dur": 70.1,
+ "fps": 24,
+ "dims": "720x1280",
+ "posted": "2025-08-07",
+ "likes": 20506,
+ "comments": 349,
+ "url": "https://www.instagram.com/reel/DNDfsANOqJc/",
+ "segs": [
+  [
+   0.0,
+   2.5,
+   "HOOK — BACKGROUND CYCLING begins: Devin at a desk, city-night backdrop; a glowing RED neon box 'FAKE' stamps over his chest — the background itself is the accused device (scene cuts measured at 2.54s as the swaps begin)",
+   "Phrase chunks chest-level: 'BACKGROUND' (white) then 'FAKE' in the red neon box — the box IS the emphasis",
+   "hard cut at 0.0",
+   "voice only; onset candidates in grid — no SFX identity claimed from RMS alone",
+   null,
+   "CORE SYSTEM of this reel: Devin keyed/cutout over a REPLACED background for the entire runtime — the backdrop swaps behind him while his desk performance stays continuous; FAKE box graphic over the footage"
+  ],
+  [
+   2.5,
+   5.0,
+   "BACKGROUND SWAP 1–2 (frame-verified): plain GREEN SCREEN behind him (the truth), then a Rome window view with the Colosseum — 'I'M NOT IN ROME'",
+   "'FAKE' box on the green beat; 'I'M NOT IN ROME' white chunk on the Rome beat",
+   "hard cuts on the swaps (scene cuts 2.54, 3.83 per analysis)",
+   "voice only",
+   null,
+   "Background replaced behind him twice in one segment: practical green screen → AI Rome backdrop"
+  ],
+  [
+   5.0,
+   7.9,
+   "BACKGROUND SWAP 3: warm house interior (wallpaper, doorway, couch) — 'YOUR MOM'S HOUSE'",
+   "'YOUR / MOM'S HOUSE' white chunks",
+   "hard cut (scene cut 5.25)",
+   "voice only",
+   null,
+   "Background replaced behind him: AI house-interior backdrop"
+  ],
+  [
+   7.9,
+   10.0,
+   "BACKGROUND SWAP 4: Oval-Office-style room (flags, suited figures at the edges) — 'NOT IN FRONT OF / ALL THESE PEOPLE'",
+   "white phrase chunks",
+   "hard cuts (scene cuts 7.88, 8.62, 9.54 — fastest swap rate in the reel)",
+   "voice only",
+   null,
+   "Background replaced behind him: AI Oval-Office backdrop"
+  ],
+  [
+   10.0,
+   12.5,
+   "PIXEL-DISSOLVE TRANSITION: green pixel blocks swarm/dissolve across the frame eating the backdrop, resolving to the plain green screen — 'IT'S ALL / JUST / FAKE' restated, then 'HOW TO USE AI' (USE AI in green)",
+   "white chunks + green emphasis on 'USE AI'; FAKE box returns on the green beat",
+   "pixel-dissolve (the transition is performed by the background itself)",
+   "voice only; onset candidates in grid",
+   null,
+   "Pixel-block graphics over/behind him perform the transition between backdrops"
+  ],
+  [
+   12.5,
+   15.0,
+   "TINY-STUDIO REVEAL (wide shot): the full small studio pulled wide — green screen, softbox light, and a monitor inset at the bottom showing the live take — the real set exposed",
+   "'MY TINY STUDIO' chunk",
+   "hard cut to wide framing",
+   "voice only",
+   "WIDE-SET B-ROLL: Devin small in the full green-screen studio, seen wide with lighting + monitor inset; full-screen cutaway (wider framing, not a new location); ~12.5–15s; lands on 'transform my tiny studio into anything I can imagine'; in/out hard cuts; sound = narration over",
+   "Practical set shown whole: the green screen is a real studio backdrop, monitor inset = picture-in-picture of the take"
+  ],
+  [
+   15.0,
+   19.3,
+   "PENTHOUSE PAYOFF A-roll: luxury high-rise city backdrop behind him — 'INTO ANYTHING / THAT I CAN IMAGINE'; green pixel-dissolve begins eating the backdrop again at the tail (scene cut 19.25)",
+   "white phrase chunks",
+   "hard cut; pixel-dissolve out at the tail",
+   "voice only",
+   null,
+   "Background replaced behind him: AI luxury-penthouse backdrop — the promised result worn as his set"
+  ],
+  [
+   19.3,
+   21.0,
+   "PRICE PROOF over green screen: Amazon-style product card for the green-screen kit floats at his chest — '$31' visible on the card — 'AND YOU CAN DO IT TOO'; '3 SIMPLE STEPS' (3 in green) begins",
+   "product-card text + '$31'; '3' in GREEN on the steps chunk",
+   "hard cut (scene cut 19.25)",
+   "voice only",
+   null,
+   "Product card graphic over the footage; practical green screen behind him"
+  ],
+  [
+   21.0,
+   24.5,
+   "STEP 1 (frame-verified): 'STEP 1' (green numeral) — 'PUT A GREENSCREEN / BEHIND YOU'; he makes a framing gesture with both hands ('AND TAKE A SCREENSHOT') and a small phone-thumbnail of the reference photo appears bottom-right",
+   "'STEP 1' + white chunks; green = step numerals throughout",
+   "hard cut",
+   "voice only; onset candidates in grid",
+   null,
+   "Practical green screen behind him; reference-photo thumbnail graphic over the footage bottom-right"
+  ],
+  [
+   24.5,
+   28.0,
+   "STEP 2 begins A-roll on green: 'TAKE THAT PHOTO TO' + a white URL pill at his chest TYPES 'midjourney.com' letter by letter (frame-verified: 'midjour…' → 'midjourney.com'); reference-photo thumbnail persists at his side",
+   "URL pill text types in — the address is typed, not just shown",
+   "pill types in place (scene cut 27.92 at the screen entry tail)",
+   "voice only",
+   null,
+   "URL pill graphic over the footage; green screen behind him; photo thumbnail beside him"
+  ],
+  [
+   28.0,
+   32.0,
+   "FULL-SCREEN Midjourney site: Explore image grid; sidebar cursor (white hand) clicks 'Edit'; reference photo upload begins — the workflow leaves the studio for the tool",
+   "Midjourney UI text; hand cursor is the pointer",
+   "hard cut to screen (scene cut 30.0)",
+   "voice over screen; clicks unconfirmed as SFX",
+   null,
+   "Frame replaced outright by the Midjourney screen recording"
+  ],
+  [
+   32.0,
+   37.0,
+   "EDITOR WALKTHROUGH full-screen: Edit panel — upload completes (his green-screen photo on the canvas), 'Move / Resize', then 'Smart Select' opened and 'Include' clicked with the hand cursor",
+   "editor UI labels ('Smart Select', 'Include', 'Erase Selection', 'Erase Background')",
+   "native UI transitions inside the screen",
+   "voice over screen",
+   null,
+   "Frame replaced by the Midjourney editor; his photo sits inside the editor canvas"
+  ],
+  [
+   37.0,
+   40.0,
+   "ERASE PERFORMED: the green screen in his photo highlights (hatched green) then erases — background removed, Devin left over a dark canvas (green desk edge remains at 1fps read); 'STEP 3' chunk lands on the canvas beat (~39–40s)",
+   "'STEP 3' in green over the editor canvas",
+   "in-screen state change (highlight → erase)",
+   "voice over screen",
+   null,
+   "Inside the screen: his keyed cutout over the editor's empty canvas — background removal shown, not described"
+  ],
+  [
+   40.0,
+   46.0,
+   "STEP 3 — PROMPT + GENERATE full-screen: prompt box types 'Put this golden man in a luxury highrise…' (frame-verified text entry) and the generation resolves — Devin now sits in a luxury high-rise interior inside the canvas",
+   "prompt text types in the 'What will you imagine?' box",
+   "prompt types in place; generation resolves in the canvas",
+   "voice over screen",
+   null,
+   "Frame replaced by the editor; inside it, a GENERATED background appears behind his cutout"
+  ],
+  [
+   46.0,
+   52.0,
+   "DOWNLOAD AT HIGHEST QUALITY full-screen: 'Upscale Gallery' clicked at the bottom of the editor; panels/sidebar navigation toward Organize — the quality step performed click by click",
+   "editor UI labels ('Upscale Gallery', 'Download Image')",
+   "native UI transitions",
+   "voice over screen",
+   null,
+   "Frame replaced by the Midjourney editor screens"
+  ],
+  [
+   52.0,
+   59.0,
+   "ORGANIZE → OPEN → SEND full-screen: Organize sidebar → his new background opened full in the editor (penthouse view) → download; tail beat shows an 'Apex Editor' chat with his image + 'Damn! Nice set up man' — the handoff to the editor as social proof (frame-verified ~58–59s)",
+   "UI text + chat bubble text",
+   "hard cuts inside the screen flow (scene cut 59.0 at the return)",
+   "voice over screen",
+   null,
+   "Frame replaced by Midjourney/organize screens, then by the chat UI"
+  ],
+  [
+   59.0,
+   62.0,
+   "PAYOFF RETURN A-roll: Devin back full-frame over the Rome/Paris backdrops (Eiffel Tower visible) — 'NEXT THING YOU KNOW / BATTA BING / BATTA BAM'; backdrop swaps fire rapidly (scene cuts 59.0, 60.12, 60.71, 61.21 — the densest swap cluster in the reel)",
+   "white phrase chunks on the payoff lines",
+   "hard cuts on each backdrop swap",
+   "voice only",
+   null,
+   "Background replaced behind him in rapid succession: generated Rome/Paris backdrops as the finished result"
+  ],
+  [
+   62.0,
+   65.5,
+   "PROFESSIONAL RESULT A-roll over the penthouse backdrop: 'YOU HAVE A PROFESSIONAL / WITHOUT THE HASSLE'; the $31 green-screen product card returns at his chest — price anchored to the result",
+   "white chunks + product card with '$31'",
+   "hard cut",
+   "voice only",
+   null,
+   "AI penthouse backdrop behind him; product card graphic over the footage (bookend with 19.3s)"
+  ],
+  [
+   65.5,
+   70.1,
+   "CLOSE A-roll over the penthouse backdrop: 'IT LOOKS / FU*KING / SO REAL' then a held final framing ('HAVE…' chunk at 1fps read) to the file end at 70.1s — no end card, no CTA card (frame-verified)",
+   "white phrase chunks to the last seconds",
+   "hard end on the held framing",
+   "voice tail; onset candidates in grid — no end sting claimed",
+   null,
+   "AI penthouse backdrop behind him to the final frame"
+  ]
+ ]
+}

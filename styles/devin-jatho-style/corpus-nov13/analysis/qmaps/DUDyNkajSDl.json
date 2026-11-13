@@ -1,0 +1,84 @@
+{
+ "code": "DUDyNkajSDl",
+ "title": "Instagram's Story Algorithm Explained \u2014 Rules of the Game (Comment Code)",
+ "fmt": "X \u2014 device-led animated-diagram theatre (algorithm flowchart)",
+ "dur": 46.2,
+ "fps": 30,
+ "dims": "720x1280",
+ "posted": "2026-01-28",
+ "likes": 5130,
+ "comments": 2414,
+ "url": "https://www.instagram.com/reel/DUDyNkajSDl/",
+ "segs": [
+  [
+   0.0,
+   2.6,
+   "A-roll dark set, Devin seated centre; 'INSTAGRAM STORY ALGORITHM' in glowing green game-style text across his chest with his story-ring avatar at the end of the line; a flowchart (profile icon -> pyramid) is already built above his head",
+   "glowing green headline is the caption and the device",
+   "hard cut at 0.0",
+   "voice only",
+   null,
+   "BACKGROUND DIAGRAM BEHIND/ABOVE HIM: the algorithm flowchart sits in the dark frame above his head, behind the presenter, from the first frame"
+  ],
+  [
+   2.6,
+   6.9,
+   "DIAGRAM FULL-SCREEN, then 'RULES' in glowing blue pixel text with three bullets: ENGAGEMENT (red) / WATCH TIME (blue) / SKIP RATE % (yellow), over a blurred diagram background",
+   "RULES list is the text; no speech captions in this beat",
+   "hard cut to diagram",
+   "voice over the diagram",
+   null,
+   "FRAME REPLACED BY GRAPHIC: first the flowchart, then the RULES title card fills the frame over a blurred diagram backdrop \u2014 Devin is gone"
+  ],
+  [
+   6.9,
+   13.9,
+   "ANIMATED DIAGRAM BUILD: Devin's face inside a story ring at top, a line drops to a follower pyramid of person icons \u2014 the small top triangle lights up and is labelled as the most-interacting followers, 'FOLLOWERS' under the pyramid; an ENGAGEMENT row of percentage gauges builds underneath",
+   "diagram labels (FOLLOWERS / ENGAGEMENT and the top-triangle callout) are the text",
+   "no cut \u2014 one continuous diagram build",
+   "voice over the build",
+   null,
+   "FRAME REPLACED BY GRAPHIC: the black diagram canvas fills the frame; his face exists only as the story-ring avatar inside the diagram"
+  ],
+  [
+   13.9,
+   22.5,
+   "NEGATIVE BRANCH PERFORMED: hands hold a phone and tap through story rings, a story opens and is swiped away; the tray circles grey out, the background floods red, and the follower pyramid turns solid RED with a 'never see it' callout; Devin's story icon sits dimmed in the tray",
+   "red pyramid callout is the device text; phone UI text",
+   "hard cut to phone",
+   "voice over; story audio inside the phone is not heard",
+   "HAND/PROP B-ROLL: two hands holding a phone tapping and swiping a story, full-screen cutaway; ~14-19s inside this segment; lands on 'if they don't open it, or swipe away'; in = hard cut to phone, out = cut to the red diagram; sound = his voice over",
+   "FRAME REPLACED BY GRAPHIC/PHONE: the phone insert, then the red-flooded diagram with the red pyramid fills the frame \u2014 the negative outcome is a background colour state, not a caption"
+  ],
+  [
+   22.5,
+   31.6,
+   "POSITIVE BRANCH PERFORMED: hands hold the phone again, the same story is watched through; beside the phone a checklist lights up line by line as he names each action: STICKER (with a sticker card on the story) / LIKE (heart) / COMMENT (keyboard) / SHARE / REPLY",
+   "checklist lines beside the phone are the device text, lighting in sequence",
+   "hard cut to phone",
+   "voice over; taps unconfirmed as SFX",
+   "HAND/PROP B-ROLL (repeat device): hands + phone watching a story to the end, full-screen cutaway; ~22.5-31.6s; lands on 'stick with it till the end, and interact with the sticker, leave a like, comment, share, or reply'; in/out = hard cuts; sound = his voice over",
+   "GRAPHICS BESIDE THE PHONE INSERT: the STICKER/LIKE/COMMENT/SHARE/REPLY checklist builds in the black space beside the phone, not over the story itself"
+  ],
+  [
+   31.6,
+   36.0,
+   "DIAGRAM PAYOFF: the story tray row \u2014 Devin's ringed avatar glows GREEN and moves to the front/1st position; below it the follower pyramid lights up fully GREEN with an 'all followers' callout",
+   "tray position labels and the green pyramid callout are the text",
+   "hard cut to diagram",
+   "voice over the payoff",
+   null,
+   "FRAME REPLACED BY GRAPHIC: the black diagram canvas fills the frame; the green state of the ring and pyramid is the payoff, carried by colour"
+  ],
+  [
+   36.0,
+   46.2,
+   "A-roll return, warm room with fairy lights and a fireplace: 'NOW YOU KNOW / THE RULES TO THE GAME'; a glowing green 'CHEATCODES' game pill appears at his chest and a story-templates board (rows of story thumbnails) materialises in his open palm; a comment pill 'Code' and an IG notification 'Here's your Story Templates' float in; close holds on 'YOU NOW KNOW'",
+   "phrase chunks; CHEATCODES pill, comment pill and notification banner are device text",
+   "hard cut (return to face)",
+   "voice only",
+   null,
+   "FLOATING DEVICES OVER FOOTAGE: the CHEATCODES pill, the templates board in his palm, the comment pill and the delivery banner all sit over the A-roll, never behind him and never over his face"
+  ]
+ ]
+}
