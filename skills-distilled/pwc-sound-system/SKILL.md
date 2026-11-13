@@ -23,6 +23,8 @@ The bank + the doctrine. The bank says *what exists*; the **SOUND-USAGE-MAP.md**
 6. **Rationed big sounds:** ONE impact/vine-boom per video (biggest beat: payoff or final line — pick one). Buzzer/boom spam is out.
 7. **Banned:** the 22 loose unknown-origin `.wav` files from PWC-Videos `assets/sfx/` (verified absent from the bank — never re-add them); trending platform-licensed sounds; profane meme audio; chaotic gaming-edit stacks; a generic tick presented as "Sky's tick-tone" (no ear-matched file exists — map §6.1).
 
+8. **Satisfying first (Q, Nov 13, 2026 — ALL lanes, ALL editors: Claude Code, Muse, web Claude):** every sound chosen — SFX and transition sounds alike — must be *satisfying*: low-key, tactile, smooth-decaying clicks/pops/whooshes that feel good to hear. Calm stimulation, never jarring: the sound layer should relax the viewer into the video, reward attention, and build psychological attachment — consistent sonic signatures for recurring events so viewers learn the payoff rhythm and stay longer. Harsh, shrill, abrasive or startling sounds FAIL QC unless the beat is an intentional verdict/error. Repeat test: loop any cue 5× — if it fatigues or makes you flinch on a phone speaker, swap the variant, don't just lower it.
+
 ## Lane dialects (map §5 — the lane decides, never blend silently)
 
 - **Sky:** source = dry voice, cuts silent universally, NO bed, tick-tone family only on counters/timers/count-ups/chart draws. PWC SKY-PLUS layer (labelled divergence): cleared bed −28 dB, sound on 100% of entrances AND exits. Sky hook captions hard cut-in — letter-by-letter typing is a banned telltale.
