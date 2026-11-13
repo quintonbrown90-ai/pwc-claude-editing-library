@@ -15,6 +15,14 @@ Full doctrine lives beside this file: **MEME-USAGE-GRAMMAR.md** (placement/timin
 - Every meme is **screened before it is banked and before it is used**: transcribe (faster-whisper) → profanity scan → verdict CLEAN / SEGMENTS (bank clean spans only) / PARKED (never banked). Pipeline: `screen-and-bank.py` in this skill. Unscreened = unusable, no exceptions.
 - Faith-clean beyond profanity: no vulgar or mean-spirited memes. **Scripture beats get NO memes** — verse plaque + soft chime or silence only.
 
+## The VARIETY law — no same-ol' memes (Q, Nov 13, 2026)
+
+- **Rotate.** Never reuse the same meme/GIF clip in back-to-back videos or twice in one batch unless Q explicitly asks for that exact meme. The audience must not be able to predict which reaction is coming.
+- **Check the ledger before choosing.** MEME-CATALOG.md carries a rotation ledger + cooldown list. Pick the least-recently-used clip that fits the beat; clips on cooldown are last resort only, behind every unused option.
+- **The signature sound pairings stay** (cha-ching = money, crickets = nothing happened — that consistency is by design, §5 of the grammar). What rotates is the CLIP and which beats get a meme at all — do not let one visual or one beat-type become the predictable formula.
+- **If the bank has no fresh fit, get one.** Source and screen a NEW clean clip for the beat (per the pipeline below) instead of repeating a familiar one — or skip the meme. A repeated meme is a defect; a missing meme is not.
+- **Log every use.** Each edit that places a meme records clip + video + date in the catalog ledger, so the next edit can see what is burned.
+
 ## The four placements (grammar summary)
 
 1. **Pop-up (default — Carter grammar).** Small reaction clip/GIF in the empty space above or beside Q's head, on the exact punch beat, while he keeps talking. ~15–30% of frame width, 0.5–3s, matched sound in AND out.

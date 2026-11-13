@@ -69,6 +69,8 @@ Immediately after a line, a 0.8–2.5s reaction meme *answers* it: the shocked f
 - Never two memes within ~5s. Never a meme in the hook's first line unless it IS the hook device. Never under the CTA.
 - 2026 correction (TheBeansMedia, in the 45-pairings doc): constant loud meme/SFX spam now reads as fatigue — subtle on routine beats, big only on the biggest moments.
 
+**Cross-video rotation (Q, Nov 13, 2026 — the no-same-ol' rule).** Frequency discipline applies ACROSS videos, not just inside one: the same clip never runs in back-to-back videos or twice in a batch, and the same sound pairing does not become the default answer to the same beat type. Before placing, check the catalog's rotation ledger/cooldown list and take the least-recently-used fitting clip. When the only fitting options are on cooldown, source + screen a new clean clip for that beat — or place no meme. Repetition is the defect; absence is not.
+
 ## 7. Sizing / position law
 
 - **NOTHING over Q's face. Ever.** Memes live in empty frame space; if there is no clean space at that beat, skip the meme (Nov 6 rule — and Q's standing nothing-over-face law).

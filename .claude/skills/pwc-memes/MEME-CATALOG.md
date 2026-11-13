@@ -42,6 +42,23 @@ Named in the Nov 6 refs as the iconic five to also hold from cleared sources: Br
 
 ---
 
+### A5. Rotation ledger + cooldown (Q, Nov 13, 2026)
+
+**Rule:** a clip used in a shipped video goes on cooldown — it is not used again in the next video or the same batch, and only returns after fresher options have had their turn. Every edit logs its meme uses here (clip · video · date). Before placing a meme, check this list and pick the least-recently-used fit.
+
+**On cooldown (used in the Nov 13, 2026 SkyFresh2+Memes trio — do not default to these):**
+- `gs_shocked_bby_wow_guy_dance_gr` · The Wall (TBD-45)
+- `gs_money_cat_counts_money_gre` · The Wall (TBD-45)
+- `gs_clap_black_cat_clapping` · The Wall (TBD-45)
+- `gs_side_eye_giving_dirty_look_me` · 1-11 (TBD-46)
+- `gs_no_no_no_uncle_ash_no_no_no_m` · 1-11 (TBD-46)
+- `gs_viral_top_i_like_that_long` · Locked Doors (TBD-47)
+- `gs_sleep_bored_sleepy_monkey_meme_g` · Locked Doors (TBD-47)
+- `gs_money_kai_cenat_take_my_mo` · Locked Doors (TBD-47)
+- Sounds on those builds: ticking clock (A), wrong buzzer (B), crickets (C), applause, cash register — the pairings themselves stay signature; the clips are what rotate.
+
+**Ledger:** _(each future edit appends its meme uses here: clip · video · date)_
+
 ## B. Q's Nov 12, 2026 picks — ⏳ INGESTION BLOCKED, NOT YET SCREENED, DO NOT USE
 
 Q sent five YouTube links on Nov 12, 2026 to be downloaded (or screen-recorded), screened, cut, and banked here. **On Nov 12, 2026, anonymous yt-dlp downloads were blocked by YouTube (HTTP 429 + "Sign in to confirm you're not a bot")**, and per the standing 429 hard-stop rule no retries or alternate download routes were attempted. Nothing was downloaded, so **no profanity verdict exists for any of the five** — they stay OUT of the bank and out of edits until they are pulled (Q's signed-in browser screen-record is the route he named) and run through the screening pipeline (`screen-and-bank.py` in the pwc-memes skill: transcribe → profanity scan → CLEAN / SEGMENTS / PARKED verdict → cut the clean moments → bank + add rows here).
