@@ -16,6 +16,9 @@ sampling — closes G-02, G-03, G-05 and parts of G-01/G-04/G-07/G-08/G-14**).
 thumbnail-derived sizes). **UNVERIFIED** = not directly seen — do not treat as fact.
 **PWC** = Q's override (recorded divergence from Sky, not Sky grammar).
 
+## 0A. POST-TRIO CORRECTION (v11) + NOV 13 RULINGS — BINDING (Q, Nov 12–13, 2026; applied Nov 14, 2026 — full text in SKILL.md, summary here)
+No splits inside talking heads (whole-video format only); no navy-void plates — exhibits on the footage or white/glass panels; target grammar = animations + little heads + draws/count-ups on the footage; NO black-and-white; NO tightening (A-roll 1.0×, shift-only reframes); light grade only. **SAFE-ZONE LAW (1080×1920): everything fully inside x 65–880, y 270–1400; captions y 880–1280**; pop-outs spawn at Q's fingertip, rest over it (above it when he points up), clamped into the box. Captions ~0.5 s word groups, never over the face. Devices build/count/stagger/MOVE. Sound: dense + satisfying, emotion-matched, from the PWC bank `assets/sfx-system/` (1,975 sounds) — a sound on every visual change. Devices BIG (~70% frame width), never over his face. Memes rotated per MEME-CATALOG, never repeated in a batch. **Export at FULL SOURCE RESOLUTION.** QC per export: freezedetect zero ≥0.35 s, last word → end card ≤ ~1 s, tight-clip word times. Logo = transparent cutout only. These override: D21, 105–110% punch-ins / 1.08× plan punch, low-key grade, old caption band.
+
 ## 0. Fidelity bar — the PAGE-LOOK RULE (Q, Nov 9, 2026 — binding, BOTH sides: Claude Code AND web)
 
 "I want my page to look like his page with edits everytime I say edit this sky style etc."

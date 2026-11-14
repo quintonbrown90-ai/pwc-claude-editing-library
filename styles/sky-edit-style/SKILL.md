@@ -60,6 +60,24 @@ plan or it FAILS validation (`validate_beat_lock` / gate P10). Full spec:
   boards/panels. "Go deep and really do it right" is the brief: his
   edits are Q's favourite; mock the videos, not the idea of them.
 
+**POST-TRIO CORRECTION (v11) + NOV 13 RULINGS — BINDING (Q, Nov 12–13, 2026; applied to this folder Nov 14, 2026 per the launch batch's SKY-FOLDER-UPDATE-v11-NOV13.md):**
+1. **No splits inside talking-head videos.** Half-and-half is a whole-video format (reaction/walkthrough), never a device inside a talking head. Full-frame speaker throughout.
+2. **No navy-void exhibit plates.** Exhibits ride ON the footage, or on white/glass panels at Sky's scale.
+3. **Target grammar:** animations, little heads (floating cutout-head clusters), draws/count-ups layered on the footage.
+4. **No black-and-white.** (Retires D21 in Q's lane.)
+5. **No tightening.** A-roll at the take's own 1.0× framing; shift-only reframes (no punch-ins, no zoom-ins).
+6. **Light grade only.** No background blur, no vignette crush, no heavy cinematic darkening.
+7. **SAFE-ZONE LAW (1080×1920):** every card, pop-out, caption, logo and key element FULLY inside **x 65–880, y 270–1400**; **captions ride y 880–1280**; covers/titles also inside the centered 3:4 grid crop (y 240–1680). Pop-outs spawn at Q's fingertip and REST over it (directly above it when he points up), clamped into the safe box at the nearest in-box spot. An element half off-screen or clipped by any edge is a defect; QC checks every element's bounding box on the export.
+8. **Captions:** ~0.5 s word-level groups, hard cut-in, never over the face.
+9. **Devices build, count, stagger and MOVE;** they spawn at Q's fingertip and travel to rest — nothing arrives finished or sits still.
+10. **Sound:** dense, SATISFYING sound on every visual change, from the PWC sound bank `assets/sfx-system/` in the PWC-Videos repo (1,975 real recordings; CATALOG.md) — satisfying in texture (low-key, tactile, smooth-decaying), emotion-matched per beat (NOT calm-only), fused with the transition + motion + caption into one event; harsh/shrill sounds fail QC except intentional verdict/error beats.
+11. **Density + scale bar:** Sky-density sound matched to the picture (a sound on every visual change) and constant animation; devices and pop-ups run BIG (~70% of frame width), phone-legible, inside the empty lanes, never over his face.
+12. **Memes:** only where they fit a beat, rotated per MEME-CATALOG (never the same clip back-to-back or twice in a batch; signature pairings stay — cha-ching = money, crickets = silence).
+13. **Export at FULL SOURCE RESOLUTION** (4K take → 2160×3840 out; 1080 take → 1080×1920). No downscale, no upscale.
+14. **QC on every export:** zero freezes ≥0.35 s (freezedetect n=0.003 d=0.35), last word → end card ≤ ~1 s, word times verified on tight-clip transcripts + energy envelope (never full-file drift), transition entrances/exits audited ±0.15 s.
+15. **Logo:** transparent cutout only (`pwc_logo_cutout.png`), never the black square.
+These rulings OVERRIDE earlier folder grammar where they conflict: the D21 B&W beat; punch-ins at 105–110% and `sky_build_plan.py`'s 1.08× punch; the low-key grade; and the code's old caption band, which must now sit in y 880–1280. `sky_qc.py` gates: safe-zone bounds, caption band, no-B&W, no-scale-change, export resolution = source resolution.
+
 **COVERAGE (Batch 36, measured).** Reels **49/49** decoded (15 priority + origin + 33
 Batch-19); soundmaps **48 + 1** (48 per-reel maps + the DOTnacsDXvB duplicate covered by
 DOWgvE0Ezgs' map, spectrograms SHA-identical). Carousels: **51/86 slides** frame-decoded —
