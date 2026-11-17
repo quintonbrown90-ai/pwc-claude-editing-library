@@ -1,6 +1,6 @@
 ---
 name: pwc-lead-finder
-description: "PWC LEAD FINDER — Q's lead system for Paid With Content and his Stan Store, adapted from @champmack's '/lead finder' reel: a paced finder builds exact-words lead cards — each creator's PAIN, DREAM and OBJECTION in their own verbatim words with source links — and outreach drafts quote their words back at them. Fires automatically on plain language — 'find leads', 'build lead cards', 'who should I reach out to', 'lead finder', 'find small creators talking about brand deals' — no slash command, on Claude Code or web. Hard law: NOTHING auto-sends (every outreach is a draft for Q's approval), NO mass scraping (connectors only, human pace), found emails are enrichment only — consented channels are ManyChat opt-ins + Stan buyer emails. Copy locked to Q's facts: doors LOCKED until the Dec 7 2026 founding cohort, Premium $97/mo only, waitlisters get an extra month free."
+description: "PWC LEAD FINDER — Q's lead system for Paid With Content and his Stan Store, adapted from @champmack's '/lead finder' reel: a paced finder builds exact-words lead cards — each creator's PAIN, DREAM and OBJECTION verbatim with source links — and outreach drafts quote their words back. Includes the SETUP-EMAIL warm-up sequence (@kingashleyann): weekly no-pitch emails — story/number/objection + one usable thing + one doors-open line + soft Stan plug — warming the waitlist before the Dec 7 sales email. Fires on plain language — 'find leads', 'build lead cards', 'lead finder', 'warm my waitlist', 'setup emails', 'email the waitlist' — no slash command, Code or web. Hard law: NOTHING auto-sends (every outreach and email is a draft for Q's approval), NO mass scraping, found emails are enrichment only — consented channels are ManyChat opt-ins + Stan buyer emails. Facts locked: doors LOCKED until the Dec 7 2026 founding cohort, Premium $97/mo only, waitlisters get an extra month free."
 ---
 
 # PWC LEAD FINDER — exact-words leads for the waitlist + Stan
@@ -12,6 +12,7 @@ Playbook files beside this one — read the ones the job needs before running:
 - **LEAD-CARD.md** — the lead-card template + CSV/JSON schema, and the profile-builder instructions (verbatim quotes only).
 - **OUTREACH-TEMPLATES.md** — Q-voice opener + follow-up templates (quote their words → PWC as the fix → waitlist invite).
 - **STAN-COPY-BLOCKS.md** — pain-led Calendar headline patterns, the objection block, and the waitlist bridge for delivery.
+- **SETUP-EMAILS.md** — the pre-launch warm-up sequence (Nov 17, 2026, from @kingashleyann's reel): weekly no-pitch setup emails to the consented rails only, then the doors-open sales email. Fires on "warm my waitlist" / "setup emails".
 - **COMPLIANCE-CHECKLIST.md** — the gate every batch and every draft passes before Q sees it.
 
 ## The four pieces, Q's version
@@ -20,6 +21,7 @@ Playbook files beside this one — read the ones the job needs before running:
 2. **Profile builder (the core).** One lead card per creator: handle, platform, follower band, niche — and PAIN / DREAM / OBJECTION as **verbatim quotes from their own posts, each with its source link**. Never paraphrased, never combined, never invented. A quote that cannot be sourced does not go on the card — the field stays empty. This bank doubles as launch research: real avatar sentences for hooks, scripts, captions, and objection content.
 3. **Contact lookup (enrichment only).** If a creator publicly publishes an email for brand inquiries (bio / link page), it goes on the card. Nothing inferred, guessed, bought from a broker — and a found email is **never a send list**. Consented channels only: ManyChat opt-ins (they commented WAITLIST) and Stan buyer emails (they bought).
 4. **Sender → drafts on rails.** Openers are drafted in batches and **held for Q's approval — nothing sends without it, ever.** Approved sends go out paced and personal, a handful at a time inside normal engagement work, or on the channel the lead opted into. The template structure is the reel's one good trick: quote their own words back, name PWC as the fix, invite to the waitlist, stop.
+5. **Warmer (the Nov 17 upgrade).** Cards alone don't close — the list gets warmed. Weekly SETUP emails (SETUP-EMAILS.md) go to the consented rails only: curious subject, one story/lesson, one thing usable today, one doors-open line, soft Stan plug, NO pitch. The first pitch is the doors-open sales email, sent to a list trained to open Q's emails. FOUND → CARD → WARMED → CLOSED.
 
 ## The hard law (binding — do not soften)
 
