@@ -6,7 +6,7 @@ The source system (mass scrape → auto-send) conflicts with Q's standing rules 
 
 - [ ] **Connector-based only** — every surface is readable through a connector/account Q legitimately has. No scraping tools, no bulk profile harvesters, no third-party "email finder" databases.
 - [ ] **Human pace, small batch** — the batch is sized to sit inside normal engagement work. If it would look like automation to the platform, it doesn't run.
-- [ ] **Right accounts only** — collection and any later outreach sit on @yerrr__q. The couples accounts are never used for PWC lead work.
+- [ ] **Right accounts only** — collection reads public surfaces through Q's legitimate accounts; outreach sends from **Q's Gmail only**. The couples accounts are never used for PWC lead work, and no social account sends lead DMs.
 - [ ] **ICP check** — the surface/target matches ICP-PWC.md (under ~10K, UGC/brand-deal intent, public posting history to quote).
 
 ## Before a batch of cards is filed
@@ -20,18 +20,19 @@ The source system (mass scrape → auto-send) conflicts with Q's standing rules 
 ## Before ANY outreach leaves the desk
 
 - [ ] **Q's approval on the actual drafts** — not on the concept, not on a template in the abstract: the batch of messages as they will be sent. No approval, no send. This line has no override.
-- [ ] **Consented or conversational channel** — the send is either (a) on a rail the lead opted into (commented WAITLIST → ManyChat flow; Stan buyer → buyer email), or (b) a reply inside a real conversation, or (c) a paced, personal, human-sent DM from @yerrr__q inside normal engagement. **Found emails are never a send list** — no cold email to card contacts, ever.
+- [ ] **Email channel only — the send is one of:** (a) a consented rail (commented WAITLIST → ManyChat opt-in email; Stan buyer → buyer email), (b) a reply inside a real email conversation, or (c) ONE personal opener email to an address the creator **publicly publishes for brand inquiries**, carrying the opt-out line. **No DM sends on any platform, ever. No email to inferred, guessed, or bought addresses. No bulk blasts — one at a time.**
+- [ ] **Email checks on every opener** — address copied exactly as publicly published (source on the card) · opt-out line present ("Reply stop and I won't email again") · subject built from their words, no clickbait · sender is Q's Gmail (never Muse Mail) · exactly one cold opener per lead — follow-ups only after a reply or opt-in.
 - [ ] **Facts lock verified line by line** — doors LOCKED until Mon Dec 7, 2026 · Premium $97/mo ONLY · waitlisters get an extra month free · founding window closes Dec 13 · Calendar $35 (Stan copy only). No "join now," no early access, no Standard tier, no other price.
 - [ ] **Hidden app unnamed** — the message/page does not name or identify the hidden UGC earnings app, in any wording.
 - [ ] **Their words untouched** — quotes inside the draft match the card exactly; the draft's sentences were bent to fit the quote, never the reverse.
-- [ ] **Volume discipline** — approved sends go out a handful at a time; if reply/engagement signals turn (warnings, restrictions, spam flags), the lane STOPS and Q hears about it the same day. (Precedent: the trial-liker DM lane was stopped Nov 4, 2026 for ban risk — account safety outranks any batch.)
+- [ ] **Volume discipline** — approved sends go out one at a time, paced; if signals turn (spam flags, bounce spikes, complaints, platform warnings on any account), the lane STOPS and Q hears about it the same day. (Precedent: DM outreach lanes were stopped for ban risk — Nov 4, 2026, and closed entirely by Q's Nov 17, 2026 email-only pick. Account and sender reputation outrank any batch.)
 - [ ] **State updated** — every sent lead's status moves to `contacted` with the date, so no later batch re-touches them.
 
 ## Standing prohibitions (no checklist can waive these)
 
 1. No auto-sending, on any channel, under any deadline pressure.
 2. No mass scraping or automation-signature collection.
-3. No cold email to found/inferred addresses.
+3. No DM outreach on any social platform (email only — Q, Nov 17, 2026); no email to inferred/guessed/bought addresses; no bulk email blasts.
 4. No fabricated or paraphrased "verbatim" quotes.
 5. No capability promises — the source reel's scale numbers ("thousands of profiles") are its marketing; this system promises Q careful cards and approved drafts, nothing more.
 6. No PWC promotion on the couples pages; no hidden-app naming in public copy.

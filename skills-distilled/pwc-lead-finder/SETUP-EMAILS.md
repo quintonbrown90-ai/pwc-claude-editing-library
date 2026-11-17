@@ -17,12 +17,13 @@ Pipeline this plugs into: **FOUND** (exact-words cards) → **WARMED** (this seq
 3. **One thing they can use TODAY** — a tip, a number, a quick fix. Real value, complete, not a teaser.
 4. **One bottom line** reminding them when doors open. One line. That's the whole "pitch" until Dec 7.
 
-## Who receives them — consented rails ONLY
+## Who receives them
 
 - WAITLIST ManyChat opt-ins (they commented WAITLIST and gave their email).
 - Stan list: free PWC checkout emails + Calendar $35 buyers.
+- **Emailed leads who reply or opt in** (Nov 17 lane): the cold opener (OUTREACH-TEMPLATES.md Template 1) is a single email; anyone who replies or joins the waitlist from it moves into this warmer — the sequence replaces cold chasers.
 
-**Never** to found/public bio emails from lead cards — those are enrichment on the card, not a send list (Nov 12 lane, binding). Every email is a DRAFT for Q's approval before it sends. Nothing auto-sends.
+The sequence itself never goes cold to a found/public bio email — the opener is the only cold email a lead ever gets, and only to an address publicly published for brand inquiries (never inferred, guessed, or bought). Every email is a DRAFT for Q's approval before it sends, sent from Q's Gmail. Nothing auto-sends.
 
 ## The Stan plug — in every warm touch, never the lead
 

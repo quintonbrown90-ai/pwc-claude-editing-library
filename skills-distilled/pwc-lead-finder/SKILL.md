@@ -1,6 +1,6 @@
 ---
 name: pwc-lead-finder
-description: "PWC LEAD FINDER — Q's lead system for Paid With Content and his Stan Store, adapted from @champmack's '/lead finder' reel: a paced finder builds exact-words lead cards — each creator's PAIN, DREAM and OBJECTION verbatim with source links — and outreach drafts quote their words back. Includes the SETUP-EMAIL warm-up sequence (@kingashleyann): weekly no-pitch emails — story/number/objection + one usable thing + one doors-open line + soft Stan plug — warming the waitlist before the Dec 7 sales email. Fires on plain language — 'find leads', 'build lead cards', 'lead finder', 'warm my waitlist', 'setup emails', 'email the waitlist' — no slash command, Code or web. Hard law: NOTHING auto-sends (every outreach and email is a draft for Q's approval), NO mass scraping, found emails are enrichment only — consented channels are ManyChat opt-ins + Stan buyer emails. Facts locked: doors LOCKED until the Dec 7 2026 founding cohort, Premium $97/mo only, waitlisters get an extra month free."
+description: "PWC LEAD FINDER — Q's lead system for Paid With Content + Stan, adapted from @champmack's '/lead finder' reel: a paced finder reads public comments/engagement and builds exact-words lead cards — PAIN, DREAM and OBJECTION verbatim with source links. Outreach is EMAIL ONLY (Q's lane change, Nov 17 2026 — no IG/social DM outreach, ban risk): a creator who publicly publishes a brand-inquiry email gets ONE personal 1:1 email quoting their words — usable tip, soft Stan plug, waitlist link, opt-out line — sent from Q's Gmail. Includes the SETUP-EMAIL warm-up sequence (@kingashleyann): weekly no-pitch emails warming the waitlist before the Dec 7 sales email. Fires on plain language — 'find leads', 'build lead cards', 'lead finder', 'warm my waitlist', 'setup emails' — Code or web. Hard law: NOTHING auto-sends (every email a draft for Q's approval), NO mass scraping, NO bulk blasts, NO bought/inferred addresses. Facts locked: doors LOCKED until the Dec 7 2026 cohort, Premium $97/mo only, waitlisters +1 month free."
 ---
 
 # PWC LEAD FINDER — exact-words leads for the waitlist + Stan
@@ -19,15 +19,17 @@ Playbook files beside this one — read the ones the job needs before running:
 
 1. **Finder (paced, not a harvester).** Small batches through the connectors Q already has (Instagram search/read), at human pace, on the surfaces in ICP-PWC.md. There is no "thousands of profiles at a time" here — the reel's numbers are its marketing, not a capability of this skill, and this skill never promises them.
 2. **Profile builder (the core).** One lead card per creator: handle, platform, follower band, niche — and PAIN / DREAM / OBJECTION as **verbatim quotes from their own posts, each with its source link**. Never paraphrased, never combined, never invented. A quote that cannot be sourced does not go on the card — the field stays empty. This bank doubles as launch research: real avatar sentences for hooks, scripts, captions, and objection content.
-3. **Contact lookup (enrichment only).** If a creator publicly publishes an email for brand inquiries (bio / link page), it goes on the card. Nothing inferred, guessed, bought from a broker — and a found email is **never a send list**. Consented channels only: ManyChat opt-ins (they commented WAITLIST) and Stan buyer emails (they bought).
-4. **Sender → drafts on rails.** Openers are drafted in batches and **held for Q's approval — nothing sends without it, ever.** Approved sends go out paced and personal, a handful at a time inside normal engagement work, or on the channel the lead opted into. The template structure is the reel's one good trick: quote their own words back, name PWC as the fix, invite to the waitlist, stop.
+3. **Contact lookup (now a send list — email only).** If a creator publicly publishes an email for brand inquiries (bio / link page), it goes on the card AND makes the lead email-eligible under the Nov 17 lane: ONE personal 1:1 email (Template 1), paced, with an opt-out line. Nothing inferred, guessed, or bought from a broker — an address that isn't publicly published for brand inquiries is never emailed. **Social platforms are finder surfaces only — no DM outreach on any platform, ever (ban risk).**
+4. **Sender → drafts on rails, from Q's Gmail.** Openers are drafted in batches and **held for Q's approval — nothing sends without it, ever.** Approved sends go out one at a time from **Q's own Gmail** (Muse Mail is never the sender — its mailbox bars marketing/cold outreach), paced and personal. The template structure is the reel's one good trick: quote their own words back, one usable tip, Stan soft plug, waitlist link, opt-out line, stop. Leads who reply or opt in move into the SETUP-EMAILS warmer (SETUP-EMAILS.md).
 5. **Warmer (the Nov 17 upgrade).** Cards alone don't close — the list gets warmed. Weekly SETUP emails (SETUP-EMAILS.md) go to the consented rails only: curious subject, one story/lesson, one thing usable today, one doors-open line, soft Stan plug, NO pitch. The first pitch is the doors-open sales email, sent to a list trained to open Q's emails. FOUND → CARD → WARMED → CLOSED.
 
 ## The hard law (binding — do not soften)
 
-- **NO auto-sending.** Every outreach message, on every channel, is a DRAFT for Q's approval. Drafts and analysis are free; sends wait for his yes. (A DM lane was already stopped once, Nov 4, for ban risk — account safety outranks volume, always.)
+- **NO auto-sending.** Every email, on every list, is a DRAFT for Q's approval. Drafts and analysis are free; sends wait for his yes.
+- **EMAIL ONLY — no DM outreach (Q's lane change, Nov 17, 2026).** No Instagram DMs, no Messenger, no social DMs to leads, on any account. Social platforms are finder surfaces only: read public comments/engagement, build cards, stop. (DM lanes were already stopped once, Nov 4, for ban risk — account safety outranks volume, always.)
 - **NO mass scraping.** Connector-based collection only, human pace, small batches. Nothing that reads as automation against a platform's terms.
-- **Emails enrich cards; they never create a cold list.** No cold email to found addresses.
+- **Found emails: one personal email, never a blast.** A publicly published brand-inquiry email may receive ONE personal 1:1 email (verbatim quote + tip + Stan plug + waitlist link + opt-out line). Never bulk, never a sequence of cold chasers — follow-ups only after a reply or an opt-in. Bought, inferred, or guessed addresses are never emailed.
+- **Sender is Q's Gmail.** Muse Mail never sends lead outreach.
 - **Verbatim or nothing.** Quotes are copied exactly from a real post, with the link. No paraphrase, no "sounds like," no filling a field by inference.
 - **Facts lock on every template and page** (see below). No "join now," no early access, no Standard tier, no doors-open language before Dec 7.
 - **The hidden UGC earnings app is NEVER named publicly** — not in outreach, not on Stan pages, not anywhere outside the community.
@@ -37,7 +39,7 @@ Playbook files beside this one — read the ones the job needs before running:
 
 - Paid With Content doors are **LOCKED**. Nothing opens before **Monday, December 7, 2026** — the founding cohort.
 - **Premium $97/mo ONLY.** Standard is abolished; never quote another tier or price for the community.
-- **Waitlisters get an extra month free.** The waitlist is the only motion: comment **WAITLIST** on @yerrr__q.
+- **Waitlisters get an extra month free.** Two routes in: comment **WAITLIST** on @yerrr__q, or the direct waitlist page (the link used in emails): https://muse.ai/s/paid-with-content-waitlist-dec-7-lm6axaxhyi5xdxf/S5Y1MEjQaJNiRpM8TE3mQj4k4p2RgR4QZF0hSJJmbBQ
 - The founding window **closes December 13, 2026**.
 - Stan Store: stan.store/yerrr__q — flagship is the **PWC Content Calendar, $35**. Fair FOMO framing: most people charge double what Q charges, with way less value.
 - These cards feed TWO funnels: Calendar buyers today (low-ticket front door that funnels into PWC) and the Dec 7 cohort waitlist.
@@ -46,7 +48,7 @@ Playbook files beside this one — read the ones the job needs before running:
 
 1. Pick the funnel (waitlist / Calendar) → read ICP-PWC.md for the target + surfaces.
 2. Find in a small paced batch via the connectors; build one card per creator per LEAD-CARD.md.
-3. Run COMPLIANCE-CHECKLIST.md over the batch (quotes verified, facts locked, no send-list creep).
+3. Run COMPLIANCE-CHECKLIST.md over the batch (quotes verified, facts locked, every email address publicly published for brand inquiries, opt-out lines in).
 4. Draft openers per OUTREACH-TEMPLATES.md for the batch; hold ALL of them for Q's approval.
 5. Track state per lead (new / drafted / contacted / waitlisted / Calendar buyer / not a fit) so nobody gets double-touched.
 6. Report to Q in manager format: **leads found — waitlist adds — next batch queued.** Fold fresh verbatim quotes into the hook/caption/objection bank as they arrive.

@@ -6,6 +6,10 @@ The targeting comes from Q's offer, the same way the source reel reads the ICP o
 
 Creators **under ~10K followers** who want **UGC / brand deals** and are not getting them yet — or not consistently. They post (or want to post) content, they watch creator-economy content, and they say the quiet parts out loud in public posts and comments. Q is half of Q and Kiya (~1.5M followers combined, 125 brand campaigns, partners like Walmart/ESPN/NFL/NBA Finals) — the lead's dream is the life Q already lives; the lead card's job is to hold the lead's own words for the gap.
 
+## Age / life-stage priority (Q, Nov 17, 2026)
+
+Finder priority = the **25+ crowd, even more so 30+** — people tired of working, tired of their life at a job, who want a change. For this crowd UGC is pitched as **the exit, not a side hobby**. Priority signals: job fatigue, "hate my job", want to quit, cut shifts, support family, "too old to be starting over" (objection gold), day-job + creating at night. Age is a **priority weight, not a hard gate** — a perfect-fit younger creator still gets a card, but batches lead with 25+/30+. Copy angle for this crowd (emails, hooks): job-vs-creator math, not hustle-culture. Proof point: Amphay @amphay_ivers, 52, day 17 chasing her first paid deal (Batch 3).
+
 ## ICP A — Paid With Content waitlist (the Dec 7 funnel)
 
 **Follower band:** under ~10K (the avatar band; note the exact count on the card and band it: nano <1K / micro 1K–10K).
@@ -33,7 +37,7 @@ Run through the connectors Q already has (Instagram search/read), small batches,
 3. **Creators posting struggle content** — brand-deal struggles, ghosting, rate questions, no-deal-yet milestones, consistency spirals (search the phrases, not just the niches).
 4. **Q's own inbound surface** — people who comment WAITLIST or engage @yerrr__q content are already opted in; cards built from their public posts sharpen follow-ups, they are never "found leads" to cold-touch.
 
-**Promotion-side rule:** any outreach or promotion runs only on **@yerrr__q** — never the couples pages (@sheszakiya / @qandkiya). The couples audiences are not an ICP surface for PWC.
+**Promotion-side rule:** social promotion runs only on **@yerrr__q** — never the couples pages (@sheszakiya / @qandkiya), whose audiences are not an ICP surface for PWC. Lead outreach itself is **email only, from Q's Gmail** (Nov 17 lane) — no social DMs.
 
 ## Pacing (binding)
 
