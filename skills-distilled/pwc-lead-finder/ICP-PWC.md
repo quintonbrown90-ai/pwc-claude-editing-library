@@ -4,7 +4,7 @@ The targeting comes from Q's offer, the same way the source reel reads the ICP o
 
 ## The avatar (both funnels)
 
-Creators **under ~10K followers** who want **UGC / brand deals** and are not getting them yet — or not consistently. They post (or want to post) content, they watch creator-economy content, and they say the quiet parts out loud in public posts and comments. Q is half of Q and Kiya (~1.5M followers combined, 125 brand campaigns, partners like Walmart/ESPN/NFL/NBA Finals) — the lead's dream is the life Q already lives; the lead card's job is to hold the lead's own words for the gap.
+Creators **under ~10K followers** who want **UGC / brand deals** and are not getting them yet — or not consistently. They post (or want to post) content, they watch creator-economy content, and they say the quiet parts out loud in public posts and comments. Q is half of Q and Kiya (~1.5M followers combined, 200+ brand campaigns, partners like Walmart/ESPN/NFL/NBA Finals) — the lead's dream is the life Q already lives; the lead card's job is to hold the lead's own words for the gap.
 
 ## Age / life-stage priority (Q, Nov 17, 2026)
 
@@ -45,8 +45,9 @@ Run through the connectors Q already has (Instagram search/read), small batches,
 2. **Q's daily engagement-rotation communities** (e.g. Skoolers, Synthesizer) — members posting their struggles where Q already shows up.
 3. **Creators posting struggle content** — brand-deal struggles, ghosting, rate questions, no-deal-yet milestones, consistency spirals (search the phrases, not just the niches).
 4. **Q's own inbound surface** — people who comment WAITLIST or engage @yerrr__q content are already opted in; cards built from their public posts sharpen follow-ups, they are never "found leads" to cold-touch.
+5. **Couples-account engagers — PRIVATE email only (Q, Nov 17, 2026).** People who commented on or liked couples posts about PWC / creator money (@qandkiya TikTok, @sheszakiya IG, Zakiya Jones Brown FB) are a finder surface: build the card from their public words, and if they publish a bio email they are email-eligible under the same email-only lane (Template 1). **NOTHING posts on the couples pages — no posts, no comments, no DMs there; Kiya's @yerrr__q-only PROMOTION boundary otherwise stands unchanged.** Couples follower LISTS are NOT a surface — they aren't pullable and hold no emails; engagers only.
 
-**Promotion-side rule:** social promotion runs only on **@yerrr__q** — never the couples pages (@sheszakiya / @qandkiya), whose audiences are not an ICP surface for PWC. Lead outreach itself is **email only, from Q's Gmail** (Nov 17 lane) — no social DMs.
+**Promotion-side rule:** social promotion runs only on **@yerrr__q** — never the couples pages (@sheszakiya / @qandkiya). The one couples-side exception is the engager surface above: their public engagement can be *read* and their published emails *emailed privately* — nothing is ever posted on the couples pages. Lead outreach itself is **email only, from Q's Gmail** (Nov 17 lane) — no social DMs.
 
 ## Pacing (binding)
 

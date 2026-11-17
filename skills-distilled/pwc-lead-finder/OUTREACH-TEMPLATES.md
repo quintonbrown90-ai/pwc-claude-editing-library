@@ -12,7 +12,7 @@ The technique worth copying from the source reel is structural: **quote the lead
 - Founding window closes **Dec 13, 2026**.
 - Route to the waitlist from email = the direct waitlist page: https://muse.ai/s/paid-with-content-waitlist-dec-7-lm6axaxhyi5xdxf/S5Y1MEjQaJNiRpM8TE3mQj4k4p2RgR4QZF0hSJJmbBQ (on Instagram the route stays comment **WAITLIST** on @yerrr__q). Outreach sends from Q's Gmail only.
 - The **hidden UGC earnings app is never named** — not hinted at by name, not "the app I always talk about" with a name attached. It is revealed only inside the Premium community.
-- Q's proof is his real record (Q + Kiya, ~1.5M followers combined, 125 brand campaigns, close to half a million earned from content) — never inflate it, never borrow another creator's numbers.
+- Q's proof is his real record (Q + Kiya, ~1.5M followers combined, 200+ brand campaigns, close to half a million earned from content) — never inflate it, never borrow another creator's numbers.
 
 ## Template 1 — EMAIL opener (to a publicly published brand-inquiry email; one per lead, paced, post-approval)
 

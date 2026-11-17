@@ -47,7 +47,7 @@ Order in copy: free value → Stan free PWC → Calendar $35 → Dec 7 waitlist.
 - Doors LOCKED until **Mon Dec 7, 2026** — founding cohort. No "join now", no early access.
 - **Premium $97/mo ONLY.** No Standard, no other tier or price.
 - **Waitlisters get an extra month free.** Founding window **closes Dec 13, 2026**.
-- Q+Kiya earnings phrasing: high six figures / "close to half a million off content so far", 125 brand campaigns. **No million-dollar claims, ever.**
+- Q+Kiya earnings phrasing: high six figures / "close to half a million off content so far", 200+ brand campaigns. **No million-dollar claims, ever.**
 - The hidden UGC earnings app is **never named** in any email.
 - Promotion only on @yerrr__q — never the couples pages.
 
