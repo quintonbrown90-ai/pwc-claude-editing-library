@@ -21,6 +21,7 @@ Given a creator's recent public posts (and public comments where readable):
 ```markdown
 ## @HANDLE — PLATFORM
 - **Followers:** N (band: nano <1K / micro 1K–10K) · **Niche:** …
+- **Age:** ONLY as the creator states it themselves or publishes it in their bio (or: not stated) — never guessed from photos/appearance. Finder priority is 25+, weighted 30+ (ICP-PWC.md).
 - **Found:** YYYY-MM-DD · **Surface:** where they were found
 - **PAIN:** "verbatim quote" — [source](URL)
 - **DREAM:** "verbatim quote" — [source](URL)
@@ -34,7 +35,7 @@ Given a creator's recent public posts (and public comments where readable):
 ## Schema (portable lists — CSV header + JSON)
 
 CSV header:
-`handle,platform,followers,follower_band,niche,found_date,surface,pain_quote,pain_source,dream_quote,dream_source,objection_quote,objection_source,public_contact,funnel,status,notes`
+`handle,platform,followers,follower_band,age_stated,niche,found_date,surface,pain_quote,pain_source,dream_quote,dream_source,objection_quote,objection_source,public_contact,funnel,status,notes`
 
 JSON (one object per lead):
 ```json

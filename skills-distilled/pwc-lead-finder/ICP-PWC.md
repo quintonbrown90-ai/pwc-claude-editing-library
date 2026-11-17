@@ -8,7 +8,16 @@ Creators **under ~10K followers** who want **UGC / brand deals** and are not get
 
 ## Age / life-stage priority (Q, Nov 17, 2026)
 
-Finder priority = the **25+ crowd, even more so 30+** — people tired of working, tired of their life at a job, who want a change. For this crowd UGC is pitched as **the exit, not a side hobby**. Priority signals: job fatigue, "hate my job", want to quit, cut shifts, support family, "too old to be starting over" (objection gold), day-job + creating at night. Age is a **priority weight, not a hard gate** — a perfect-fit younger creator still gets a card, but batches lead with 25+/30+. Copy angle for this crowd (emails, hooks): job-vs-creator math, not hustle-culture. Proof point: Amphay @amphay_ivers, 52, day 17 chasing her first paid deal (Batch 3).
+Finder priority = the **25+ crowd, weighted even heavier at 30+** — people tired of working, tired of their life at a job, who want a change. For this crowd UGC is pitched as **the exit, not a side hobby**.
+
+**Signal phrases to search (their words, in comments/posts/bios):** "tired of my job" · "hate my job" · "want to quit" · "cut my shifts" · "working full time and creating at night" · "support my family" · "starting over at 30 / 40 / 50" · "too old to start" (an objection — capture it verbatim when stated, it's gold for the bank).
+
+**Rules:**
+- Age is a **priority weight, NOT a hard gate** — a perfect-fit younger creator still gets a card; batches just lead with 25+/30+.
+- **Age goes on the card ONLY when the creator states it themselves or publishes it in their bio — never guess age from photos or appearance.**
+- Email copy angle for this crowd: job-vs-creator math, dignity, a real exit plan — **no hustle-culture tone**.
+
+Archetype already in the bank: Amphay @amphay_ivers — 52, day 17 chasing her first paid deal (Batch 3). She's who this priority is built around.
 
 ## ICP A — Paid With Content waitlist (the Dec 7 funnel)
 
