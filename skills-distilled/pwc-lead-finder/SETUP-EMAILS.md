@@ -10,6 +10,17 @@ If the first email is a pitch, you taught them to ignore you. Before doors open,
 
 Pipeline this plugs into: **FOUND** (exact-words cards) → **WARMED** (this sequence) → **CLOSED** (Dec 7 sales email).
 
+## COPY STANDARD — the four gears (Q, Nov 17, 2026 — governs every line)
+
+Subject lines, story framing, the usable-today tip, the Stan plug, and the bottom doors-open line all run the four gears at once (full text in OUTREACH-TEMPLATES.md):
+
+1. **PREMIUM** — founding cohort, Premium, locked doors; never cheap/discount language.
+2. **FOMO** — true scarcity only: doors LOCKED until Dec 7 · founding window Dec 7–13 only · waitlisters get an extra month free. Never invent deadlines or numbers.
+3. **RELATABLE — the anchor.** The audience's own everyday words (creators under 10K, tired of the job, filming after work, brands ghosting, first paid deal). If a line could come from any guru, rewrite it.
+4. **PSYCHOLOGICAL + EMOTION-EVOKING** — the pain (invisible, underpaid, stuck), the dream (paid for videos, options, providing), the objection answered inside the copy.
+
+Facts never bend for wording (no million-dollar claims; doors/price/dates exact). The gears tune Q's own lines — they never touch a lead's verbatim words quoted anywhere in the email.
+
 ## Every setup email has exactly four parts
 
 1. **A subject line that makes them curious** — a moment, a number, a tension. Never "Newsletter #4", never the pitch.

@@ -4,6 +4,17 @@ The technique worth copying from the source reel is structural: **quote the lead
 
 **EMAIL ONLY (Q's lane change, Nov 17, 2026).** There is no DM template anymore — no Instagram, Messenger, or social DM outreach to leads, on any account. Social platforms are finder surfaces only. Every email below is a DRAFT pattern, sent from **Q's Gmail** (never Muse Mail). Nothing written from these templates is sent without Q's approval — drafts are prepared in batches, held, and only approved sends go out, one at a time, paced. No exceptions, no "quick batch" carve-outs.
 
+## COPY STANDARD — the four gears (Q, Nov 17, 2026 — governs EVERY line Q writes)
+
+Every subject line, opener, tip framing, Stan plug, and closer runs all four gears at once:
+
+1. **PREMIUM** — founding cohort, Premium, locked doors. Never cheap or discount language, never bargain framing.
+2. **FOMO** — TRUE scarcity only: doors LOCKED until Dec 7, 2026 · founding window Dec 7–13 only · waitlisters get an extra month free. Never invent deadlines, spots, or numbers.
+3. **RELATABLE — the anchor gear.** The audience's own everyday words: creators under 10K, tired of the job, filming after work, brands ghosting, first paid deal. If a line could come from any guru, rewrite it until it could only come from Q talking to his people.
+4. **PSYCHOLOGICAL + EMOTION-EVOKING** — write to identity and feeling: the pain (invisible, underpaid, stuck), the dream (paid for videos, options, providing), and the objection answered inside the copy, not saved for later.
+
+**Facts never bend for wording** — no million-dollar claims; doors, price, and dates stay exact no matter how a line is phrased. **And the lead's VERBATIM quotes are never rewritten to fit the gears** — they are the lead's words; the standard governs Q's own lines around them. If a sentence has to bend, bend Q's sentence, never the quote.
+
 ## Facts block (hard-code — never improvise around these)
 
 - Doors are **LOCKED** — nothing opens before **Mon Dec 7, 2026** (founding cohort). No "join now," no early access, no waitlist-skipping.

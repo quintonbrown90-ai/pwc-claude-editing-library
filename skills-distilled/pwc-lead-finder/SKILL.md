@@ -31,6 +31,7 @@ Playbook files beside this one — read the ones the job needs before running:
 - **Found emails: one personal email, never a blast.** A publicly published brand-inquiry email may receive ONE personal 1:1 email (verbatim quote + tip + Stan plug + waitlist link + opt-out line). Never bulk, never a sequence of cold chasers — follow-ups only after a reply or an opt-in. Bought, inferred, or guessed addresses are never emailed.
 - **Sender is Q's Gmail.** Muse Mail never sends lead outreach.
 - **Verbatim or nothing.** Quotes are copied exactly from a real post, with the link. No paraphrase, no "sounds like," no filling a field by inference.
+- **COPY STANDARD binds every line of copy** (Q, Nov 17, 2026): PREMIUM · FOMO (true scarcity only) · RELATABLE (the anchor — the audience's everyday words) · PSYCHOLOGICAL + EMOTION-EVOKING. Full text in OUTREACH-TEMPLATES.md; it governs Q's lines only, never a lead's verbatim quotes.
 - **Facts lock on every template and page** (see below). No "join now," no early access, no Standard tier, no doors-open language before Dec 7.
 - **The hidden UGC earnings app is NEVER named publicly** — not in outreach, not on Stan pages, not anywhere outside the community.
 - **Promotion runs only on @yerrr__q** — never the couples pages.
