@@ -29,6 +29,13 @@ Source: @morenicksaraev reel Dfw9Qr7xfS0 (Nov 15, 2026), "Five AI tools that let
 - **Hard limits:** (1) Nothing here runs without a Blender + GPU machine — Muse's VM and Claude's cloud boxes do not have Blender installed; the stack installs where the work will run. (2) Rigging + animation is BODY motion. **Lip-sync talking is not solved by this stack** — a rigged face still needs a lip-sync driver (separate problem, separate tool). Never present a rigged render as talking footage. (3) Any character built here must still pass Q's identity laws (Face A, hat law, no goggles) and the dream-loop critic gate before it ships anywhere near Q's content.
 - **QC doctrine:** dream-loop's critic loop is the same shape as Q's standing rule — nothing ships on the builder's say-so. Run the critic against reference frames, not vibes.
 
+## Workarounds (free/open routes around every wall — full detail in WORKAROUNDS.md)
+
+- Photo→3D without Hunyuan: **TRELLIS / TRELLIS.2** (Microsoft, MIT), TripoSR (MIT, fast drafts), InstantMesh (Apache-2.0).
+- Lip-sync: **LatentSync** (ByteDance, Apache-2.0) and **MuseTalk** (MIT code; verify weight terms) — test one clip before trusting either on a 3D face. Wav2Lip and SadTalker are PARKED (license).
+- No GPU machine: Colab/Kaggle free GPU notebooks, HuggingFace Spaces demos, Blender headless on CPU, ComfyUI wrappers as one front-end.
+- Rigging: prefer **SkinTokens** (VAST, MIT) over UniRig for new installs.
+
 ## Sources
 
 Intake decode + per-tool verification: SOURCES.md in this folder; research copies in Muse's workspace research-3d/.

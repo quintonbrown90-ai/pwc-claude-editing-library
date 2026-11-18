@@ -37,4 +37,4 @@ Source reel: https://www.instagram.com/reel/Dfw9Qr7xfS0/ — @morenicksaraev, po
 ## What this stack does NOT do
 - No lip-sync. Rigging animates bodies; faces forming words need a dedicated lip-sync layer (the avatar series' open blocker stays open — this stack is a motion/scenes route, not a talking route).
 - No free compute. Blender rendering + UniRig inference want a GPU machine; neither Muse's VM nor Claude's cloud session boxes have Blender installed.
-- Hunyuan's photo→3D shortcut is off-limits under the license gate; a photo→mesh step, if ever needed, must come from a permissively-licensed alternative, re-verified at that time.
+- Hunyuan's photo→3D shortcut is off-limits under the license gate; the permissive replacements (TRELLIS/TRELLIS.2, TripoSR, InstantMesh), the open lip-sync candidates (LatentSync, MuseTalk), and the free-compute routes are verified and written up in WORKAROUNDS.md (Nov 18, 2026).
