@@ -47,6 +47,14 @@ Examples: DexfsH5l0q6 ("Post 28 videos a month — The 7-4-6 Method"), DevFnZxlC
 ## SINGLE TITLE CARD
 DfDwkljmAXg (1 slide, 7s): "THE ANATOMY OF A GREAT CONTENT STRATEGY" over a glowing green chess king — the neon family's animated title card, used as a series opener/cover test.
 
+## ARCHETYPE F — THE INVENTION CASE STUDY (added Nov 17, 2026)
+Example: Df1LfiDoLma ("I invented a new format", 12 slides, posted Nov 16, 2026). Full decode: `references/realskytan/Df1LfiDoLma.breakdown.md`.
+- **What it is:** not a breakdown of someone else's video (that's A) — a case study of Sky's OWN invented format, sold as proof. The claim bookends the deck: slide 0 promises it, the last slide repeats it over the results.
+- **Structure (6 beats):** CLAIM HOOK (invention + money result + offer, huge type over a CGI spectacle visual) → THE STUCK CLIENT (their plateau, testimonial + a grid of their low-view thumbnails as the proof of stuck) → THE INVENTION PROCESS (criteria first — cared-about, visual, progress-showing — plus what got rejected and the one spark artifact) → THE PACKAGING TEARDOWN (one real video dissected layer by layer; inspiration credited; BTS of directing it live; revenue dashboard climbing) → THE RESULT (directing POV, storyboard sketches, the videos' view-count grid).
+- **Design:** every slide is a DIFFERENT evidence type — CGI spectacle, testimonial, thumbnail grid, criteria text, spark artifact, teardown layers, BTS photo, dashboard, sketches, results grid. Teaching (criteria + teardown) fills the middle so a services pitch reads as a case study. Process is shown through unfinished artifacts (sketches, mid-action frames), never summarized.
+- **Filed from the API's slide-by-slide semantic decode** — per-slide motion not verified (the API doesn't expose carousel slides), so treat the evidence-chain structure as the type's DNA and check the live post for motion before building one.
+- **PWC version:** Q's own invention stories — e.g. how he built the PWC system or a format of his own: claim hook (his approved numbers only) → a stuck creator (real, credited material) → his criteria → teardown of one real PWC video → BTS → results grid, claim repeated at the close. Sky's $20K-in-5-days and his clients' numbers are HIS — cited as the reference, never worn as Q's results.
+
 ## THE PWC SWAP (what changes for Q — everything else stays identical)
 - **Palette:** Sky's green → Q's TEAL + GOLD on deep NAVY (PWC brand). Sky's orange series → gold/amber on navy or cream. NO red anywhere, ever.
 - **Watermark/badge:** @yerrr__q on every slide; PWC circular logo in the badge slot where a series has one.
