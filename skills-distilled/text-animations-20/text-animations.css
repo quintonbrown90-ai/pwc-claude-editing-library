@@ -1,0 +1,84 @@
+/* 20 Text Animations — reference implementation (HyperFrames/HTML stack).
+   Accent defaults to PWC gold; override with --fx-accent / --fx-accent-dark / --fx-ink. */
+.fx{ --fx-accent:#FEE238; --fx-accent-dark:#8a7a14; --fx-teal:#14A886; --fx-ink:#fff;
+     display:inline-block; position:relative; }
+.fx .fx-ch{ display:inline-block; will-change:transform,opacity,filter; }
+
+/* 2 Fade Up */
+@keyframes fxFadeUp{ from{opacity:0; transform:translateY(.35em)} to{opacity:1; transform:translateY(0)} }
+@keyframes fxUnderline{ from{transform:scaleX(0)} to{transform:scaleX(1)} }
+.fx-fade-up{ animation:fxFadeUp .5s cubic-bezier(.22,.8,.32,1) both; }
+.fx-fade-up::after{ content:""; position:absolute; left:0; right:0; bottom:-.12em; height:.045em;
+  background:var(--fx-accent); transform-origin:left; animation:fxUnderline .3s .35s ease-out both; }
+
+/* 3 Blur In */
+@keyframes fxBlurIn{ from{opacity:.25; filter:blur(20px)} to{opacity:1; filter:blur(0)} }
+.fx-blur-in{ animation:fxBlurIn .8s ease-out both; }
+
+/* 4 Tracking Expand */
+@keyframes fxTrack{ from{letter-spacing:0; opacity:.55} to{letter-spacing:.45em; opacity:1} }
+@keyframes fxUnderlineC{ from{transform:scaleX(0)} to{transform:scaleX(1)} }
+.fx-tracking-expand{ animation:fxTrack .9s cubic-bezier(.16,.84,.3,1) both; }
+.fx-tracking-expand::after{ content:""; position:absolute; left:0; right:0; bottom:-.14em; height:.04em;
+  background:var(--fx-accent); transform-origin:center; animation:fxUnderlineC .9s cubic-bezier(.16,.84,.3,1) both; }
+
+/* 5 Marker Highlight */
+.fx-marker-highlight{ padding:0 .12em; }
+.fx-marker-highlight::before{ content:""; position:absolute; inset:.06em -.12em .02em -.12em; z-index:-1;
+  background:var(--fx-accent); transform:scaleX(0) skewX(-8deg) rotate(-1.5deg); transform-origin:left;
+  animation:fxUnderline .45s cubic-bezier(.6,.02,.3,1) both; border-radius:.02em; }
+
+/* 9 RGB Glitch — bursts only, word rests clean */
+@keyframes fxGlitchA{ 0%,86%,100%{transform:translate(0); text-shadow:none}
+  87%{transform:translate(-3px,1px); text-shadow:3px 0 #22d3ee,-3px 0 #f43f5e}
+  89%{transform:translate(4px,-1px); text-shadow:-4px 0 #22d3ee,4px 0 #f43f5e; clip-path:inset(12% 0 58% 0)}
+  91%,54%{transform:translate(0); text-shadow:none; clip-path:none}
+  55%{transform:translate(3px,0); text-shadow:-3px 0 #22d3ee,3px 0 #f43f5e; clip-path:inset(62% 0 8% 0)}
+  57%{transform:translate(0); text-shadow:none} }
+.fx-rgb-glitch{ animation:fxGlitchA 1.6s steps(1) both; }
+
+/* 10 Letter Flip */
+@keyframes fxFlip{ from{transform:rotateX(-92deg); opacity:0} to{transform:rotateX(0); opacity:1} }
+.fx-letter-flip{ perspective:600px; }
+.fx-letter-flip .fx-ch{ transform-origin:50% 100%; animation:fxFlip .35s cubic-bezier(.3,.7,.3,1.15) both;
+  animation-delay:calc(var(--i)*.09s); }
+
+/* 12 Split Reveal */
+.fx-split-reveal .fx-half{ display:block; overflow:hidden; }
+.fx-split-reveal .fx-top,.fx-split-reveal .fx-bot{ display:block; transition:transform .45s cubic-bezier(.7,0,.2,1); }
+.fx-split-reveal.go .fx-top{ transform:translateY(.26em) } .fx-split-reveal.go .fx-bot{ transform:translateY(-.26em) }
+.fx-split-reveal .fx-pill{ position:absolute; left:50%; top:50%; transform:translate(-50%,-50%) scale(.6);
+  background:var(--fx-accent); color:#111; padding:.05em .5em; border-radius:999px; opacity:0;
+  transition:all .25s cubic-bezier(.3,.7,.3,1.3) .27s; }
+.fx-split-reveal.go .fx-pill{ opacity:1; transform:translate(-50%,-50%) scale(1); }
+
+/* 16 Blur Bounce */
+@keyframes fxBlurBounce{ 0%{transform:translateY(-.55em); opacity:0; filter:blur(8px)}
+  55%{transform:translateY(.06em); opacity:1; filter:blur(0)} 75%{transform:translateY(-.03em)} 100%{transform:translateY(0)} }
+.fx-blur-bounce .fx-ch{ animation:fxBlurBounce .45s cubic-bezier(.28,.84,.42,1) both; animation-delay:calc(var(--i)*.07s); }
+
+/* 17 Zoom Shake */
+@keyframes fxZoomSlam{ 0%{transform:scale(3); filter:blur(18px); opacity:0}
+  55%{transform:scale(1); filter:blur(0); opacity:1} 62%{transform:translate(-5px,2px)}
+  70%{transform:translate(4px,-2px)} 78%{transform:translate(-3px,1px)} 86%{transform:translate(2px,0)} 100%{transform:translate(0)} }
+@keyframes fxRing{ from{transform:translate(-50%,-50%) scale(.3); opacity:.9} to{transform:translate(-50%,-50%) scale(2.4); opacity:0} }
+.fx-zoom-shake{ animation:fxZoomSlam .5s cubic-bezier(.16,.84,.3,1) both; }
+.fx-zoom-shake::after{ content:""; position:absolute; left:50%; top:50%; width:1.6em; height:1.6em;
+  border:.03em solid var(--fx-accent); border-radius:50%; animation:fxRing .5s .18s ease-out both; }
+
+/* 18 Strike Rotate */
+.fx-strike-rotate .fx-old{ position:relative; color:#9aa3ad; }
+.fx-strike-rotate .fx-old::after{ content:""; position:absolute; left:-2%; right:-2%; top:52%; height:.07em;
+  background:var(--fx-accent); transform:scaleX(0); transform-origin:left; animation:fxUnderline .3s ease-in-out both; }
+@keyframes fxSwapOut{ to{ transform:rotate(-6deg) translateY(-.5em); opacity:0 } }
+@keyframes fxSwapIn{ from{ transform:rotate(6deg) translateY(.5em); opacity:0 } to{ transform:rotate(0) translateY(0); opacity:1 } }
+.fx-strike-rotate .fx-old.go{ animation:fxSwapOut .45s .3s cubic-bezier(.6,.05,.3,1) both; }
+.fx-strike-rotate .fx-new{ color:var(--fx-accent); animation:fxSwapIn .45s .38s cubic-bezier(.6,.05,.3,1) both; }
+
+/* 1 Typewriter caret */
+.fx-typewriter .fx-caret{ display:inline-block; width:.09em; height:1em; margin-left:.03em;
+  background:var(--fx-accent); vertical-align:-.08em; animation:fxBlink .53s steps(1) infinite; }
+@keyframes fxBlink{ 50%{opacity:0} }
+
+/* 20 Outline Extrude base (fill/depth driven by JS) */
+.fx-outline-extrude{ color:transparent; -webkit-text-stroke:.02em var(--fx-accent); opacity:.35; }
