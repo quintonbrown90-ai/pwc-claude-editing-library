@@ -479,7 +479,7 @@ cutouts is the measured one.
 
 Decoded frame-by-frame (2fps sheets + actual-audio transcripts) from Df-ySM2ktiK,
 Df5SPJiiY0S, Df8IThFgIXy, DfmxuoenIMV (Dfz42Ogihlv was already filed Nov 16).
-Full per-reel breakdowns in references/realskytan/. PWC color swap applies as always
+Full per-reel breakdowns in references/realskytan/ (complete in the Code-side library; this package ships the four Nov 21 breakdowns + transcripts under references/realskytan/). PWC color swap applies as always
 (his green/red accents → gold/teal on navy; red only where the device is a down/negative
 bar inside a chart, swapped to a muted tone in PWC work).
 
@@ -550,3 +550,11 @@ bar inside a chart, swapped to a muted tone in PWC work).
 - **Blur-backdrop callout:** the speaker blurs into a backdrop; a sharp accent lockup
   comes forward with a small typed budget list beneath (5 - Script / 2 - Record /
   5 - Edit) — rack-focus emphasis for the stat beat.
+  **COEXISTENCE WITH THE NO-BLUR RULE (binding annotation, Nov 21, 2026):** the Sky ban
+  on background blur (SKILL.md: "no background blur, no fake blur") is a GRADE ban — no
+  beautification/defocus treatment applied to footage or its background as a look, and
+  no blur-in panel entrances. This device is NOT a grade: it is a single-beat focus
+  EVENT in which the whole speaker layer defocuses for one stat beat while a sharp
+  graphic comes forward, with sound in/out, then focus returns. Use: at most once per
+  video, only on a stat/budget beat, never as a persistent treatment, never to soften
+  a background scene. The grade ban stands untouched everywhere else.

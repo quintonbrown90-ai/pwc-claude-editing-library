@@ -3,7 +3,7 @@ name: sky-edit-style
 description: Edit Q's talking-head teaching / proof-led / breakdown videos exactly like @realskytan (Sky Tan, https://www.instagram.com/realskytan) — one named framework per video that fills in on screen, word-by-word captions, glass panels, charts and devices timed to the spoken word — re-skinned to PWC teal/gold on navy. PAGE-LOOK RULE (Q, Nov 9, 2026): whenever Q says "edit this Sky style" (or any equivalent), the edit must make @yerrr__q look like @realskytan — Sky's exact editing on Q's content, indistinguishable from Sky's own posts. Trigger: "edit in Sky style", "edit this Sky style", "cut this like Sky", "Sky style".
 ---
 
-# SKY EDIT STYLE — Claude skill — **SKY v6** (Batch 36: full-profile completion + premium purge)
+# SKY EDIT STYLE — Claude skill — **SKY v14** (v6/Batch 36 premium base + additive device addenda through Nov 21, 2026)
 
 **SKY-PLUS BAR (Q, Nov 12, 2026 — binding): "Sky exact is the floor. Ship better than Sky's
 own execution of his system."** Exact duplication of Sky's system is the FLOOR, not the
