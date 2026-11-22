@@ -472,3 +472,81 @@ cutouts is the measured one.
   glowing italic serif) is carousel-only, measured from Sky's carousel posts — it never
   appears in reels under Option 1 (§2–§5, D1–D54); the reel serif patterns are kept as
   premium Sky — banned telltales in v6 (see the SKILL.md BANNED-TELLTALES list).
+
+---
+
+## ADDENDUM — Nov 21, 2026: devices from Q's 5-reel Sky add (additive; nothing above changes)
+
+Decoded frame-by-frame (2fps sheets + actual-audio transcripts) from Df-ySM2ktiK,
+Df5SPJiiY0S, Df8IThFgIXy, DfmxuoenIMV (Dfz42Ogihlv was already filed Nov 16).
+Full per-reel breakdowns in references/realskytan/. PWC color swap applies as always
+(his green/red accents → gold/teal on navy; red only where the device is a down/negative
+bar inside a chart, swapped to a muted tone in PWC work).
+
+### From Df-ySM2ktiK (Four Niche Levels — hook length by saturation)
+- **Retention-curve draw-on (hook):** an analytics "Reel insights" frame composites over
+  the talking head; a thick accent retention curve draws itself DOWN the graph in sync
+  with the claim ("your hooks are tanking") — drawn data as the hook's proof.
+- **Gesture-measured bar:** a horizontal bar stretches/shrinks BETWEEN his spread hands,
+  length + color performing the measurement he is describing (short/red vs long/blue).
+- **Persistent spectrum rail:** a multi-node gradient rail (tier 1→4) pins at top for the
+  WHOLE video; a ▼ marker travels to the tier under discussion. Under it, a per-tier
+  panel builds rows (avatar chip + name + colored length bar).
+- **Search-chip example lists:** a tier's examples arrive as search-style chip rows in a
+  dark glass panel as he names them.
+- **Example-hook exhibit row + closing enlarge:** per tier, real video thumbnails + the
+  example hook's text card appear on "a hook like this would work"; the strongest final
+  example enlarges into a headline lockup with view-count chips as the finale.
+
+### From Df5SPJiiY0S (2026 content playbook — 4-step revival)
+- **Hook stat bars:** before/after vertical bars (tall accent vs short muted) inside the
+  title lockup, under the result number.
+- **Persistent step panel (through-line):** ONE glass exhibit panel per step, pinned
+  top-center, BUILDING in sync with the words while he teaches under it — the panel slot
+  never moves; only its contents change per step. (Insights bars animating row by row.)
+- **Checkbox test grid:** rows of a test plan carry cell grids that fill accent
+  cell-by-cell as the repetition count is spoken ("run each one four times"); a "Winners"
+  tag marks the winning row.
+- **Scale bars build:** a bar chart draws live — tall accent bars grow for "scale up,"
+  short muted bars land for "scale down."
+- **Stair-step line draw (closer):** the closing metaphor draws itself — a stair-step
+  line climbs against a dashed "healthy average" target line as he says "stair step."
+- **Comment-bubble annotations:** floating head-cutout comment bubbles with cursor
+  arrows pin remarks to the exhibit ("Not pulling views?", "Let's run it 4X").
+- **Labeled head tokens + circle-swallow transition:** a floating head cutout takes a
+  pill label per list item; an expanding accent circle then swallows the cluster as the
+  section change.
+
+### From Df8IThFgIXy (inventing an original format — case study)
+- **Artifact-over-head hook:** the work product (a video window of the format) floats
+  above his head in a dashed accent border; he points up at it; it shrinks into the real
+  post card pinned top-center while the claim lockup builds around it word by word.
+- **Count-up proof chips:** numeric pills beside the pinned artifact count up live
+  ("140,000+ views"; "$18,052 → $20,000").
+- **Research wall + verdict stamp:** a grid of researched creators' cards fills the
+  upper frame; a label wipes across it stamping the conclusion ("no winner").
+- **Live checklist panel:** criteria type in beside empty checkboxes as spoken; when
+  complete, the panel shrinks to a small persistent mini-panel.
+- **POV demonstration interlude:** the explanation cuts to real POV footage of the thing
+  being described, in action (incl. the literal gesture — a toss across the table).
+- **The improving artifact:** a pinned card that visibly UPGRADES across the segment
+  while he narrates the iterations; tagged with a small accent pill label.
+- **Serif thesis card:** the lesson lands as a standalone italic serif phrase card.
+- **Finale proof row:** the posted results as a row of post cards, a view-count chip
+  sprouting under each.
+
+### From DfmxuoenIMV (Reaction Consultation format)
+- **Embedded reaction cold open:** the claim plays over a pinned mini-card of the viral
+  source clip (view-count chip attached), then cuts FULL-FRAME into another creator's
+  reaction video — the format demonstrates itself, nested. The source's own hook does
+  the attention work.
+- **Format name lockup:** the format's name lands as a title lockup (serif word + accent
+  grotesque word) at the exact moment it is named.
+- **Creator profile strip + catalog proof:** the source creator's profile header
+  assembles at top; his video thumbnails pin beside the speaker as the proof exhibit.
+- **Shoulder number chips:** numbered reasons stack as small accent squares at the
+  speaker's shoulder, each with a two-line micro-label — a list that lives on the
+  talking head instead of in a panel.
+- **Blur-backdrop callout:** the speaker blurs into a backdrop; a sharp accent lockup
+  comes forward with a small typed budget list beneath (5 - Script / 2 - Record /
+  5 - Edit) — rack-focus emphasis for the stat beat.

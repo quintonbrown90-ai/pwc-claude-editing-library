@@ -26,3 +26,13 @@ reels still owe a visual pass — see `GAPS.md` G-02); no paywalled/gated materi
 in `~/workspace/claude-editing/zips/`; Sky lives in Claude today as `realskytan-system`
 (`skills/realskytan-system/SKILL.md`) and as the `sky.md` part inside `pwc-creator-systems.zip`.
 This folder's zip is STAGED ONLY — not uploaded, not live until verified ON in the Skills list.
+
+**Nov 21, 2026 — Q's 5-reel Sky add (system-wide, additive):** Df-ySM2ktiK, Df5SPJiiY0S,
+Df8IThFgIXy downloaded at original quality (1080×1920), transcribed from actual audio,
+frame-decoded (2fps sheets) and filed with breakdowns in references/realskytan/ (INDEX
+rows 561–563). DfmxuoenIMV (Nov 12 batch) had a catalog row (266) but no decode — decoded
+and filed in the same pass; row 266 completed. Dfz42Ogihlv verified already filed
+(Nov 16: mp4 + transcript + breakdown + INDEX) — not duplicated. New devices folded into
+STYLE-GRAMMAR.md as the Nov 21 addendum (persistent spectrum rail, persistent step panel,
+checkbox test grid, improving artifact, embedded reaction cold open, blur-backdrop
+callout, and more — 28 named devices across the four reels).
